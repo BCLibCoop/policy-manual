@@ -1,2 +1,10 @@
 Cataloguing Policy
 ------------------
+
+include::cataloguing/cat-purpose.adoc[]
+
+include::cataloguing/cat-admin.adoc[]
+
+include::cataloguing/cat-procedures.adoc[]
+
+include::cataloguing/cat-faq.adoc[]
