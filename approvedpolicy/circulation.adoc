@@ -1,0 +1,12 @@
+Circulation Policies
+--------------------
+
+include::circulation/circ-bcone.adoc[]
+
+include::circulation/circ-hold.adoc[]
+
+include::circulation/circ-fines.adoc[]
+
+include::circulation/circ-itemreturn.adoc[]
+
+include::circulation/circ-patrondedupe.adoc[]

@@ -1,0 +1,41 @@
+Sitka's Evergreen Policy & Best Practices Manual
+================================================
+:doctype: book
+:toc:
+:toclevels: 3
+:numbered:
+
+*Evergreen 3.1*
+
+Copyright (symbol) 2018 BC Libraries Cooperative
+
+Last Updated July 17, 2018
+
+Introduction
+============
+
+include::intro/intro.adoc[]
+
+Approved Policy
+===============
+
+include::approvedpolicy/privacy.adoc[]
+
+include::approvedpolicy/circulation.adoc[]
+
+include::approvedpolicy/cataloguing.adoc[]
+
+Best Practices
+==============
+
+include::bestpractices/returnmultipartitems.adoc[]
+
+include::bestpractices/patronsinsitka.adoc[]
+
+include::bestpractices/cat-bestpractice.adoc[]
+
+include::bestpractices/localinfo.adoc[]
+
+include::bestpractices/ill.adoc[]
+
+include::bestpractices/annualreports.adoc[]
