@@ -4,13 +4,13 @@ Introduction
 About Policy and Best-Practice Documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sitka is a group of libraries in British Columbia, Manitoba, and Ontario using the award-winning open-source Evergreen software as its shared Integrated Library System (ILS). Sitka is governed by the non-profit, member-driven BC Libraries Cooperative. Policy pertaining to the operation of Sitka's Evergreen instance is developed and ratified by Sitka Support or the Sitka Business Function Group (BFG),  consisting of those libraries currently using Sitka's Evergreen (or those with a signed Expression of Interest to join).
+Sitka is a group of libraries in British Columbia, Manitoba, and Ontario using the award-winning open-source Evergreen software as its shared Integrated Library System (ILS). Sitka is governed by the non-profit, member-driven BC Libraries Cooperative(BCLC). Policy pertaining to the operation of Sitka's Evergreen instance is developed and ratified by Sitka Support or the Sitka Business Function Group (BFG),  consisting of those libraries currently using Sitka's Evergreen (or those with a signed Expression of Interest to join).
 
 There are two parts to this manual:
 
-Approved Policy. Operational policy documents formally approved by the Business Functions Group (BFG) and or Sitka Support,  and applicable to all libraries using Sitka's implementation of Evergreen. These policies establish the 'ground rules' required to maintain an efficient shared Evergreen database. Additional Federation and local policy must be consistent with approved Sitka policy.
+Approved Policy. Operational policy documents formally approved by the Business Functions Group (BFG), BCLC board members, or Sitka Support and applicable to all libraries using Sitka's implementation of Evergreen. These policies establish the 'ground rules' required to maintain an efficient shared Evergreen database. Additional Federation and local policy must be consistent with approved Sitka policy.
 
-Best Practices. Operational recommendations from the BFG, Working Groups, and Sitka Support. These are not binding policies but provide guidance for common Evergreen functions, encouraging consistency across the consortium. Some best practice documents may eventually be approved as policy.
+Best Practices. Operational recommendations from the Sitka BFG, past Working Groups, and Sitka Support. These are not binding policies but provide guidance for common Evergreen functions, encouraging consistency across the consortium. Some best practice documents may eventually be approved as policy.
 
 
 Revisions
