@@ -4,7 +4,7 @@ Introduction
 About Policy and Best-Practice Documents
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sitka is a group of libraries in British Columbia, Manitoba, and Ontario using the award-winning open-source Evergreen software as its shared Integrated Library System (ILS). Sitka is governed by the non-profit, member-driven BC Libraries Cooperative(BCLC). Policy pertaining to the operation of Sitka's Evergreen instance is developed and ratified by Sitka Support or the Sitka Business Function Group (BFG),  consisting of those libraries currently using Sitka's Evergreen (or those with a signed Expression of Interest to join).
+Sitka is a group of libraries in British Columbia, Manitoba, and Ontario using the award-winning open-source Evergreen software as its shared Integrated Library System (ILS). Sitka is governed by the non-profit, member-driven BC Libraries Cooperative(BCLC). Policy pertaining to the operation of Sitka's Evergreen instance is developed and ratified by Sitka Support , BCLC board members, or the Sitka Business Function Group (BFG), consisting of those libraries currently using Sitka's Evergreen (or those with a signed Expression of Interest to join).
 
 There are two parts to this manual:
 

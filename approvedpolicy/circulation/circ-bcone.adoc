@@ -5,9 +5,9 @@ BC OneCard Policies & Procedures
 Approved by the Interim Board of Directors, BC Libraries Cooperative
 September 16, 2009
 
-Since this policy was published in 2009,  Sitka staff and patrons in BC public libraries have enjoyed an increasingly seamless integration of service  and access to shared resources. This has been achieved primarily through BC InterLibrary Connect, and more enhanced circulation policies that rely on home library, not patron profile, in Evergreen. Use of the BC OneCard patron profile in Evergreen to manage non resident patrons is now entirely optional; libraries can choose any appropriate patron profile and rely on the patron's actual home library to ensure that pre-configured local rules are applied at checkout. 
+Since this policy was published in 2009,  Sitka staff and patrons in BC public libraries have enjoyed an increasingly seamless integration of service  and access to shared resources. This has been achieved primarily through BC InterLibrary Connect, and more enhanced circulation policies that consider home library, not patron profile, in Evergreen. Use of the BC OneCard patron profile in Evergreen to manage non resident patrons is now entirely optional; libraries can also now choose any appropriate patron profile and record the patron's actual home library  to ensure that pre-configured local rules for non residents are applied at checkout. Either method satisfies statistical requirements for BC Libraries branch annual reports.
 
-However, as of August 2018 the BC OneCard program still exists in BC, and the original policy is still applicable for participating libraries, with some technical updates included.
+As of August 2018 the BC OneCard program still exists in BC, and the original policy is still applicable for participating libraries, with some technical updates included.
 
 
 Sitka's Evergreen instance is intended to feature a shared patron database. From both a database integrity and a service perspective, it is important that each Sitka patron be represented in the shared database by only 1 patron record. As the number of Sitka sites grows, the occurrences of cross-Sitka site traffic are going up; these occurrences drive the need for consortial policy and workflow to enable high levels of customer service while simultaneously ensuring database integrity.
