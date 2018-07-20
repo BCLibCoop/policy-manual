@@ -1,16 +1,16 @@
 Privacy Policy
 --------------
 
-Approved by the Interim Board of Directors, BC Libraries Cooperative
+Approved by the Interim Board of Directors, BC Libraries Cooperative,
 September 16, 2009
 
 Short Version
 ~~~~~~~~~~~~~
-All library users have a right to privacy and confidentiality when using Member library public access catalogues (PAC’s) or when interacting with Member library staff in their operation of Sitka’s Integrated Library System (ILS).
+All library users have a right to privacy and confidentiality when using Member library public access catalogues (PACs) or when interacting with Member library staff in their operation of Sitka’s Integrated Library System (ILS).
 
 Personal information is collected by Member libraries under the authority of the Library Act and section 26 of the Freedom of Information and Protection of Privacy Act (FOIPPA). This includes information related to registration, such as name, address, phone number, and circulation records, including information that identifies materials checked out by a patron. It includes any library record about an identifiable patron or individual.
 
-When a library user visits the library's public access catalogue (PAC), the IP address of the computer or internet provider and related site visit information may be collected. This information is only used in statistical (non-personal) form to help make improvements to the website.
+When a library user visits the library's PAC, the IP address of the computer or internet provider and related site visit information may be collected. This information is only used in statistical (non-personal) form to help make improvements to the website.
 
 Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FOIPPA.
 

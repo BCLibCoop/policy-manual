@@ -7,8 +7,8 @@ A patron record incorporates all active transactions on a patron record at the t
 
 *Operational Procedures*
 
-* During migration, the Sitka team will only attempt to de-duplicate those patron records that appear with an identical barcode at two or more libraries.
+* During migration, Co-op Support will only attempt to de-duplicate those patron records with an identical barcode at two or more libraries.
 
-* In determining which of two or more duplicate records in (1.) should be the lead record, Co-op Support will use the record belonging to the library showing the most recent circulations to that patron.
+* In determining which of two or more duplicate records in (1.) should be the lead record, Co-op Support will use the record belonging to the library with the most recent circulations to that patron, unless migrating library has a preferred policy.
 
-* For all other duplicate patron records (those with different barcodes appearing at two or more Sitka libraries), further refinement to a patron's record will be managed by library staff in the Evergreen client using the Merge Patrons function on the patron search screen, along with the Patron Deletion tool. Co-op Support will assist with identifying those affected patrons by providing data reports.
+* For all other duplicate patron records (those with different barcodes appearing at two or more Sitka libraries), further refinement to a patron's record will be managed by library staff in the Evergreen client using the Merge Patrons function,, along with the Patron Deletion tool. Co-op Support will assist with identifying those affected patrons by providing data reports.
