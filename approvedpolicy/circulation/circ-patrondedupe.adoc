@@ -1,2 +1,14 @@
 Patron de-duplication
 ~~~~~~~~~~~~~~~~~~~~~
+
+Sitka's Evergreen instance is intended to feature a shared patron database both to facilitate customer service across multiple libraries (a seamless library experience) and to promote database integrity. To achieve this objective, it is important that each Sitka patron be represented in the shared database by only one patron record.
+
+A patron record incorporates all active transactions on a patron record at the time a library is migrating onto Sitka's database, and where possible, it also defines any existing relationships a patron has with other Sitka libraries, such as being opted in to access services.
+
+*Operational Procedures*
+
+* During migration, the Sitka team will only attempt to de-duplicate those patron records that appear with an identical barcode at two or more libraries.
+
+* In determining which of two or more duplicate records in (1.) should be the lead record, Co-op Support will use the record belonging to the library showing the most recent circulations to that patron.
+
+* For all other duplicate patron records (those with different barcodes appearing at two or more Sitka libraries), further refinement to a patron's record will be managed by library staff in the Evergreen client using the Merge Patrons function on the patron search screen, along with the Patron Deletion tool. Co-op Support will assist with identifying those affected patrons by providing data reports.

@@ -1,2 +1,6 @@
 Return of Items
 ~~~~~~~~~~~~~~~
+
+*Approved September 2008*
+
+Sitka sites will check in items to show in transit for all items en route to another Sitka site.

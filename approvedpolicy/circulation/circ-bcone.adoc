@@ -1,8 +1,8 @@
 BC OneCard Policies & Procedures
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Approved by the Interim Board of Directors, BC Libraries Cooperative
-September 16, 2009
+*Approved by the Interim Board of Directors, BC Libraries Cooperative
+September 16, 2009*
 
 Since this policy was published in 2009,  Sitka staff and patrons in BC public libraries have enjoyed an increasingly seamless integration of service and access to shared resources. This has been achieved primarily through BC InterLibrary Connect, and more enhanced circulation policies that consider home library, not patron profile, in Evergreen. Use of the BC OneCard patron profile in Evergreen to manage non resident patrons is now technically optional; libraries can also choose any appropriate patron profile, and record the patron's actual home library, to ensure that pre-configured local rules for non residents are applied at checkout. Either method also satisfies statistical requirements for BC Libraries Branch annual reports.
 
