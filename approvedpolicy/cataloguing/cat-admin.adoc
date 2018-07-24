@@ -1,2 +1,52 @@
 Administration
 ~~~~~~~~~~~~~~
+
+The goal within the Sitka database is to create one master MARC record for each discrete bibliographic title to which all member libraries will add their respective holdings. In this shared environment, it is essential that library staff or volunteers who perform cataloguing work have the skills and training required to ensure adherence to cataloguing standards.
+
+As errors in cataloguing have the potential to affect staff and public access across the consortium, four skill levels have been designated so that only staff with sufficient skills and training may perform specific tasks. To support this operational requirement, Co-op Support maintains four Sitka staff profiles that help manage staff access to cataloguing functions: Circulator + Copy Edit, Circulator + Full Cataloger, Cataloger, and Local System Administrator (LSA).  The Chief Librarian at each member library will identify staff members who are authorized to perform tasks at each level, and assign the appropriate staff permissions profiles.
+
+*Who Does What?*
+
+Generally, tasks performed by staff or volunteers designated at the Basic or Intermediate levels have fewer implications for errors across the consortium. Tasks performed by staff or volunteers at the Advanced and Expert level have more significant potential impact for errors and require a more in-depth knowledge of cataloguing standards and policies.
+
+
+*Sitka Cataloguing Skill Levels*
+
+[options=“header”]
+|===
+|Skill level | Tasks that may be performed
+|Basic       | Searching for exact matches and attaching holdings in Sitka database and Z39.50
+|Intermediate| All Basic level tasks plus:
+
+* correcting typos (text only)
+
+* updating 245b and 245c of a pre-publication record
+
+* adding 020
+
+* adding approved subject headings 65X, adding local subject headings 69X
+
+* adding series statements in 490
+
+* adding notes 5XX
+
+* basic original cataloguing with template only
+
+* if desired, only the following tags may be deleted from records obtained in Z39.50 searches: 59X, 69X, 852, 99X.
+|Advanced     | All Intermediate level tasks plus:
+
+* any changes to a record within Evergreen beyond what is designated intermediate
+
+* overlaying
+
+* merging
+
+* deleting
+|Expert      | All Advanced level tasks plus:
+
+* authorities
+
+* adding 8XX series uniform titles
+
+* advanced original cataloguing
+|===
