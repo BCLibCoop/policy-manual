@@ -1,2 +1,33 @@
 Cataloguing Procedures
 ~~~~~~~~~~~~~~~~~~~~~~
+
+For member libraries, there are many benefits to sharing a database of high-quality bibliographic records for collective use. Staff will learn to think consortially, with the resources of several libraries at their disposal, instead of relying on the local technical services staff alone. Cataloguing workflows will change, with Sitka being the primary source of copy cataloguing for many libraries.
+
+Staff should always check the Sitka database first before searching Z39.50 targets for bibliographic records.
+
+In order to ensure the integrity of this shared database, the procedures outlined in this section must be followed by all staff and volunteers who perform cataloguing tasks in Evergreen. The Chief Librarian at each member library is responsible for ensuring that staff and volunteers follow these procedures as they apply to their designated skill Level.
+
+
+flowchart pic here
+
+*Minimum Requirements For a Match in the Sitka Database or Z39.50 Targets- Updated 2018*
+
+The minimum requirements for determining a match include Title, GMD, the 336, 337 and 338 fields, Author, Edition, Imprint (Date, Publisher, Physical Description) and Format.
+
+Format rules have tightened considerably with the 2018 revised policy.  Paperback and hardcover are no longer considered a match in Sitka,  and Sitka cataloguers are asked to take special note of this new policy. Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
+
+Note that the minimum criteria for an exact match for DVD and software need to be detailed, e.g. Blu-ray vs. regular DVD, aspect ratio (widescreen vs. full screen), PC versus Mac, etc.
+
+In order to ensure the integrity of the shared database, please follow these steps carefully:
+
+. Always search the Sitka database first to find a match conforming to the minimum requirements.
+
+. If no match is found after searching the Sitka database, search the approved Z39.50 targets. These same fields also represent the minimum requirement for a match when searching Z39.50 targets.
+
+. If more than one matching record is found, follow the instructions in the section called “Characteristics of a "Best" MARC Record in the Sitka Database” to choose the best record.
+
+CAUTION: Different Format.
+
+. If an item has a different binding,  then the record is not  considered a match, and holdings must not be attached. Sitka's updated 2018 policy does not consider different formats to be a match.  Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
+
+. For more detailed information on determining a match, we recommend reviewing OCLC’s Field by Field Guidelines for New Records
