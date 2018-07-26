@@ -6,6 +6,10 @@ September 16, 2009
 
 Short Version
 ~~~~~~~~~~~~~
+
+https://bc.libraries.coop/support/sitka/sitka-shared-library-database-privacy-policy/[Short Version]
+
+
 All library users have a right to privacy and confidentiality when using Member library public access catalogues (PACs) or when interacting with Member library staff in their operation of Sitka’s Integrated Library System (ILS).
 
 Personal information is collected by Member libraries under the authority of the Library Act and section 26 of the Freedom of Information and Protection of Privacy Act (FOIPPA). This includes information related to registration, such as name, address, phone number, and circulation records, including information that identifies materials checked out by a patron. It includes any library record about an identifiable patron or individual.
@@ -37,6 +41,8 @@ These same standards for protection of privacy apply to the staff as users of Me
 
 Detailed Version
 ~~~~~~~~~~~~~~~~
+
+https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Detailed Version]
 
 *1. Our Commitment to Privacy*
 
