@@ -3,3 +3,27 @@ Cataloguing Best Practices
 
 Series Cataloguing
 ~~~~~~~~~~~~~~~~~~
+
+Local Information in Cataloguing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Library Specific Local Information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Applies to all items attached to the record belonging to the scoped library.
+
+.Library Specific Local Information
+[options="header"]
+|=============
+|MARC Field|Field Name|Scoping Subfield|OPAC Visible?|Use
+|506|Restrictions on Access Note|5|Yes|Used to note who is allowed to access the resource.
+|521|Target Audience Note|5|Yes|Used to indicate the audience the resource is intended for (ie. reading level or video rating).
+|540|Terms Governing Use and Reproduction Note|5|Yes|Used to note how the resource can be used (ie. Public Performance Rights).
+|59X|Local Notes|5|No|Used for any local notes that do not fit into another field.
+|595|Local Notes (Indexed)|5|No|Used for any local notes that need to be searchable in the OPAC.
+|69X|Local Subject Access Fields|5|Yes|Used for local subject headings (ie. not Library of Congress or Canadian Subject Headings).
+|856|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
+|=============
+
+Item Specific Local Information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
