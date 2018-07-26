@@ -11,19 +11,19 @@ library.
 
 In the _Edit_ screen of the patron account:
 
-.Update the patron's address and other contact details.
+* Update the patron's address and other contact details.
 
-.Update the patron's home library to the new home library.
+* Update the patron's home library to the new home library.
 
-.Use the *Replace Barcode* button to replace the patron's old barcode with a new barcode from a new 
+* Use the *Replace Barcode* button to replace the patron's old barcode with a new barcode from a new 
 library card issued by the new home library.
 
-.Update the patrons's _OPAC/Staff Client User Name_ if it is still set as the patron's previous barcode. 
+* Update the patrons's _OPAC/Staff Client User Name_ if it is still set as the patron's previous barcode. 
 If the patron has changed this to a unique username it does not need to be updated.
 
-.Update any statistical categories relevant to the new home library.
+* Update any statistical categories relevant to the new home library.
 
-.Update the patron's _Main (Profile) Permission Group_ if different at the new home library.
+* Update the patron's _Main (Profile) Permission Group_ if different at the new home library.
 
 Updating the above information will ensure that patron statistics are accurate and the patron has access 
 to the new home library's databases.
