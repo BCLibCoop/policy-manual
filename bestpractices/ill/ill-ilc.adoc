@@ -1,2 +1,6 @@
 Inter Library Connect
 ~~~~~~~~~~~~~~~~~~~~~
+
+https://bc.libraries.coop/wp-content/uploads/2016/02/ILCTipSheetDec2016.pdf[BC ILC]
+
+https://bc.libraries.coop/wp-content/uploads/2016/02/SPRUCE-ILC-Tips-and-Procedures.pdf[Spruce]
