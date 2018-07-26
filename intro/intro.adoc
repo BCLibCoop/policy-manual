@@ -19,7 +19,7 @@ Revisions
 Sitka's Evergreen Policy Manual was first published in July 2010. Below are subsequent content changes in chronological order. Minor changes including spelling corrections and formatting changes are excluded.
 
 
-[options=“header”]
+[options="header"]
 |===
 | Revision date | 	Description
 | July 2010     | 	Initial publication.

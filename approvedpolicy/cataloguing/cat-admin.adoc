@@ -12,7 +12,7 @@ Generally, tasks performed by staff or volunteers designated at the Basic or Int
 
 *Sitka Cataloguing Skill Levels*
 
-[options=“header”]
+[options="header"]
 |===
 |Skill level | Tasks that may be performed
 |Basic       | Searching for exact matches and attaching holdings in Sitka database and Z39.50
