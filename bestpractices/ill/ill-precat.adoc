@@ -1,2 +1,26 @@
 Using Pre-cats for Incoming ILL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Pre-cats, also known as pre-catalogued items, are temporary records created at the time of check out.
+
+Pre-cats can be used for incoming interlibrary loans that are not between two Interlibrary Connect libraries.
+
+See Sitka's Evergreen Documentation for information on 
+http://docs.libraries.coop/sitka/_circulation_3.html#_pre_catalogued_items[checking out pre-cats].
+
+Some important things to remember about pre-cats are:
+
+. Do *NOT* use the barcode on the item. This causes problems if the item belongs to another Sitka library.
+
+. Pre-cats are temporary and not visible in the OPAC
+
+. A pre-cat only really exists as long as it is checked out
+
+. Make sure you chose the correct circulation modifier at check out to ensure that the item follows the 
+correct circulation policy. 
+
+When using pre-cats we recommend that you have a set of barcodes that you recycle to avoid creating 
+hundreds of pre-cats in the system. These pre-cat barcodes may take the form of barcoded cards that 
+are scanned and attached to the interlibrary loan while it circulates.
+
+
