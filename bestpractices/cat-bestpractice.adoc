@@ -4,8 +4,8 @@ Cataloguing Best Practices
 Series Cataloguing
 ~~~~~~~~~~~~~~~~~~
 
-Local Information in Cataloguing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Local Information in Cataloguing-temp
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Library Specific Local Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -25,5 +25,20 @@ Applies to all items attached to the record belonging to the scoped library.
 |856|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
 |=============
 
+Please refer to the Library of Congress' https://www.loc.gov/marc/[MARC Standards] for further 
+information regrading these fields.
+
 Item Specific Local Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Applies to the specific item (also referred to as copy).
+
+.Library Specific Local Information
+[options="header"]
+|=============
+|Name|Patron Visible|Use
+|Copy Statistical Category|No|Used for commonly repeated information about a copy (ie. vendor).
+|Copy Note|No|Used for information specific to the copy (ie. Adopt a Book sponsor).
+|Copy Note (Public)|Yes|Used for information specific to the copy that may be of interest to a patron (ie. autographed copy).
+|Copy Alert|Yes|Used for information that should been seen when an item is checked in or out (ie. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display copy alerts.
+|=============
