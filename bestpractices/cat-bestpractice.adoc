@@ -4,8 +4,8 @@ Cataloguing Best Practices
 Series Cataloguing
 ~~~~~~~~~~~~~~~~~~
 
-Local Information in Cataloguing-temp
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Local Information in Cataloguing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Library Specific Local Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
