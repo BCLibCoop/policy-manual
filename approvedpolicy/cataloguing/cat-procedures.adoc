@@ -3,7 +3,7 @@ Cataloguing Procedures
 
 For member libraries, there are many benefits to sharing a database of high-quality bibliographic records for collective use. Staff will learn to think consortially, with the resources of several libraries at their disposal, instead of relying on the local technical services staff alone. Cataloguing workflows will change, with Sitka being the primary source of copy cataloguing for many libraries.
 
-Staff must always check the Sitka database first before searching Z39.50 targets for bibliographic records.
+Staff must always check the Sitka database first before searching Z39.50 targets, or, in some libraries, a vendor file of MARC records, for bibliographic records.
 
 In order to ensure the integrity of this shared database, the procedures outlined in this section must be followed by all staff and volunteers who perform cataloguing tasks in Evergreen. The Chief Librarian at each member library is responsible for ensuring that staff and volunteers follow these procedures as they apply to their designated skill Level.
 
@@ -20,13 +20,18 @@ In order to ensure the integrity of the shared database, please follow these ste
 
 . Always search the Sitka database first to find a match conforming to the minimum requirements.
 
+
 . If no match is found after searching the Sitka database, search the approved Z39.50 targets. These same fields also represent the minimum requirement for a match when searching Z39.50 targets.
+
 
 . If more than one matching record is found, follow the instructions in the section called “Characteristics of a "Best" MARC Record in the Sitka Database” to choose the best record.
 
+
 . If an item has a different binding than the record, the record is not  considered a match, and holdings must not be attached. Sitka's updated 2018 policy does not consider hardcover and paperback formats to be a match.  Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
 
+
 . For more detailed information on determining a match, we recommend reviewing http://www.oclc.org/ca/fr/bibformats/en/input/default.shtm#CHDJFJHA[OCLC’s Field by Field Guidelines for New Records.]
+
 
 *"Near" Match When Searching the Sitka Database*
 
@@ -34,10 +39,34 @@ When searching in Sitka, library staff may find a record that closely matches th
 
 [options=“header”]
 |===
-|Issues with Sitka Record	      | Possible Actions| Task/Action |
+|*Issues with Sitka Record*	      | *Possible Actions*| *Task/Action* |
 | Obvious typo - text or coding | Change          | Corrected by staff with appropriate qualifications               |
 | Pre-publication record        | Add             | Updated by staff with appropriate qualifications|
 | Substandard or brief record   |Change, Add, or Merge| Improved to best record standard by staff with appropriate qualifications |
 | Enhance an "exact" match record by adding 520, 650, 655, etc.|
 Change, Add, or Overlay | Optional - by staff with appropriate qualifications |
 |===
+
+
+*"Near" Match When Searching Z39.50 Targets*
+
+When searching Z39.50 targets in Sitka, library staff may find a record that closely matches the item in hand, but which may require varying levels of change/correction or addition. The following chart should be used in conjunction with the Skills Level chart to determine what actions may be taken for a “near” match in the Z39.50 search.
+
+[options=“header”]
+|===
+|*Issues with Z39.50 Record* |	*Possible Actions* |	*Task/Action* |
+|Obvious typo - text or coding |Change  | Corrected by cataloguing staff with appropriate qualifications |
+|Pre-publication  | Add | Updated by cataloguing staff with appropriate qualifications |
+|Enhance an "exact" match record by adding 520, 650, 655, etc. |Change or Add |
+Optional - by staff with appropriate qualifications |
+|Different formats, e.g. using a VHS record for a DVD, must be edited to correct changes| Change or Add | Corrected by  staff with appropriate qualifications |
+|===
+
+
+*Original Cataloguing*
+
+Original cataloguing should constitute a very small percentage of records added to the database. The majority of records (>95%) should be found either within the Sitka database or approved Z39.50 targets, or, in some libraries, a vendor file of MARC records. If a record cannot be found within these sources, an original record may be created.
+
+Sitka cataloguing templates are provided to assist library staff in complying with this standard. These templates are based on the section called “Characteristics of a "Best" MARC Record in the Sitka Database”
+
+For instructions on original cataloguing and cataloguing templates, please refer to the section on http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[Creating New Bibliographic Records.]

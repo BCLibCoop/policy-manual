@@ -9,13 +9,13 @@ Short Version
 
 All library users have a right to privacy and confidentiality when using Member library public access catalogues (PACs) or when interacting with Member library staff in their operation of Sitka’s Integrated Library System (ILS).
 
-Personal information is collected by Member libraries under the authority of the Library Act and section 26 of the Freedom of Information and Protection of Privacy Act (FOIPPA). This includes information related to registration, such as name, address, phone number, and circulation records, including information that identifies materials checked out by a patron. It includes any library record about an identifiable patron or individual.
+Personal information is collected by Member libraries under the authority of the Library Act and section 26 of the Freedom of Information and Protection of Privacy Act (FIPPA). This includes information related to registration, such as name, address, phone number, and circulation records, including information that identifies materials checked out by a patron. It includes any library record about an identifiable patron or individual.
 
 By providing an email address at the point of registration in the ILS, patrons consent to receive notices (Courtesy (Pre-due) and Overdue notices) via electronic mail.
 
 When a library user visits the library's PAC, the IP address of the computer or internet provider and related site visit information may be collected. This information is only used in statistical (non-personal) form to help make improvements to the website.
 
-Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FOIPPA.
+Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FIPPA.
 
 The Member library will retain a link between the patron record and items returned for a reasonable period of time to ensure returned items are complete and in good condition. The library may store other personal information in the patron database but only where required. This may include answers to patron questions and logs that monitor use and possible abuse of the library borrowing policy or for related operational and statistical needs.
 
@@ -33,7 +33,7 @@ Member libraries will make all reasonable efforts to:
 
 Personal information relating to a library user may only be used by library employees working within the scope of their duties on a need-to-know basis.
 
-In accordance with the FIOPPA, Member libraries may disclose minimum relevant information to companies acting on the library's behalf such as for the collection of library property, unpaid fees, fines or other charges.
+In accordance with the FIPPA, Member libraries may disclose minimum relevant information to companies acting on the library's behalf such as for the collection of library property, unpaid fees, fines or other charges.
 
 Records for electronic books may contain links to those ebooks hosted on 3rd party sites which have their own privacy policies, and which may be hosted in other countries.
 
@@ -45,11 +45,11 @@ Detailed Version
 
 *1. Our Commitment to Privacy*
 
-https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Sitka Member] libraries are committed to protecting your privacy. Any personal information collected, used or disclosed by Member libraries is in accordance with the Freedom of Information and Protection of Privacy Act (FOIPPA). This Privacy Policy is designed to assist you in understanding how Member libraries collect, use and safeguard the information you provide and to assist you in making informed decisions when using Member libraries and their web sites.
+https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Sitka Member] libraries are committed to protecting your privacy. Any personal information collected, used or disclosed by Member libraries is in accordance with the Freedom of Information and Protection of Privacy Act (FIPPA). This Privacy Policy is designed to assist you in understanding how Member libraries collect, use and safeguard the information you provide and to assist you in making informed decisions when using Member libraries and their web sites.
 
 *2. What is Personal Information*
 
-Personal information is defined by FOIPPA as information about an identifiable person. Examples include, but are not limited to: name, age, home address, phone number, email address, IP address (a computer’s address), identification numbers, reading choices and age. The definition does not include work contact information, which is information that would allow a person to be contacted at a place of business, such as the person’s name, title, business address, business phone number, and business email address.
+Personal information is defined by FIPPA as information about an identifiable person. Examples include, but are not limited to: name, age, home address, phone number, email address, IP address (a computer’s address), identification numbers, reading choices and age. The definition does not include work contact information, which is information that would allow a person to be contacted at a place of business, such as the person’s name, title, business address, business phone number, and business email address.
 
 *3. Collection of personal information*
 
@@ -87,13 +87,13 @@ By providing an email address at the point of registration in the ILS, patrons c
 
 *4. How personal information is used*
 
-Member libraries will only use your personal information for the purposes for which it was originally collected or in a manner that is consistent with those purposes. Member libraries will only use your personal information for another purpose if you explicitly consent to the new purpose, or use is authorized under FOIPPA or is otherwise required by law.
+Member libraries will only use your personal information for the purposes for which it was originally collected or in a manner that is consistent with those purposes. Member libraries will only use your personal information for another purpose if you explicitly consent to the new purpose, or use is authorized under FIPPA or is otherwise required by law.
 
 *5. Disclosure of personal information*
 
-Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FOIPPA or as otherwise required by law.
+Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FIPPA or as otherwise required by law.
 
-Where other organizations require personal information in order to provide services on behalf of a Member library, care is taken to ensure that these organizations treat the personal information in strict compliance with FOIPPA and the library’s privacy policies.
+Where other organizations require personal information in order to provide services on behalf of a Member library, care is taken to ensure that these organizations treat the personal information in strict compliance with FIPPA and the library’s privacy policies.
 
 Examples of where personal information may be disclosed include:
 
@@ -109,7 +109,7 @@ Examples of where personal information may be disclosed include:
 
 *6. Disclosure of personal information to another Member library*
 
-Member libraries offer many common or integrated programs and services, and provide them on a collective basis. If your home library is a Member library, you can obtain services at any Member library. When you present your library card at a Member library other than your home library, you will be asked if you consent to the new library obtaining your personal information from your home library for the purposes of providing you with services. In order to obtain services at a library other than your home library, you will need to provide your consent for this sharing of information. While the FOIPPA provides that this information can be shared without your consent, Member libraries are committed to the higher standard of informed consent.
+Member libraries offer many common or integrated programs and services, and provide them on a collective basis. If your home library is a Member library, you can obtain services at any Member library. When you present your library card at a Member library other than your home library, you will be asked if you consent to the new library obtaining your personal information from your home library for the purposes of providing you with services. In order to obtain services at a library other than your home library, you will need to provide your consent for this sharing of information. While the FIPPA provides that this information can be shared without your consent, Member libraries are committed to the higher standard of informed consent.
 
 *7. How personal information is kept secure*
 
@@ -137,9 +137,9 @@ You also have a right to request that your personal information as recorded by t
 
 *11. Children's personal information*
 
-The FOIPPA does not distinguish between children’s and adults’ informational rights. However, where a person is too young or otherwise incapable of exercising their rights under the FOIPPA, the parent or guardian may do so on their behalf.
+The FIPPA does not distinguish between children’s and adults’ informational rights. However, where a person is too young or otherwise incapable of exercising their rights under the FIPPA, the parent or guardian may do so on their behalf.
 
-Member library policy provides that children 12 years and older are generally capable of exercising their own informational rights under the FOIPPA. However, the library may treat on a case-by-case basis a situation where a child or parent/guardian does not believe the guideline age is appropriate in their circumstances.
+Member library policy provides that children 12 years and older are generally capable of exercising their own informational rights under the FIPPA. However, the library may treat on a case-by-case basis a situation where a child or parent/guardian does not believe the guideline age is appropriate in their circumstances.
 
 *12. Family members' personal information*
 
