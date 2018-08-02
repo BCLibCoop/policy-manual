@@ -7,12 +7,11 @@ September 16, 2009
 Short Version
 ~~~~~~~~~~~~~
 
-https://bc.libraries.coop/support/sitka/sitka-shared-library-database-privacy-policy/[Short Version]
-
-
 All library users have a right to privacy and confidentiality when using Member library public access catalogues (PACs) or when interacting with Member library staff in their operation of Sitka’s Integrated Library System (ILS).
 
 Personal information is collected by Member libraries under the authority of the Library Act and section 26 of the Freedom of Information and Protection of Privacy Act (FOIPPA). This includes information related to registration, such as name, address, phone number, and circulation records, including information that identifies materials checked out by a patron. It includes any library record about an identifiable patron or individual.
+
+By providing an email address at the point of registration in the ILS, patrons consent to receive notices (Courtesy (Pre-due) and Overdue notices) via electronic mail.
 
 When a library user visits the library's PAC, the IP address of the computer or internet provider and related site visit information may be collected. This information is only used in statistical (non-personal) form to help make improvements to the website.
 
@@ -36,13 +35,13 @@ Personal information relating to a library user may only be used by library empl
 
 In accordance with the FIOPPA, Member libraries may disclose minimum relevant information to companies acting on the library's behalf such as for the collection of library property, unpaid fees, fines or other charges.
 
+Records for electronic books may contain links to those ebooks hosted on 3rd party sites which have their own privacy policies, and which may be hosted in other countries.
+
 These same standards for protection of privacy apply to the staff as users of Member libraries. For more information about the collection, use or disclosure of personal information, see Detailed Privacy Information or contact your library’s FOI/Privacy Officer.
 
 
 Detailed Version
 ~~~~~~~~~~~~~~~~
-
-https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Detailed Version]
 
 *1. Our Commitment to Privacy*
 
@@ -84,7 +83,7 @@ The following are some example of purposes for which the Library may collect you
 
 * library fundraising
 
-Patrons who do not wish to be contacted about library services and programs or for fundraising purposes may choose to opt-out.
+By providing an email address at the point of registration in the ILS, patrons consent to receive notices (Courtesy (Pre-due) and Overdue notices) via electronic mail. Patrons who do not wish to be contacted about library services and programs or for fundraising purposes may choose to opt-out.
 
 *4. How personal information is used*
 
@@ -118,7 +117,7 @@ Member libraries use reasonable security measures to protect personal informatio
 
 Security measures include physical, technological and operational safeguards that are appropriate to the nature and format of the personal information.
 
-Technological security measures protect personal information once it reaches Member computer hardware. However; security cannot protect information while it is in transit over the internet unless the information is collected by a secure online web form. Information sent in email messages is not secure. You are encouraged to consider this when sending personal information via email.
+Technological security measures protect personal information once it reaches Member computer hardware. However, security cannot protect information while it is in transit over the internet unless the information is collected by a secure online web form. Information sent in email messages is not secure. You are encouraged to consider this when sending personal information via email.
 
 *8. Retention of personal information*
 

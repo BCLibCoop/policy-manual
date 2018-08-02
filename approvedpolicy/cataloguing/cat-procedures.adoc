@@ -11,11 +11,10 @@ image:images/policy-2.png[scaledwidth="75%"]
 
 *Minimum Requirements For a Match in the Sitka Database or Z39.50 Targets- Updated 2018*
 
-The minimum requirements for determining a match include Title, GMD, the 336, 337 and 338 fields in RDA records, Author, Edition, Imprint (Date, Publisher, Physical Description) and Format.
+The minimum requirements for determining a match include Title, GMD, the 336, 337 and 338 fields in RDA records, Author, Edition, Imprint (Date, Publisher, Physical Description) and Format. Note that the minimum criteria for an exact match for DVD and software need to be detailed, e.g. Blu-ray vs. regular DVD, aspect ratio (widescreen vs. full screen), PC versus Mac, etc.
 
 CAUTION: Format rules have tightened considerably with the 2018 revised policy.  Paperback and hardcover are no longer considered a match in Sitka, and Sitka cataloguers are asked to take special note of this new policy. Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
 
-Note that the minimum criteria for an exact match for DVD and software need to be detailed, e.g. Blu-ray vs. regular DVD, aspect ratio (widescreen vs. full screen), PC versus Mac, etc.
 
 In order to ensure the integrity of the shared database, please follow these steps carefully:
 
@@ -25,6 +24,20 @@ In order to ensure the integrity of the shared database, please follow these ste
 
 . If more than one matching record is found, follow the instructions in the section called “Characteristics of a "Best" MARC Record in the Sitka Database” to choose the best record.
 
-. If an item has a different binding,  then the record is not  considered a match, and holdings must not be attached. Sitka's updated 2018 policy does not consider hardcover and paperback formats to be a match.  Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
+. If an item has a different binding than the record, the record is not  considered a match, and holdings must not be attached. Sitka's updated 2018 policy does not consider hardcover and paperback formats to be a match.  Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
 
-. For more detailed information on determining a match, we recommend reviewing OCLC’s Field by Field Guidelines for New Records
+. For more detailed information on determining a match, we recommend reviewing http://www.oclc.org/ca/fr/bibformats/en/input/default.shtm#CHDJFJHA[OCLC’s Field by Field Guidelines for New Records.]
+
+*"Near" Match When Searching the Sitka Database*
+
+When searching in Sitka, library staff may find a record that closely matches the item in hand, but which may require varying levels of change/correction, addition or in some cases merging with another record. The following chart should be used in conjunction with the Skills Level chart to determine what actions may be taken with a “near” match.
+
+[options=“header”]
+|===
+|Issues with Sitka Record	      | Possible Actions| Task/Action |
+| Obvious typo - text or coding | Change          | Corrected by staff with appropriate qualifications               |
+| Pre-publication record        | Add             | Updated by staff with appropriate qualifications|
+| Substandard or brief record   |Change, Add, or Merge| Improved to best record standard by staff with appropriate qualifications |
+| Enhance an "exact" match record by adding 520, 650, 655, etc.|
+Change, Add, or Overlay | Optional - by staff with appropriate qualifications |
+|===
