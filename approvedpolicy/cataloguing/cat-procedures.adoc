@@ -83,7 +83,7 @@ Characteristics of a "Best" MARC Record
 
 [options=“header”]
 |===
-|*Fields?*|*MARC tags/subfields* | *Instructions to Member Library Cataloguers* |
+|*Fields?*|*MARC tags/subfields* | *Instructions to Member Library Cataloguers*
 |Standard Numbers|010 LCCN
 020 ISBN
 022 ISSN
