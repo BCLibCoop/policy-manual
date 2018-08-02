@@ -1,6 +1,6 @@
 Purpose
 ~~~~~~~
 
-With recommendations from the then Sitka Cataloguing Working Group, the BC Libraries Cooperative set standards for cataloguing workflows and MARC records and published this policy in 2009. This Cataloguing Policy has been upheld in the training provided by Co-op Support and is supplemented by Sitka's Evergreen Documentation located at http://docs.libraries.coop/sitka/. Sitka member libraries are expected to familiarize themselves with this policy, and endeavour to uphold it in their local cataloguing workflows.
+With recommendations from the then Sitka Cataloguing Working Group, the BC Libraries Cooperative set standards for cataloguing workflows and MARC records and published this policy in 2009. This Cataloguing Policy has been referenced in the training provided by Co-op Support and is supplemented by Sitka's Evergreen Documentation located at http://docs.libraries.coop/sitka/. Sitka member libraries are expected to familiarize themselves with this policy, and endeavour to uphold it in their local cataloguing workflows.
 
 Sitka consortium libraries are committed to creating a database of high-quality bibliographic records for collective use. These bibliographic records are the shared property of the British Columbia Libraries Cooperative, regardless of the holdings attached. It does not matter which library “created” the record, who transferred it into the database, or who has edited it since. Maintaining the quality and integrity of each bibliographic record is an interest and a responsibility we all share.
