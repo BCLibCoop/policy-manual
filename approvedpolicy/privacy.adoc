@@ -4,9 +4,167 @@ Privacy Policy
 Approved by the Interim Board of Directors, BC Libraries Cooperative,
 September 16, 2009
 
-The https://bc.libraries.coop/support/sitka/sitka-shared-library-database-privacy-policy/[Sitka (shared library database) Privacy Policy] can be found on our website.
+Short Version
+~~~~~~~~~~~~~
+
+https://bc.libraries.coop/support/sitka/sitka-shared-library-database-privacy-policy/[Short Version]
 
 
-A https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Detailed Version] is also available.
+All library users have a right to privacy and confidentiality when using Member library public access catalogues (PACs) or when interacting with Member library staff in their operation of Sitka’s Integrated Library System (ILS).
+
+Personal information is collected by Member libraries under the authority of the Library Act and section 26 of the Freedom of Information and Protection of Privacy Act (FOIPPA). This includes information related to registration, such as name, address, phone number, and circulation records, including information that identifies materials checked out by a patron. It includes any library record about an identifiable patron or individual.
+
+When a library user visits the library's PAC, the IP address of the computer or internet provider and related site visit information may be collected. This information is only used in statistical (non-personal) form to help make improvements to the website.
+
+Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FOIPPA.
+
+The Member library will retain a link between the patron record and items returned for a reasonable period of time to ensure returned items are complete and in good condition. The library may store other personal information in the patron database but only where required. This may include answers to patron questions and logs that monitor use and possible abuse of the library borrowing policy or for related operational and statistical needs.
+
+Member libraries will make all reasonable efforts to:
+
+* minimize the amount of personal information collected and stored,
+
+* render it anonymous where feasible,
+
+* retain it for the minimum time necessary,
+
+* protect it from unauthorized access, use or disclosure
+
+* destroy it securely when no longer needed.
+
+Personal information relating to a library user may only be used by library employees working within the scope of their duties on a need-to-know basis.
+
+In accordance with the FIOPPA, Member libraries may disclose minimum relevant information to companies acting on the library's behalf such as for the collection of library property, unpaid fees, fines or other charges.
+
+These same standards for protection of privacy apply to the staff as users of Member libraries. For more information about the collection, use or disclosure of personal information, see Detailed Privacy Information or contact your library’s FOI/Privacy Officer.
 
 
+Detailed Version
+~~~~~~~~~~~~~~~~
+
+https://bc.libraries.coop/support/sitka/sitka-shared-library-database-detailed-privacy-policy/[Detailed Version]
+
+*1. Our Commitment to Privacy*
+
+https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Sitka Member] libraries are committed to protecting your privacy. Any personal information collected, used or disclosed by Member libraries is in accordance with the Freedom of Information and Protection of Privacy Act (FOIPPA). This Privacy Policy is designed to assist you in understanding how Member libraries collect, use and safeguard the information you provide and to assist you in making informed decisions when using Member libraries and their web sites.
+
+*2. What is Personal Information*
+
+Personal information is defined by FOIPPA as information about an identifiable person. Examples include, but are not limited to: name, age, home address, phone number, email address, IP address (a computer’s address), identification numbers, reading choices and age. The definition does not include work contact information, which is information that would allow a person to be contacted at a place of business, such as the person’s name, title, business address, business phone number, and business email address.
+
+*3. Collection of personal information*
+
+When collecting personal information from you, Member libraries will advise you of the purpose for collecting it and the legal authority for doing so. They will also provide you with contact information of the library’s FOI/Privacy Officer, who can answer your questions regarding the collection.
+
+The following are some example of purposes for which the Library may collect your personal information:
+
+* issuing library cards
+
+* identifying materials currently on loan
+
+* placing and tracking interlibrary loans
+
+* identifying and recording overdue materials
+
+* placing and tracking materials on hold
+
+* providing answers to reference questions
+
+* faxing materials
+
+* providing information about library programs and services
+
+* providing Home Service for patrons with special needs
+
+* recording book suggestions
+
+* recording comments or suggestions
+
+* general library operations
+
+* library fundraising
+
+Patrons who do not wish to be contacted about library services and programs or for fundraising purposes may choose to opt-out.
+
+*4. How personal information is used*
+
+Member libraries will only use your personal information for the purposes for which it was originally collected or in a manner that is consistent with those purposes. Member libraries will only use your personal information for another purpose if you explicitly consent to the new purpose, or use is authorized under FOIPPA or is otherwise required by law.
+
+*5. Disclosure of personal information*
+
+Member libraries do not sell or rent personal information. Personal information is disclosed only in accordance with FOIPPA or as otherwise required by law.
+
+Where other organizations require personal information in order to provide services on behalf of a Member library, care is taken to ensure that these organizations treat the personal information in strict compliance with FOIPPA and the library’s privacy policies.
+
+Examples of where personal information may be disclosed include:
+
+* when a patron explicitly consents to the disclosure
+
+* to a collection agency for the purpose of collecting a debt owed to the Library
+
+* for law enforcement purposes, such as where required by a subpoena, warrant or other order
+
+* where there are compelling health and safety concerns
+
+* to contact a person’s next of kin if that person is injured, becomes ill or dies while visiting the library.
+
+*6. Disclosure of personal information to another Member library*
+
+Member libraries offer many common or integrated programs and services, and provide them on a collective basis. If your home library is a Member library, you can obtain services at any Member library. When you present your library card at a Member library other than your home library, you will be asked if you consent to the new library obtaining your personal information from your home library for the purposes of providing you with services. In order to obtain services at a library other than your home library, you will need to provide your consent for this sharing of information. While the FOIPPA provides that this information can be shared without your consent, Member libraries are committed to the higher standard of informed consent.
+
+*7. How personal information is kept secure*
+
+Member libraries use reasonable security measures to protect personal information in all forms against risks such as unauthorized collection, access, use, disclosure or disposal.
+
+Security measures include physical, technological and operational safeguards that are appropriate to the nature and format of the personal information.
+
+Technological security measures protect personal information once it reaches Member computer hardware. However; security cannot protect information while it is in transit over the internet unless the information is collected by a secure online web form. Information sent in email messages is not secure. You are encouraged to consider this when sending personal information via email.
+
+*8. Retention of personal information*
+
+The length of time Member libraries keep your personal information depends on the purpose for which the information was collected.
+
+If the library uses your personal information to make a decision that affects you, they must keep that information for at least one year so that you have an opportunity to access it. Otherwise, the library will keep personal information only for the length of time necessary to fulfill the purposes for which it was collected. Personal information is securely destroyed when it is no longer needed.
+
+*9. Accuracy of personal information*
+
+Member libraries endeavor to ensure personal information is as accurate, complete and up-to-date as possible.
+
+*10. How to access or correct your personal information*
+
+You have a right to request access to your personal information held by Member libraries. To do so, submit a written request to your library’s FOI/Privacy Officer (contact information available at your Member library). Your request should provide enough detail to enable a library employee to find your personal information such as the personal information you provided with your library card application.
+
+You also have a right to request that your personal information as recorded by the Member library be corrected if you believe it is incorrect. You may do so by submitting your request in writing to the FOI/Privacy Officer (contact information available at your Member library).
+
+*11. Children's personal information*
+
+The FOIPPA does not distinguish between children’s and adults’ informational rights. However, where a person is too young or otherwise incapable of exercising their rights under the FOIPPA, the parent or guardian may do so on their behalf.
+
+Member library policy provides that children 12 years and older are generally capable of exercising their own informational rights under the FOIPPA. However, the library may treat on a case-by-case basis a situation where a child or parent/guardian does not believe the guideline age is appropriate in their circumstances.
+
+*12. Family members' personal information*
+
+Some libraries offer “group” notices to families. In such a case, information such as items borrowed, fines owed, etc., for multiple family members are sent to a single person in the household, or “head of the household. This constitutes a disclosure of the other household members’ personal information and Member libraries will only provide information in this way if the patrons whose information is to be disclosed provide their written consent. This includes the consent of children 12 years of age and older.
+
+*13. Changes to this Privacy Policy*
+
+Member libraries’ practices and policies are reviewed from time to time and this policy may be updated to reflect necessary changes.
+
+*14. Who to contact about Member library privacy policies*
+
+If you have any questions or concerns about this policy or how Member libraries treat your personal information, you may contact the FOI/Privacy Officer for your https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Member library] or the https://bc.libraries.coop/contact/[Manager, Privacy & Security, BC Libraries Cooperative].
+
+If you are not satisfied with how your personal information is being handled by a Member library, you have the right to complain to the Information and Privacy Commissioner.
+
+You may contact the Information and Privacy Commissioner at:
+
+--------------------------------------------------
+Office of the Information and Privacy Commissioner
+for British Columbia
+PO Box 9038, Stn. Prov. Govt.
+Victoria, B.C. V8W 9A4
+Tel: 250.387.5629 (Victoria)
+Toll free: Call Enquiry B.C. at 604.660.2421 (Vancouver) or 1.800.663.7367 (elsewhere in B.C.) and request a transfer to 250.387.5629.
+Email: info@oipc.bc.ca
+Website: https://www.oipc.bc.ca/
+--------------------------------
