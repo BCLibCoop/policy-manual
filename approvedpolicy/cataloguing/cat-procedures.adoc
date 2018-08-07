@@ -119,11 +119,12 @@ For a list of content terms for 336$a, http://www.loc.gov/standards/valuelist/rd
 For a list of media terms for 337$a, http://www.loc.gov/standards/valuelist/rdamedia.html[Term List for RDA Media Types]
 For a list of carrier terms for 338$a, http://www.loc.gov/standards/valuelist/rdacarrier.html[Term List for RDA Carrier Types] |
 |Series information |440 490 | When choosing between available records, add the record containing a 490 series statement with accompanying 800 or 830 (Current LC standard) |
-|Notes area|5XX |When choosing between available records, add the record with the most 5XX tags.538 (System Requirements) should be included where relevant for nonprint materials.
+|Notes area|5XX |When choosing between available records, add the record with the most 5XX tags.
+538 (System Requirements) should be included where relevant for nonprint materials.
 Local notes should be added in a 59X tag and must include the Canadian Library Identifier Code in $5.
 Local notes requiring indexing should be added in a 595 tag and must include the Canadian Library Identifier Code in $5.
 The following 5XX fields should also include the Canadian Library Identifier Code in $5: 506 (Restrictions on Access Note), 521 (Target Audience Note), and 540 (Terms Governing Use and Reproduction Note).|
 |Subject headings|6XX| When choosing between available records, add the record with authoritative subject headings.
-Local subject headings should be used only to designate special collections and should be added in 69X tags and include a the Canadian Library Identifier Code in $5.|
+Local subject headings should be used only to designate special collections and should be added in 69X tags and include a Canadian Library Identifier Code in $5.|
 |Holdings and Locations|856 |When cataloguing electronic resources add the record with the URL in 856 and include the Canadian Library Identifier Code in subfield $9. |
 |===
