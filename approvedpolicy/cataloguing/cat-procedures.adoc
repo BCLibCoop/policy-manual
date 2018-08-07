@@ -76,10 +76,10 @@ Sitka cataloguing templates are provided to assist library staff in complying wi
 For instructions on original cataloguing and cataloguing templates, please refer to the section on http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[Creating New Bibliographic Records.]
 
 
-Characteristics of a "Best" MARC Record in the Sitka Database
 
-Characteristics of a "Best" MARC Record
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Characteristics of a "Best" MARC Record in the Sitka Database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 [options=“header”]
 |===
@@ -88,26 +88,17 @@ Characteristics of a "Best" MARC Record
 020 ISBN
 022 ISSN
 028 or 037 Publisher control numbers| Include as many relevant standard numbers as possible |
-|Classification Numbers| 05X 082 090 092 | When choosing between available records, add the record with both LC and DDC classification numbers |
+|Classification Numbers| 05X, 082, 090, 092 | When choosing between available records, add the record with both LC and DDC classification numbers |
 |Title/Statement of responsibility | 245 $a title
 $c statement of responsibility
-$h GMD (note GMD is not used with RDA records) |When choosing between available records, add the record that has added title fields, e.g. 246, 740, etc. Choose RDA record over AACR2. If AACR2 record, use GMD standard List Two from AACR2 Rule 1.1C1. For non-standard terms such as DVD, MP3, etc. use 300 Physical Description for more details. Note, for RDA records the GMD is no longer used - use fields 336, 337, 338 instead.|
+$h GMD (note GMD is not used with RDA records) |* When choosing between available records, add the record that has added title fields, e.g. 246, 740, etc. * Choose RDA record over AACR2. * If AACR2 record, use GMD standard List Two from AACR2 Rule 1.1C1. * For non-standard terms such as DVD, MP3, etc., use 300 Physical Description for more details.
+* For RDA records the GMD is no longer used - use fields 336, 337, 338 instead.|
 |Edition Statement/Special information|25X |When choosing between available records, add the record with the fullest and most accurate 25X tag(s)|
-|Publication information |264 (RDA) 260 (AACR2)
-$a place of publication
-$b publisher
-$c publication year
+|Publication information | * 260 (AACR2) $a place of publication, $b publisher, $c publication year
 OR
-264 (2nd indicator 1) (RDA)
-$a place of publication
-$b publisher
-$c publication year| When choosing between available records, add the record with the fullest and most accurate 264 or 260 tag. Choose the RDA record.
-$c is not used in records for active serials. |
-|Physical description of item |300
-$a extent
-$b illustrations
-$c dimensions
-$e accompanying material |When choosing between available records, add the record with the fullest and most accurate 300 tag.
+* 264 (2nd indicator 1) (RDA) $a place of publication, $b publisher, $c publication year| * When choosing between available records, add the record with the fullest and most accurate 264 or 260 tag. * Choose the RDA record.
+* $c is not used in records for active serials. |
+|Physical description of item |300 $a extent, $b illustrations, $c dimensions, $e accompanying material |When choosing between available records, add the record with the fullest and most accurate 300 tag.
 $b $c $e to be added where applicable. |
 |Content, Media and Carrier type (RDA only)| 336 $a content term $2 rdacontent
 337 $a media term
