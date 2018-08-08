@@ -84,41 +84,62 @@ Characteristics of a "Best" MARC Record in the Sitka Database
 [options=“header”]
 |===
 |*Fields?*|*MARC tags/subfields* | *Instructions to Member Library Cataloguers*|
-|Standard Numbers|* 010 LCCN,020 ISBN,022 ISSN,028 or 037
-* Publisher control numbers| Include as many relevant standard numbers as possible |
+|Standard Numbers
+|* 010 LCCN,020 ISBN,022 ISSN,028 or 037
+ * Publisher control numbers| Include as many relevant standard numbers as possible |
 |Classification Numbers| 05X, 082, 090, 092 | When choosing between available records, add the record with both LC and DDC classification numbers |
 |Title/Statement of responsibility | 245 $a title $c statement of responsibility $h GMD (note GMD is not used with RDA records) |
- * When choosing between available records, add the record that has added title fields, e.g. 246, 740, etc.
+| * When choosing between available records, add the record that has added title fields, e.g. 246, 740, etc.
  * Choose RDA record over AACR2.
  * If AACR2 record, use GMD standard List Two from AACR2 Rule 1.1C1.
  * For non-standard terms such as DVD, MP3, etc., use 300 Physical Description for more details.
  * For RDA records the GMD is no longer used - use fields 336, 337, 338 instead.|
 |Edition Statement/Special information|25X |When choosing between available records, add the record with the fullest and most accurate 25X tag(s)|
 |Publication information |
-* 260 (AACR2) $a place of publication, $b publisher, $c publication year
+| * 260 (AACR2) $a place of publication, $b publisher, $c publication year
 OR
-* 264 (2nd indicator 1) (RDA) $a place of publication, $b publisher, $c publication year| * When choosing between available records, add the record with the fullest and most accurate 264 or 260 tag. * Choose the RDA record.
-* $c is not used in records for active serials. |
+ * 264 (2nd indicator 1) (RDA) $a place of publication, $b publisher, $c publication year| * When choosing between available records, add the record with the fullest and most accurate 264 or 260 tag. * Choose the RDA record.
+ * $c is not used in records for active serials. |
 |Physical description of item |
-* 300 $a extent, $b illustrations, $c dimensions, $e accompanying material |When choosing between available records, add the record with the fullest and most accurate 300 tag.
-* $b $c $e to be added where applicable. |
+| 300 $a extent, $b illustrations, $c dimensions, $e accompanying material |
+| * When choosing between available records, add the record with the fullest and most accurate 300 tag.
+  * $b $c $e to be added where applicable. |
 |Content, Media and Carrier type (RDA only)|
-* 336 $a content term $2 rdacontent
-* 337 $a media term $2 rdamedia
-* 338 $a carrier term $2 rdacarrier |
-* For RDA records only, the fields of content, media and carrier collectively replace the GMD (245$h).
-* For a list of content terms for 336$a, http://www.loc.gov/standards/valuelist/rdacontent.html[Term List for RDA Content Types]
-* For a list of media terms for 337$a, http://www.loc.gov/standards/valuelist/rdamedia.html[Term List for RDA Media Types]
-* For a list of carrier terms for 338$a, http://www.loc.gov/standards/valuelist/rdacarrier.html[Term List for RDA Carrier Types] |
+| * 336 $a content term $2 rdacontent
+  * 337 $a media term $2 rdamedia
+  * 338 $a carrier term $2 rdacarrier |
+  * For RDA records only, the fields of content, media and carrier collectively replace the GMD (245$h).
+ * For a list of content terms for 336$a, http://www.loc.gov/standards/valuelist/rdacontent.html[Term List for RDA Content Types]
+ * For a list of media terms for 337$a, http://www.loc.gov/standards/valuelist/rdamedia.html[Term List for RDA Media Types]
+ * For a list of carrier terms for 338$a, http://www.loc.gov/standards/valuelist/rdacarrier.html[Term List for RDA Carrier Types] |
 |Series information |440 490 | When choosing between available records, add the record containing a 490 series statement with accompanying 800 or 830 (Current LC standard) |
 |Notes area|5XX |
-* When choosing between available records, add the record with the most 5XX tags.
-* 538 (System Requirements) should be included where relevant for non-print materials.
-* Local notes should be added in a 59X tag and must include the Canadian Library Identifier Code in $5.
-* Local notes requiring indexing should be added in a 595 tag and must include the Canadian Library Identifier Code in $5.
-* The following 5XX fields should also include the Canadian Library Identifier Code in $5: 506 (Restrictions on Access Note), 521 (Target Audience Note), and 540 (Terms Governing Use and Reproduction Note).|
+| * When choosing between available records, add the record with the most 5XX tags.
+  * 538 (System Requirements) should be included where relevant for non-print materials.
+  * Local notes should be added in a 59X tag and must include the Canadian Library Identifier Code in $5.
+  * Local notes requiring indexing should be added in a 595 tag and must include the Canadian Library Identifier Code in $5.
+  * The following 5XX fields should also include the Canadian Library Identifier Code in $5: 506 (Restrictions on Access Note), 521 (Target Audience Note), and 540 (Terms Governing Use and Reproduction Note).|
 |Subject headings|6XX|
-* When choosing between available records, add the record with authoritative subject headings.
-* Local subject headings should be used only to designate special collections and should be added in 69X tags and include a Canadian Library Identifier Code in $5.|
+| * When choosing between available records, add the record with authoritative subject headings.
+  * Local subject headings should be used only to designate special collections and should be added in 69X tags and include a Canadian Library Identifier Code in $5.|
 |Holdings and Locations|856 |When cataloguing electronic resources add the record with the URL in 856 and include the Canadian Library Identifier Code in subfield $9. |
 |===
+
+
+Working with On-order Records
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Use of the Acquisitions Module has resulted in an increase in the number of brief on-order records appearing in the Sitka catalogue. The Acquisitions Ad Hoc Committee put forth recommendations on handling these brief on-order records. These recommendations were originally approved by the Business Function Group March 21, 2012, and have since been updated by Co-op Support in 2014 and 2018.
+
+Acquisitions Selectors to follow guidelines for minimum cataloguing requirements in creating brief on-order records.
+
+Cataloguers can only use brief on-order records to add holdings to if no other, better, record exists in the Sitka catalogue. An Acquisitions library , or another qualified cataloguer at a Sitka library, will change the on-order record to a full bibliographic record in the end, so cataloguers need to make sure they're attaching their holdings to the correct brief bibliographic record.
+
+If the only record for a title in the catalogue is an on-order record, cataloguers should use that record to add holdings to only if they are sure that it matches format and isbn or other identifier to the title-in-hand. In this situation, cataloguers can overlay or merge the on-order record with the complete record as long as the format and identifier are a definite match and the new record adheres to Sitka Cataloguing Policy. Cataloguers must also ensure that they carry over any 590 or 690 fields from the on-order record to the complete record. (updated Feb 2014)
+
+If the only record for a title in the catalogue is an on-order record, and it is unclear which format or isbn or other identifier the on-order record describes, cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (updated Feb 2014)
+
+Cataloguers can overlay brief on-order records when using the MARC Batch Import/Export function. When importing, cataloguers must always use the Sitka overlay profile to ensure data in the 590 and 690 fields of the original record is preserved. Cataloguers should ensure that the brief records is for the same format as the item they are cataloguing. By default brief on-order records use the Book 008 field regardless of the true format of the item.
+
+Evergreen User Documentation
+Refer to Sitka's Evergreen Documentation on Cataloguing at http://docs.libraries.coop/sitka/_cataloguing_2.html.
