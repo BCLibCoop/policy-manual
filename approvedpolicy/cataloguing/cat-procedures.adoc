@@ -14,7 +14,7 @@ Minimum Requirements For a Match in the Sitka Database or Z39.50 Targets- Update
 
 The minimum requirements for determining a match include Title, GMD, the 336, 337 and 338 fields in RDA records, Author, Edition, Imprint (Date, Publisher, Physical Description) and Format. Note that the minimum criteria for an exact match for DVD and software need to be detailed, e.g. Blu-ray vs. regular DVD, aspect ratio (widescreen vs. full screen), PC versus Mac, etc.
 
-CAUTION: Format rules have tightened considerably with the 2018 revised policy.  Paperback and hardcover editions are no longer ever considered a match in Sitka, and Sitka cataloguers are asked to take special note of this new policy. Co-op Support now performs regular de-duplication of the Sitka database, and records with multiple formats and ISBNs cause merge errors, reduced de-duplication, and loss of data integrity.
+CAUTION: Format rules have tightened considerably with the 2018 revised policy.  Paperback and hardcover editions are no longer ever considered a match in Sitka, and Sitka cataloguers are asked to take note of this updated policy. Co-op Support now performs regular de-duplication of the Sitka database, and records with multiple formats and ISBNs cause merge errors, reduced de-duplication, and loss of data integrity.
 
 
 In order to ensure the integrity of the shared database, please follow these steps carefully:
@@ -28,7 +28,7 @@ In order to ensure the integrity of the shared database, please follow these ste
 . If more than one matching record is found, follow the instructions in the section called “Characteristics of a "Best" MARC Record in the Sitka Database” to choose the best record.
 
 
-. If an item has a different binding than the record, the record is not  considered a match, and holdings must not be attached. Sitka's updated 2018 policy does not consider hardcover and paperback formats to be a match.  Co-op Support performs regular de-duplication of the Sitka database, and merged formats cause merge errors and loss of data integrity.
+. If an item has a different binding than the record in the database, the record is not  considered a match, and holdings must not be attached. Sitka's updated 2018 policy does not consider hardcover and paperback formats to be a match.
 
 
 . For more detailed information on determining a match, we recommend reviewing http://www.oclc.org/ca/fr/bibformats/en/input/default.shtm#CHDJFJHA[OCLC’s Field by Field Guidelines for New Records.]
@@ -84,38 +84,41 @@ Characteristics of a "Best" MARC Record in the Sitka Database
 [options=“header”]
 |===
 |*Fields?*|*MARC tags/subfields* | *Instructions to Member Library Cataloguers*|
-|Standard Numbers|010 LCCN
-020 ISBN
-022 ISSN
-028 or 037 Publisher control numbers| Include as many relevant standard numbers as possible |
+|Standard Numbers|* 010 LCCN,020 ISBN,022 ISSN,028 or 037
+* Publisher control numbers| Include as many relevant standard numbers as possible |
 |Classification Numbers| 05X, 082, 090, 092 | When choosing between available records, add the record with both LC and DDC classification numbers |
-|Title/Statement of responsibility | 245 $a title
-$c statement of responsibility
-$h GMD (note GMD is not used with RDA records) |* When choosing between available records, add the record that has added title fields, e.g. 246, 740, etc. * Choose RDA record over AACR2. * If AACR2 record, use GMD standard List Two from AACR2 Rule 1.1C1. * For non-standard terms such as DVD, MP3, etc., use 300 Physical Description for more details.
-* For RDA records the GMD is no longer used - use fields 336, 337, 338 instead.|
+|Title/Statement of responsibility | 245 $a title $c statement of responsibility $h GMD (note GMD is not used with RDA records) |
+ * When choosing between available records, add the record that has added title fields, e.g. 246, 740, etc.
+ * Choose RDA record over AACR2.
+ * If AACR2 record, use GMD standard List Two from AACR2 Rule 1.1C1.
+ * For non-standard terms such as DVD, MP3, etc., use 300 Physical Description for more details.
+ * For RDA records the GMD is no longer used - use fields 336, 337, 338 instead.|
 |Edition Statement/Special information|25X |When choosing between available records, add the record with the fullest and most accurate 25X tag(s)|
-|Publication information | * 260 (AACR2) $a place of publication, $b publisher, $c publication year
+|Publication information |
+* 260 (AACR2) $a place of publication, $b publisher, $c publication year
 OR
 * 264 (2nd indicator 1) (RDA) $a place of publication, $b publisher, $c publication year| * When choosing between available records, add the record with the fullest and most accurate 264 or 260 tag. * Choose the RDA record.
 * $c is not used in records for active serials. |
-|Physical description of item |300 $a extent, $b illustrations, $c dimensions, $e accompanying material |When choosing between available records, add the record with the fullest and most accurate 300 tag.
-$b $c $e to be added where applicable. |
-|Content, Media and Carrier type (RDA only)| 336 $a content term $2 rdacontent
-337 $a media term
-$2 rdamedia
-338
-$a carrier term
-$2 rdacarrier |For RDA records only, the fields of content, media and carrier collectively replace the GMD (245$h).
-For a list of content terms for 336$a, http://www.loc.gov/standards/valuelist/rdacontent.html[Term List for RDA Content Types]
-For a list of media terms for 337$a, http://www.loc.gov/standards/valuelist/rdamedia.html[Term List for RDA Media Types]
-For a list of carrier terms for 338$a, http://www.loc.gov/standards/valuelist/rdacarrier.html[Term List for RDA Carrier Types] |
+|Physical description of item |
+* 300 $a extent, $b illustrations, $c dimensions, $e accompanying material |When choosing between available records, add the record with the fullest and most accurate 300 tag.
+* $b $c $e to be added where applicable. |
+|Content, Media and Carrier type (RDA only)|
+* 336 $a content term $2 rdacontent
+* 337 $a media term $2 rdamedia
+* 338 $a carrier term $2 rdacarrier |
+* For RDA records only, the fields of content, media and carrier collectively replace the GMD (245$h).
+* For a list of content terms for 336$a, http://www.loc.gov/standards/valuelist/rdacontent.html[Term List for RDA Content Types]
+* For a list of media terms for 337$a, http://www.loc.gov/standards/valuelist/rdamedia.html[Term List for RDA Media Types]
+* For a list of carrier terms for 338$a, http://www.loc.gov/standards/valuelist/rdacarrier.html[Term List for RDA Carrier Types] |
 |Series information |440 490 | When choosing between available records, add the record containing a 490 series statement with accompanying 800 or 830 (Current LC standard) |
-|Notes area|5XX |When choosing between available records, add the record with the most 5XX tags.
-538 (System Requirements) should be included where relevant for nonprint materials.
-Local notes should be added in a 59X tag and must include the Canadian Library Identifier Code in $5.
-Local notes requiring indexing should be added in a 595 tag and must include the Canadian Library Identifier Code in $5.
-The following 5XX fields should also include the Canadian Library Identifier Code in $5: 506 (Restrictions on Access Note), 521 (Target Audience Note), and 540 (Terms Governing Use and Reproduction Note).|
-|Subject headings|6XX| When choosing between available records, add the record with authoritative subject headings.
-Local subject headings should be used only to designate special collections and should be added in 69X tags and include a Canadian Library Identifier Code in $5.|
+|Notes area|5XX |
+* When choosing between available records, add the record with the most 5XX tags.
+* 538 (System Requirements) should be included where relevant for non-print materials.
+* Local notes should be added in a 59X tag and must include the Canadian Library Identifier Code in $5.
+* Local notes requiring indexing should be added in a 595 tag and must include the Canadian Library Identifier Code in $5.
+* The following 5XX fields should also include the Canadian Library Identifier Code in $5: 506 (Restrictions on Access Note), 521 (Target Audience Note), and 540 (Terms Governing Use and Reproduction Note).|
+|Subject headings|6XX|
+* When choosing between available records, add the record with authoritative subject headings.
+* Local subject headings should be used only to designate special collections and should be added in 69X tags and include a Canadian Library Identifier Code in $5.|
 |Holdings and Locations|856 |When cataloguing electronic resources add the record with the URL in 856 and include the Canadian Library Identifier Code in subfield $9. |
 |===
