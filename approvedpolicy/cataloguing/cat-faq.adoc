@@ -1,2 +1,88 @@
 Frequently Asked Questions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+What is the correct capitalization and punctuation used when entering subject and name authorities?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Enter the authority normally, using both upper and lower case, and no period at the end, unless the name authority ends with an initial.
+
+Examples:
+                        $aOlympics $xHistory $y20th Century
+                        $aAtwood, Margaret, $d1939-
+                        $aRoberts, Albert R.
+
+How are serials/magazines catalogued?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+A serials module is partially supported in Sitka's Evergreen, and used by a few academic libraries. Until it is fully implemented, each member library will maintain its own bibliographic records for serials. The recommended procedure for cataloguing serials is to give each magazine issue its own volume and copy record.
+
+
+How do I request more Z39.50 targets to be added to Evergreen?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Send a request to Co-op Support. Support assesses potential sources based on perceived need by Sitka libraries and quality of records.
+
+Please note, not all organizations provide Z39.50 access to their database.
+
+
+What is the preferred method to enter TV Series on DVD?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+As the packaging of, and library circulation policies for, this format vary widely, member libraries may choose to catalogue these either by series or by individual title. If the title proper is based on the episode title, an 830 added entry should be created for the series name.
+
+
+Is a record considered a match if only the binding is different from the item in hand?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+No. If an item has a different binding, the record is not be considered a match. The record is not a match even if nearly identical in content and pagination, and if copies originate from the same publisher.
+
+Records for physical items are never considered to be a match for an e-resource and vice versus. The ISBN for an e-book should not be added as a 020 field on a record for a physical book.
+
+
+Will we lose any local data in the bibliographic record when joining Sitka?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Where feasible, as a member library’s legacy system bibliographic records are added to the Sitka database at the time of the migration, Co-op Support may run processes to preserve specific local data. These processes may include some or all of the following:
+
+* General Material Designation (GMD) - the following is for AACR2 records only; does not apply to RDA records
+
+** Incoming records with customized GMDs: move the 245$h from the incoming record and add to 590 $a, adding 590 $5 with Canadian Library Identifier Code. Add the appropriate GMD from AACR2 List Two in the 245$h where applicable.
+
+** Incoming records will be run against AACR2 List Two GMDs. Anything that deviates will be moved to 300 tags, normalizing to reduce duplication, e.g. uppercase everything, remove leading and trailing punctuation. Add a vertical bar between 300 entries to provide a separator between repeat 300 tag descriptions displayed in the PAC.
+
+* Series Information
+
+** Nonstandard series information will be preserved in a 590 tag accompanied by the Canadian Library Identifier Code in $5.
+
+* Subject Headings
+
+** Local subject headings in a 690 tag will be appended to the existing master record. Co-op Support will strive to move local subject headings in other 6XX tags to an appropriate location during the migration process.
+
+* Notes
+
+** Use 590$a for local notes, with Canadian Library Identifier Code in 590 $5
+
+
+What does RDA mean for cataloguers in Sitka?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+RDA records and AACR2 records can co-exist in Sitka's Evergreen, with the preference being for RDA.  Both types of records can be imported into the system, and for the foreseeable future, Sitka's Evergreen will support both. Original cataloguing is done in RDA only. https://www.youtube.com/watch?v=eLdbU424_5g&list=PLdwlgwBNnH4plrZTpZZOSqQn5RS2JoVWr&index=12&t=0s[Watch a 10 minute video on an overview of RDA in Sitka's Evergreen].
+
+Some of the key characteristics of an RDA record are as follows:
+. 040$e has a value of RDA,
+. more access points including more than three authors and contributors in the statement of responsibility
+. abbreviations are spelled out
+. publication information is in the 264 tag
+. 336, 337, and 338 tags replace the GMD in the 245$h
+
+
+The following are guidelines for using RDA records in the system:
+
+* Leave an RDA record as RDA; do not modify a RDA record back to AACR2.
+
+* Copy cataloguers should add their copies to RDA records in the same way as they do to AACR2 records.
+
+* We want to minimize duplication of records; use the RDA record if already in the system, but do not import a duplicate record in RDA if an AACR2 record for the same title already exists in Sitka. Instead, attach your copies to the AACR2 record.
+
+* At import, when choosing between 2 MARC records of equal quality, one in RDA and one in AACR2, prefer the RDA record.
+
+* Original cataloguing is only done in RDA as of Evergreen version 3.1 in 2018. Original cataloguing templates are only provided in RDA.
+
+For training information on RDA, please see http://www.loc.gov/catworkshop/RDA%20training%20materials/LC%20RDA%20Training/LC%20RDA%20course%20table.html[Library of Congress RDA Training Materials].

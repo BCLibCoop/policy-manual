@@ -99,8 +99,8 @@ OR, 264 (RDA) (2nd indicator 1) $a place of publication, $b publisher, $c public
 |===
 
 
-Working with On-order Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Working with On-order MARC Records
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Use of the Acquisitions Module resulted in an increase in the number of brief on-order records in the Sitka catalogue. The Acquisitions Ad Hoc Committee put forth recommendations on handling these brief on-order records. These recommendations were originally approved by the Business Function Group March 21, 2012, and have since been updated by Co-op Support in 2014 and 2018.
 
@@ -113,6 +113,26 @@ Use of the Acquisitions Module resulted in an increase in the number of brief on
 . If the only record for a title in the catalogue is an on-order record, and it is unclear which format or isbn or other identifier the on-order record describes, cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (updated Feb 2014)
 
 . Cataloguers can overlay brief on-order records when using the MARC Batch Import/Export function. When importing, cataloguers must always use the Sitka overlay profile to ensure data in the 590 and 690 fields of the original record is preserved. Cataloguers should ensure that the brief records is for the same format as the item they are cataloguing. By default, brief on-order records use the Book 008 field regardless of the true format of the item.
+
+Working with On-order Item Records
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Libraries that allow patrons to place holds on items that are on order can create placeholder items to display in the catalogue. These placeholder items are created as described in the http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings to Bibliographic Records section of Sitka's Evergreen Documentation], but with temporary information used to fill some of the fields.
+
+Approved practice for cataloguers include the following:
+
+* Use fake barcodes which include your library code, and have somewhere to record where you are in the sequence. i.e. MPL1000, MPL1001, MPL1002
+
+* Use ON ORDER as your call number.
+
+* Use Evergreen's On order status for the item record.
+
+* Have an On Order copy template for cataloguers to use.
+
+* Create and use an ON ORDER copy location, especially if your library uses a new book copy location.
+
+When the items arrive, the cataloguer simply needs to update the barcode, call number, and copy characteristics, rather than creating a new item and deleting the fake item. This ensures that any holds placed on the copy will be filled.
+
 
 Sitka's Evergreen Documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
