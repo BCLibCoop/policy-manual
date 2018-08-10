@@ -134,6 +134,19 @@ Approved practice for cataloguers include the following:
 When the items arrive, the cataloguer simply updates the barcode, call number, and copy characteristics, rather than creating a new item and deleting the fake item. This ensures that any holds placed on the copy will be filled.
 
 
+Working with RDA Records
+^^^^^^^^^^^^^^^^^^^^^^^^
+RDA records and AACR2 records can co-exist in Sitka’s Evergreen, with the preference being for RDA. Both types of records can be imported into the system, and for the foreseeable future, Sitka’s Evergreen will support both standards.
+
+The following are approved guidelines for RDA records in Sitka’s Evergreen:
+
+* Leave an RDA record as RDA; do not modify a RDA record back to AACR2.
+* Copy cataloguers should add their copies to RDA records in the same way as they do to AACR2 records.
+* We want to minimize duplication of records; use the RDA record if already in Sitka, but do not import an RDA record if an AACR2 record for the same title already exists in Sitka. Instead, attach your copies to the AACR2 record.
+* At import, when choosing between 2 MARC records of equal quality, one in RDA and one in AACR2, prefer the RDA record.
+* Original cataloguing is done in RDA exclusively, as of Evergreen version 3.1 in 2018. Cataloguing templates are provided in RDA only.
+
+
 Sitka's Evergreen Documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
