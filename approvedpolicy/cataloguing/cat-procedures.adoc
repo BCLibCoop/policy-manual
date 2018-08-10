@@ -104,15 +104,15 @@ Working with On-order MARC Records
 
 Use of the Acquisitions Module resulted in an increase in the number of brief on-order records in the Sitka catalogue. The Acquisitions Ad Hoc Committee put forth recommendations on handling these brief on-order records. These recommendations were originally approved by the Business Function Group March 21, 2012, and have since been updated by Co-op Support in 2014 and 2018.
 
-. Acquisitions Selectors to follow guidelines for minimum cataloguing requirements in creating brief on-order records.
+* Acquisitions Selectors to follow guidelines for minimum cataloguing requirements in creating brief on-order records.
 
-. Cataloguers can only use brief on-order records to add holdings to if no other, better, record exists in the Sitka catalogue. An Acquisitions library , or another qualified cataloguer at a Sitka library, will change the on-order record to a full bibliographic record in the end, so cataloguers need to make sure they're attaching their holdings to the correct brief bibliographic record.
+* Cataloguers can only use brief on-order records to add holdings to if no other, better, record exists in the Sitka catalogue. An Acquisitions library , or another qualified cataloguer at a Sitka library, will change the on-order record to a full bibliographic record in the end, so cataloguers need to make sure they're attaching their holdings to the correct brief bibliographic record.
 
-. If the only record for a title in the catalogue is an on-order record, cataloguers should use that record to add holdings to only if they are sure that it matches format and isbn or other identifier to the title-in-hand. In this situation, cataloguers can overlay or merge the on-order record with the complete record as long as the format and identifier are a definite match and the new record adheres to Sitka Cataloguing Policy. Cataloguers must also ensure that they carry over any 590 or 690 fields from the on-order record to the complete record. (updated Feb 2014)
+* If the only record for a title in the catalogue is an on-order record, cataloguers should use that record to add holdings to only if they are sure that it matches format and isbn or other identifier to the title-in-hand. In this situation, cataloguers can overlay or merge the on-order record with the complete record as long as the format and identifier are a definite match and the new record adheres to Sitka Cataloguing Policy. Cataloguers must also ensure that they carry over any 590 or 690 fields from the on-order record to the complete record. (updated Feb 2014)
 
-. If the only record for a title in the catalogue is an on-order record, and it is unclear which format or isbn or other identifier the on-order record describes, cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (updated Feb 2014)
+* If the only record for a title in the catalogue is an on-order record, and it is unclear which format or isbn or other identifier the on-order record describes, cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (updated Feb 2014)
 
-. Cataloguers can overlay brief on-order records when using the MARC Batch Import/Export function. When importing, cataloguers must always use the Sitka overlay profile to ensure data in the 590 and 690 fields of the original record is preserved. Cataloguers should ensure that the brief records is for the same format as the item they are cataloguing. By default, brief on-order records use the Book 008 field regardless of the true format of the item.
+* Cataloguers can overlay brief on-order records when using the MARC Batch Import/Export function. When importing, cataloguers must always use the Sitka overlay profile to ensure data in the 590 and 690 fields of the original record is preserved. Cataloguers should ensure that the brief records is for the same format as the item they are cataloguing. By default, brief on-order records use the Book 008 field regardless of the true format of the item.
 
 Working with On-order Item Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -131,7 +131,7 @@ Approved practice for cataloguers include the following:
 
 * Create and use an ON ORDER copy location, especially if your library uses a new book copy location.
 
-When the items arrive, the cataloguer simply needs to update the barcode, call number, and copy characteristics, rather than creating a new item and deleting the fake item. This ensures that any holds placed on the copy will be filled.
+When the items arrive, the cataloguer simply updates the barcode, call number, and copy characteristics, rather than creating a new item and deleting the fake item. This ensures that any holds placed on the copy will be filled.
 
 
 Sitka's Evergreen Documentation

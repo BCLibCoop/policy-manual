@@ -6,9 +6,9 @@ What is the correct capitalization and punctuation used when entering subject an
 Enter the authority normally, using both upper and lower case, and no period at the end, unless the name authority ends with an initial.
 
 Examples:
-                        $aOlympics $xHistory $y20th Century
-                        $aAtwood, Margaret, $d1939-
-                        $aRoberts, Albert R.
+    * $aOlympics $xHistory $y20th Century
+    * $aAtwood, Margaret, $d1939-
+    * $aRoberts, Albert R.
 
 How are serials/magazines catalogued?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -19,9 +19,9 @@ A serials module is partially supported in Sitka's Evergreen, and used by a few 
 How do I request more Z39.50 targets to be added to Evergreen?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Send a request to Co-op Support. Support assesses potential sources based on perceived need by Sitka libraries and quality of records.
+Send a request to Co-op Support, and include any available technical details available about the target.  You can find connection details via an internet search in most cases. Please note, not all organizations provide Z39.50 access to their database.
 
-Please note, not all organizations provide Z39.50 access to their database.
+Support assesses potential sources based on perceived need by Sitka libraries, and quality of records.
 
 
 What is the preferred method to enter TV Series on DVD?
@@ -66,20 +66,21 @@ What does RDA mean for cataloguers in Sitka?
 RDA records and AACR2 records can co-exist in Sitka's Evergreen, with the preference being for RDA.  Both types of records can be imported into the system, and for the foreseeable future, Sitka's Evergreen will support both. Original cataloguing is done in RDA only. https://www.youtube.com/watch?v=eLdbU424_5g&list=PLdwlgwBNnH4plrZTpZZOSqQn5RS2JoVWr&index=12&t=0s[Watch a 10 minute video on an overview of RDA in Sitka's Evergreen].
 
 Some of the key characteristics of an RDA record are as follows:
-. 040$e has a value of RDA,
-. more access points including more than three authors and contributors in the statement of responsibility
-. abbreviations are spelled out
-. publication information is in the 264 tag
-. 336, 337, and 338 tags replace the GMD in the 245$h
+
+* 040$e has a value of RDA,
+* more access points including more than three authors and contributors in the statement of responsibility
+* abbreviations are spelled out
+* publication information is in the 264 tag
+* 336, 337, and 338 tags replace the GMD in the 245$h
 
 
-The following are guidelines for using RDA records in the system:
+The following are approved guidelines for RDA records in Sitka's Evergreen:
 
 * Leave an RDA record as RDA; do not modify a RDA record back to AACR2.
 
 * Copy cataloguers should add their copies to RDA records in the same way as they do to AACR2 records.
 
-* We want to minimize duplication of records; use the RDA record if already in the system, but do not import a duplicate record in RDA if an AACR2 record for the same title already exists in Sitka. Instead, attach your copies to the AACR2 record.
+* We want to minimize duplication of records; use the RDA record if already in Sitka, but do not import an RDA record if an AACR2 record for the same title already exists in Sitka. Instead, attach your copies to the AACR2 record.
 
 * At import, when choosing between 2 MARC records of equal quality, one in RDA and one in AACR2, prefer the RDA record.
 
