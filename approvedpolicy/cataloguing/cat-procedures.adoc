@@ -117,7 +117,7 @@ Use of the Acquisitions Module resulted in an increase in the number of brief on
 Working with On-order Item Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries that allow patrons to place holds on items that are on order can create placeholder items to display in the catalogue. These placeholder items are created as described in the http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings to Bibliographic Records section of Sitka's Evergreen Documentation], but with temporary information used to fill some of the fields.
+Libraries that allow patrons to place holds on items that are on order can create placeholder items to display in the catalogue. These placeholder items are created as described in the http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings to Bibliographic Records] section of Sitka's Evergreen Documentation, but with temporary information used to fill some of the item record fields.
 
 Approved practice for cataloguers include the following:
 
