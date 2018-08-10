@@ -6,9 +6,10 @@ What is the correct capitalization and punctuation used when entering subject an
 Enter the authority normally, using both upper and lower case, and no period at the end, unless the name authority ends with an initial.
 
 Examples:
-    * $aOlympics $xHistory $y20th Century
-    * $aAtwood, Margaret, $d1939-
-    * $aRoberts, Albert R.
+
+* $aOlympics $xHistory $y20th Century
+* $aAtwood, Margaret, $d1939-
+* $aRoberts, Albert R.
 
 How are serials/magazines catalogued?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -84,6 +85,6 @@ The following are approved guidelines for RDA records in Sitka's Evergreen:
 
 * At import, when choosing between 2 MARC records of equal quality, one in RDA and one in AACR2, prefer the RDA record.
 
-* Original cataloguing is only done in RDA as of Evergreen version 3.1 in 2018. Original cataloguing templates are only provided in RDA.
+* Original cataloguing is done in RDA exclusively, as of Evergreen version 3.1 in 2018. Cataloguing templates are provided in RDA only.
 
 For training information on RDA, please see http://www.loc.gov/catworkshop/RDA%20training%20materials/LC%20RDA%20Training/LC%20RDA%20course%20table.html[Library of Congress RDA Training Materials].
