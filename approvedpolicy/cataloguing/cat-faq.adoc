@@ -64,7 +64,7 @@ Where feasible, as a member library’s legacy system bibliographic records are 
 What does RDA mean for cataloguers in Sitka?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-RDA records and AACR2 records can co-exist in Sitka's Evergreen, with the preference being for RDA.  Both types of records can be imported into the system, and for the foreseeable future, Sitka's Evergreen will support both. Original cataloguing is done in RDA only. https://www.youtube.com/watch?v=eLdbU424_5g&list=PLdwlgwBNnH4plrZTpZZOSqQn5RS2JoVWr&index=12&t=0s[Watch a 10 minute video on an overview of RDA in Sitka's Evergreen].
+RDA records and AACR2 records can co-exist in Sitka's Evergreen, with the preference being for RDA.  Both types of records can be imported into the system, and for the foreseeable future, Sitka's Evergreen will support both. Original cataloguing is done in RDA only. https://www.youtube.com/watch?v=eLdbU424_5g&list=PLdwlgwBNnH4plrZTpZZOSqQn5RS2JoVWr&index=12&t=0s[Watch a 10 minute video] on an overview of RDA in Sitka's Evergreen.
 
 Some of the key characteristics of an RDA record are as follows:
 
