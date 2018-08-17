@@ -1,2 +1,4 @@
 Return of multi-part items to non-home Libraries
 ------------------------------------------------
+
+When items with multiple parts are returned to a non-home library, the non-home library will determine whether or not any parts are missing. The non-home library will attach a note indicating how many parts were missing. Items with multiple parts need to be clearly labeled or a note added to the item record so staff know how many parts to look for.
