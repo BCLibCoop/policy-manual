@@ -1,4 +1,14 @@
-Hold/Search Policy
-~~~~~~~~~~~~~~~~~~
+Hold and Search Policy
+~~~~~~~~~~~~~~~~~~~~~~
 
-Historically, there were interim hold and search policies for Sitka, approved in 2009, but as of 2018 there is no longer any requirement for such guidelines. Most Sitka public libraries in BC and Manitoba participate in shared resource agreements currently known as https://bc.libraries.coop/wp-content/uploads/2016/02/ILCTipSheetDec2016.pdf[BC InterLibrary Connect] and https://bc.libraries.coop/wp-content/uploads/2016/02/SPRUCE-ILC-Tips-and-Procedures.pdf[Manitoba Spruce].  Participating libraries follow those agreements' policies and best practices, with technical input provided by Co-op Support. All other Sitka libraries follow local or federation policies and best practice, with technical input from Co-op Support.
+Most Sitka public libraries in BC and Manitoba participate in shared resource agreements currently known as BC InterLibrary Connect and  Spruce.  Participating libraries follow those agreements' policies and best practices, with technical input provided by Co-op Support. BC ILC and Spruce holds and search policy is the approved current policy, and eligible libraries are urged to participate.
+
+All other Sitka libraries follow local or federation policies and best practice, with technical input from Co-op Support.
+
+
+BC Inter Library Connect Policy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Spruce Inter Library Loan Policy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

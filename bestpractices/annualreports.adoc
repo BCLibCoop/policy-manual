@@ -1,7 +1,7 @@
 Annual Reports for Libraries Branch (BC)
 ----------------------------------------
 
-Co-op Support compiles holdings, circulation, and patron statistics for BC Libraries Branch (LB) annual reports on behalf of Sitka BC libraries as outlined below.
+Co-op Support compiles holdings, circulation, and patron statistics for BC Libraries Branch (LB) annual reports on behalf of Sitka BC public libraries as outlined below.
 
  * Co-op Support generates reports where data from Evergreen is required to meet current LB report requirements. Where reports require a combination of data from Evergreen and other sources, Co-op Support generates the Evergreen part only.
 
@@ -11,7 +11,7 @@ Co-op Support compiles holdings, circulation, and patron statistics for BC Libra
 
 * Some reports need data from the past few years. For libraries that have been on Sitka's Evergreen for less time, Co-op Support only provides reports from Evergreen.  Libraries are responsible for reporting relevant data from their legacy ILS.
 
-Survey Results
-^^^^^^^^^^^^^^
+BC Public Library Statistics
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This link provides access to the data, and more detail about reporting requirements and methodology. See  https://catalogue.data.gov.bc.ca/dataset/bc-public-libraries-statistics-2002-2016[LB Annual Survey Results].
+Access to the data, and more detail about reporting requirements and methodology is available here.  https://catalogue.data.gov.bc.ca/dataset/bc-public-libraries-statistics-2002-2016[LB Annual Survey Results].

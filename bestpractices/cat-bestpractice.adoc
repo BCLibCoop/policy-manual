@@ -25,8 +25,8 @@ Applies to all items attached to the record belonging to the scoped library.
 |856|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
 |=============
 
-Please refer to the Library of Congress' https://www.loc.gov/marc/[MARC Standards] for further 
-information regrading these fields.
+Please refer to the Library of Congress' https://www.loc.gov/marc/[MARC Standards] for further
+information regarding these fields.
 
 Item Specific Local Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
