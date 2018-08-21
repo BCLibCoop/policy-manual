@@ -8,3 +8,5 @@ include::cataloguing/cat-admin.adoc[]
 include::cataloguing/cat-procedures.adoc[]
 
 include::cataloguing/cat-faq.adoc[]
+
+include::cataloguing/cat-localinformation.adoc[]
