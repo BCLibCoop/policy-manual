@@ -414,10 +414,12 @@ Spruce InterLibrary Connect reports templates:
 There are a few templates in Sitka_templates > Intra-federation ILL stats.
 
 The following two templates are designed for libraries to generate monthly ILC hold statistics:
+
 * LIBRARY: Inbound ILC holds count for selected month
 * LIBRARY: Outbound ILC holds count for selected month
 
 In Sitka_templates > Circulation > Overdue and others folder
+
 * Overdue Items Checked out at Other Libraries
 
 These templates are good for monthly recurring reports.
