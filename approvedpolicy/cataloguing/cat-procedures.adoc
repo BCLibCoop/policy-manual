@@ -39,8 +39,8 @@ In order to ensure the integrity of the shared database, please follow these ste
 
 When searching in Sitka, library staff may find a record that closely matches the item in hand, but which may require varying levels of change/correction, addition or in some cases merging with another record. The following chart should be used in conjunction with the Skills Level chart to determine what actions may be taken with a “near” match.
 
-[options=“header”]
-|===
+[options="header"]
+|=============
 |*Issues with Sitka Record*	      | *Possible Actions*| *Task/Action* |
 | Obvious typo - text or coding | Change          | Corrected by staff with appropriate qualifications               |
 | Pre-publication record        | Add             | Updated by staff with appropriate qualifications|
@@ -55,8 +55,8 @@ Change, Add, or Overlay | Optional - by staff with appropriate qualifications |
 
 When searching Z39.50 targets in Sitka, library staff may find a record that closely matches the item in hand, but which may require varying levels of change/correction or addition. The following chart should be used in conjunction with the Skills Level chart to determine what actions may be taken for a “near” match in the Z39.50 search.
 
-[options=“header”]
-|===
+[options="header"]
+|=============
 |*Issues with Z39.50 Record* |	*Possible Actions* |	*Task/Action* |
 |Obvious typo - text or coding |Change  | Corrected by cataloguing staff with appropriate qualifications |
 |Pre-publication  | Add | Updated by cataloguing staff with appropriate qualifications |
@@ -81,8 +81,8 @@ For instructions on original cataloguing and cataloguing templates, please refer
 Characteristics of a "Best" MARC Record in the Sitka Database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-[options=“header”]
-|===
+[options="header"]
+|=============
 | *Fields?* | *MARC tags/subfields* | *Instructions to Member Library Cataloguers* |
 |Standard Numbers | 010 LCCN, 020 ISBN, 022 ISSN, 028 or 037, publisher control numbers. | Include as many relevant standard numbers as possible. |
 |Classification Numbers| 05X, 082, 090, 092 | When choosing between available records, add the record with both LC and DDC classification numbers. |

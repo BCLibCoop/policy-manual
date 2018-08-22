@@ -12,6 +12,6 @@ Co-op Support compiles holdings, circulation, and patron statistics for BC Libra
 * Some reports need data from the past few years. For libraries that have been on Sitka's Evergreen for less time, Co-op Support only provides reports from Evergreen.  Libraries are responsible for reporting relevant data from their legacy ILS.
 
 BC Public Library Statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Access to the data, and more detail about reporting requirements and methodology is available here.  https://catalogue.data.gov.bc.ca/dataset/bc-public-libraries-statistics-2002-2016[LB Annual Survey Results].
