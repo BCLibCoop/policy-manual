@@ -1,14 +1,11 @@
-Cataloguing Best Practices
---------------------------
-
 Series Cataloguing
-~~~~~~~~~~~~~~~~~~
+------------------
 
 Local Information in Cataloguing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 Library Specific Local Information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Applies to all items attached to the record belonging to the scoped library.
 
@@ -29,7 +26,7 @@ Please refer to the Library of Congress' https://www.loc.gov/marc/[MARC Standard
 information regarding these fields.
 
 Item Specific Local Information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Applies to the specific item (also referred to as copy).
 

@@ -7,4 +7,6 @@ include::cataloguing/cat-admin.adoc[]
 
 include::cataloguing/cat-procedures.adoc[]
 
+include::cataloguing/cat-bestpractice.adoc[]
+
 include::cataloguing/cat-faq.adoc[]

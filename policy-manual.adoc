@@ -32,8 +32,6 @@ include::bestpractices/returnmultipartitems.adoc[]
 
 include::bestpractices/patronsinsitka.adoc[]
 
-include::bestpractices/cat-bestpractice.adoc[]
-
 include::bestpractices/ill.adoc[]
 
 include::bestpractices/annualreports.adoc[]
