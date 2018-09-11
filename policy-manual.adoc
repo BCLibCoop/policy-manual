@@ -23,6 +23,8 @@ include::approvedpolicy/privacy.adoc[]
 
 include::approvedpolicy/circulation.adoc[]
 
+include::bestpractices/ill.adoc[]
+
 include::approvedpolicy/cataloguing.adoc[]
 
 Best Practices
@@ -31,7 +33,5 @@ Best Practices
 include::bestpractices/returnmultipartitems.adoc[]
 
 include::bestpractices/patronsinsitka.adoc[]
-
-include::bestpractices/ill.adoc[]
 
 include::bestpractices/annualreports.adoc[]
