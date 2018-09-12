@@ -274,7 +274,7 @@ allows the checkout library to apply the same policy to all inbound Spruce ILC i
 ***** If it is renewed at Library B (or C), Library B or C's circulation policy is used.
 ***** If the item is renewed at Library A, Library A’s home policy is used.
 
-Pre-due and overdue notices:
+Pre-due and overdue notices
 ++++++++++++++++++++++++++++
 
 These notices will be generated based on the checkout library’s schedule and sent to the checkout library
