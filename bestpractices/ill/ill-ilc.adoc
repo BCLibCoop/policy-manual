@@ -90,6 +90,7 @@ The above procedure is simplified. There are special scenarios such as a checked
 to any library, or checking in items may trigger other holds. In such cases, staff need to follow the prompt
 on the screen to print either hold or transit slip, and send the item to the destination library if in
 transit. The destination library should always check in the item once it is received. To ensure the accuracy of the statistics, the above workflow should be strictly followed.
+=====
 
 Selection Depth : Local Hold vs. BC ILC hold
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
