@@ -1,260 +1,142 @@
-BC Inter Library Connect
-~~~~~~~~~~~~~~~~~~~~~~~~
+BC Inter Library Connect Policies
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Preparing for Inter Library Connect (ILC)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Default OPAC Search Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Expect changes on OPAC:
-+++++++++++++++++++++++
+On OPAC, the search location can default to either the BC ILC zone so that patrons can search all libraries’
+collections, or it can default to your own library first, with the rest of BC ILC libraries as search options in the drop down menu. The configuration is done by Co-op Support.
 
-On OPAC, the search location can default to either the ILC zone so that patrons can search all libraries’ 
-collections, or it can default to your own library first, with the rest of ILC zone libraries as search options 
-in the drop down menu.
+Pick Up Location
+^^^^^^^^^^^^^^^^
+When placing holds, patrons will have the option to choose a pickup location within the BC ILC zone. The pickup location cannot be changed once the holds are placed.
 
-Decide which default search is preferable for your library and advise Co-op Support. The configuration will 
-be done by Co-op Support.
-
-When placing holds, patrons will have the option to choose a pickup location within the ILC zone. The 
-pickup location cannot be changed once the holds are placed.
-
-There is no change on the catalogue on the staff client.
-
-
-Adjust hold and circulation policy, if necessary
-++++++++++++++++++++++++++++++++++++++++++++++++
-
-If your library intends to apply different hold and/or circulation policies on ILC items, please read the 
-appropriate sections in the tip sheet carefully. Work out your policy and inform Co-op Support to set it up.
-
-Review ILC workflow and new policy with staff
-+++++++++++++++++++++++++++++++++++++++++++++
-
-Review ILC workflow and its effect on statistics in the tip sheet with all circulation staff. Update your 
-staff if there are new circulation and/or hold policies to be implemented.
-
-Review ILC reports in Sitka Evergreen
-+++++++++++++++++++++++++++++++++++++
-
-Understand how the statistics are generated and how the output is presented.
-
-Policy and Workflow Decisions and Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Flexible hold policies
-++++++++++++++++++++++
-
-Hold policies decide who from which libraries can place holds on which items at which libraries. You decide 
-which items from your library will participate in ILC and which will not, and inform Co-op Support.
-
-Sitka's Evergreen allows for flexible hold policies to be configured for your collections and patrons. 
-The hold policies can be based on a combination of the following values: the circulation modifier used on 
-the item record, the item's owning library, the hold requestor’s patron or staff profile, the requestor’s 
-home library, and the pickup library.
-
-The lending (owning) library decides the material types that do not participate in ILC holds. The 
-corresponding policy is set up to block ILC holds on such items. 
-
-The borrowing (pickup) library may set up hold limits on inbound ILC holds, and maintain separate limits 
-on local holds, if required. The borrowing (pickup) library's policies may set up different policies based 
-on patron profiles too.
-
-Each ILC library is a lending and borrowing library and needs hold policies for both inbound and outbound holds.
-
-For example, a library may block DVDs from going out to fill ILC holds, but allow DVDs to be picked up 
-locally. It may allow 30 holds per patron, among which only 5 can be ILC holds. It may choose not to allow 
-BC One card patrons to place ILC holds, but allow holds on its own items. You have to consider the above 
-mentioned attributes of your collection and patrons when deciding how your hold policies will work for ILC 
-and home holds and inform Co-op Support of your rules.
-
-Item Age in Hold Policy
-+++++++++++++++++++++++
-
-Multi-tiered hold age protection based on Item Age (starting from item’s Active-date) in hold policy is 
-possible. Different hold policies can be applied to the same collection based on item age.
-
-For example, a multi-branch library system participating in ILC can limit holds on new items to home 
-branch patrons for a period of time, then allow holds to patrons from other branches in their library 
-system, and finally allow holds to patrons from libraries in the federation or ILC zone. You need to advise 
-Co-op Support what items are to be protected for how long in order to utilize Item Age in Hold Policy.
-
-Age-based Hold Protection is a setting applied to individual item records by cataloguing staff. Co-op 
-Support recommends libraries intending to use Item Age in Hold Policy, as explained above, should not
- use Age-based Hold Protection in item record. You may need to review with catalouging staff.
-
-Example of ILC Hold Policy
-++++++++++++++++++++++++++
-
-* No inbound ILC holds for BC One patrons
-
-* 6 month age protect on all items
-
-* No outbound ILC holds on DVD, video, CD, magazine (circ modifiers: compact-disc, DVD, video, magazine)
 
 Filling Holds
-+++++++++++++
+^^^^^^^^^^^^^
 
-Co-op Support will configure default ILC hold boundaries in Library Settings for you. Hold boundaries 
-decide whether a hold will be filled locally or by ILC items. Currently, in all ILC libraries, holds are 
-filled by other libraries' items only when the home library/system does not have a holdable copy. Whether a 
-hold will be filled by a local copy or a remote one is decided when the hold is placed. See the Tip section 
-below for workflow related details.
+In all BC ILC libraries, holds are filled by other libraries' items only when the home library/system does not have a holdable copy.
 
-Evergreen provides the options of having holds filled based on first-come-first-served sequence by hold 
-request time, or imposing special rules to minimize item transportation or giving priorities to home 
-patrons, etc. All ILC libraries need to follow the same method.
+BC ILC holds are filled in chronological sequence by hold request time, but BC ILC also utilizes Sitka's default, the  “Save Gas” method. "Save Gas" allows holds picked up at the check-in library to be filled first, and then reverts to follow the request time. This is called "opportunistic hold capture" and is intended behaviour by policy. The essence of the "Save Gas" method is to  minimize item transportation.
 
-Sitka’s default method, called “Save Gas'”, allows holds picked up at the check-in library to be filled 
-first, then follow the request time. Currently ILC libraries use “Save Gas”.
+Targeting Holds
+^^^^^^^^^^^^^^^
+When targeting BC ILC holds, all libraries having a holdable copy are treated equally and Evergreen randomly picks a target copy. It re-targets all outstanding holds at least once every 24 hours at roughly the same
+time of the day when the hold was placed. It may target another copy if the item on the previous Pull List
+was not tracked down. For example, a hold placed at 12 noon was on Library M's Pull List on
+December, 1st. But Library M did not capture the hold. At roughly 12 noon on December 2, Evergreen will
+try to re-target the hold. If Library B has an available copy, it is highly likely the hold will target Library
+B's copy, which will show up on the Pull List, as Evergreen will
+look for next available copy if hold is not triggered within a period of time.
 
-This method often indirectly gives local holds priorities, because items are mostly returned to owning 
-libraries and holds on the Pull List are triggered at owning libraries. It is the regular behaviour that 
-an item on the Hold Pull List supposed to be picked up at a remote library actually triggers a local hold 
-when staff capture holds. But in other circumstances, local holds (picked up at owning library) will not get 
-the priority. For example, another library's item returned to your library triggers a hold picked up at your 
-library first, though there is a hold requested to be picked up at the owning library, which may even have 
-an earlier request date.
-
-The essence of 'Save Gas' method is minimizing item transportation.
-
-When targeting ILC holds, all libraries having a holdable copy are treated equally. Evergreen randomly 
-picks up a target copy. It re-targets all outstanding holds at least once every 24 hours at roughly the same 
-time of the day when the hold was placed. It may target another copy if the item on the previous Pull List 
-was not tracked down. For example, a hold placed at 12 noon was on Library M's Pull List on 
-December, 1st. But Library M did not capture the hold. At roughly 12 noon on December 2, Evergreen will 
-try to re-target the hold. If Library B has an available copy, highly likely the hold will target Library 
-B's copy, which will show up on the Pull List. Evergreen does not target unavailable copies 
+ Evergreen does not target unavailable copies
 (checked out, etc.) for holds. It checks for outstanding holds when items are returned (checked in).
 
 
-Flexible Circulation Policies Based on Check Out Library
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Sitka's Evergreen Hold Policy Configuration
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You control which items and patrons at your library can participate in ILC, by having hold policies 
-configured as above. Circulation policies on ILC items are then determined by check out library, whether 
-that be at another library, or your library. This means if you want to place special circulation rules on 
-items borrowed from other libraries by your patrons, you can do so.
+Co-op Support configures your library's BC ILC hold policies in Sitka's Evergreen. Each BC ILC library is a lending and borrowing library and needs hold policies for both inbound and outbound holds. Hold policies decide who from which libraries can place holds on which items at which libraries. You decide which items and patrons from your library will participate in BC ILC , and which will not, and inform Co-op Support.
 
-Circulation policies are duration of loan, fine amounts, and number of renewals allowed, based on an 
-item's circulation modifier and or patron or staff profile.
+The hold policies can be based on a combination of the following values: the circulation modifier used on the item record, the item's owning library, the hold requestor’s patron or staff profile, the requestor’s home library, and the pickup library.
 
-Checkout location is used as a match point when deciding which library's circulation policy to use. This 
-allows the checkout library to apply the same policy to all inbound ILC items.
+As a borrowing (pickup) library, you may set up hold limits on inbound BC ILC holds, and maintain separate limits on local holds, if required.
 
-Basing circulation policy on checkout library functions as described below.
 
-* If Library A’s item is checked out at Library A, Library A’s regular home policy is applied. If it 
-is renewed on Library A's OPAC by patron, Library A’s home policy is used. If it is renewed at 
-Library B, Library B's circulation policy is used.
-* If Library A’s item is checked out at Library B, Library B's circulation policy is applied. If it 
-is renewed on Library B's OPAC, Library B's circulation policy is used. If it is renewed at Library B 
-(or C), Library B or C's circulation policy is used. If the item is renewed at Library A, Library A’s 
-home policy is used.
+Item Age Hold Protection in Hold Policy
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Pre-due and overdue notices:
-++++++++++++++++++++++++++++
+Multi-tiered hold protection based on Item Age (starting from item’s Active-date) in hold policy is recommended.  Different hold policies can be applied to the same collection based on item age. You need to advise Co-op Support what items are to be protected for how long in order to utilize Item Age in Hold Policy.
 
-These notices will be generated based on the checkout library’s schedule and sent to the checkout library 
-or to patrons from the checkout library.
+Age-based Hold Protection by Item
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Age-based hold protection is a setting applied to individual item records by cataloguing staff. Co-op Support recommends libraries intending to use Item Age in Hold Policy, as explained above, should not  use Age-based Hold Protection in item record.
 
-Track items lent to other libraries:
-++++++++++++++++++++++++++++++++++++
-Support provides report templates listing items checked out at other libraries. See the Reports Templates 
-section below.
 
-Workflow for ILC – Review with all staff
-++++++++++++++++++++++++++++++++++++++++
+Circulation Policies Are Based on Check Out Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-. Patron/staff places holds on titles on OPAC or the staff client
-. If the hold shows up on pull list, find the item and check it in. Print the transit slip and insert 
-into the item. The item will achieve In Transit status. A hold in transit record is created at the same time.
-. The hold may be triggered when checking in items. Print the transit slip as prompted on the screen. 
-Insert the slip into to item. The item will achieve In Transit status . A hold in transit record is 
+Circulation policies on BC ILC items are  determined by check out library, whether that be at another library, or your library. This means if you want to place special circulation rules on items borrowed from other libraries, by your patrons, you can do so. Circulation policies are configured for you by Co-op Support.
+
+Circulation policies are duration of loan, fine amounts, and number of renewals allowed, based on an item's circulation modifier and or patron or staff profile.
+
+Checkout location is used as a match point when deciding which library's circulation policy to use. This allows the checkout library to apply the same policy to all inbound ILC items.
+
+
+Pre-due and Overdue Notices
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+These notices will be generated based on the checkout library’s schedule and sent to the checkout library or to patrons from the checkout library.
+
+
+Required Workflow for BC ILC
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Patron/staff places holds on titles on OPAC or the staff catalogue
+. If the hold shows up on pull list, find the item and check it in. Print the transit slip and insert into the item. The item will achieve In Transit status. A hold in transit record is created at the same time.
+. The hold may be triggered when checking in items. Print the transit slip as prompted on the screen. Insert the slip into to item. The item will achieve In Transit status. A hold in transit record is
 created at the same time.
 . Pack the item(s) and send to the requesting (borrowing) library.
-. When item is received at the borrowing (requesting) library check the item in and print the hold slip. 
-The item achieves On Hold Shelf status. Automatic hold notification (email and SMS Text) will 
-be generated. If no automatic notification is requested, phone the patron. The hold in transit record 
-is updated with receiving time and marked closed.
+. When item is received at the borrowing (requesting) library check the item in and print the hold slip. The item achieves On Hold Shelf status. Automatic hold notification (email and SMS Text) will
+be generated and sent to patron. If no automatic notification is requested, phone the patron. The hold in transit record is updated with receiving time and marked closed.
 . Check out the item to the patron.
-. When the item is returned to the borrowing library, check it in. Staff will be prompted that the item 
-is In Transit back to the owning library. Print the slip and insert into the item. A transit record 
-is created.
-. Send the item(s) to the owning library.
-. Once the item is received at the owning library, check it in. The item should achieve Reshelving 
-status, if it has not been requested by others. The transit record is marked closed.
+. When the item is returned to the borrowing library, check it in. Print the slip and insert into the item. The item will achieve In Transit status back to the owning library.  A transit record is created.
+. Send the item(s) back to the owning library.
+. Once the item is received at the owning library, check it in. The item will achieve Reshelving status, if it has not been requested by others. The transit record is marked closed.
 
 [TIP]
 =====
-The above procedure is simplified. There are special scenarios such as a checked out item may be returned 
-to any library or checking in items may trigger other holds. In such cases, staff need to follow the prompt 
-on the screen to print either hold or transit slip, and send the item to the destination library if in 
-transit. The destination library should always check in the item once it is received. To ensure the accuracy 
-of the statistics, the above workflow should be strictly followed.
+The above procedure is simplified. There are special scenarios such as a checked out item may be returned
+to any library, or checking in items may trigger other holds. In such cases, staff need to follow the prompt
+on the screen to print either hold or transit slip, and send the item to the destination library if in
+transit. The destination library should always check in the item once it is received. To ensure the accuracy of the statistics, the above workflow should be strictly followed.
 
-Generally speaking ILC holds work the same way as local holds. The difference is that items need to 
-be transferred. You may manage them mostly the same way as local holds. You do not need to 
-actively look for and 'accept' ILC holds. They will show up on the Pull List or at check in. Evergreen will 
-look for next available copy if hold is not triggered within a period of time.
+Selection Depth : Local Hold vs. BC ILC hold
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local hold vs. ILC hold
+Whether a hold will be filled by a local or BC ILC copy is fixed when the hold is placed. It is recorded in
+the hold request record in a field called 'Selection Depth', which can be displayed by using the Column
+Picker when viewing holds. 1 stands for BC ILC holds and 2 for local holds.
+When the holdings situation changes, e.g. a local copy is marked 'damaged' and no longer holdable, Evergreen
+does not re-assess the holds under the title. The 'Selection Depth' will not be updated when the local copy
+becomes non-holdable. To request a BC ILC copy in this case, staff need to cancel, then replace the hold. On
+the other hand, if a local copy is added, existing BC ILC holds will still target all BC ILC copies, including the
+local copy, unless staff cancel, then replace the holds.
 
-Whether a hold will be filled by a local or ILC copy is fixed when the hold is placed. It is recorded in 
-the hold request record in a field called 'Selection Depth', which can be displayed by using the Column 
-Picker when viewing holds. You will see either 1 or 2 in the field. 1 stands for ILC holds; 2 local holds. 
-When the holdings situation changes, e.g. a local copy is marked 'damaged' and no longer holdable, Evergreen 
-does not re-assess the holds under the title. The 'Selection Depth' will not be updated when the local copy 
-becomes non-holdable. To request an ILC copy in this case, staff need to cancel, then replace the hold. On 
-the other hand, if a local copy is added, existing ILC holds will still target all ILC copies, including the 
-local copy, unless staff cancel, then replace the holds. 
+Selection Depth is not editable on the staff client. To make a BC ILC hold local, or vice versa, staff need to cancel, then replace the hold.
 
-Selection Depth' is not editable on the staff client. To make an ILC hold local or vice versa, staff need
-to cancel, then replace the hold.
-=====
+BC ILC Statistics
+^^^^^^^^^^^^^^^^^
 
-ILC Statistics
-++++++++++++++
-
-ILC statistics are generated based on the hold-in-transit records. When an item is sent away to fill a 
-hold, a hold-in-transit record is created. Based on the item’s owning library (lending library) and the 
-transit destination library (borrowing library), we can count the number of items lent by a library as ILC 
+BC ILC statistics are generated based on the hold-in-transit records, and adherence to recommended workflows is the only way to create accurate  statistics.  When an item is sent away to fill a
+hold, a hold-in-transit record is created. Based on the item’s owning library (lending library) and the
+transit destination library (borrowing library), we can count the number of items lent by a library as BC ILC
 to other libraries. The following scenarios and how they are handled may have effect on the statistics.
 
-* Aborting transit will delete the hold-in-transit record, so it will not be included in the statistics. 
-Aborting transit should never be done at the destination/borrowing library.
+* Aborting transit will delete the hold-in-transit record, so it will not be included in the statistics. Aborting transit should never be done at the destination/borrowing library.
 
-* The borrowing library checking out the item directly to the requesting patron before triggering the 
-On Hold Shelf status by checking in the item, will result in the hold-in-transit record being deleted. So 
-there will be a hold filled, but without a hold-in-transit record to count. It should be prohibited.
+* The borrowing library checking out the item directly to the requesting patron,  before triggering the On Hold Shelf status by checking in the item, will result in the hold-in-transit record being deleted. So
+there will be a hold filled, but without a hold-in-transit record to count. This workflow should be prohibited.
 
-* The borrowing library checking out the item to another patron will result in the hold being filled 
-more than one time, thus one hold with two in-transit records. This should be avoided.
+* The borrowing library checking out the item to another patron will result in the hold being filled more than one time, thus one hold with two in-transit records. This should be avoided.
 
-* The lending library may abort transit if it decides not to send out the item. The hold-in-transit record 
-will be deleted, thus not counted in the statistics, which is correct.
+* The lending library may abort a transit if it decides not to send out the item. The hold-in-transit record will be deleted, thus not counted in the statistics, which is correct.
 
-* A hold may be canceled by patrons after the item is sent in transit. The hold-in-transit record will be 
-kept open. When such an item is checked in at the borrowing library, staff will see a transit prompt 
-sending the item back to the lending library. Staff need to print the slip and send the item back. The 
-hold-in-transit record will be completed and be counted in the statistics. When such an item is checked 
-in at the lending library, staff will see a transit prompt without hold requester information. Staff should 
-abort transit.
+* A hold may be canceled by patrons after the item is sent in transit. The hold-in-transit record will be kept open. When such an item is checked in at the borrowing library, staff will see a transit prompt
+sending the item back to the lending library. Staff need to print the slip and send the item back. The hold-in-transit record will be completed and be counted in the statistics.  However, when such an item is checked
+in at the lending library, staff will see a transit prompt without hold requester information. Staff should abort transit.
 
-* A hold may be canceled by staff after the item is sent in transit. If the cancellation is done at the 
-lending library, staff should abort transit at the same time. If it is done at the borrowing library, 
-staff should NOT abort transit. Instead, she/he should check in the item, if available, or wait for 
-the item to arrive.
+* A hold may be canceled by staff after the item is sent in transit. If the cancellation is done at the lending library, staff should abort transit at the same time. If it is done at the borrowing library,
+staff should NOT abort transit. Instead, they should check in the item, if available, or wait for the item to arrive.
 
-* Once an item achieves On Hold Shelf status, the hold-in-transit record is completed. Canceling 
-such holds will not affect the statistics.
+* Once an item achieves On Hold Shelf status, the hold-in-transit record is completed. Canceling such holds will not affect the statistics.
 
-* The borrowing library should not check out the item again to another patron after it is returned 
-from the previous ILL transaction. Such checkout will not be counted in the ILL statistics.
+* The borrowing library should not check out the item again to another patron after it is returned from the previous ILL transaction. Such checkout will not be counted in the ILL statistics.
 
-* Another hold may be triggered at the checkin library (that is not the owning library); there will 
-be no hold-in-transit record created, thus this type of hold will not be counted in the statistics.
+* Another hold may be triggered at the checkin library (that is not the owning library); there will be no hold-in-transit record created, thus this type of hold will not be counted in the statistics.
 
-ILC reports templates:
-++++++++++++++++++++++
+BC ILC Reports Templates
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are a few templates in Sitka_templates > Intra-federation ILL stats.
 
@@ -264,13 +146,12 @@ The following two templates are designed for libraries to generate monthly ILC h
 
 * LIBRARY: Outbound ILC holds count for selected month
 
-The four templates with names starting with “FEDERATION” are designed for federation coordinators 
-to generate ILC hold statistics for all libraries in the federation. Multi-branch libraries may use them 
+The four templates with names starting with “FEDERATION” are designed for federation coordinators
+to generate BC ILC hold statistics for all libraries in the federation. Multi-branch libraries may use them
 to generate statistics of holds among branches and other libraries.
 
-In Sitka_templates > Circulation > Overdue and others folder, there are templates for libraries 
-to track their items lent to other libraries, for example the template called Overdue Items Checked out 
-at Other Libraries.
+In Sitka_templates > Circulation > Overdue and others folder, there are templates for libraries
+to track their items lent to other libraries, for example the template called Overdue Items Checked out at Other Libraries.
 
 These templates are good for monthly recurring reports.
 
@@ -283,16 +164,16 @@ Procedures for interlibrary loaning from other Spruce libraries
 Resource Discovery
 ++++++++++++++++++
 
-. Check if the title is available at another Spruce library.  In the “Search Catalogue” screen, change 
+. Check if the title is available at another Spruce library.  In the “Search Catalogue” screen, change
 the Search Library to Spruce Cooperative.
-. If the title is not found at another Spruce library, check on fILL (http://fILL.mb.libraries.coop/).  
+. If the title is not found at another Spruce library, check on fILL (http://fILL.mb.libraries.coop/).
 Spruce libraries should not show up in fILL as you’ve already verified that no Spruce libraries hold the title.
 
 Requesting an item from another Spruce library
 ++++++++++++++++++++++++++++++++++++++++++++++
-. In the staff client place a hold for your patron the same way you would place a hold on one of your 
-own titles.  Reminder: a title level hold will get you the first available copy, an item level hold 
-will wait for that specific copy. 
+. In the staff client place a hold for your patron the same way you would place a hold on one of your
+own titles.  Reminder: a title level hold will get you the first available copy, an item level hold
+will wait for that specific copy.
 .. Watch call numbers, avoid placing holds on items with ILL or On-Order in the call number.
 
 When the title is received:
@@ -302,9 +183,9 @@ When the title is received:
 . Print the holds slip.
 . When the patron comes in to pick up the item simply check out as usual.
 . Loan period for inter-library-loan is 1 loan with 1 renewal. (Spruce Policy)
-. When item is returned you will get a transit slip telling you which library to return it to. 
+. When item is returned you will get a transit slip telling you which library to return it to.
 (the title goes to status “in transit”)
-. IF the title is no longer needed and a hold is not filled the hold must be cancelled and then the item 
+. IF the title is no longer needed and a hold is not filled the hold must be cancelled and then the item
 checked in to change the status of “in-transit” to your library to “in transit” to the owning library.
 
 Procedures for Spruce libraries filling interlibrary loan requests from other Spruce Libraries
@@ -314,19 +195,19 @@ Check your pull list at a minimum daily (preferably more often):
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 . Requested titles will appear on your PULL LISTS FOR HOLD REQUESTS.
-. Retrieve the item from the shelf.  
+. Retrieve the item from the shelf.
 . Check in the item to capture it for the hold (this puts the item “in-transit” to the requesting library).
 . Print the transit slip so you know where to send it.
 . Do your thing with the Canada Post labels and send in the mail.
-. IF you cannot find the item or you are not filling the hold for any reason DO NOT CANCEL THE HOLD.  
+. IF you cannot find the item or you are not filling the hold for any reason DO NOT CANCEL THE HOLD.
 .. Set the status of your item to “missing”.
-.. If your library owns the only copy in Spruce, contact the requesting library telling them you cannot 
+.. If your library owns the only copy in Spruce, contact the requesting library telling them you cannot
 fill the hold.  They will cancel the hold.
 
 When the item is returned:
 ++++++++++++++++++++++++++
 
-. Check in the item as usual.  
+. Check in the item as usual.
 . Shelve it as usual.
 
 Spruce InterLibrary Loan Tips & Etiquette
@@ -336,34 +217,34 @@ Spruce InterLibrary Loan Tips & Etiquette
 . NEVER CANCEL A HOLD (This also deletes the name of the patron requesting the item)
 .. Only the library placing a hold should ever cancel a hold – No matter what!
 .. Same applies for in fILL, never cancel a request, you can decline it but never cancel it.
-. If you are going to override a hold on a title to check it out to your patron, let the requesting 
+. If you are going to override a hold on a title to check it out to your patron, let the requesting
 library know.
 . Always include a return postal sheet.
 . Always “check in” items when you receive them back from an ILL. (Spruce or fILL)
-. Blue Bags belong to Winnipeg Public Library, only use their bags when returning items to WPL and do not 
+. Blue Bags belong to Winnipeg Public Library, only use their bags when returning items to WPL and do not
 use them for ILLs to other libraries.
-. If you receive a loan from out of province, use the same bag to return the item. 
+. If you receive a loan from out of province, use the same bag to return the item.
 
 Catalogue Clean Up
 ^^^^^^^^^^^^^^^^^^
 
-Keeping items in the correct status allows us to provide better service. Here a few things to check regularly. 
+Keeping items in the correct status allows us to provide better service. Here a few things to check regularly.
 
 Transit List
 ++++++++++++
 
-. Admin – Local Administration – Transit List 
-.. Check Transit to your library and from your library (change transit date falls between to “the Beginning” and “7 days” (this allows for items actually in transit / the mail). 
-... Check your shelves for these items, do they need to be checked in? 
+. Admin – Local Administration – Transit List
+.. Check Transit to your library and from your library (change transit date falls between to “the Beginning” and “7 days” (this allows for items actually in transit / the mail).
+... Check your shelves for these items, do they need to be checked in?
 ... If you’ve sent something back has the receiving library checked it in?
-.. Item’s “in-transit” cannot be tagged for a hold. Keeping on top of this benefits everyone. 
+.. Item’s “in-transit” cannot be tagged for a hold. Keeping on top of this benefits everyone.
 
 Browse Hold Shelf
 +++++++++++++++++
 
-. Circulation – Browse Hold Shelf 
-.. Do you have items that are status “on-Hold” sitting on your shelf? Check this to see what really old 
-holds have never been cancelled. 
+. Circulation – Browse Hold Shelf
+.. Do you have items that are status “on-Hold” sitting on your shelf? Check this to see what really old
+holds have never been cancelled.
 
 Unfilled Holds Report
 +++++++++++++++++++++
@@ -378,35 +259,35 @@ General Spruce InterLibrary Connect Information
 Circulation Policies:
 +++++++++++++++++++++
 
-* Circulation policies on SPRUCE InterLibrary Connect items are determined by the check out library, whether 
+* Circulation policies on SPRUCE InterLibrary Connect items are determined by the check out library, whether
 that be at another library, or your library.
-** Circulation policies determine the duration of loans, fine amounts, and the number of renewals allowed, 
+** Circulation policies determine the duration of loans, fine amounts, and the number of renewals allowed,
 based on an item's circulation modifier and or patron or staff profile.
-** Checkout location is used as a match point when deciding which library's circulation policy to use. This 
+** Checkout location is used as a match point when deciding which library's circulation policy to use. This
 allows the checkout library to apply the same policy to all inbound Spruce ILC items.
 *** Basing circulation policy on checkout library functions as described below.
-**** If Library A’s item is checked out at Library A, Library A’s regular home policy is applied. 
-***** If it is renewed on Library A's OPAC by patron, Library A’s home policy is used. 
+**** If Library A’s item is checked out at Library A, Library A’s regular home policy is applied.
+***** If it is renewed on Library A's OPAC by patron, Library A’s home policy is used.
 ***** If it is renewed at Library B, Library B's circulation policy is used.
-**** If Library A’s item is checked out at Library B, Library B's circulation policy is applied. 
-***** If it is renewed on Library B's OPAC, Library B's circulation policy is used. 
-***** If it is renewed at Library B (or C), Library B or C's circulation policy is used. 
+**** If Library A’s item is checked out at Library B, Library B's circulation policy is applied.
+***** If it is renewed on Library B's OPAC, Library B's circulation policy is used.
+***** If it is renewed at Library B (or C), Library B or C's circulation policy is used.
 ***** If the item is renewed at Library A, Library A’s home policy is used.
 
 Pre-due and overdue notices:
 ++++++++++++++++++++++++++++
 
-These notices will be generated based on the checkout library’s schedule and sent to the checkout library 
+These notices will be generated based on the checkout library’s schedule and sent to the checkout library
 or to patrons from the checkout library.
 
 
 Spruce InterLibrary Connect Statistics
 ++++++++++++++++++++++++++++++++++++++
 
-Spruce ILC statistics are generated based on the hold-in-transit records. When an item is sent away to fill 
-a hold, a hold-in-transit record is created. Based on the item’s owning library (lending library) and the 
-transit destination library (borrowing library), we can count the number of items lent by a library as ILC 
-to other libraries. 
+Spruce ILC statistics are generated based on the hold-in-transit records. When an item is sent away to fill
+a hold, a hold-in-transit record is created. Based on the item’s owning library (lending library) and the
+transit destination library (borrowing library), we can count the number of items lent by a library as ILC
+to other libraries.
 
 Spruce InterLibrary Connect reports templates:
 ++++++++++++++++++++++++++++++++++++++++++++++
@@ -423,4 +304,3 @@ In Sitka_templates > Circulation > Overdue and others folder
 * Overdue Items Checked out at Other Libraries
 
 These templates are good for monthly recurring reports.
-
