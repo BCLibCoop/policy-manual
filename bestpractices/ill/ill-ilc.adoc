@@ -29,9 +29,22 @@ try to re-target the hold. If Library B has an available copy, it is highly like
 B's copy, which will show up on the Pull List, as Evergreen will
 look for next available copy if hold is not triggered within a period of time.
 
- Evergreen does not target unavailable copies
-(checked out, etc.) for holds. It checks for outstanding holds when items are returned (checked in).
+Evergreen does not target unavailable copies (checked out, etc.) for holds. It checks for outstanding holds when items are returned (checked in).
 
+
+Selection Depth : Local Hold vs. BC ILC hold
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Whether a hold will be filled by a local or BC ILC copy is fixed when the hold is placed. It is recorded in
+the hold request record in a field called Selection Depth, which can be displayed by using the Column
+Picker when viewing holds. 1 stands for BC ILC holds and 2 for local holds.
+When the holdings situation changes, e.g. a local copy is marked 'damaged' and no longer holdable, Evergreen
+does not re-assess the holds under the title. The Selection Depth will not be updated when the local copy
+becomes non-holdable. To request a BC ILC copy in this case, staff need to cancel, then replace the hold. On
+the other hand, if a local copy is added, existing BC ILC holds will still target all BC ILC copies, including the
+local copy, unless staff cancel, then replace the holds.
+
+Selection Depth is not editable on the staff client. To make a BC ILC hold local, or vice versa, staff must cancel, then replace the hold.
 
 Sitka's Evergreen Hold Policy Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -56,7 +69,7 @@ Age-based hold protection is a setting applied to individual item records by cat
 Circulation Policies Are Based on Check Out Library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Circulation policies on BC ILC items are  determined by check out library, whether that be at another library, or your library. This means if you want to place special circulation rules on items borrowed from other libraries, by your patrons, you can do so. Circulation policies are configured for you by Co-op Support.
+Circulation policies on BC ILC items are  determined by the check out library, whether that be at another library, or your library. This means if you want to place special circulation rules on items borrowed from other libraries, by your patrons, you can do so. Circulation policies are configured for you by Co-op Support.
 
 Circulation policies are duration of loan, fine amounts, and number of renewals allowed, based on an item's circulation modifier and or patron or staff profile.
 
@@ -92,19 +105,10 @@ on the screen to print either hold or transit slip, and send the item to the des
 transit. The destination library should always check in the item once it is received. To ensure the accuracy of the statistics, the above workflow should be strictly followed.
 =====
 
-Selection Depth : Local Hold vs. BC ILC hold
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Abort Transit
+^^^^^^^^^^^^^
+Abort transit should only be done by source/lending library. Abort transit deletes the transit record,  and should never be done at the destination/borrowing library.
 
-Whether a hold will be filled by a local or BC ILC copy is fixed when the hold is placed. It is recorded in
-the hold request record in a field called 'Selection Depth', which can be displayed by using the Column
-Picker when viewing holds. 1 stands for BC ILC holds and 2 for local holds.
-When the holdings situation changes, e.g. a local copy is marked 'damaged' and no longer holdable, Evergreen
-does not re-assess the holds under the title. The 'Selection Depth' will not be updated when the local copy
-becomes non-holdable. To request a BC ILC copy in this case, staff need to cancel, then replace the hold. On
-the other hand, if a local copy is added, existing BC ILC holds will still target all BC ILC copies, including the
-local copy, unless staff cancel, then replace the holds.
-
-Selection Depth is not editable on the staff client. To make a BC ILC hold local, or vice versa, staff need to cancel, then replace the hold.
 
 BC ILC Statistics
 ^^^^^^^^^^^^^^^^^
@@ -125,7 +129,7 @@ there will be a hold filled, but without a hold-in-transit record to count. This
 
 * A hold may be canceled by patrons after the item is sent in transit. The hold-in-transit record will be kept open. When such an item is checked in at the borrowing library, staff will see a transit prompt
 sending the item back to the lending library. Staff need to print the slip and send the item back. The hold-in-transit record will be completed and be counted in the statistics.  However, when such an item is checked
-in at the lending library, staff will see a transit prompt without hold requester information. Staff should abort transit.
+in at the lending library, staff will see a transit prompt without hold requester information. Staff should abort such a transit.
 
 * A hold may be canceled by staff after the item is sent in transit. If the cancellation is done at the lending library, staff should abort transit at the same time. If it is done at the borrowing library,
 staff should NOT abort transit. Instead, they should check in the item, if available, or wait for the item to arrive.
