@@ -11,22 +11,24 @@ Pick Up Location
 ^^^^^^^^^^^^^^^^
 When placing holds, patrons will have the option to choose a pickup location within the BC ILC zone. The pickup location cannot be changed once the holds are placed.
 
+Co-op Support strongly recommends that staff not edit pickup location. Best practice is to cancel the hold and place another hold with new pickup location. There may be eligible copies at the new location, but the hold targeter will not find them if you just change the pickup library. Editing the pickup location in the existing hold will not force Evergreen to re-target the eligible copies.
+
 
 Filling Holds
 ^^^^^^^^^^^^^
 
 In all BC ILC libraries, holds are filled by other libraries' items only when the home library/system does not have a holdable copy.
 
-BC ILC holds are filled in chronological sequence by hold request time, but BC ILC also utilizes Sitka's default, the  “Save Gas” method. "Save Gas" allows holds picked up at the check-in library to be filled first, and then reverts to follow the request time. This is called "opportunistic hold capture" and is intended behaviour by policy. The essence of the "Save Gas" method is to  minimize item transportation.
+BC ILC holds are filled in chronological sequence by hold request time, but BC ILC also utilizes Sitka's default, the  “Save Gas” method. "Save Gas" allows holds picked up at the check-in library to be filled first, and then revert the queue to follow the request time. This is called "opportunistic hold capture" and is intended behaviour by policy. The essence of the "Save Gas" method is to  minimize item transportation.
 
 Targeting Holds
 ^^^^^^^^^^^^^^^
 When targeting BC ILC holds, all libraries having a holdable copy are treated equally and Evergreen randomly picks a target copy. It re-targets all outstanding holds at least once every 24 hours at roughly the same
-time of the day when the hold was placed. It may target another copy if the item on the previous Pull List
-was not tracked down. For example, a hold placed at 12 noon was on Library M's Pull List on
-December, 1st. But Library M did not capture the hold. At roughly 12 noon on December 2, Evergreen will
+time of the day when the hold was placed. It may target another copy if the item on the initial Pull List
+was not tracked down. For example, a hold placed at  noon was on Library M's Pull List on
+December 1st. But Library M did not capture the hold. At roughly noon on December 2, Evergreen will
 try to re-target the hold. If Library B has an available copy, it is highly likely the hold will target Library
-B's copy, which will show up on the Pull List, as Evergreen will
+B's copy and show up on B's Pull List, as Evergreen will
 look for next available copy if hold is not triggered within a period of time.
 
 Evergreen does not target unavailable copies (checked out, etc.) for holds. It checks for outstanding holds when items are returned (checked in).
@@ -59,17 +61,17 @@ As a borrowing (pickup) library, you may set up hold limits on inbound BC ILC ho
 Item Age Hold Protection in Hold Policy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Multi-tiered hold protection based on Item Age (starting from item’s Active-date) in hold policy is recommended.  Different hold policies can be applied to the same collection based on item age. You need to advise Co-op Support what items are to be protected for how long in order to utilize Item Age in Hold Policy.
+Use of hold protection based on Item Age (starting from item’s Active-date) in hold policy is recommended.  Different hold policies can be applied to the same collection based on item age. You need to advise Co-op Support what items are to be protected for how long in order to utilize Item Age in Hold Policy.
 
 Age-based Hold Protection by Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Age-based hold protection is a setting applied to individual item records by cataloguing staff. Co-op Support recommends libraries intending to use Item Age in Hold Policy, as explained above, should not  use Age-based Hold Protection in item record.
 
 
-Circulation Policies Are Based on Check Out Library
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Circulation Policies Based on Check Out Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Circulation policies on BC ILC items are  determined by the check out library, whether that be at another library, or your library. This means if you want to place special circulation rules on items borrowed from other libraries, by your patrons, you can do so. Circulation policies are configured for you by Co-op Support.
+Circulation policies and rules on BC ILC items are  determined by the check out library, whether that be at another library, or your library. This means if you want to place special circulation rules on items borrowed from other libraries, by your patrons, you can do so. Circulation policies are configured for you by Co-op Support.
 
 Circulation policies are duration of loan, fine amounts, and number of renewals allowed, based on an item's circulation modifier and or patron or staff profile.
 
@@ -107,7 +109,7 @@ transit. The destination library should always check in the item once it is rece
 
 Abort Transit
 ^^^^^^^^^^^^^
-Abort transit should only be done by source/lending library. Abort transit deletes the transit record,  and should never be done at the destination/borrowing library.
+Abort transit should only be done by the source/lending library. Abort transit deletes the transit record,  and should never be done at the destination/borrowing library.
 
 
 BC ILC Statistics
