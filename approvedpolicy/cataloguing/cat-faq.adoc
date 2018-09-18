@@ -33,7 +33,7 @@ As the packaging of, and library circulation policies for, this format vary wide
 
 Is a record considered a match if only the binding is different from the item in hand?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-No. If an item has a different binding, the record is not be considered a match. The record is not a match even if nearly identical in content and pagination, and if copies originate from the same publisher.
+No. If an item has a different binding, the record is not considered a match. The record is not a match even if nearly identical in content and pagination, and originating from the same publisher. This is updated policy as of 2018.
 
 Records for physical items are never considered to be a match for an e-resource and vice versus. The ISBN for an e-book should not be added as a 020 field on a record for a physical book.
 
