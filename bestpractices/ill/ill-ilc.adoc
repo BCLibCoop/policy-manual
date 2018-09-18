@@ -61,11 +61,11 @@ As a borrowing (pickup) library, you may set up hold limits on inbound BC ILC ho
 Item Age Hold Protection in Hold Policy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use of hold protection based on Item Age (starting from item’s Active-date) in hold policy is recommended.  Different hold policies can be applied to the same collection based on item age. You need to advise Co-op Support what items are to be protected for how long in order to utilize Item Age in Hold Policy.
+Use of hold protection based on Item Age (starting from item’s Active-date) in hold policy is recommended. The policy setting is automatically applied, and no manual maintenance of individual records is required. Different hold policies can be applied to the same collection based on item age. You need to advise Co-op Support what items are to be protected for how long in order to utilize Item Age in Hold Policy.
 
 Age-based Hold Protection by Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Age-based hold protection is a setting applied to individual item records by cataloguing staff. Co-op Support recommends libraries intending to use Item Age in Hold Policy, as explained above, should not  use Age-based Hold Protection in item record.
+Age-based hold protection is a setting applied to individual item records by cataloguing staff. The setting must be manually removed from each record at end of protection time. Co-op Support recommends libraries intending to use Item Age in Hold Policy, as explained above, should not  use Age-based Hold Protection in item record.
 
 
 Circulation Policies Based on Check Out Library
@@ -78,10 +78,10 @@ Circulation policies are duration of loan, fine amounts, and number of renewals 
 Checkout location is used as a match point when deciding which library's circulation policy to use. This allows the checkout library to apply the same policy to all inbound ILC items.
 
 
-Pre-due and Overdue Notices
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Pre-due and Overdue Notices Sent by Check Out Library
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-These notices will be generated based on the checkout library’s schedule and sent to the checkout library or to patrons from the checkout library.
+Courtesy and overdue notices are generated based on the checkout library’s notice schedule and templates, and are sent to patrons from the checkout library. 
 
 
 Required Workflow for BC ILC

@@ -14,4 +14,4 @@ Co-op Support compiles holdings, circulation, and patron statistics for BC Libra
 BC Public Library Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Access to the data, and more detail about reporting requirements and methodology is available here.  https://catalogue.data.gov.bc.ca/dataset/bc-public-libraries-statistics-2002-2016[LB Annual Survey Results].
+Access to the data, and more detail about reporting requirements and methodology is available here.  https://catalogue.data.gov.bc.ca/dataset/bc-public-libraries-statistics-2002-present[LB Annual Survey Results].
