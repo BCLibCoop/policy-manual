@@ -51,12 +51,15 @@ Selection Depth is not editable on the staff client. To make a BC ILC hold local
 Sitka's Evergreen Hold Policy Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Co-op Support configures your library's BC ILC hold policies in Sitka's Evergreen. Each BC ILC library is a lending and borrowing library and needs hold policies for both inbound and outbound holds. Hold policies decide who from which libraries can place holds on which items at which libraries. You decide which items and patrons from your library will participate in BC ILC , and which will not, and inform Co-op Support.
+Co-op Support configures your library's BC ILC hold policies in Sitka's Evergreen. Each BC ILC library is a lending and borrowing library and needs hold policies for both inbound and outbound holds. Hold policies decide who from which libraries can place holds on which items at which libraries. You decide which items from your library can be loaned out to other libraries, and which patrons of your library can request items from other libraries, and inform Co-op Support.
 
 The hold policies can be based on a combination of the following values: the circulation modifier used on the item record, the item's owning library, the hold requestor’s patron or staff profile, the requestor’s home library, and the pickup library.
 
-As a borrowing (pickup) library, you may set up hold limits on inbound BC ILC holds, and maintain separate limits on local holds, if required.
+As a borrowing (pickup) library, you may set up hold limits on inbound BC ILC holds, and maintain separate limits on local holds, if required. All holds, local and BC ILC, in a patron account, are counted when assessing whether a hold limit is reached.
 
+Age-based Hold Protection
+^^^^^^^^^^^^^^^^^^^^^^^^^
+Libraries may choose not to loan out newer items by applying age-based hold protection via either hold policy or item attribute.
 
 Item Age Hold Protection in Hold Policy
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -67,6 +70,7 @@ Age-based Hold Protection by Item
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Age-based hold protection is a setting applied to individual item records by cataloguing staff. The setting must be manually removed from each record at end of protection time. Co-op Support recommends libraries intending to use Item Age in Hold Policy, as explained above, should not  use Age-based Hold Protection in item record.
 
+If an item is protected by both hold policy and age-based hold protection item attribute, the longer protection period is used.
 
 Circulation Policies Based on Check Out Library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,13 +79,15 @@ Circulation policies and rules on BC ILC items are  determined by the check out 
 
 Circulation policies are duration of loan, fine amounts, and number of renewals allowed, based on an item's circulation modifier and or patron or staff profile.
 
-Checkout location is used as a match point when deciding which library's circulation policy to use. This allows the checkout library to apply the same policy to all inbound ILC items.
+Overdue and Lost Charges
+^^^^^^^^^^^^^^^^^^^^^^^^
 
+Overdue fines are collected by the checkout library. Lost charges are collected by the checkout library, but need to be reimbursed to the lending library.
 
 Pre-due and Overdue Notices Sent by Check Out Library
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Courtesy and overdue notices are generated based on the checkout library’s notice schedule and templates, and are sent to patrons from the checkout library. 
+Courtesy and overdue notices are generated based on the checkout library’s notice schedule and templates, and are sent to patrons from the checkout library.
 
 
 Required Workflow for BC ILC
@@ -107,9 +113,9 @@ on the screen to print either hold or transit slip, and send the item to the des
 transit. The destination library should always check in the item once it is received. To ensure the accuracy of the statistics, the above workflow should be strictly followed.
 =====
 
-Abort Transit
+Cancel Transit
 ^^^^^^^^^^^^^
-Abort transit should only be done by the source/lending library. Abort transit deletes the transit record,  and should never be done at the destination/borrowing library.
+Cancel transit should only be done by the source/lending library. Cancelled transits are excluded from the BC ILC hold statistics reports.
 
 
 BC ILC Statistics
@@ -117,24 +123,23 @@ BC ILC Statistics
 
 BC ILC statistics are generated based on the hold-in-transit records, and adherence to recommended workflows is the only way to create accurate  statistics.  When an item is sent away to fill a
 hold, a hold-in-transit record is created. Based on the item’s owning library (lending library) and the
-transit destination library (borrowing library), we can count the number of items lent by a library as BC ILC
+transit destination library (borrowing library), we can count the number of items lent by a library as BC ILC holds
 to other libraries. The following scenarios and how they are handled may have effect on the statistics.
 
-* Aborting transit will delete the hold-in-transit record, so it will not be included in the statistics. Aborting transit should never be done at the destination/borrowing library.
+* Cancelling transit will delete the hold-in-transit record, so it will not be included in the statistics. Cancelling transit should never be done at the destination/borrowing library.
 
-* The borrowing library checking out the item directly to the requesting patron,  before triggering the On Hold Shelf status by checking in the item, will result in the hold-in-transit record being deleted. So
-there will be a hold filled, but without a hold-in-transit record to count. This workflow should be prohibited.
+* The borrowing library checking out the item directly to the requesting patron,  before triggering the On Hold Shelf status by checking in the item, will result in the hold-in-transit record being cancelled.
+There will be a hold filled, but without a hold-in-transit record to count. This workflow should be prohibited.
 
-* The borrowing library checking out the item to another patron will result in the hold being filled more than one time, thus one hold with two in-transit records. This should be avoided.
+* The borrowing library checking out the item to another patron will result in the hold being filled more than one time. This should be avoided.
 
-* The lending library may abort a transit if it decides not to send out the item. The hold-in-transit record will be deleted, thus not counted in the statistics, which is correct.
+* The lending library may cancel a transit if it decides not to send out the item. The hold-in-transit record will be deleted, thus not counted in the statistics, which is correct.
 
 * A hold may be canceled by patrons after the item is sent in transit. The hold-in-transit record will be kept open. When such an item is checked in at the borrowing library, staff will see a transit prompt
-sending the item back to the lending library. Staff need to print the slip and send the item back. The hold-in-transit record will be completed and be counted in the statistics.  However, when such an item is checked
-in at the lending library, staff will see a transit prompt without hold requester information. Staff should abort such a transit.
+sending the item back to the lending library. Staff need to print the slip and send the item back. The hold-in-transit record will be completed and be counted in the statistics.
 
-* A hold may be canceled by staff after the item is sent in transit. If the cancellation is done at the lending library, staff should abort transit at the same time. If it is done at the borrowing library,
-staff should NOT abort transit. Instead, they should check in the item, if available, or wait for the item to arrive.
+* A hold may be canceled by staff after the item is sent in transit. If the cancellation is done at the lending library, staff should cancel transit at the same time. If it is done at the borrowing library,
+staff should NOT cancel the transit. Instead, they should check in the item, if available, or wait for the item to arrive.
 
 * Once an item achieves On Hold Shelf status, the hold-in-transit record is completed. Canceling such holds will not affect the statistics.
 
