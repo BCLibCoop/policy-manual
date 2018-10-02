@@ -6,4 +6,4 @@ Most Sitka public libraries in BC and Manitoba participate in shared resource ag
 
 All other Sitka libraries follow local or federation policies and best practice, with technical input from Co-op Support.
 
-Refer to xref:inter-library-loan[] for details.
+Refer to xref:inter_library_loan[] for details.
