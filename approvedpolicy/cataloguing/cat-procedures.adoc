@@ -1,6 +1,7 @@
 Cataloguing Procedures
 ~~~~~~~~~~~~~~~~~~~~~~
 (((Cataloguing Procedures)))
+(((MARC Records)))
 (((Shared MARC Records)))
 (((Minimum Match Requirements)))
 (((Searching)))

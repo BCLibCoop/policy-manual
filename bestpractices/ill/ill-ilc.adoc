@@ -1,5 +1,8 @@
 BC Inter Library Connect Policies
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((BC InterLibrary Connect)))
+(((Spruce InterLibrary Loan)))
+(((Spruce)))
 
 Default OPAC Search Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
