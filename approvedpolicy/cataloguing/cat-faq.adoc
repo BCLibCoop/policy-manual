@@ -1,5 +1,6 @@
 Frequently Asked Questions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((FAQs)))
 
 What is the correct capitalization and punctuation used when entering subject and name authorities?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

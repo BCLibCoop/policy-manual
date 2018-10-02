@@ -1,5 +1,6 @@
 Patron de-duplication
 ~~~~~~~~~~~~~~~~~~~~~
+((( Patrons)))
 
 Sitka's Evergreen instance is intended to feature a shared patron database both to facilitate customer service across multiple libraries (a seamless library experience) and to promote database integrity. To achieve this objective, it is important that each Sitka patron be represented in the shared database by only one patron record.
 

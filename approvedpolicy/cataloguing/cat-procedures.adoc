@@ -1,5 +1,10 @@
 Cataloguing Procedures
 ~~~~~~~~~~~~~~~~~~~~~~
+(((Cataloguing Procedures)))
+(((Shared MARC Records)))
+(((Minimum Match Requirements)))
+(((Searching)))
+(((Search Sitka First Policy)))
 
 For member libraries, there are many benefits to sharing a database of high-quality bibliographic records for collective use. Staff will learn to think consortially, with the resources of several libraries at their disposal, instead of relying on the local technical services staff alone. Cataloguing workflows will change, with Sitka being the primary source of copy cataloguing for many libraries.
 
