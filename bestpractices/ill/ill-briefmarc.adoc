@@ -10,11 +10,11 @@ Record Requirements
 ^^^^^^^^^^^^^^^^^^^
 
 We recommend the following best practice for creating a fixed set of records to be used for interlibrary
-loans. Some sites may chose to enter bibliographic information for the particular item in these MARC fields,
-while others may prefer to use generic data as the actual data is retained in their 3rd party interlibrary
+loans. Some sites may choose to enter bibliographic information for the particular item in these MARC fields,
+while others may prefer to use generic data, as the actual data is retained in their 3rd party interlibrary
 loan software.
 
-* Bibliographic records should include the following fields and text should be in upper case to further
+* Bibliographic records should include the following fields, and text should be in upper case to further
 identify the record as a brief ILL record:
 
 ** 100 $a for author's full name
