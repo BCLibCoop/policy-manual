@@ -1,7 +1,6 @@
 Administration
 ~~~~~~~~~~~~~~
 (((Cataloguing Skills)))
-(((Cataloguing Skill Levels)))
 (((Cataloguing Staff Profiles)))
 
 The goal within the Sitka database is to create one master MARC record for each discrete bibliographic title to which all member libraries will add their respective holdings. In this shared environment, it is essential that library staff or volunteers who perform cataloguing work have the skills and training required to ensure adherence to cataloguing standards.
