@@ -2,15 +2,15 @@ Using Brief MARC Records for Incoming ILL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Interlibrary Loan)))
 
-Items received through interlibrary loan can be circulated to patrons through the use of brief MARC records.
+Items received through a 3rd party interlibrary loan can be circulated to patrons through the use of brief MARC records.
 This method enables a library to assign data entry associated with interlibrary loans to a particular staff
-member or members as well as taking advantage of Evergreen's automatic email and text message notifications.
+member, as well as taking advantage of Evergreen's automatic email and text message notifications.
 
 Record Requirements
 ^^^^^^^^^^^^^^^^^^^
 
 We recommend the following best practice for creating a fixed set of records to be used for interlibrary
-loans. Some sites may chose to enter bibliographic information for the particular item in the fields
+loans. Some sites may chose to enter bibliographic information for the particular item in these MARC fields,
 while others may prefer to use generic data as the actual data is retained in their 3rd party interlibrary
 loan software.
 
@@ -21,12 +21,10 @@ identify the record as a brief ILL record:
 
 ** 245 $a for title, and 245 $b containing ILL
 
-** 599 $aILL with a $9 containing the Library Archives Canada code of the library who created the record.
-
-SCREENSHOT GOES HERE
+** 599 $aILL with a subfield $9 containing the Library Archives Canada code of the library who created the record.
 
 These records can be created using the sitka_book_rda MARC template. This template is available by
-selecting *Cataloguing → Create New Marc Record* and choosing appropriate template from the drop down menu.
+selecting *Cataloguing → Create New Marc Record*.
 
 * Volume records should use 'ILL' for the call number. This call number does not need to be changed on a
 per-loan basis.
@@ -34,19 +32,19 @@ per-loan basis.
 ** In multi-branch systems with centralized interlibrary loan the Owning library/call number should
 be the branch handling interlibrary loan.
 
-* Copy records should use either be a real barcode affixed to a card that is used for checkout or a barcode
+* Copy records should use either be a real barcode affixed to a card that is used for checkout, or a barcode
 that can be easily written onto a card or wrapper that circulates with the item.
 
-** A shelving location called ILL or Interlibrary Loan should be created and assigned to copies attached to
+** A shelving or copy location called ILL or Interlibrary Loan should be created and assigned to copies attached to
 these MARC records. This shelving location should be set up to be holdable, but not OPAC visible. This
 will prevent patrons from discovering these brief records in the OPAC. Multi-branch systems with centralized
-interlibrary loan should created a system level shelving location
+interlibrary loan should created a system level shelving location.
 
 ** Library staff can create a cataloguing item record template with all required attributes pre-loaded, thereby
-facilitating data entry and consistency when creating fixed set of records.
+facilitating data entry and consistency when creating a fixed set of records.
 
 * If interlibrary loans should follow a circulation policy that is different from the library's default
-circulation policy library staff should ensure that a policy exists and contact Support if a policy needs
+circulation policy, library staff should ensure that a policy exists for their library, and contact Support if a policy needs
 to be created. Support recommends using the circulation modifiers "ill-no-renewal" and/or "interlibrary-loan".
 
 * Staff can keep track of which records are available for use by putting all of the items into a

@@ -1,7 +1,7 @@
 Series Cataloguing
 ~~~~~~~~~~~~~~~~~~
 (((Series)))
-(((Local Information)))
+
 
 Sitka libraries use the current Library of Congress standard when cataloguing series. The standard is that the 490 tag is used for a series statement for a series title. The 490 should include subfield $a and subfield $v.  If an added entry is required, you must use the 800 or 830 tag. The 440 tag has been obsolete since 2008, and while records containing 440 tags are still in the catalogue, new series statements must follow the current standard.
 
@@ -11,6 +11,7 @@ Local Information in Cataloguing
 
 Library Specific Local Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Local Information)))
 
 Applies to all items attached to the record belonging to the scoped library.
 
