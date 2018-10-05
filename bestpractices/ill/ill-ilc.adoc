@@ -205,7 +205,7 @@ When the title is received:
 . IF the title is no longer needed and a hold is not filled the hold must be cancelled and then the item
 checked in to change the status of “in-transit” to your library to “in transit” to the owning library.
 
-Procedures for Spruce libraries filling interlibrary loan requests from other Spruce Libraries
+Procedures for Spruce Libraries Filling Interlibrary Loan Requests From Other Spruce Libraries
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Check your pull list at a minimum daily (preferably more often):
