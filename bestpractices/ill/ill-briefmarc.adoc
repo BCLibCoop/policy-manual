@@ -2,7 +2,7 @@ Using Brief MARC Records for Incoming ILL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Interlibrary Loan)))
 
-Items received through a 3rd party interlibrary loan can be circulated to patrons through the use of brief MARC records.
+Items received through a 3rd party interlibrary loan can be circulated to patrons in Evergreen through the use of brief MARC records.
 This method enables a library to assign data entry associated with interlibrary loans to a particular staff
 member, as well as taking advantage of Evergreen's automatic email and text message notifications.
 

@@ -16,7 +16,7 @@ Best Practices. Operational recommendations from the Sitka BFG, past Working Gro
 Revisions
 ~~~~~~~~~
 
-Sitka's Evergreen Policy Manual was first published in July 2010. Below are subsequent content changes in chronological order. Minor changes including spelling corrections and formatting changes are excluded.
+Sitka's Evergreen Policy Manual was first published in this format in July 2010. Below are subsequent content changes in chronological order. Minor changes including spelling corrections and formatting changes are excluded.
 
 
 [options="header"]

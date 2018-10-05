@@ -170,12 +170,13 @@ to track their items lent to other libraries, for example the template called Ov
 
 These templates are good for monthly recurring reports.
 
-SPRUCE Inter Library Connect
+Spruce Inter Library Connect
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 (((Spruce InterLibrary Loan)))
 
-Procedures for interlibrary loaning from other Spruce libraries
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Procedures for Interlibrary Loan From Other Spruce Libraries
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The following is provided courtesy of Spruce directors and members, and is based on current Sitka policy and best practice.
 
 Resource Discovery
 ++++++++++++++++++
@@ -275,7 +276,7 @@ General Spruce InterLibrary Connect Information
 Circulation Policies:
 +++++++++++++++++++++
 
-* Circulation policies on SPRUCE InterLibrary Connect items are determined by the check out library, whether
+* Circulation policies on Spruce InterLibrary Connect items are determined by the check out library, whether
 that be at another library, or your library.
 ** Circulation policies determine the duration of loans, fine amounts, and the number of renewals allowed,
 based on an item's circulation modifier and or patron or staff profile.
