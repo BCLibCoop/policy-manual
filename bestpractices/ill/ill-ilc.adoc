@@ -333,13 +333,13 @@ closure that last at least two weeks.)  To request an extended closure of ILC pl
 with the dates of your closure.
 
 When ILC is closed:
-* your patrons cannot place holds on items from other libraries for pickup at your library
-* patrons at other libraries cannnot place holds on your items to be picked up at their home library  
+*  your patrons cannot place holds on items from other libraries for pickup at your library
+*  patrons at other libraries cannnot place holds on your items to be picked up at their home library  
 
 For closures of less than two weeks Support advises libraries to:
-* ignore items on your Hold Pull List destined for other libraries
-** Evergreen will retarget these holds to items at other libraries overnight (unless you own the only copy)
-* set items to be shipped or received aside until your ILL staff member is able to process them.  Items travelling
+*  ignore items on your Hold Pull List destined for other libraries
+**  Evergreen will retarget these holds to items at other libraries overnight (unless you own the only copy)
+*  set items to be shipped or received aside until your ILL staff member is able to process them.  Items travelling
 between libraries or waiting to be processed will stay "In Transit" until they are checked in.
 
 
