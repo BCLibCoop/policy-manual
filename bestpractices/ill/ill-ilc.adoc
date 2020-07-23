@@ -42,7 +42,7 @@ Selection Depth : Local Hold vs. BC ILC hold
 
 Whether a hold will be filled by a local or BC ILC copy is fixed when the hold is placed. It is recorded in
 the hold request record in a field called Selection Depth, which can be displayed by using the Column
-Picker when viewing holds. 1 stands for BC ILC holds and 2 for local holds.
+Picker when viewing holds. 2 stands for BC ILC holds and 3 for local holds.
 When the holdings situation changes, e.g. a local copy is marked 'damaged' and no longer holdable, Evergreen
 does not re-assess the holds under the title. The Selection Depth will not be updated when the local copy
 becomes non-holdable. To request a BC ILC copy in this case, staff need to cancel, then replace the hold. On
@@ -179,7 +179,7 @@ To request an extended closure of ILC please send a ticket to Support with the d
 When ILC is closed:
 
 *  your patrons cannot place holds on items from other libraries for pickup at your library
-*  patrons at other libraries cannnot place holds on your items to be picked up at their home library  
+*  patrons at other libraries cannnot place holds on your items to be picked up at their home library
 
 For closures of less than two weeks Support advises libraries to:
 
@@ -350,7 +350,7 @@ To request an extended closure of ILC please send a ticket to Support with the d
 When ILC is closed:
 
 *  your patrons cannot place holds on items from other libraries for pickup at your library
-*  patrons at other libraries cannnot place holds on your items to be picked up at their home library  
+*  patrons at other libraries cannnot place holds on your items to be picked up at their home library
 
 For closures of less than two weeks Support advises libraries to:
 
@@ -358,5 +358,3 @@ For closures of less than two weeks Support advises libraries to:
 **  Evergreen will retarget these holds to items at other libraries overnight (unless you own the only copy)
 *  set items to be shipped or received aside until your ILL staff member is able to process them.  Items travelling
 between libraries or waiting to be processed will stay "In Transit" until they are checked in.
-
-
