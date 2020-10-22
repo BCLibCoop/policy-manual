@@ -34,14 +34,14 @@ information regarding these fields.
 Item Specific Local Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Applies to the specific item (also referred to as copy).
+Applies to the specific item.
 
 .Item Specific Local Information
 [options="header"]
 |=============
 |Name|Patron Visible|Use
-|Copy Statistical Category|No|Used for commonly repeated information about a copy (ie. vendor).
-|Copy Note|No|Used for information specific to the copy (ie. Adopt a Book sponsor).
-|Copy Note (Public)|Yes|Used for information specific to the copy that may be of interest to a patron (ie. autographed copy).
-|Copy Alert|Yes|Used for information that should been seen when an item is checked in or out (ie. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display copy alerts.
+|Item Statistical Category|No|Used for commonly repeated information about a specific item (ie. vendor).
+|Item Note|No|Used for information specific to the item (ie. Adopt a Book sponsor).
+|Item Note (Public)|Yes|Used for information specific to the item that may be of interest to a patron (ie. autographed copy).
+|Item Alert|Yes|Used for information that should been seen when an item is checked in or out (ie. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display item alerts.
 |=============
