@@ -21,13 +21,15 @@ Recommendation for setting up ILL patron accounts:
 
 * include the library's ILL or general email so that Evergreen sends the library pre-due and overdue email
 notifications. 
-* include the library's ILL or general address if your library does paper overdues with final notices.  Billing 
+* include the library's ILL or general address if your library does paper overdues with 
+http://docs.libraries.coop/sitka/_final_notices.html[final notices].  Billing 
 notices will be generated for lost materials.
 * use a naming convention so you can easily retrieve the accounts via the barcode or patron search.
-* request an ILL permission group specific circulation policy so that items have a longer loan duration and 
-aren't assessed fines when checked to an ILL account.
-* set up ILL specific group penalty thresholds to allow more checkouts to an ILL account 
-than to a normal patron account.
+* request an ILL permission group specific 
+http://docs.libraries.coop/sitka/_circulation_policies.html[circulation policy] so that items have a longer 
+loan duration and aren't assessed fines when checked to an ILL account.
+* set up ILL specific http://docs.libraries.coop/sitka/_group_penalty_thresholds.html[group penalty threshold] 
+to allow more checkouts to an ILL account than to a normal patron account.
 
 
 Checking Out Outgoing ILLs
