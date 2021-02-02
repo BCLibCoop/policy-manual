@@ -35,7 +35,7 @@ to allow more checkouts to an ILL account than to a normal patron account.
 Checking Out Outgoing ILLs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The workflow for sending out interlibrary loans with ILL Patron Accounts is:
+The workflow for sending out interlibrary loans with ILL patron accounts is:
 
 . follow the normal procedures through your 3rd party ILL system to identify the items that need 
 to be pulled to be sent to other libraries.
