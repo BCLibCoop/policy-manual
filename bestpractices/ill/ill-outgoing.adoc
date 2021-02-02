@@ -13,7 +13,8 @@ Connect zone.
 Setting up ILL Patron Accounts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The steps to create an ILL patron account are the same as a regular patron account.  For *Main (Profile)
+The steps to create an ILL patron account are the same 
+as a http://docs.libraries.coop/sitka/_register_new_patrons.html[regular patron account].  For *Main (Profile)
 Permission Group* select the ILL option for your library type.
 
 Recommendation for setting up ILL patron accounts:
@@ -34,15 +35,15 @@ Checking Out Outgoing ILLs
 
 The workflow for sending out interlibrary loans with ILL Patron Accounts is:
 
-. Follow the normal procedures through your 3rd party ILL system to identify the items that need 
+. follow the normal procedures through your 3rd party ILL system to identify the items that need 
 to be pulled to be sent to other libraries.
-. Pull the items from the shelf.
-. Retrieve the patron account for borrowing library.
+. pull the items from the shelf.
+. retrieve the patron account for borrowing library.
 . Check the applicable items out.
-.. The system will follow your default circulation policies unless you have policies specific to the ILL permission
+.. the system will follow your default circulation policies unless you have policies specific to the ILL permission
 profile.  
-. Follow the normal procedures through your 3rd party ILL system to send the item to the 
+. follow the normal procedures through your 3rd party ILL system to send the item to the 
 borrowing library.
-. When the item is sent back follow your normal procedures through your 3rd party ILL system
+. when the item is sent back follow your normal procedures through your 3rd party ILL system
  to receive the item.
-. The item will either have the status of checked out or in-transit in Evergreen.  Check the item in.
+. the item will either have the status of checked out or in-transit in Evergreen.  Check the item in.
