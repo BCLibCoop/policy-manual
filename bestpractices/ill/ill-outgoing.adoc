@@ -41,7 +41,7 @@ The workflow for sending out interlibrary loans with ILL Patron Accounts is:
 to be pulled to be sent to other libraries.
 . pull the items from the shelf.
 . retrieve the patron account for borrowing library.
-. Check the applicable items out.
+. check the applicable items out.
 .. the system will follow your default circulation policies unless you have policies specific to the ILL permission
 profile.  
 . follow the normal procedures through your 3rd party ILL system to send the item to the 
