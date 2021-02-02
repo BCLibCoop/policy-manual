@@ -1,0 +1,48 @@
+Using Patron Accounts for Outgoing ILL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Interlibrary Loan)))
+
+The patron permission profiles for ILL (PL ILL, Post-Sec ILL, etc.) are intended for accounts you 
+create for other libraries.  These accounts allow you to check out items going to that library so 
+they show as checked out in Evergreen and you can easily follow up with a library about all of the 
+items that have been sent to them via interlibrary loan.  
+
+NOTE: If you are an Interlibrary Connect library do not set up accounts for the other libraries in your
+Connect zone. 
+
+Setting up ILL Patron Accounts
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The steps to create an ILL patron account are the same as a regular patron account.  For *Main (Profile)
+Permission Group* select the ILL option for your library type.
+
+Recommendation for setting up ILL patron accounts:
+
+* include the library's ILL or general email so that Evergreen sends the library pre-due and overdue email
+notifications. 
+* include the library's ILL or general address if your library does paper overdues with final notices.  Billing 
+notices will be generated for lost materials.
+* use a naming convention so you can easily retrieve the accounts via the barcode or patron search.
+* request an ILL permission group specific circulation policy so that items have a longer loan duration and 
+aren't assessed fines when checked to an ILL account.
+* set up ILL specific group penalty thresholds to allow more checkouts to an ILL account 
+than to a normal patron account.
+
+
+Checking Out Outgoing ILLs
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The workflow for sending out interlibrary loans with ILL Patron Accounts is:
+
+. Follow the normal procedures through your 3rd party ILL system to identify the items that need 
+to be pulled to be sent to other libraries.
+. Pull the items from the shelf.
+. Retrieve the patron account for borrowing library.
+. Check the applicable items out.
+.. The system will follow your default circulation policies unless you have policies specific to the ILL permission
+profile.  
+. Follow the normal procedures through your 3rd party ILL system to send the item to the 
+borrowing library.
+. When the item is sent back follow your normal procedures through your 3rd party ILL system
+ to receive the item.
+. The item will either have the status of checked out or in-transit in Evergreen.  Check the item in.
