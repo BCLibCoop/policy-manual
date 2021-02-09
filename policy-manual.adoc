@@ -5,11 +5,11 @@ Sitka's Evergreen Policy & Best Practices Manual
 :toclevels: 3
 :numbered:
 
-*Evergreen 3.1*
+*Evergreen 3.5*
 
 Copyright (symbol) 2018 BC Libraries Cooperative
 
-Last Updated July 17, 2018
+Last Updated February 3, 2021
 
 Introduction
 ============
