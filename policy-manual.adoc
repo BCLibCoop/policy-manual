@@ -27,6 +27,8 @@ include::bestpractices/ill.adoc[]
 
 include::approvedpolicy/cataloguing.adoc[]
 
+include::approvedpolicy/3rdpartyintegration.adoc[]
+
 Best Practices
 ==============
 
