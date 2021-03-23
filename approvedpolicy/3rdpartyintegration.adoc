@@ -1,5 +1,5 @@
-3rd Party Service Integration with Sitka's Evergreen
-----------------------------------------------------
+3rd Party Service Integration
+-----------------------------
 (((3rd Party Service Integration)))
 
 Co-op Support frequently receives requests from libraries to integrate 3rd party services with Sitka’s Evergreen.  These 3rd party services include products such as self-check, electronic resources, public workstation authentication, equipment lockers, etc.
