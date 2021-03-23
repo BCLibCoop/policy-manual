@@ -4,18 +4,18 @@
 
 Co-op Support frequently receives requests from libraries to integrate 3rd party services with Sitka’s Evergreen.  These 3rd party services include products such as self-check, electronic resources, public workstation authentication, equipment lockers, etc.
 
-Vendors of 3rd party services may give the impression that integrating their services with your library’s ILS (Sitka’s Evergreen or otherwise) should be ‘’easy’’ or straightforward. This is most often not the case, particularly if this is a new product/service. Service integration has become increasingly challenging as we strive to meet stricter privacy and security legislation requirements.
+Vendors of 3rd party services may give the impression that integrating their services with your library’s ILS (Sitka’s Evergreen or otherwise) should be ‘’easy’’ or straightforward. This is most often *NOT* the case, particularly if this is a new product/service. Service integration has become increasingly challenging as we strive to meet stricter privacy and security legislation requirements.
 
 We’ve provided more background below about why 3rd party integration often requires time on our part and why in some cases, it may not be possible or feasible.
 
 **The most important point we’d like to make with our members is that you should consult with Co-op Support before purchasing a resource that relies on integration with Sitka’s Evergreen.**
 
-Here’s why:
-
 Most of these 3rd party services use one of two ways for their service to ‘’talk’’ with Sitka’s Evergreen, either using a protocol called SIP2 (Standard Interchange Protocol), or through an API (Application Programming Interface). In either case, Sitka/Support staff need to ensure that the method of integration is secure and private.
-. The SIP2 protocol is an old one and is not private. We are phasing out the use of SIP2 for authentication, and are working to secure SIP2 where there is no other option.
-. Sitka staff have done significant work recently with some existing services to provide an authenticated version of SIP2 that better protects user privacy. Any new services will require additional time and work, including back and forth with technical staff on the vendor side and testing to ensure that authenticated SIP2 is workable
-. APIs require the vendor to provide us with technical details so we can attempt to integrate the service with Sitka’s Evergreen. This requires time for staff to do analysis, write code, work with technical staff on the vendor side and test to ensure the API works.
-. There will be cases where neither authenticated SIP2 or API will work and we may not be able to integrate the 3rd party application with Sitka’s Evergreen
+
+.Here’s why:
+* The SIP2 protocol is an old one and is not private. We are phasing out the use of SIP2 for authentication, and are working to secure SIP2 where there is no other option.
+* Sitka staff have done significant work recently with some existing services to provide an authenticated version of SIP2 that better protects user privacy. Any new services will require additional time and work, including back and forth with technical staff on the vendor side and testing to ensure that authenticated SIP2 is workable
+* APIs require the vendor to provide us with technical details so we can attempt to integrate the service with Sitka’s Evergreen. This requires time for staff to do analysis, write code, work with technical staff on the vendor side and test to ensure the API works.
+* There will be cases where neither authenticated SIP2 or API will work and we may not be able to integrate the 3rd party application with Sitka’s Evergreen
 
 We would like to work with you to ensure successful integration of 3rd party products wherever possible, and to do our best to identify those regrettable cases where integration with Evergreen is not possible. So, we ask that you please contact Co-op Support before you purchase a 3rd party application that requires integration with Sitka’s Evergreen. And to please allow ample time for us to perform the work and due diligence to ensure these services meet legislated privacy and security requirements for our members and their users.
