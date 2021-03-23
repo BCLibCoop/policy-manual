@@ -13,7 +13,7 @@ We’ve provided more background below about why 3rd party integration often req
 Most of these 3rd party services use one of two ways for their service to ‘’talk’’ with Sitka’s Evergreen, either using a protocol called SIP2 (Standard Interchange Protocol), or through an API (Application Programming Interface). In either case, Sitka/Support staff need to ensure that the method of integration is secure and private.
 
 .Here’s why:
-* The SIP2 protocol is an old one and is not private. We are phasing out the use of SIP2 for authentication, and are working to secure SIP2 where there is no other option.
+* The SIP2 protocol is an old one and is not private. We are phasing out the use of SIP2 for authentication, and are working to secure SIP2 only when there is no other option.
 * Sitka staff have done significant work recently with some existing services to provide an authenticated version of SIP2 that better protects user privacy. Any new services will require additional time and work, including back and forth with technical staff on the vendor side and testing to ensure that authenticated SIP2 is workable
 * APIs require the vendor to provide us with technical details so we can attempt to integrate the service with Sitka’s Evergreen. This requires time for staff to do analysis, write code, work with technical staff on the vendor side and test to ensure the API works.
 * There will be cases where neither authenticated SIP2 or API will work and we may not be able to integrate the 3rd party application with Sitka’s Evergreen
