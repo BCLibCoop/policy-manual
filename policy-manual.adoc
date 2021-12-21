@@ -38,6 +38,8 @@ include::bestpractices/patronsinsitka.adoc[]
 
 include::bestpractices/annualreports.adoc[]
 
+include::bestpractices/annualreportsmb.adoc[]
+
 [appendix]
 Licensing
 =========
