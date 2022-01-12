@@ -15,6 +15,8 @@ https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Repor
 
 We have created a new shared report template folder with all the templates you need to run the Membership, Collection & Circulation reports required to get your annual statistics for Manitoba PLSB.
 
-You can find the new templates by following this path in Reports -> Shared Folders -> Sitka Templates -> Custom Templates -> Spruce -> Spruce Annual Statistics
+You can find the new templates by following this path in _Reports -> Shared Folders -> Sitka Templates -> Custom Templates -> Spruce -> Spruce Annual Statistics_
 
-A tip sheet with instructions for running these reports can be found here [LINK]
+A tip sheet with instructions for running these reports can be found here https://bc.libraries.coop/wp-content/uploads/2022/01/Spruce-Annual-Reports-Tip-Sheet-1.pdf
+
+General information on using Evergreen's reporter can be found here http://docs.libraries.coop/sitka/_reports_overview.html
