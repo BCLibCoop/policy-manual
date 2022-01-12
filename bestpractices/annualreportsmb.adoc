@@ -8,8 +8,7 @@ Annual Reports for Manitoba Public Library Services Branch (PLSB)
 MB Public Library Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Access to the data, and more detail about reporting requirements and methodology
-is available here.
+Access to the data and more detail about reporting requirements and methodology is available here.
 
 https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Reports]
 
