@@ -1,0 +1,12 @@
+Sitka Shared Data Values
+--------------
+(((Sitka Shared Data Values)))
+
+The available data values for the following fields are shared by all Sitka libraries. We limit new additions and only add new values if it's absolutely necessary. Please email sitka@bc.libraries.coop.
+
+. Fields with Sitka Shared Data values
+* Circulation Modifiers 
+* Patron types
+* Permission Groups
+* Billing types
+* Item statuses
