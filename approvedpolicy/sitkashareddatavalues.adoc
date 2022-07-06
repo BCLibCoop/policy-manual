@@ -2,7 +2,7 @@ Sitka Shared Data Values
 ------------------------
 (((Sitka Shared Data Values)))
 
-The available data values for the following fields are shared by all Sitka libraries. To keep the lists manageable for libraries we limit new additions and only add new values if it's absolutely necessary. Please contact Support - https://bc.libraries.coop/support/.
+The available data values for the following fields are shared by all Sitka libraries. To keep the lists manageable for libraries we limit new additions and only add new values if it's absolutely necessary. Please https://bc.libraries.coop/support/[contact Co-op Support].
 
 . Fields with Sitka Shared Data values
 * Circulation Modifiers
