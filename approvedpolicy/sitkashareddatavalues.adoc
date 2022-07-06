@@ -10,4 +10,4 @@ The available data values for the following fields are shared by all Sitka libra
 * Permission Groups
 * Billing types
 * Item statuses
-* http://asciidoc.libraries.coop/acq-manual-master/html/_sitka_8217_s_acquisitions_defaults.html[Sitka's Acquisitions Defaults]
+* http://docs.libraries.coop/acquisitions/_sitka_8217_s_acquisitions_defaults.html[Sitka's Acquisitions Defaults]
