@@ -8,7 +8,7 @@ Pre-cats, also known as pre-catalogued items, are temporary records created at t
 Pre-cats can be used for incoming interlibrary loans that are not between two Interlibrary Connect libraries.
 
 See Sitka's Evergreen Documentation for information on
-http://docs.libraries.coop/sitka/_circulation_3.html#_pre_catalogued_items[checking out pre-cats].
+http://docs.libraries.coop/sitka/_circulation_2.html#_pre_catalogued_items[checking out pre-cats].
 
 Some important things to remember about pre-cats are:
 
