@@ -24,7 +24,8 @@ identify the record as a brief ILL record:
 ** 599 $aILL with a subfield $9 containing the Library Archives Canada code of the library who created the record.
 
 These records can be created using the sitka_book_rda MARC template. This template is available by
-selecting *Cataloguing → Create New Marc Record*.
+selecting http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[*Cataloguing → 
+Create New Marc Record*].
 
 * Volume records should use 'ILL' for the call number. This call number does not need to be changed on a
 per-loan basis.
@@ -32,23 +33,29 @@ per-loan basis.
 ** In multi-branch systems with centralized interlibrary loan the Owning library/call number should
 be the branch handling interlibrary loan.
 
-* Copy records should use either be a real barcode affixed to a card that is used for checkout, or a barcode
+* Item records should use either be a real barcode affixed to a card that is used for checkout, or a barcode
 that can be easily written onto a card or wrapper that circulates with the item.
 
-** A shelving or copy location called ILL or Interlibrary Loan should be created and assigned to copies attached to
+** A http://docs.libraries.coop/sitka/_shelving_location_editor.html#_creating_a_shelving_location[shelving 
+location] called ILL or Interlibrary Loan should be created and assigned to items attached to
 these MARC records. This shelving location should be set up to be holdable, but not OPAC visible. This
 will prevent patrons from discovering these brief records in the OPAC. Multi-branch systems with centralized
 interlibrary loan should created a system level shelving location.
 
-** Library staff can create a cataloguing item record template with all required attributes pre-loaded, thereby
-facilitating data entry and consistency when creating a fixed set of records.
+** Library staff can create a 
+http://docs.libraries.coop/sitka/_using_library_specific_marc_templates.html[library specific MARC 
+template] with all required attributes pre-loaded, thereby facilitating data entry and consistency 
+when creating a fixed set of records.
 
 * If interlibrary loans should follow a circulation policy that is different from the library's default
-circulation policy, library staff should ensure that a policy exists for their library, and contact Support if a policy needs
-to be created. Support recommends using the circulation modifiers "ill-no-renewal" and/or "interlibrary-loan".
+circulation policy, library staff should 
+http://docs.libraries.coop/sitka/_circulation_policies.html[ensure that a policy exists] for their library, 
+and http://docs.libraries.coop/sitka/_circulation_policies.html#_changing_your_circulation_policies[contact 
+Co-op Support] if a policy needs to be created. Co-op Support recommends using the circulation 
+modifiers "ill-no-renewal" and/or "interlibrary-loan".
 
-* Staff can keep track of which records are available for use by putting all of the items into a
-http://docs.libraries.coop/sitka/cat-copy-bucket.html[copy bucket].
+* Staff can keep track of which records are available for use by putting all of the items into an
+http://docs.libraries.coop/sitka/_item_buckets.html[item bucket].
 
 
 [NOTE]
