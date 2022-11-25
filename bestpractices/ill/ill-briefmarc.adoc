@@ -67,8 +67,12 @@ to that item, patron’s record will be updated and contain the new title inform
 for the item they originally borrowed.
 
 Support recommends ILL and circulation staff be aware of this and adopt procedures to manage fines on ILLs
-at time of check-in if using actual bibliographic data in brief MARC records. This could include voiding
-the circulation fine and creating a manual bill with all relevant details in a note, or collecting payment
+at time of check-in if using actual bibliographic data in brief MARC records. This could include 
+http://docs.libraries.coop/sitka/_adjusting_the_bill_balance_to_zero.html[adjusting the bill balance
+to zero] for the circulation fine and 
+http://docs.libraries.coop/sitka/_bills_and_payments.html#_creating_a_bill[creating 
+a manual bill] with all relevant details in a note, or 
+http://docs.libraries.coop/sitka/_making_payments.html[collecting payment]
 at time of check-in when possible.
 
 Sites using generic data will not have to manage this as fines on patron account would reflect the title
