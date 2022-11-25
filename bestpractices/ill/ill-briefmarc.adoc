@@ -63,12 +63,12 @@ http://docs.libraries.coop/sitka/_item_buckets.html[item bucket].
 One issue with using actual bibliographic title and author data is that returned ILL items with outstanding
 fines will display on the patron record with the current title of the MARC record under which their
 interlibrary loan circulated. For example, if a barcode is re-used while a patron still has fines attached
-to that copy, patron’s record will be updated and contain the new title information, not the information
+to that item, patron’s record will be updated and contain the new title information, not the information
 for the item they originally borrowed.
 
 Support recommends ILL and circulation staff be aware of this and adopt procedures to manage fines on ILLs
 at time of check-in if using actual bibliographic data in brief MARC records. This could include voiding
-the circulation fine and creating a grocery bill with all relevant details in a note, or collecting payment
+the circulation fine and creating a manual bill with all relevant details in a note, or collecting payment
 at time of check-in when possible.
 
 Sites using generic data will not have to manage this as fines on patron account would reflect the title
