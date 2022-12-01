@@ -5,11 +5,14 @@
 **Please contact Co-op Support before you purchase a resource that relies on integration 
 with Sitka’s Evergreen.**
 
-**It takes significant Co-op staff time to perform the required work and due diligence to ensure these 
+[CAUTION]
+=========
+It takes significant Co-op staff time to perform the required work and due diligence to ensure these 
 services meet privacy and security legislation requirements for our members and their users.  Please 
 anticipate a 3 to 6 month turnaround for Co-op staff to complete the assessment of the service.  
 Implementation times for services that meet the requirements will depend on Co-op staff availaibilty,
-vendor response, and library IT support availability.**
+support from the vendor, and the library's IT support expertise and availability.
+=========
 
 Co-op Support frequently receives requests from libraries to integrate 3rd party services with Sitka’s 
 Evergreen.  These 3rd party services include products such as self-check, electronic resources, public 
