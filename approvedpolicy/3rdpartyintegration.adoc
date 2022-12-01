@@ -1,6 +1,9 @@
 3rd Party Service Integration
 -----------------------------
 (((3rd Party Service Integration)))
+(((SIP2)))
+(((Patron API)))
+(((Authentication)))
 
 **Please contact Co-op Support before you purchase a resource that relies on integration 
 with Sitka’s Evergreen.**
