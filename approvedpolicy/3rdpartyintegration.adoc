@@ -5,11 +5,14 @@
 **Please contact Co-op Support before you purchase a resource that relies on integration 
 with Sitka’s Evergreen.**
 
+To request a 3rd party service be considered for integration with Sitka's Evergreen please complete
+our https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration With Sitka's Evergreen survey].
+
 [CAUTION]
 =========
 It takes significant Co-op staff time to perform the required work and due diligence to ensure these 
 services meet privacy and security legislation requirements for our members and their users.  Please 
-anticipate a 3 to 6 month turnaround for Co-op staff to complete the assessment of the service.  
+anticipate a **3 to 6 month** turnaround for Co-op staff to complete the assessment of the service.  
 Implementation times for services that meet the requirements will depend on Co-op staff availaibilty,
 support from the vendor, and the library's IT support expertise and availability.
 =========
@@ -30,11 +33,11 @@ to do our best to identify those regrettable cases where integration with Evergr
 
 Most of these 3rd party services use one of two ways for their service to ‘’talk’’ with Sitka’s Evergreen, 
 either using a protocol called SIP2 (Standard Interchange Protocol), or through an API 
-(Application Programming Interface). In either case, Sitka/Support staff need to ensure that 
+(Application Programming Interface). In either case, Co-op staff need to ensure that 
 the method of integration is secure and private.
 
 We’ve provided more background below about why 3rd party integration often requires time on our part 
-nd why in some cases, it may not be possible or feasible.
+and why in some cases, it may not be possible or feasible.
 
 .Here’s why:
 * The SIP2 protocol, is old and insecure. Sitka staff have done significant work recently with some existing 
@@ -49,8 +52,6 @@ on the vendor side and test to ensure the API works.
 * There will be cases where neither encrypted SIP2 or API is an option and we may not be able to 
 integrate the 3rd party application with Sitka’s Evergreen.
 
-To request a 3rd party service be considered for integration with Sitka's Evergreen please complete
-our https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration With Sitka's Evergreen survey].
 
 
 ////
