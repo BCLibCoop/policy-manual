@@ -17,21 +17,6 @@ How are serials/magazines catalogued?
 
 A serials module is partially supported in Sitka's Evergreen, and used by a few academic libraries. Until it is fully implemented, each member library will maintain its own bibliographic records for serials. The recommended procedure for cataloguing serials is to give each magazine issue its own volume and copy record.
 
-
-How do I request more Z39.50 targets to be added to Evergreen?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Send a request to Co-op Support, and include any available technical details available about the target.  You can find connection details via an internet search in most cases. Please note, not all organizations provide Z39.50 access to their database.
-
-Support assesses potential sources based on perceived need by Sitka libraries, and quality of records.
-
-
-What is the preferred method to enter TV Series on DVD?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-As the packaging of, and library circulation policies for, this format vary widely, member libraries may choose to catalogue these either by series or by individual title. If the title proper is based on the episode title, an 830 added entry should be created for the series name.
-
-
 Is a record considered a match if only the binding is different from the item in hand?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 No. If an item has a different binding, the record is not considered a match. The record is not a match even if nearly identical in content and pagination, and originating from the same publisher. This is updated policy as of 2018.

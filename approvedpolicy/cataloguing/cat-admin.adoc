@@ -46,8 +46,6 @@ Generally, tasks performed by staff or volunteers designated at the Basic or Int
 * deleting
 |Expert      | All Advanced level tasks plus:
 
-* authorities
-
 * adding 8XX series uniform titles
 
 * advanced original cataloguing
