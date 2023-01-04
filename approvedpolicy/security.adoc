@@ -15,7 +15,7 @@ accordance with user authentication standards defined by the Cooperative.
 * ensure that passwords meet or exceed industry standards, including standards related to passwords length and structure, expiry
 times, and reuse.
 * have employees/contractors sign appropriate computer use/confidentiality agreements and keep them current.
-* ensure that reasaonable security measures, such as screensavers, workstation passwords, firewals and routers,
+* ensure that reasonable security measures, such as screensavers, workstation passwords, firewals and routers,
 and encryption on local area networks are in place and being used.
 
 Please see the Data Sharing Agreement in 
@@ -35,6 +35,7 @@ Co-op Support recommends that libraries follow the below guidelines in respect t
 Sitka's Evergreen.
 
 Passwords:
+
 * must NEVER be saved in the internet browser
 * must NEVER be written down and stored in an unsecure location
 * must NEVER be shared via email
