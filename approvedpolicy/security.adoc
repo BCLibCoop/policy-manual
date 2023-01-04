@@ -34,11 +34,12 @@ Passwords
 Co-op Support recommends that libraries follow the below guidelines in respect to passwords used to access
 Sitka's Evergreen.
 
-* passwords are NEVER saved in the internet browser
-* passwords are NEVER written down and stored in an unsecure location
-* passwords are NEVER shared via email
-* passwords are unique and not used for any other account, Evergreen or other
-* passwords contain a combination of letters, numbers, symbols, and capitalization
-* passwords are updated on a yearly basis
-* passwords to generic staff accounts are updated when staff members with access leave the library
+Passwords:
+* must NEVER be saved in the internet browser
+* must NEVER be written down and stored in an unsecure location
+* must NEVER be shared via email
+* must be unique and not used for any other account, Evergreen or other
+* should contain a combination of letters, numbers, symbols, and capitalization
+* are updated on a yearly basis
+* for generic staff accounts must be updated when staff members with access leave the library
 
