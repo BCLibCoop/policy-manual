@@ -1,0 +1,44 @@
+Access to Sitka's Evergreen
+---------------------------
+
+Libraries are responsible for ensuring the accounts used to access Sitka's Evergreen are secure.
+
+As per the Data Sharing Agreement in https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J of the Service Management Agreement])
+libraries MUST:
+
+* develop and maintain processes that ensure systems and data are adequately safeguarded from unauthorized access
+and that Evergreen is used appropriately in the Sitka context.
+* immediately report to the Sitka Manager any security breach.  (This can be done by contacting Co-op Support
+who will inform the manager.)
+* ensure that system are not accessed by any individual except library employees/contractors, or patrons in 
+accordance with user authentication standards defined by the Cooperative
+* ensure that passwords meet or exceed industry standards, including standards related to passwords length and structure, expiry
+times, and reuse 
+* have employees/contractors sign appropriate computer use/confidentiality agreements and keep them current
+* ensure that reasaonable security measures, such as screensavers, workstation passwords, firewals and routers,
+and encryption on local area networks are in place and being used
+
+Please see the Data Sharing Agreement in 
+https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J of the Service Management Agreement])
+for the complete list.
+
+Libraries should also ensure that staff access is disabled in a timely manner when a staff member leaves the library.  See 
+http://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Closing Library Staff Accounts] for more
+details.
+
+In the event of a suspected data breach libraries should ensure all staff passwords are updated as a precaution.
+
+Passwords
+~~~~~~~~~
+
+Co-op Support recommends that libraries follow the below guidelines in respect to passwords used to access
+Sitka's Evergreen.
+
+* passwords are NEVER saved in the internet browser
+* passwords are NEVER written down and stored in an unsecure location
+* passwords are NEVER shared via email
+* passwords are unique and not used for any other account Evergreen or other
+* passwords contain a combination of letters, numbers, symbols, and capitalization
+* passwords are updated on a yearly basis
+* passwords to generic staff accounts are updated when staff members with access leave the library
+
