@@ -156,4 +156,5 @@ The following are approved guidelines for RDA records in Sitka’s Evergreen:
 Sitka's Evergreen Documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Refer to Sitka's Evergreen Documentation on Cataloguing at http://docs.libraries.coop/sitka/_cataloguing_2.html.
+Refer to Sitka's Evergreen Documentation on http://docs.libraries.coop/sitka/_cataloguing.html[Cataloguing].
+
