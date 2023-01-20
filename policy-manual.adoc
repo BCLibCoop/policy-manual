@@ -21,9 +21,7 @@ Approved Policy
 
 include::approvedpolicy/privacy.adoc[]
 
-////
 include::approvedpolicy/security.adoc[]
-////
 
 include::approvedpolicy/sitkashareddatavalues.adoc[]
 
