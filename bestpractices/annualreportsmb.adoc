@@ -72,6 +72,7 @@ for the different categories so that you use the same ones when reporting your c
 
 
 _Circulation - Annual Circulation Count by Patron Type and Circulation Modifier_
+
 _Circulation - Annual Circulation Count by Patron Type and Shelving Location_
 
 Use these templates to gather the statistics for Total Circulation for Readership Level, Media/Format, 
