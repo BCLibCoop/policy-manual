@@ -8,6 +8,18 @@ Annual Reports for Manitoba Public Library Services Branch (PLSB)
 MB Public Library Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Within the shared Sitka_templates Spruce libraries can find the _Spruce Annual Statistics_ folder which
+contains the templates needed to run your 
+https://mb.countingopinions.com[annual statistics for Manitoba PLSB].
+
+This folder can be found  _Reports -> Shared Folders -> Sitka Templates 
+-> Custom Templates -> Spruce -> Spruce Annual Statistics_.
+
+Information on using Evergreen's reporter can be found in 
+http://docs.libraries.coop/sitka/_reports.html[Section V. Reports] in Sitka's Evergreen Documentation.
+
+
+////
 We have created a new shared report template folder with all the templates you need to run 
 the Membership, Collection & Circulation reports required to get your annual statistics for Manitoba PLSB.
 
@@ -23,3 +35,50 @@ here http://docs.libraries.coop/sitka/_using_the_reporter.html.
 Access to the data and more detail about reporting requirements and methodology is available here.
 
 https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Reports]
+////
+
+
+Service Area Statistics
+^^^^^^^^^^^^^^^^^^^^^^^
+
+_Service Area - Active Patron Count for Specified Profile by Patron Home Library and Profile_
+
+Use this template to get a count of your total active patrons.
+
+_Service Area - Active Non Resident Patron Count by Patron Home Library, Profile and Stat Cat_
+
+Use this template to get a count of your active non resident patrons broken down by municipality.
+
+This template will only work if you currently record municipality as a statistical category.  Co-op Support is working with 
+Manitoba PLSB to have this data collected consistently for future years.
+
+
+Collections and Circulation Statistics
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The statistics you are able to collect will depend the data you have in Evergreen.  For example,
+for Media/Format - Video you may have shelving locations specific to DVDs or you may use circulation
+modifiers for dvd.
+
+_Collection - Title and Item Count by Shelving Location and Circulation Modifier_
+
+Use this template to gather the statistics for # of Items for Readership Level, Media/Format, 
+Languages.
+
+For Media/Format - Digital - # of Items contact your e-resource vendors.
+
+Co-op Support recommends making a note of which shelving locations and circulation modifiers you count
+for the different categories so that you use the same ones when reporting your circulation statistics.
+
+
+_Circulation - Annual Circulation Count by Patron Type and Circulation Modifier_
+_Circulation - Annual Circulation Count by Patron Type and Shelving Location_
+
+Use these templates to gather the statistics for Total Circulation for Readership Level, Media/Format, 
+Languages.
+
+_Circulation - By Non Resident Patron Profile, Shelving Location, and Circ Modifier 
+: Circ stats within Time Span_
+
+Use this template to gather statistics for NR Circulation for Readership Level, Media/Format, 
+Languages.
