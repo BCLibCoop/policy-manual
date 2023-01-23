@@ -8,11 +8,11 @@ Annual Reports for Manitoba Public Library Services Branch (PLSB)
 MB Public Library Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Within the shared Sitka_templates Spruce libraries can find the _Spruce Annual Statistics_ folder which
+Within the shared Sitka_templates Spruce libraries can find the _Spruce Annual Statistics - New_ folder which
 contains the templates needed to run your 
 https://mb.countingopinions.com[annual statistics for Manitoba PLSB].
 
-This folder can be found  _Reports -> Shared Folders -> Sitka Templates 
+This folder can be found in the Evergreen reporter under Shared Folders -> Templates -> Sitka Templates 
 -> Custom Templates -> Spruce -> Spruce Annual Statistics - New_.
 
 image:images/mb-public-lib-stats-1.png[scaledwidth="75%"]
@@ -25,7 +25,7 @@ http://docs.libraries.coop/sitka/_reports.html[Section V. Reports] in Sitka's Ev
  into your own folders.
 . http://docs.libraries.coop/sitka/_running_a_report.html[Run the reports].  Multi-branch libraries 
 should run the reports separately for each branch.
-. As needed total the data returned in the report output before entering it in the annual statistics portal.
+. As needed, total the data returned in the report output before entering it in the annual statistics portal.
 
 ////
 We have created a new shared report template folder with all the templates you need to run 
@@ -56,7 +56,8 @@ Service Area - Active Patron Count for Specified Profile by Patron Home Library 
 
 Use this template to get a count of your total active patrons.
 
-.Report Filters
+Report Filters:
+
 * Checkout Date/Time = 2020-01-01 - 2022-12-31 _(for 2022 annual statistics)_
 * Checkout/Renewal Library = your library/your library branch
 
@@ -67,7 +68,8 @@ Service Area - Active Non Resident Patron Count by Patron Home Library, Profile 
 
 Use this template to get a count of your active non resident patrons broken down by municipality.
 
-.Report Filters
+Report Filters:
+
 * Checkout Date/Time = 2020-01-01 - 2022-12-31 _(for 2022 annual statistics)_
 * Checkout/Renewal Library = your library/your library branch
 * Stat Cat ID = Municipality (or your library's equivalent)
@@ -98,7 +100,8 @@ Collection - Title and Item Count by Shelving Location and Circulation Modifier
 Use this template to gather the statistics for # of Items for Readership Level, Media/Format, 
 Languages.
 
-.Report Filters
+Report Filters:
+
 * Circulating Library = your library/your library branch
 
 image:images/mb-public-lib-stats-4.png[scaledwidth="75%"]
@@ -123,7 +126,8 @@ Circulation - Annual Circulation Count by Patron Type and Circulation Modifier
 Use this template to gather the statistics for Total Circulation for Readership Level, Media/Format, 
 Languages based on circulation modifier.
 
-.Report Filters
+Report Filters:
+
 * Checkout/Renewal Library = your library/your library branch
 * Checkout Date/Time = 2022-01-01 - 2022-12-31 _(for 2022 annual statistics)_
 
@@ -136,7 +140,8 @@ Circulation - Annual Circulation Count by Patron Type and Shelving Location
 Use this template to gather the statistics for Total Circulation for Readership Level, Media/Format, 
 Languages based on shelving location.
 
-.Report Filters
+Report Filters:
+
 * Checkout/Renewal Library = your library/your library branch
 * Checkout Date/Time = 2022-01-01 - 2022-12-31 _(for 2022 annual statistics)_
 
@@ -149,10 +154,17 @@ Use this template to gather statistics for NR Circulation for Readership Level, 
 Languages.  Only circulations by patrons with non resident profiles will display on this report.
 Both shelving location and circulation modifier are included in the output.
 
-.Report Filters
+Report Filters:
+
 * Checkout/Renewal Library = your library/your library branch
 * Checkout Date/Time = 2022-01-01 - 2022-12-31 _(for 2022 annual statistics)_
 * Permission Group -> Group ID - this filter is hardcoded to include the patron profiles _PL Non Resident -
 Adult_ and _PL Non Resident - Juvenile_
 
 image:images/mb-public-lib-stats-6.png[scaledwidth="75%"]
+
+[CAUTION]
+=========
+This template will only work if you use the patron profiles _PL Non Resident -
+Adult_ and _PL Non Resident - Juvenile_.
+=========
