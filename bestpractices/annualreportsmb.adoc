@@ -20,6 +20,12 @@ image:images/mb-public-lib-stats-1.png[scaledwidth="75%"]
 Information on using Evergreen's reporter can be found in 
 http://docs.libraries.coop/sitka/_reports.html[Section V. Reports] in Sitka's Evergreen Documentation.
 
+.To gather your annual statistics:
+. http://docs.libraries.coop/sitka/_using_the_reporter.html#_cloning_a_report_template[Clone the templates]
+ into your own folders.
+. http://docs.libraries.coop/sitka/_running_a_report.html[Run the reports].  Multi-branch libraries 
+should run the reports separately for each branch.
+. As needed total the data returned in the report output before entering it in the annual statistics portal.
 
 ////
 We have created a new shared report template folder with all the templates you need to run 
