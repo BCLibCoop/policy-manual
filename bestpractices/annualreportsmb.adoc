@@ -13,7 +13,9 @@ contains the templates needed to run your
 https://mb.countingopinions.com[annual statistics for Manitoba PLSB].
 
 This folder can be found  _Reports -> Shared Folders -> Sitka Templates 
--> Custom Templates -> Spruce -> Spruce Annual Statistics_.
+-> Custom Templates -> Spruce -> Spruce Annual Statistics - New_.
+
+image:images/mb-public-lib-stats-1.png[scaledwidth="75%"]
 
 Information on using Evergreen's reporter can be found in 
 http://docs.libraries.coop/sitka/_reports.html[Section V. Reports] in Sitka's Evergreen Documentation.
@@ -49,8 +51,8 @@ _Service Area - Active Non Resident Patron Count by Patron Home Library, Profile
 
 Use this template to get a count of your active non resident patrons broken down by municipality.
 
-This template will only work if you currently record municipality as a statistical category.  Co-op Support is working with 
-Manitoba PLSB to have this data collected consistently for future years.
+This template will only work if you currently record municipality as a statistical category.  Co-op Support 
+is working with Manitoba PLSB to have this data collected consistently for future years.
 
 
 Collections and Circulation Statistics
