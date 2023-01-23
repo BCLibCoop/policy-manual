@@ -49,45 +49,110 @@ https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Repor
 Service Area Statistics
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-_Service Area - Active Patron Count for Specified Profile by Patron Home Library and Profile_
+An active patron is defined as a patron who has circulated within the last three years.
+
+Service Area - Active Patron Count for Specified Profile by Patron Home Library and Profile
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Use this template to get a count of your total active patrons.
 
-_Service Area - Active Non Resident Patron Count by Patron Home Library, Profile and Stat Cat_
+.Report Filters
+* Checkout Date/Time = 2020-01-01 - 2022-12-31 _(for 2022 annual statistics)_
+* Checkout/Renewal Library = your library/your library branch
+
+image:images/mb-public-lib-stats-2.png[scaledwidth="75%"]
+
+Service Area - Active Non Resident Patron Count by Patron Home Library, Profile and Stat Cat
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Use this template to get a count of your active non resident patrons broken down by municipality.
 
-This template will only work if you currently record municipality as a statistical category.  Co-op Support 
+.Report Filters
+* Checkout Date/Time = 2020-01-01 - 2022-12-31 _(for 2022 annual statistics)_
+* Checkout/Renewal Library = your library/your library branch
+* Stat Cat ID = Municipality (or your library's equivalent)
+* Permission Group -> Group ID - this filter is hardcoded to include the patron profiles _PL Non Resident -
+Adult_ and _PL Non Resident - Juvenile_
+
+image:images/mb-public-lib-stats-3.png[scaledwidth="75%"]
+
+[CAUTION]
+=========
+This template will only work if you use the patron profiles _PL Non Resident -
+Adult_ and _PL Non Resident - Juvenile_ and record municipality as a statistical category.  Co-op Support 
 is working with Manitoba PLSB to have this data collected consistently for future years.
+=========
 
+If you do not currently collect this data in Evergreen you will leave it blank in the annual statistics.
 
-Collections and Circulation Statistics
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Collections Statistics
+^^^^^^^^^^^^^^^^^^^^^^
 
 The statistics you are able to collect will depend the data you have in Evergreen.  For example,
 for Media/Format - Video you may have shelving locations specific to DVDs or you may use circulation
 modifiers for dvd.
 
-_Collection - Title and Item Count by Shelving Location and Circulation Modifier_
+Collection - Title and Item Count by Shelving Location and Circulation Modifier
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Use this template to gather the statistics for # of Items for Readership Level, Media/Format, 
 Languages.
 
+.Report Filters
+* Circulating Library = your library/your library branch
+
+image:images/mb-public-lib-stats-4.png[scaledwidth="75%"]
+
+[NOTE]
+======
 For Media/Format - Digital - # of Items contact your e-resource vendors.
+======
 
 Co-op Support recommends making a note of which shelving locations and circulation modifiers you count
 for the different categories so that you use the same ones when reporting your circulation statistics.
 
+Circulation Statistics
+^^^^^^^^^^^^^^^^^^^^^^
 
-_Circulation - Annual Circulation Count by Patron Type and Circulation Modifier_
+Most libraries will use a combination of shelving locations and circulation modifiers to identify and
+count their circulations for different categories.
 
-_Circulation - Annual Circulation Count by Patron Type and Shelving Location_
+Circulation - Annual Circulation Count by Patron Type and Circulation Modifier
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-Use these templates to gather the statistics for Total Circulation for Readership Level, Media/Format, 
-Languages.
+Use this template to gather the statistics for Total Circulation for Readership Level, Media/Format, 
+Languages based on circulation modifier.
 
-_Circulation - By Non Resident Patron Profile, Shelving Location, and Circ Modifier 
-: Circ stats within Time Span_
+.Report Filters
+* Checkout/Renewal Library = your library/your library branch
+* Checkout Date/Time = 2022-01-01 - 2022-12-31 _(for 2022 annual statistics)_
+
+image:images/mb-public-lib-stats-5.png[scaledwidth="75%"]
+
+
+Circulation - Annual Circulation Count by Patron Type and Shelving Location
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Use this template to gather the statistics for Total Circulation for Readership Level, Media/Format, 
+Languages based on shelving location.
+
+.Report Filters
+* Checkout/Renewal Library = your library/your library branch
+* Checkout Date/Time = 2022-01-01 - 2022-12-31 _(for 2022 annual statistics)_
+
+image:images/mb-public-lib-stats-5.png[scaledwidth="75%"]
+
+Circulation - By Non Resident Patron Profile, Shelving Location, and Circ Modifier : Circ stats within Time Span
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Use this template to gather statistics for NR Circulation for Readership Level, Media/Format, 
-Languages.
+Languages.  Only circulations by patrons with non resident profiles will display on this report.
+Both shelving location and circulation modifier are included in the output.
+
+.Report Filters
+* Checkout/Renewal Library = your library/your library branch
+* Checkout Date/Time = 2022-01-01 - 2022-12-31 _(for 2022 annual statistics)_
+* Permission Group -> Group ID - this filter is hardcoded to include the patron profiles _PL Non Resident -
+Adult_ and _PL Non Resident - Juvenile_
+
+image:images/mb-public-lib-stats-6.png[scaledwidth="75%"]
