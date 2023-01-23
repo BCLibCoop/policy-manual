@@ -12,7 +12,7 @@ Within the shared Sitka_templates Spruce libraries can find the _Spruce Annual S
 contains the templates needed to run your 
 https://mb.countingopinions.com[annual statistics for Manitoba PLSB].
 
-This folder can be found in the Evergreen reporter under Shared Folders -> Templates -> Sitka Templates 
+This folder can be found in the Evergreen reporter under _Shared Folders -> Templates -> Sitka Templates 
 -> Custom Templates -> Spruce -> Spruce Annual Statistics - New_.
 
 image:images/mb-public-lib-stats-1.png[scaledwidth="75%"]
@@ -81,7 +81,7 @@ image:images/mb-public-lib-stats-3.png[scaledwidth="75%"]
 [CAUTION]
 =========
 This template will only work if you use the patron profiles _PL Non Resident -
-Adult_ and _PL Non Resident - Juvenile_ and record municipality as a statistical category.  Co-op Support 
+Adult_ and _PL Non Resident - Juvenile_ AND record municipality as a statistical category.  Co-op Support 
 is working with Manitoba PLSB to have this data collected consistently for future years.
 =========
 
