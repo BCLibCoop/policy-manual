@@ -12,7 +12,7 @@ and that Evergreen is used appropriately in the Sitka context.
 who will inform the manager.)
 * ensure that systems are not accessed by any individual except library employees/contractors, or patrons in 
 accordance with user authentication standards defined by the Cooperative.
-* ensure that passwords meet or exceed industry standards, including standards related to passwords length and structure, expiry
+* ensure that passwords meet or exceed industry standards, including standards related to password length and structure, expiry
 times, and reuse.
 * have employees/contractors sign appropriate computer use/confidentiality agreements and keep them current.
 * ensure that reasonable security measures, such as screensavers, workstation passwords, firewals and routers,
@@ -39,6 +39,7 @@ Passwords:
 * must NEVER be saved in the internet browser
 * must NEVER be written down and stored in an unsecure location
 * must NEVER be shared via email
+* must NEVER be shared when submitting a ticket to Co-op Support
 * must be unique and not used for any other account, Evergreen or other
 * should contain a combination of letters, numbers, symbols, and capitalization
 * are updated on a yearly basis
