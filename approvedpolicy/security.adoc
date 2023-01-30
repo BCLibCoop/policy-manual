@@ -15,7 +15,7 @@ accordance with user authentication standards defined by the Cooperative.
 * ensure that passwords meet or exceed industry standards, including standards related to password length and structure, expiry
 times, and reuse.
 * have employees/contractors sign appropriate computer use/confidentiality agreements and keep them current.
-* ensure that reasonable security measures, such as screensavers, workstation passwords, firewals and routers,
+* ensure that reasonable security measures, such as screensavers, workstation passwords, firewalls and routers,
 and encryption on local area networks are in place and being used.
 
 Please see the Data Sharing Agreement in 
@@ -40,7 +40,7 @@ Passwords:
 * must NEVER be written down and stored in an unsecure location
 * must NEVER be shared via email
 * must NEVER be shared when submitting a ticket to Co-op Support
-* must be unique and not used for any other account, Evergreen or other
+* must be unique and not used elsewhere (e.g. don't use the same password for Evergreen and your email)
 * should contain a combination of letters, numbers, symbols, and capitalization
 * are updated on a yearly basis
 * for generic staff accounts must be updated when staff members with access leave the library
