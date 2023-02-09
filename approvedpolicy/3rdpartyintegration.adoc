@@ -10,6 +10,10 @@ with Sitka’s Evergreen.**
 
 To request a 3rd party service be considered for integration with Sitka's Evergreen please complete
 our https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration With Sitka's Evergreen survey].
+A https://bc.libraries.coop/wp-content/uploads/2023/02/3rd-party-integration-survey.pdf[PDF version of the 
+survey] is available for reference.
+
+
 
 [CAUTION]
 =========
