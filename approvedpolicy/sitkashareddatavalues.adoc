@@ -10,5 +10,6 @@ The available data values for the following fields are shared by all Sitka libra
 * http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Permission Groups]
 * Billing Types
 * http://docs.libraries.coop/sitka/_item_statuses.html[Item Statuses]
-* Age Based Hold Protection Rules
+* http://docs.libraries.coop/sitka/_server_administration.html#_age_hold_protect_rules[Age Based Hold 
+Protection Rules]
 * http://docs.libraries.coop/acquisitions/_sitka_8217_s_acquisitions_defaults.html[Sitka's Acquisitions Defaults]
