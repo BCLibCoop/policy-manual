@@ -9,7 +9,7 @@ Sitka's Evergreen Policy & Best Practices Manual
 
 Copyright (symbol) 2023 BC Libraries Cooperative
 
-Last Updated January 24, 2023
+Last Updated February 17, 2023
 
 Introduction
 ============
