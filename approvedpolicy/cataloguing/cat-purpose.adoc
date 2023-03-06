@@ -8,9 +8,10 @@ same manner when they are editing or creating records.
 All staff that perform cataloguing tasks at Sitka libraries are expected to familiarize themselves 
 with this policy and endeavour to uphold it as they work with records in the Sitka database.
 
-The goal is to have a database of high-quality bibliographic records that are used by all libraries.  
-It is key that all Sitka libraries follow the same policies when editing MARC records to ensure that
-records accurately reflect the items that are attached to them.
+The goal is to have a database of high-quality bibliographic records that are used by all libraries.  Ideally
+there is one MARC record in the database for each discrete bibliographic title which all libraries add their
+holdings to.  It is key that all Sitka libraries follow the same policies when editing MARC records to 
+ensure that records accurately reflect the items that are attached to them.
 
 The bibliographic records in the Sitka database are the shared property of the BC Libraries 
 Cooperative, regardless of the holdings attached. It does not matter which library “created” the record, 
