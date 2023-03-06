@@ -1,6 +1,8 @@
 The Bibliographic Record
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+
 Working with RDA Records
 ^^^^^^^^^^^^^^^^^^^^^^^^
 RDA records and AACR2 records can co-exist in Sitka’s Evergreen, with the preference being for RDA. Both types of records can be imported into the system, and for the foreseeable future, Sitka’s Evergreen will support both standards.
@@ -17,13 +19,58 @@ The following are approved guidelines for RDA records in Sitka’s Evergreen:
 Minimum MARC Record
 ^^^^^^^^^^^^^^^^^^^
 
-As there is an approved minimum level for original MARC records, the following may assist you when creating original MARC records in Evergreen. For more detailed information on MARC and RDA standards, the Library of Congress has the authoritative website at http://www.loc.gov/marc/ & https://www.loc.gov/aba/rda/.
+MARC records for bibliographic titles should always meet the minimum requirments and ideally should
+exceed them.
 
-Here is an example of a MARC record that meets and exceeds minimum cataloguing standards for a book in a series.
+The following fields outline the fields that must ALWAYS be present in the MARC record.
 
-image::images/cat/sitka-marc-record-1.png[]
+|========
+|MARC Field | Required Subfields | Material Type | Description
+|Leader | N/A | ALL | Contains information required for Evergreen to process the record.
+|006 | N/A | Required for podcasts, e-books, e-audiobooks, e-videos, websites, streaming music, and 
+streaming videos. | Contains coding used by Evergreen for search filters and format icons.  
+|007 | N/A | Required for soundrecordings (spoken and music), computer/video games, playaways, podcasts, 
+e-books, e-audiobooks, e-videos, websites, streaming music, and streaming videos. | Contains coding 
+used by Evergreen for search filters and format icons. 
+|008 | N/A | ALL | Contains coding used by Evergreen for search filters and format icons. 
+|020/022/024 | $a | ALL | Contains the standard identifier used internationally. Every bibliographic records should
+have at least one 020, 022, or 024 field.
+|1XX | $a | ALL, with exceptions where the title is added entry. | Contains the entity responsible for the work (person, corporation, conference, etc.)
+|245 | $a, $c | ALL | Contains the title and author.
+|264 | $a, $b, $c | ALL |  Contains the place of publication, publisher, and date of publication or copyright.
+|300 | $a, $c ($c not required for e-records) | ALL | Contains the physical description of the item 
+including number of pages and dimensions.
+|========
 
-*Standard Numbers*:
+On order records are an exception as some of the required information may not yet be available.  On order
+records should always be updated to at least meet the minumum when the item is received and added to the
+collection.
+
+A Good MARC Record
+^^^^^^^^^^^^^^^^^^
+
+A good MARC record will contain more than just the bare minumum.  This makes it easier for patrons 
+to locate the titles they're looking for in your public catalogue as well making it more evident what 
+title is being described in the record so cataloguers can confidently attach their own holdings.
+
+The fields included in a MARC record will vary depending on the type of material being described.
+
+The MARC21 Format for Bibliographic Data is available in 
+https://www.loc.gov/marc/bibliographic/[English] and in 
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[French].  These websites contain information on all 
+MARC fields and subfields.
+
+In addition to the mimumum required fields a good MARC record should also contain, where applicable:
+
+
+
+
+Control Fields
+++++++++++++++
+
+
+Standard Numbers
+++++++++++++++++
 
 * 010 Library of Congress Control Number (LCCN) is the control number for MARC records distributed by the Library of Congress. Can often be found in the Cataloging in Publication (CIP) information on verso page of a book. Can be useful searching number.
 
@@ -35,27 +82,43 @@ image::images/cat/sitka-marc-record-1.png[]
 
 * 028 are Publisher Control Numbers, formatted numbers used for sound recordings, printed music, and videorecordings.
 
-*Classification Numbers*: Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library's volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
+Main Entry
+++++++++++
 
-* 05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
-
-* 082 is the Dewey Decimal Classification number (DDC).
-
-* 090 and 092 are tags reserved for a library's local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
+Title
++++++
 
 *Title*: 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
 
+Edition
++++++++
+
 *Edition Statement*: 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
 
+Publication Information
++++++++++++++++++++++++
+
 *Publication Information*: 264 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record, matching the 264/260 tag should always be considered. Note, the second indicator of 264 should be filled: 1 for publication, 2 for distribution, etc.
+
+Physical Description
+++++++++++++++++++++
 
 *Physical Description of Item*: 300 tag is used to physically describe an item as completely as possible.
 
 *Content, Media and Carrier type*: 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rda content. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
 
+Series Information
+++++++++++++++++++
+
 *Series Information*: 440 and 490 are used to describe relevant series.  440 was officially made obsolete in 2008, but you will still find it used in records that predate 2008, but for correct, current  series cataloguing use the 490 tag.
 
+Notes
++++++
+
 *Notes*: 5xx tags are useful, keyword searchable notes tags, which assist in description and retrieval of items. Use the 500 tag for a note that cannot be placed in any other 5xx tag as per MARC standards.
+
+Subject Headings
+++++++++++++++++
 
 *Subjects*: 6xx contain subject headings that follow standards for personal, topical, geographical, and genre terms. Use 690 for local, non-standard subject headings.
 
@@ -63,6 +126,14 @@ image::images/cat/sitka-marc-record-1.png[]
 
 Call Numbers
 ^^^^^^^^^^^^
+
+*Classification Numbers*: Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library's volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
+
+* 05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
+
+* 082 is the Dewey Decimal Classification number (DDC).
+
+* 090 and 092 are tags reserved for a library's local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
 
 Subject Heading Policy
 ^^^^^^^^^^^^^^^^^^^^^^
