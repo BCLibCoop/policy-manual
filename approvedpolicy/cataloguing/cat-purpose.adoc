@@ -5,6 +5,9 @@ The purpose of Sitka's Cataloguing Policy to is clearly lay out the standards fo
 the shared Sitka catalogue to ensure that all libraries are treating bibliographic records in the 
 same manner when they are editing or creating records.
 
+All cataloguing staff libraries are expected to familiarize themselves with this policy, and endeavour to 
+uphold it in their local cataloguing workflows.
+
 The goal is to have a database of high-quality bibliographic records that are used by all libraries.  
 It is key that all Sitka libraries follow the same policies when editing MARC records to ensure that
 records accurately reflect the items that are attached to them.
