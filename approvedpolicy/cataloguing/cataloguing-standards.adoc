@@ -1,2 +1,41 @@
 Cataloguing Standards
 ~~~~~~~~~~~~~~~~~~~~~
+
+Bibliographic Records
+^^^^^^^^^^^^^^^^^^^^^
+
+Libraries are expected to follow cataloguing standards when creating new bibliographic records or editing 
+existing bibliographic records in Sitka's Evergreen.
+
+Bibliographic records should follow both https://www.rdatoolkit.org/[RDA standards] and 
+https://www.loc.gov/marc/[MARC standards].
+
+Non-Bibliographic Records
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Libraries may create records for non-bibliographic items, such as a library of things.  It is recommended
+that libraries generally follow cataloguing standards when creating these records (i.e. enter a name for 
+the item in the 245 title field) but these records do not need to meet the same standards as bibliographic
+records.
+
+Libraries should create their own non-bibliographic records rather than attaching to existing ones from
+other libraries unless working with a shared collection.
+
+Subject Headings
+^^^^^^^^^^^^^^^^
+
+When assigning subject headings libraries should use terms from an official thesaurus.  Commonly used 
+official thesauri include Library of Congress Subject Headings, LC Subject headings for children's literature, 
+Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes-matière.
+
+Subject headings not included in official thesauri are considered local subject headings and must be entered 
+as such in Sitka's Evergreen.
+
+Classification Systems
+^^^^^^^^^^^^^^^^^^^^^^
+
+While bibliographic records are shared within the Sitka database call number and item records are not.  
+Libraries are free to use whatever classification system(s) meets their needs for their call numbers. 
+
+Libraries should enter local call numbers through the holdings editor, and not into the bibliographic record. 
+
