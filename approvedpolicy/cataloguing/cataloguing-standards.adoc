@@ -10,6 +10,12 @@ existing bibliographic records in Sitka's Evergreen.
 Bibliographic records should follow both https://www.rdatoolkit.org/[RDA standards] and 
 https://www.loc.gov/marc/[MARC standards].
 
+[NOTE]
+======
+Older records in the catalogue will follow AACR or AACR2 standards, rather than RDA, depending on when they 
+were originally catalogued.  
+======
+
 Non-Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
