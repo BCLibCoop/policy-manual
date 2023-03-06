@@ -19,7 +19,7 @@ include::cataloguing/cataloguing-permissions.adoc[]
 
 include::cataloguing/cataloguing-bib-record.adoc[]
 
-include::cataloguing/cataloguing-worflow.adoc[]
+include::cataloguing/cataloguing-workflow.adoc[]
 
 include::cataloguing/cataloguing-copy-cat.adoc[]
 
