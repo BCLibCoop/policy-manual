@@ -5,7 +5,8 @@ Changes to bibliographic records in the Sitka database have the potential to aff
 
 To ensure cataloguing follows both cataloguing standards and Sitka cataloguing policy library directors
 and administrators should ensure that only approriate library staff have access to
-cataloguing functions.  Any library staff member with access to cataloguing functions MUST review and be
+cataloguing functions and that their level of access matches their cataloguing comfort level.
+Any library staff member with access to cataloguing functions MUST review and be
 familiar with Sitka's Cataloguing Policy.
 
 
