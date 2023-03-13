@@ -1,6 +1,22 @@
 The Cataloguing Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+New holdings should always be added to existing record matching records, assuming there is a matching record.  
+Cataloguers should ensure that the Sitka catalogue is always searched as part of their cataloguing process.  
+
+This can be done in three way:
+
+* search the Sitka catalogue directly
+* include Local Catalogue as a source when searching via Z39.50
+* selecting SitkaMatch as your record Match Set when importing a file of records through the Batch Import/Export or
+the acquisitions module
+
+The below diagram shows the basic workflow when cataloguing items for which you do not have a file of records.
+
+image:images/cataloguing-workflow.png[scaledwidth="75%"]
+
+
+
 
 Staff must always check the Sitka database first before searching Z39.50 targets, or, in some libraries, a vendor file of MARC records, for bibliographic records.
 
