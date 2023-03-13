@@ -10,7 +10,7 @@ This can be done in three way:
  directly
 * include _Local Catalog_ as a source when 
 http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_searching_via_z39_50[searching via Z39.50]
-* select SitkaMatch as your record Match Set when importing a file of records through the 
+* select _SitkaMatch_ as your record Match Set when importing a file of records through the 
 http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[Batch Import/Export] or
 the http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[acquisitions module]
 
