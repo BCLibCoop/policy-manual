@@ -3,7 +3,7 @@ Purpose
 
 The purpose of Sitka's Cataloguing Policy to is clearly lay out the standards for cataloguing within
 the shared Sitka catalogue to ensure that all libraries are treating bibliographic records in the 
-same manner when they are editing or creating records.
+same manner when they are editing, creating, or adding records.
 
 All staff that perform cataloguing tasks at Sitka libraries are expected to familiarize themselves 
 with this policy and endeavour to uphold it as they work with records in the Sitka database.
@@ -14,7 +14,7 @@ holdings to.  It is key that all Sitka libraries follow the same policies when e
 ensure that records accurately reflect the items that are attached to them.
 
 The bibliographic records in the Sitka database are the shared property of the BC Libraries 
-Cooperative, regardless of the holdings attached. It does not matter which library “created” the record, 
+Cooperative, regardless of the holdings attached. It does not matter which library created the record, 
 who transferred it into the database, or who has edited it since. 
 
 Maintaining the quality and integrity of each bibliographic record is an interest and a responsibility 

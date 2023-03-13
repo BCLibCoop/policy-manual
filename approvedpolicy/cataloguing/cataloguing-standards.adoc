@@ -19,7 +19,7 @@ were originally catalogued.
 Non-Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries may create records for non-bibliographic items, such as a library of things.  It is recommended
+Libraries may create records for non-bibliographic items, such as for a library of things.  It is recommended
 that libraries generally follow cataloguing standards when creating these records (i.e. enter a name for 
 the item in the 245 title field) but these records do not need to meet the same standards as bibliographic
 records.
@@ -40,7 +40,7 @@ as such in Sitka's Evergreen.
 Classification Systems
 ^^^^^^^^^^^^^^^^^^^^^^
 
-While bibliographic records are shared within the Sitka database call number and item records are not.  
+While bibliographic records are shared within the Sitka database, call number and item records are not.  
 Libraries are free to use whatever classification system(s) meets their needs for their call numbers. 
 
 Libraries should enter local call numbers through the holdings editor, and not into the bibliographic record. 
