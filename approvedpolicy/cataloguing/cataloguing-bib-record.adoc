@@ -1,19 +1,20 @@
 The Bibliographic Record
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-
-
-Working with RDA Records
-^^^^^^^^^^^^^^^^^^^^^^^^
-RDA records and AACR2 records can co-exist in Sitka’s Evergreen, with the preference being for RDA. Both types of records can be imported into the system, and for the foreseeable future, Sitka’s Evergreen will support both standards.
+RDA records and AACR2 records co-exist in the Sitka catalogue.  New records should always follow the 
+RDA standard.
 
 The following are approved guidelines for RDA records in Sitka’s Evergreen:
 
 * Leave an RDA record as RDA; do not modify a RDA record back to AACR2.
 * Copy cataloguers should add their copies to RDA records in the same way as they do to AACR2 records.
-* We want to minimize duplication of records; use the RDA record if already in Sitka, but do not import an RDA record if an AACR2 record for the same title already exists in Sitka. Instead, attach your copies to the AACR2 record.
-* At import, when choosing between 2 MARC records of equal quality, one in RDA and one in AACR2, prefer the RDA record.
-* Original cataloguing is done in RDA exclusively, as of Evergreen version 3.1 in 2018. Cataloguing templates are provided in RDA only.
+* We want to minimize duplication of records; use the RDA record if already in Sitka, 
+but do not import an RDA record if an AACR2 record for the same title already exists in 
+Sitka. Instead, attach your copies to the AACR2 record.
+* At import, when choosing between 2 MARC records of equal quality, one in RDA and one 
+in AACR2, prefer the RDA record.
+* Original cataloguing is done in RDA exclusively, 
+as of Evergreen version 3.1 in 2018. Cataloguing templates are provided in RDA only.
 
 
 Minimum MARC Record
@@ -138,10 +139,36 @@ Call Numbers
 Subject Heading Policy
 ^^^^^^^^^^^^^^^^^^^^^^
 
+When adding subject headings to a bibliographic record libraries should use terms from an official 
+thesaurus.  Commonly used official thesauri include Library of Congress Subject Headings, LC Subject headings for children's literature, 
+Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes-matière.
+
+Subject headings not included in official thesauri are considered local subject headings and must be entered 
+as such in Sitka's Evergreen.
+
+Sitka Subject Headings
+++++++++++++++++++++++
+
+The Sitka team is working with member libraries to identify and remove harmful subject headings from
+the Sitka catalogue.  Many of these subject headings are still in the official thesauri.
+
+Where subject headings have been replaced through the work of the Co-op and the Cataloguing Working Group
+the MARC field has the second infi 
+
+
+
+
+
 Series Cataloguing
 ^^^^^^^^^^^^^^^^^^
 
-Sitka libraries use the 490 tag for a series title statement, which is the current Library of Congress standard. The 490 should include subfield $a and subfield $v.  If an added entry is required, you must use the 800 or 830 tag. The 440 tag has been obsolete since 2008, and while records containing 440 tags are still in the catalogue, new series statements must follow the current standard.
+Sitka libraries use the 490 tag for a series title statement, which is the current Library of 
+Congress standard. The 490 should include subfield $a and subfield $v.  If an added entry 
+is required, you must use the 800 or 830 tag. 
+
+The 440 tag has been obsolete since 2008, 
+and while records containing 440 tags are still in the catalogue, new series statements 
+must follow the current standard.
 
 Local Information in Cataloguing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
