@@ -16,11 +16,12 @@ The below diagram shows the basic workflow when cataloguing items for which you 
 image:images/cataloguing-workflow.png[scaledwidth="75%"]
 
 
-
+////
 
 Staff must always check the Sitka database first before searching Z39.50 targets, or, in some libraries, a vendor file of MARC records, for bibliographic records.
 
 In order to ensure the integrity of this shared database, the procedures outlined in this section must be followed by all staff and volunteers who perform cataloguing tasks in Evergreen. The Chief Librarian at each member library is responsible for ensuring that staff and volunteers follow these procedures as they apply to their designated skill Level.
 
 image:images/policy-2.png[scaledwidth="75%"]
+////
 
