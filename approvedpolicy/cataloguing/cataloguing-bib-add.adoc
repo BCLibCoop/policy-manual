@@ -1,8 +1,14 @@
 Adding Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Importing via Z39.50
+^^^^^^^^^^^^^^^^^^^^
+
 Original Cataloguing
 ^^^^^^^^^^^^^^^^^^^^
+
+When creating new bibliographic records in the Sitka database they should always follow the
+RDA standard.
 
 Original cataloguing should constitute a very small percentage of records added to the database. The majority of records (>95%) should be found either within the Sitka database or approved Z39.50 targets, or, in some libraries, a vendor file of MARC records. If a record cannot be found within these sources, an original record may be created.
 
