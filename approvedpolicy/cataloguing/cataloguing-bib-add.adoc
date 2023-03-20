@@ -4,6 +4,14 @@ Adding Bibliographic Records
 Importing via Z39.50
 ^^^^^^^^^^^^^^^^^^^^
 
+When adding bibliographic records to the Sitka database via Z39.50 cataloguers should always
+prefer records that follow the RDA standard.
+
+When importing new records via Z39.50 cataloguers should edit the record to ensure it accurately
+describes the title being catalogued.  Local information from the record source should be 
+removed as it does not apply to Sitka's Evergreen. This information is generally found in the
+59X and 9XX fields of the MARC record.
+
 Original Cataloguing
 ^^^^^^^^^^^^^^^^^^^^
 
