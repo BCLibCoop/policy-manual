@@ -4,16 +4,20 @@ Cataloguing Standards
 Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
 
-Libraries are expected to follow cataloguing standards when creating new bibliographic records or editing 
-existing bibliographic records in Sitka's Evergreen.
+Libraries are expected to follow cataloguing standards when creating new bibliographic records 
+or editing existing bibliographic records in Sitka's Evergreen.
 
 Bibliographic records should follow both https://www.rdatoolkit.org/[RDA standards] and 
 https://www.loc.gov/marc/[MARC standards].
 
 [NOTE]
 ======
-Older records in the catalogue will follow AACR or AACR2 standards, rather than RDA, depending on when they 
-were originally catalogued.  
+Older records in the catalogue may follow AACR2 standards, rather than RDA, 
+depending on when they were originally catalogued.
+
+To minimize duplication of records, when an existing AACR2 record is already in the 
+Sitka database for the title being catalogued cataloguers should attach their holdings 
+to it rather than importing a new RDA record.
 ======
 
 Non-Bibliographic Records
