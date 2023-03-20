@@ -1,6 +1,10 @@
 Editing Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Existing Records
+^^^^^^^^^^^^^^^^
+
+
 Overlaying Records
 ^^^^^^^^^^^^^^^^^^
 
