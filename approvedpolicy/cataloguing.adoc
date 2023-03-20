@@ -11,6 +11,8 @@ include::cataloguing/cat-procedures.adoc[]
 include::cataloguing/cat-bestpractice.adoc[]
 
 include::cataloguing/cat-faq.adoc[]
+
+include::cataloguing/cataloguing-copy-cat.adoc[]
 ////
 
 include::cataloguing/cataloguing-standards.adoc[]
@@ -21,7 +23,7 @@ include::cataloguing/cataloguing-bib-record.adoc[]
 
 include::cataloguing/cataloguing-workflow.adoc[]
 
-include::cataloguing/cataloguing-copy-cat.adoc[]
+
 
 include::cataloguing/cataloguing-bib-edit.adoc[]
 
