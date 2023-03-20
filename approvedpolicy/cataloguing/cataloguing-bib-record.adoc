@@ -1,27 +1,11 @@
 The Bibliographic Record
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-RDA records and AACR2 records co-exist in the Sitka catalogue.  New records should always follow the 
-RDA standard.
-
-The following are approved guidelines for RDA records in Sitka’s Evergreen:
-
-* Leave an RDA record as RDA; do not modify a RDA record back to AACR2.
-* Copy cataloguers should add their copies to RDA records in the same way as they do to AACR2 records.
-* We want to minimize duplication of records; use the RDA record if already in Sitka, 
-but do not import an RDA record if an AACR2 record for the same title already exists in 
-Sitka. Instead, attach your copies to the AACR2 record.
-* At import, when choosing between 2 MARC records of equal quality, one in RDA and one 
-in AACR2, prefer the RDA record.
-* Original cataloguing is done in RDA exclusively, 
-as of Evergreen version 3.1 in 2018. Cataloguing templates are provided in RDA only.
-
-
 Minimum MARC Record
 ^^^^^^^^^^^^^^^^^^^
 
-MARC records for bibliographic titles should always meet the minimum requirments and ideally should
-exceed them.
+MARC records for bibliographic titles should always meet the minimum requirements and 
+ideally should exceed them.
 
 The following fields outline the fields that must ALWAYS be present in the MARC record.
 
@@ -139,24 +123,42 @@ Call Numbers
 Subject Heading Policy
 ^^^^^^^^^^^^^^^^^^^^^^
 
-When adding subject headings to a bibliographic record libraries should use terms from an official 
-thesaurus.  Commonly used official thesauri include Library of Congress Subject Headings, LC Subject headings for children's literature, 
-Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes-matière.
+Libraries should follow xref:_subject_headings[cataloguing standards] when working with 
+official subject headings.
 
-Subject headings not included in official thesauri are considered local subject headings and must be entered 
-as such in Sitka's Evergreen.
+Local Subject Headings
+++++++++++++++++++++++
+[[_local_subject_headings]]
+
+Local subject headings are used when the official subject headings are not sufficient 
+to describe the title being catalogued.  This is often the case with materials that are
+specific to an area or use a local term.
+ 
+Cataloguers may create and include local subject headings in bibliographic records.
+Local subject headings MUST be entered into a 
+xref:_library_specific_local_information[69X MARC field and include a $5 with the 
+library's code].
+
 
 Sitka Subject Headings
 ++++++++++++++++++++++
+[[_sitka_subject_headings]]
 
-The Sitka team is working with member libraries to identify and remove harmful subject headings from
-the Sitka catalogue.  Many of these subject headings are still in the official thesauri.
+The Sitka team is working with member libraries to identify and remove harmful subject headings 
+from the Sitka catalogue.  Many of these subject headings are still in the official thesauri.
+A list of removed subject headings and their replacements is available here.
 
-Where subject headings have been replaced through the work of the Co-op and the Cataloguing Working Group
-the MARC field has the second infi 
+Where subject headings have been replaced through the work of the Co-op and the 
+Cataloguing Working Group the MARC field will have a $2SITKALIST to indicate that the 
+subject heading is coming from the official Sitka list of subject headings.  These subject 
+headings are considered official heading, rather than local, and will be found in 
+the 6XX fields rather than the 69X fields.
 
+When working with records where the Sitka subject headings apply, cataloguers should:
 
-
+* NOT remove the Sitka subject headings and associated coding
+* NOT add the harmful subject heading
+* add the new subject headings to relevant bibliographic records
 
 
 Series Cataloguing
