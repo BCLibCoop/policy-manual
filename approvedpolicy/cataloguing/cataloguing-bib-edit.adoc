@@ -4,6 +4,11 @@ Editing Bibliographic Records
 Existing Records
 ^^^^^^^^^^^^^^^^
 
+Cataloguers should always 
+
+Cataloguers may wish to add additional information to the record to improve it.  Cataloguers
+must ensure that the information they add does not change the title being described.
+
 
 Overlaying Records
 ^^^^^^^^^^^^^^^^^^
