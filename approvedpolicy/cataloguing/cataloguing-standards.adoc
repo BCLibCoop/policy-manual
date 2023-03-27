@@ -49,3 +49,13 @@ Libraries are free to use whatever classification system(s) meets their needs fo
 
 Libraries should enter local call numbers through the holdings editor, and not into the bibliographic record. 
 
+Cataloguing Training
+^^^^^^^^^^^^^^^^^^^^
+
+The BC Libraries Cooperative provides resources and continuing training on how to catalogue in relation 
+to Sitka's Evergreen.  We do not provide training on cataloguing standards.
+
+If library staff need basic or advanced cataloguing training on RDA, MARC coding, 
+subject analysis, and/or classification we encourage you to look the programs offered 
+by the library schools, training offered through library associations, and online cataloguing
+resources.
