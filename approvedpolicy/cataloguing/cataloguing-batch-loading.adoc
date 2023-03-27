@@ -30,10 +30,12 @@ Consortial Batch Loading
 Co-op Support currently loads the following for Sitka libraries:
 
 *Records for Physical Items*
+
 * Enhanced on order and full records for ULS
 * Enhanced on order and full records for Whitehots
 
 *Records for e-resources*
+
 * BC Open Textbook for opted in Sitka libraries
 * Cantook Station for BC public libraries
 * Overdrive for BC and Manitoba public libraries
@@ -96,3 +98,18 @@ Co-op Support batch loads records for some libraries for the following products:
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] if you have questions
 about batch loading.
+
+E-resource Record Batch Deletion
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Co-op Support can batch delete e-resource records when the vendor supplies a deletion file.
+If deletion files are not available from the vendor, records for e-resources the vendor 
+no longer offers will remain in the Sitka database unless individually removed by 
+library staff.
+
+When investigating a new product please ask the vendor if they supply deletion files and 
+if so ensure that they are included in your subscription.
+
+Batch e-resource deletion is currently all done by Co-op Support.  Please contact
+https://bc.libraries.coop/support/[Co-op Support] for assistance with e-resource
+batch deletions.
