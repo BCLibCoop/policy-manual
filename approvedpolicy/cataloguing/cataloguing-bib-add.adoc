@@ -1,5 +1,5 @@
-Adding Bibliographic Records
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Adding Individual Bibliographic Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All new bibliographic records added to the Sitka database should be RDA records and 
 follow the xref:_bibliographic_records[bibliographic record cataloguing standards].
@@ -82,13 +82,3 @@ and deleting the placeholder item.
 Bibliographic records that are more than 3 months old with no physical or electronic holdings 
 attached are automatically deleted on a monthly basis so make sure you add placeholder holdings.
 ======
-
-
-Batch Loading Bibliographic Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
-
-
-
-
