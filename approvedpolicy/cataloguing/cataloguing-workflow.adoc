@@ -50,3 +50,6 @@ A record is also NOT a match if it does not contain enough information to confir
 record and item are a match.  Generally missing a combination of identifier (ISBN, ISSN, UPC), 
 author, publisher, publication date, will make it impossible to confirm that the item 
 and record match.  In this case cataloguers should add or create a new record. 
+
+On Order records may not contain all key information but still contain enough that a
+cataloguer can be confident that the record matches their newly published item.  
