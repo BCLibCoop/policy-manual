@@ -1,66 +1,94 @@
 Adding Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+All new bibliographic records added to the Sitka database should be RDA records and 
+follow the xref:_bibliographic_records[bibliographic record cataloguing standards].
+
 Importing via Z39.50
 ^^^^^^^^^^^^^^^^^^^^
 
-When adding bibliographic records to the Sitka database via Z39.50 cataloguers should always
-prefer records that follow the RDA standard.
-
 When importing new records via Z39.50 cataloguers should edit the record to ensure it accurately
-describes the title being catalogued.  Local information from the record source should be 
-removed as it does not apply to Sitka's Evergreen. This information is generally found in the
-59X and 9XX fields of the MARC record.
+describes the title being catalogued.  
+
+Local information from the record source should be removed as it does not apply to Sitka's 
+Evergreen. This information is generally found in the 59X and 9XX fields of the MARC record.
+
+[TIP]
+=====
+If a record for the exact item being catalogued is not available via Z39.50 but there is one
+in the Sitka database for the title in another format or edition, you can import 
+a copy of the existing record and then edit it to match your new item.  
+
+It is essential to make sure you edit the new record and not the existing record.
+=====
+
+For instructions on importing bibliographic records via Z39.50 in Sitka's Evergreen please
+refer to the section called 
+http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#import_from_z3950[Importing
+Bibliographic Records via Z39.50].
 
 Original Cataloguing
 ^^^^^^^^^^^^^^^^^^^^
 
-When creating new bibliographic records in the Sitka database they should always follow the
-RDA standard.
+Original cataloguing will generally constitute a very small percentage of bibliographic records 
+added to the Sitka database by a library.  Original cataloguing of bibliographic records 
+should be done in Sitka's Evergreen only if there is no record available in the Sitka 
+catalogue, via Z39.50, or from your vendor.
 
-Original cataloguing should constitute a very small percentage of records added to the database. The majority of records (>95%) should be found either within the Sitka database or approved Z39.50 targets, or, in some libraries, a vendor file of MARC records. If a record cannot be found within these sources, an original record may be created.
+Bibliographic records created in Sitka's Evergreen MUST follow the 
+xref:_cataloguing_standards[cataloguing standards] and meet Sitka's 
+xref:_minimum_marc_record[Minimum MARC Record] requirements.
 
-Sitka cataloguing templates are provided to assist library staff in complying with this standard. These templates are based on the section called “Characteristics of a "Best" MARC Record in the Sitka Database”. Sitka templates are only in RDA as of Evergreen version 3.1 in 2018.
+MARC templates for different formats are provided in Sitka's Evergreen to assist cataloguers.
 
-For instructions on original cataloguing and cataloguing templates, please refer to the section on http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[Creating New Bibliographic Records.]
+For instructions on creating new bibliographic records in Sitka's Evergreen please
+refer to the section called 
+ http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[Creating 
+ New Bibliographic Records].
 
-Working with On Order Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+For non-bibliographic records please refer to the  
+xref:_non_bibliographic_records[policy on non-bibliographic records].
 
-Working with On-order MARC Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Using Placeholder Holdings
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use of the Acquisitions Module resulted in an increase in the number of brief on-order records in the Sitka catalogue. The Acquisitions Ad Hoc Committee put forth recommendations on handling these brief on-order records. These recommendations were originally approved by the Business Function Group March 21, 2012, and have since been updated by Co-op Support in 2014 and 2018.
+Some libraries may add bibliographic records for titles before they have physically arrived
+at the library so that patrons can place holds. Generally vendor records files will
+include holdings information to automatically create these placeholder items.  For records
+that already exist in the Sitka database, brought in via Z39.50, or created as an original
+records cataloguers will need to manually create placeholder items.
 
-* Acquisitions Selectors to follow guidelines for minimum cataloguing requirements in creating brief on-order records.
+These placeholder items are created as described in the 
+http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings to Bibliographic Records] 
+section of Sitka's Evergreen Documentation, but with temporary information used to 
+fill some of the item record fields.
 
-* Cataloguers can only use brief on-order records to add holdings to if no other, better, record exists in the Sitka catalogue. An Acquisitions library , or another qualified cataloguer at a Sitka library, will change the on-order record to a full bibliographic record in the end, so cataloguers need to make sure they're attaching their holdings to the correct brief bibliographic record.
+Approved practice for cataloguers includes the following:
 
-* If the only record for a title in the catalogue is an on-order record, cataloguers should use that record to add holdings to only if they are sure that it matches format and isbn or other identifier to the title-in-hand. In this situation, cataloguers can overlay or merge the on-order record with the complete record as long as the format and identifier are a definite match and the new record adheres to Sitka Cataloguing Policy. Cataloguers must also ensure that they carry over any 590 or 690 fields from the on-order record to the complete record. (updated Feb 2014)
-
-* If the only record for a title in the catalogue is an on-order record, and it is unclear which format or isbn or other identifier the on-order record describes, cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (updated Feb 2014)
-
-* Cataloguers can overlay brief on-order records when using the MARC Batch Import/Export function. When importing, cataloguers must always use the Sitka overlay profile to ensure data in the 590 and 690 fields of the original record is preserved. Cataloguers should ensure that the brief records is for the same format as the item they are cataloguing. By default, brief on-order records use the Book 008 field regardless of the true format of the item.
-
-Working with On-order Item Records
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Libraries that allow patrons to place holds on items that are on order can create placeholder items to display in the catalogue. These placeholder items are created as described in the http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings to Bibliographic Records] section of Sitka's Evergreen Documentation, but with temporary information used to fill some of the item record fields.
-
-Approved practice for cataloguers include the following:
-
-* Use fake barcodes which include your library code, and have somewhere to record where you are in the sequence. i.e. MPL1000, MPL1001, MPL1002
-
+* Use fake barcodes which include your library code, and have somewhere to 
+record where you are in the sequence. i.e. MPL1000, MPL1001, MPL1002
 * Use ON ORDER as your call number.
-
 * Use Evergreen's On order status for the item record.
-
 * Have an On Order copy template for cataloguers to use.
+* Create and use an ON ORDER copy location, especially if your library uses a new 
+book copy location.
 
-* Create and use an ON ORDER copy location, especially if your library uses a new book copy location.
+When the item arrives, the cataloguer simply updates the barcode, 
+call number, and item attribues, rather than creating a new item 
+and deleting the placeholder item. 
 
-When the items arrive, the cataloguer simply updates the barcode, call number, and copy characteristics, rather than creating a new item and deleting the fake item. This ensures that any holds placed on the copy will be filled.
+[NOTE]
+======
+Bibliographic records that are more than 3 months old with no physical or electronic holdings 
+attached are automatically deleted on a monthly basis so make sure you add placeholder holdings.
+======
+
 
 Batch Loading Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
 
