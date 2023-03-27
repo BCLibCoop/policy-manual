@@ -56,6 +56,6 @@ The BC Libraries Cooperative provides resources and continuing training on how t
 to Sitka's Evergreen.  We do not provide training on cataloguing standards.
 
 If library staff need basic or advanced cataloguing training on RDA, MARC coding, 
-subject analysis, and/or classification we encourage you to look the programs offered 
+subject analysis, and/or classification we encourage you to look at the programs offered 
 by the library schools, training offered through library associations, and online cataloguing
 resources.
