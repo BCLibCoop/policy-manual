@@ -1,0 +1,98 @@
+Batch Loading Bibliographic Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Bibliographic records for physical and e-resources can be batch loaded using 
+files of MARC records from vendors.  Batch loading is done by Co-op Support and 
+and libary cataloguing staff.
+
+Libraries should ensure vendors are supplying them with RDA records and when 
+needed advocate for records that follow cataloguing standards and include the minimum
+required information for Sitka's Evergreen.
+
+[NOTE]
+======
+The BC Libraries Cooperative reserves the right to limit the number of bibliographic
+e-resource records to be loaded in batch into Sitka's Evergreen.  
+
+Libraries should ensure the records that are being loaded are for resources relevant to their 
+patrons and not simply because the record and resource is available.  Bibliographic records
+take up space in the database and adding hundreds of thousands of records affects 
+the services that can be offered and our hardware needs, which in turn affects the cost to 
+use Sitka's Evergreen. 
+
+If the total number of records for a new product will exceeed 50 000 records you MUST
+https://bc.libraries.coop/support/[Co-op Support].
+======
+
+Consortial Batch Loading
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Co-op Support currently loads the following for Sitka libraries:
+
+*Records for Physical Items*
+* Enhanced on order and full records for ULS
+* Enhanced on order and full records for Whitehots
+
+*Records for e-resources*
+* BC Open Textbook for opted in Sitka libraries
+* Cantook Station for BC public libraries
+* Overdrive for BC and Manitoba public libraries
+
+For information about on order and full records from ULS and Whitehots please
+refer to 
+https://bc.libraries.coop/support/sitka/enhanced-on-order-records-and-shelf-ready-items/[Enhanced
+On Order Records and Shelf Ready Items].
+
+To opt in to BC Open Textbooks please contact 
+https://bc.libraries.coop/support/[Co-op Support].
+
+
+Library Specific Batch Loading
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Co-op Support and library cataloguing staff batch load vendor files for products that
+libraries subscribe to individually.
+
+Acquisitions staff may batch load on order vendor records via the 
+http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC Order Records]
+interface.  Cataloguing staff may batch load vendor records via 
+http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[MARC Batch/Import].
+
+The following parameters should be used for the different types of records loaded in batch.
+
+
+*On Order Records for Acquisitions*
+
+* Record Match Set = SitkaMatch
+* Merge Profile = Merge Using EXISTING Record
+
+*Brief Records for Physical Items*
+
+* Record Match Set = SitkaMatch
+* Merge Profile = Merge Using EXISTING Record
+
+*Full Records for Physical Items*
+
+* Record Match Set = SitkaMatch
+* Merge Profile = Merge Using INCOMING Record
+
+*Full Records for e-resources*
+
+* Record Match Set = NoMatch
+* Merge Profile = Merge Using EXISTING Record (records are not actually merged as no 
+matches will be found)
+
+
+Co-op Support batch loads records for some libraries for the following products:
+
+* AudioCine
+* CBC Curio
+* Criterion on Demand
+* EBSCO
+* Film on Demand
+* Hoopla
+* O'reilly
+* ProQuest
+
+Please contact https://bc.libraries.coop/support/[Co-op Support] if you have questions
+about batch loading.
