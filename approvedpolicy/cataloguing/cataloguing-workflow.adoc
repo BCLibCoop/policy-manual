@@ -28,3 +28,25 @@ In order to ensure the integrity of this shared database, the procedures outline
 image:images/policy-2.png[scaledwidth="75%"]
 ////
 
+Is it a Match?
+^^^^^^^^^^^^^^
+
+When adding holdings to an existing record in the Sitka database it is very important to 
+ensure the physical or electronic item matches what is being described in the 
+bibliographic record.
+
+Cataloguers should use their knowledge of RDA and MARC coding to determine which record
+matches the item they are cataloguing.
+
+Remember, a record is NOT a match if:
+
+* it has a different identifier (ISBN, ISSN, UPC)
+* it has a different publisher and/or publication date
+* it is a different format (book vs. e-book, dvd vs. BluRay)
+* it is a different edition (American vs. UK)
+* it has a different page count and/or dimensions
+
+A record is also NOT a match if it does not contain enough information to confirm that the 
+record and item are a match.  Generally missing a combination of identifier (ISBN, ISSN, UPC), 
+author, publisher, publication date, will make it impossible to confirm that the item 
+and record match.  In this case cataloguers should add or create a new record. 
