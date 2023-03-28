@@ -2,13 +2,13 @@ Adding Individual Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 All new bibliographic records added to the Sitka database should be RDA records and 
-follow the xref:_bibliographic_records[bibliographic record cataloguing standards].
+follow the xref:_bibliographic_records[cataloguing standards].
 
 Importing via Z39.50
 ^^^^^^^^^^^^^^^^^^^^
 
-When importing new records via Z39.50 cataloguers should edit the record to ensure it accurately
-describes the title being catalogued.  
+When importing new records via Z39.50 cataloguers should edit the record as needed to ensure 
+it accurately describes the title being catalogued.  
 
 Local information from the record source should be removed as it does not apply to Sitka's 
 Evergreen. This information is generally found in the 59X and 9XX fields of the MARC record.
@@ -53,7 +53,7 @@ Using Placeholder Holdings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Some libraries may add bibliographic records for titles before they have physically arrived
-at the library so that patrons can place holds. Generally vendor records files will
+at the library so that patrons can place holds. Generally vendor record files will
 include holdings information to automatically create these placeholder items.  For records
 that already exist in the Sitka database, brought in via Z39.50, or created as an original
 records cataloguers will need to manually create placeholder items.
@@ -69,9 +69,9 @@ Approved practice for cataloguers includes the following:
 record where you are in the sequence. i.e. MPL1000, MPL1001, MPL1002
 * Use ON ORDER as your call number.
 * Use Evergreen's On order status for the item record.
-* Have an On Order copy template for cataloguers to use.
-* Create and use an ON ORDER copy location, especially if your library uses a new 
-book copy location.
+* Have an On Order holdings template for cataloguers to use.
+* Create and use an ON ORDER shelving location, especially if your library uses a new 
+book shelving location.
 
 When the item arrives, the cataloguer simply updates the barcode, 
 call number, and item attribues, rather than creating a new item 
@@ -80,5 +80,6 @@ and deleting the placeholder item.
 [NOTE]
 ======
 Bibliographic records that are more than 3 months old with no physical or electronic holdings 
-attached are automatically deleted on a monthly basis so make sure you add placeholder holdings.
+attached are automatically deleted on a monthly basis so make sure you add placeholder holdings
+within 3 months of adding the record.
 ======
