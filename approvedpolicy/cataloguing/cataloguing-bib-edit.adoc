@@ -6,6 +6,8 @@ Editing Bibliographic Records
 Existing Records
 ^^^^^^^^^^^^^^^^
 
+level of skill
+
 Cataloguers should always 
 
 Cataloguers may wish to add additional information to the record to improve it.  Cataloguers
@@ -15,10 +17,36 @@ Leader and Fixed Fields
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 The fixed fields, also called control fields, in the MARC record contain coded information
-that is used by Evergreen to determine things such as
+that is used by Evergreen's 
+http://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[search filters and 
+format icons]. It is important that these fields are coded correctly or your patrons 
+will not be able to find the titles they are looking for when using search filters.
 
-Some library systems don't or didn't use the values in the fixed fields so records 
-coming in via Z39.50 or from vendors may not be coded correctly.
+The values for the characters in these fields are found in 
+https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data]:
+
+* https://www.loc.gov/marc/bibliographic/bdleader.html[Leader]
+* https://www.loc.gov/marc/bibliographic/bd006.html[006]
+* https://www.loc.gov/marc/bibliographic/bd007.html[007]
+* https://www.loc.gov/marc/bibliographic/bd008.html[008]
+
+[NOTE]
+======
+All bibliographic records will have a leader and 008 field.  Whether a 006 and/or 007 is
+required will depend on the type of material the record is for. 
+======
+
+Incorrect or missing values in these fields are an ongoing issue as older records
+and some vendor records are not coded correctly.  Co-op Support encourages libraries
+correct the coding in these fields.
+
+Instructions on editing the leader and 008 field can be found in the section called
+http://docs.libraries.coop/sitka/_editing_marc_record_leader_and_fixed_field_008.html[Editing
+MARC Record Leader and Fixed Field 008].
+
+Instructions on editing the 007 field can be found in the section called 
+http://docs.libraries.coop/sitka/_fixed_field_007_physical_characteristics_wizard.html[Fixed
+Field 007 Physical Characteristics Wizard].
 
 
 Overlaying Records
@@ -29,7 +57,9 @@ with full records via Z30.50 or by batch loading full records.  Before
 overlaying records cataloguers must ensure the 
 xref:_is_it_a_match[records are a match].
 
-
+Instructions on overlaying records via Z39.50 can be found in the section called
+http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlaying
+Records via Z39.50].
 
 Working with On Order Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
