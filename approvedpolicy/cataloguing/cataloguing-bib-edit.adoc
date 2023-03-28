@@ -1,6 +1,8 @@
 Editing Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+
+
 Existing Records
 ^^^^^^^^^^^^^^^^
 
@@ -9,9 +11,24 @@ Cataloguers should always
 Cataloguers may wish to add additional information to the record to improve it.  Cataloguers
 must ensure that the information they add does not change the title being described.
 
+Leader and Fixed Fields
+^^^^^^^^^^^^^^^^^^^^^^^
+
+The fixed fields, also called control fields, in the MARC record contain coded information
+that is used by Evergreen to determine things such as
+
+Some library systems don't or didn't use the values in the fixed fields so records 
+coming in via Z39.50 or from vendors may not be coded correctly.
+
 
 Overlaying Records
 ^^^^^^^^^^^^^^^^^^
+
+Cataloguers with sufficient cataloguing knowledge can overlay brief and on order records
+with full records via Z30.50 or by batch loading full records.  Before
+overlaying records cataloguers must ensure the 
+xref:_is_it_a_match[records are a match].
+
 
 
 Working with On Order Records
@@ -38,8 +55,15 @@ Use of the Acquisitions Module resulted in an increase in the number of brief on
 Merging Records
 ^^^^^^^^^^^^^^^
 
-Fixed Fields
-^^^^^^^^^^^^
+Cataloguers with sufficient cataloguing knowledge can merge duplicate records together.  Before
+merging records cataloguers must ensure the 
+xref:_is_it_a_match[records are a match].
+
+For instructions on merging bibliographic records together please refer to the section 
+called http://docs.libraries.coop/sitka/_merging_bibliographic_records.html[Merging Bibliographic
+Records].
+
+
 
 
 
