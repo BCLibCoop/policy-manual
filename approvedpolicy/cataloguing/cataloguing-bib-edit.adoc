@@ -13,11 +13,14 @@ Existing Records
 
 Cataloguers with sufficient cataloguing knowledge can edit existing bibliographic records
 to improve them.  Cataloguers must ensure that the changes they make do not change the 
-title being described.
+title being described.  Information on what is considered a good MARC record in Sitka's
+Evergreen can be found in xref:_a_good_marc_record[].
 
 DO:
 
 * correct obvious typos
+* correct obviously incorrect coding in the xref:_leader_and_fixed_fields[leader 
+and fixed fields]
 * enhance records by xref:_a_good_marc_record[adding additional fields]
  such as notes (5XX) and subjects (6XX)
 * add xref:_library_specific_local_information[library specific local information information]
@@ -27,6 +30,8 @@ Subject Headings Policy]
 * add additional fields to brief on order records created by other libraries to improve them 
 as long as the original record contains enough information to be sure what title the purchasing
 library will be receiving
+* xref:_overlaying_bibliographic_records[overlay brief records with full bibliographic records]
+* xref:_merging_bibliographic_records[merge duplicate bibliographic records together]
 
 
 DON'T:
@@ -41,7 +46,8 @@ physical description
 
 
 Leader and Fixed Fields
-^^^^^^^^^^^^^^^^^^^^^^^
++++++++++++++++++++++++
+[[_leader_and_fixed_fields]]
 
 The fixed fields in the MARC record, also called control fields, contain coded information
 that is used by Evergreen's 
@@ -78,8 +84,9 @@ http://docs.libraries.coop/sitka/_fixed_field_007_physical_characteristics_wizar
 Field 007 Physical Characteristics Wizard].
 
 
-Overlaying Records
-^^^^^^^^^^^^^^^^^^
+Overlaying Bibliographic Records
+++++++++++++++++++++++++++++++++
+[[_overlaying_bibliographic_records]]
 
 Cataloguers with sufficient cataloguing knowledge can overlay brief and on order records
 with full records via Z39.50 or by batch loading full records.  Before
@@ -90,6 +97,21 @@ Instructions for overlaying records via Z39.50 can be found in Sitka's Evergreen
 in the section called
 http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlaying
 Records via Z39.50].
+
+Merging Bibliographic Records
++++++++++++++++++++++++++++++
+[[_merging_bibliographic_records]]
+
+Cataloguers with sufficient cataloguing knowledge can merge duplicate bibliographic records 
+together.  Before merging records cataloguers must ensure the 
+xref:_is_it_a_match[records are a match].
+
+Instructions for merging bibliographic records can be found in Sitka's Evergreen Documentation 
+in the section called 
+called http://docs.libraries.coop/sitka/_merging_bibliographic_records.html[Merging Bibliographic
+Records].
+
+
 
 ////
 Working with On Order Records
@@ -135,17 +157,7 @@ brief on-order records use the Book 008 field regardless of the true format of t
 
 
 
-Merging Records
-^^^^^^^^^^^^^^^
 
-Cataloguers with sufficient cataloguing knowledge can merge duplicate bibliographic records 
-together.  Before merging records cataloguers must ensure the 
-xref:_is_it_a_match[records are a match].
-
-Instructions for merging bibliographic records can be found in Sitka's Evergreen Documentation 
-in the section called 
-called http://docs.libraries.coop/sitka/_merging_bibliographic_records.html[Merging Bibliographic
-Records].
 
 
 
