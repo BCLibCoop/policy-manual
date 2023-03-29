@@ -41,6 +41,40 @@ Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes
 Subject headings not included in official thesauri are considered local subject headings and must be entered 
 as such in Sitka's Evergreen.
 
+Local Subject Headings
+++++++++++++++++++++++
+[[_local_subject_headings]]
+
+Local subject headings are used when the official subject headings are not sufficient 
+to describe the title being catalogued.  This is often the case with materials that are
+specific to an area or use a local term.
+ 
+Cataloguers may create and include local subject headings in bibliographic records.
+Local subject headings MUST be entered into a 
+xref:_library_specific_local_information[69X MARC field and include a $5 with the 
+library's code].
+
+
+Sitka Subject Headings
+++++++++++++++++++++++
+[[_sitka_subject_headings]]
+
+The Sitka team is working with member libraries to identify and remove harmful subject headings 
+from the Sitka catalogue.  Many of these subject headings are still in the official thesauri.
+A list of removed subject headings and their replacements is available here.
+
+Where subject headings have been replaced through the work of the Co-op and the 
+Cataloguing Working Group the MARC field will have a $2SITKALIST to indicate that the 
+subject heading is coming from the official Sitka list of subject headings.  These subject 
+headings are considered official heading, rather than local, and will be found in 
+the 6XX fields rather than the 69X fields.
+
+When working with records where the Sitka subject headings apply, cataloguers should:
+
+* NOT remove the Sitka subject headings and associated coding
+* NOT add the harmful subject heading
+* add the new subject headings to relevant bibliographic records
+
 Classification Systems
 ^^^^^^^^^^^^^^^^^^^^^^
 
