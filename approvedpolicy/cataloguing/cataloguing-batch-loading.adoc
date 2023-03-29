@@ -2,12 +2,13 @@ Batch Loading Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Bibliographic records for physical and e-resources can be batch loaded using 
-files of MARC records from vendors.  Batch loading is done by Co-op Support and 
-and libary cataloguing staff.
+files of MARC records from vendors.  Batch loading is done by Co-op Support 
+and library cataloguing staff.
 
-Libraries should ensure vendors are supplying them with RDA records and when 
-needed advocate for records that follow cataloguing standards and include the minimum
-required information for Sitka's Evergreen.
+Libraries should ensure vendors are supplying them with RDA records and, when 
+needed, advocate for records that follow cataloguing standards and include the 
+xref:_sitka_minimum_marc_record[minimum
+required information] for Sitka's Evergreen.
 
 [NOTE]
 ======
@@ -20,7 +21,7 @@ take up space in the database and adding hundreds of thousands of records affect
 the services that can be offered and our hardware needs, which in turn affects the cost to 
 use Sitka's Evergreen. 
 
-If the total number of records for a new product will exceeed 50 000 records you MUST
+If the total number of records for a new product will exceeed 50 000 records you MUST contact
 https://bc.libraries.coop/support/[Co-op Support].
 ======
 
@@ -34,16 +35,16 @@ Co-op Support currently loads the following for Sitka libraries:
 * Enhanced on order and full records for ULS
 * Enhanced on order and full records for Whitehots
 
+For information about on order and full records from ULS and Whitehots please
+refer to 
+https://bc.libraries.coop/support/sitka/enhanced-on-order-records-and-shelf-ready-items/[Enhanced
+On Order Records and Shelf Ready Items].
+
 *Records for e-resources*
 
 * BC Open Textbook for opted in Sitka libraries
 * Cantook Station for BC public libraries
 * Overdrive for BC and Manitoba public libraries
-
-For information about on order and full records from ULS and Whitehots please
-refer to 
-https://bc.libraries.coop/support/sitka/enhanced-on-order-records-and-shelf-ready-items/[Enhanced
-On Order Records and Shelf Ready Items].
 
 To opt in to BC Open Textbooks please contact 
 https://bc.libraries.coop/support/[Co-op Support].
@@ -58,7 +59,7 @@ libraries subscribe to individually.
 Acquisitions staff may batch load on order vendor records via the 
 http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC Order Records]
 interface.  Cataloguing staff may batch load vendor records via 
-http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[MARC Batch/Import].
+http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[MARC Batch Export/Import].
 
 The following parameters should be used for the different types of records loaded in batch.
 
@@ -67,23 +68,29 @@ The following parameters should be used for the different types of records loade
 
 * Record Match Set = SitkaMatch
 * Merge Profile = Merge Using EXISTING Record
+* Import Non-Matching Records = TRUE
+* Merge On Best Match = TRUE
 
 *Brief Records for Physical Items*
 
 * Record Match Set = SitkaMatch
 * Merge Profile = Merge Using EXISTING Record
+* Import Non-Matching Records = TRUE
+* Merge On Best Match = TRUE
 
 *Full Records for Physical Items*
 
 * Record Match Set = SitkaMatch
 * Merge Profile = Merge Using INCOMING Record
+* Import Non-Matching Records = TRUE
+* Merge On Best Match/Exact Match/Single = ???????
 
 *Full Records for e-resources*
 
 * Record Match Set = NoMatch
 * Merge Profile = Merge Using EXISTING Record (records are not actually merged as no 
 matches will be found)
-
+* Import Non-Matching Records = TRUE
 
 Co-op Support batch loads records for some libraries for the following products:
 
@@ -104,7 +111,7 @@ E-resource Record Batch Deletion
 
 Co-op Support can batch delete e-resource records when the vendor supplies a deletion file.
 If deletion files are not available from the vendor, records for e-resources the vendor 
-no longer offers will remain in the Sitka database unless individually removed by 
+no longer offers will remain in the Sitka catalogue unless individually removed by 
 library staff.
 
 When investigating a new product please ask the vendor if they supply deletion files and 

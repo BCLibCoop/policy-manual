@@ -9,6 +9,7 @@ authoritative information on all MARC fields and subfields.
 
 Sitka's Minimum MARC Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[[_sitka_minimum_marc_record]]
 
 MARC records for bibliographic titles in the Sitka database should always meet the minimum 
 requirements set in this policy and, ideally, should exceed them.

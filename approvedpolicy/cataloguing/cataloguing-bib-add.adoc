@@ -1,7 +1,7 @@
 Adding Individual Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-All new bibliographic records added to the Sitka database should be RDA records and 
+All new bibliographic records added to the Sitka catalogue should be RDA records and 
 follow the xref:_bibliographic_records[cataloguing standards].
 
 Importing via Z39.50
@@ -16,14 +16,14 @@ Evergreen. This information is generally found in the 59X and 9XX fields of the 
 [TIP]
 =====
 If a record for the exact item being catalogued is not available via Z39.50 but there is one
-in the Sitka database for the title in another format or edition, you can import 
+in the Sitka catalogue for the title in another format or edition, you can import 
 a copy of the existing record and then edit it to match your new item.  
 
 It is essential to make sure you edit the new record and not the existing record.
 =====
 
-For instructions on importing bibliographic records via Z39.50 in Sitka's Evergreen please
-refer to the section called 
+Instructions on importing bibliographic records via Z39.50 can be found in Sitka's Evergreen Documentation 
+in the section called
 http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#import_from_z3950[Importing
 Bibliographic Records via Z39.50].
 
@@ -37,12 +37,12 @@ catalogue, via Z39.50, or from your vendor.
 
 Bibliographic records created in Sitka's Evergreen MUST follow the 
 xref:_cataloguing_standards[cataloguing standards] and meet Sitka's 
-xref:_minimum_marc_record[Minimum MARC Record] requirements.
+xref:_sitka_minimum_marc_record[Minimum MARC Record] requirements.
 
 MARC templates for different formats are provided in Sitka's Evergreen to assist cataloguers.
 
-For instructions on creating new bibliographic records in Sitka's Evergreen please
-refer to the section called 
+Instructions for creating new bibliographic records can be found in Sitka's Evergreen Documentation in 
+the section called
  http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[Creating 
  New Bibliographic Records].
 
@@ -55,13 +55,13 @@ Using Placeholder Holdings
 Some libraries may add bibliographic records for titles before they have physically arrived
 at the library so that patrons can place holds. Generally vendor record files will
 include holdings information to automatically create these placeholder items.  For records
-that already exist in the Sitka database, brought in via Z39.50, or created as an original
+that already exist in the Sitka catalogue, brought in via Z39.50, or created as original
 records cataloguers will need to manually create placeholder items.
 
 These placeholder items are created as described in the 
 http://docs.libraries.coop/sitka/add_holdings.html[Adding Holdings to Bibliographic Records] 
 section of Sitka's Evergreen Documentation, but with temporary information used to 
-fill some of the item record fields.
+fill some of the holdings fields.
 
 Approved practice for cataloguers includes the following:
 
@@ -69,13 +69,15 @@ Approved practice for cataloguers includes the following:
 record where you are in the sequence. i.e. MPL1000, MPL1001, MPL1002
 * Use ON ORDER as your call number.
 * Use Evergreen's On order status for the item record.
-* Have an On Order holdings template for cataloguers to use.
-* Create and use an ON ORDER shelving location, especially if your library uses a new 
+* Have an On Order http://docs.libraries.coop/sitka/_holdings_templates.html[holdings
+ template] for cataloguers to use.
+* Create and use an ON ORDER 
+http://docs.libraries.coop/sitka/_shelving_location_editor.html#_creating_a_shelving_location[shelving location],
+ especially if your library uses a new 
 book shelving location.
 
 When the item arrives, the cataloguer simply updates the barcode, 
-call number, and item attribues, rather than creating a new item 
-and deleting the placeholder item. 
+call number, and item attributes on the placeholder item rather than creating a new item.
 
 [NOTE]
 ======
