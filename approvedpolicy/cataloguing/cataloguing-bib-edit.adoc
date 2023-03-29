@@ -45,6 +45,10 @@ physical description
 * add item specific information - this goes in your item record
 
 
+Instructions for editing records can be found in Sitka's Evergreen Documentation in the 
+section called http://docs.libraries.coop/sitka/edit-marc.html#_editing_marc_records[Editing
+MARC Records].
+
 Leader and Fixed Fields
 +++++++++++++++++++++++
 [[_leader_and_fixed_fields]]
