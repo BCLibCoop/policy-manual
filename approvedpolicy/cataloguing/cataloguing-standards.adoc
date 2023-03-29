@@ -23,7 +23,7 @@ Sitka database for the title being catalogued cataloguers should attach their ho
 to it rather than importing a new RDA record.
 ======
 
-Policies for Sitka's requirements for a minimum record and what consitutes a good record
+Policies for Sitka's requirements for a minimum record and what constitutes a good record
 are found xref:_the_bibliographic_record[].
 
 Non-Bibliographic Records
