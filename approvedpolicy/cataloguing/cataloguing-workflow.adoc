@@ -10,11 +10,12 @@ This can be done in three way:
  directly
 * include _Local Catalog_ as a source when 
 http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_searching_via_z39_50[searching via Z39.50]
-* select _SitkaMatch_ as your record Match Set when importing a file of records through the 
-http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[Batch Import/Export] or
+* select _SitkaMatch_ as your Record Match Set when importing a file of records through the 
+http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[MARC Batch Import/Export] or
 the http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[acquisitions module]
 
-The below diagram shows the basic workflow when cataloguing items for which you do not have a file of records.
+The below diagram shows the basic workflow when cataloguing items for which you do not have 
+a file of records.  
 
 image:images/cataloguing-workflow.png[scaledwidth="75%"]
 
@@ -31,9 +32,9 @@ image:images/policy-2.png[scaledwidth="75%"]
 Is it a Match?
 ^^^^^^^^^^^^^^
 
-When adding holdings to an existing record in the Sitka database it is very important to 
-ensure the physical or electronic item matches what is being described in the 
-bibliographic record.
+When adding holdings to an existing bibliographic record in the Sitka catalogue
+ it is very important to ensure the physical or electronic item matches what is 
+ being described in the bibliographic record.
 
 Cataloguers should use their knowledge of RDA and MARC coding to determine which record
 matches the item they are cataloguing.
@@ -48,8 +49,9 @@ Remember, a record is NOT a match if:
 
 A record is also NOT a match if it does not contain enough information to confirm that the 
 record and item are a match.  Generally missing a combination of identifier (ISBN, ISSN, UPC), 
-author, publisher, publication date, will make it impossible to confirm that the item 
-and record match.  In this case cataloguers should add or create a new record. 
+author, publisher, and publication date, will make it impossible to confirm that the item 
+and record match.  In this case cataloguers should add or create a new bibliographic record. 
 
-On Order records may not contain all key information but still contain enough that a
-cataloguer can be confident that the record matches their newly published item.  
+Brief on order records may not contain all key information but still contain enough that a
+cataloguer can be confident that the record matches their newly published item. In this case
+cataloguers should add their holding to the existing brief on order record.

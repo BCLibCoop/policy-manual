@@ -1,7 +1,8 @@
 Cataloguing Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Changes to bibliographic records in the Sitka database have the potential to affect all Sitka libraries.
+Changes to bibliographic records in the Sitka catalogue have the potential to affect 
+all Sitka libraries.
 
 To ensure cataloguing follows both cataloguing standards and Sitka cataloguing policy library directors
 and administrators should ensure that only approriate library staff have access to
@@ -35,8 +36,8 @@ _Available to Post-Secondary, Public, and Special libraries._
 Library staff can create and edit holding records.  This includes creating and editing call number
 and item records, replacing barcodes, updating item attributes, printing item labels, and deleting items.
 
-Library staff can create, import, and edit bibliographic records.  This includes editing existing records
-in the Sitka databases, importing and overlaying records via the MARC Batch Import/Export and Z39.50,
+Library staff can create, import, and edit bibliographic records.  This includes editing 
+existing records in the Sitka catalogue, importing and overlaying records via the MARC Batch Import/Export and Z39.50,
 merging records, and creating new original records.
 
 Staff do NOT have access to circulation functions.
@@ -49,9 +50,9 @@ _Available to Government, K-12, Post-Secondary, Public, and Special libraries._
 Library staff can create and edit holding records.  This includes creating and editing call number
 and item records, replacing barcodes, updating item attributes, printing item labels, and deleting items.
 
-Library staff can create, import, and edit bibliographic records.  This includes editing existing records
-in the Sitka databases, importing and overlaying records via the MARC Batch Import/Export and Z39.50,
-merging records, and creating new original records.
+Library staff can create, import, and edit bibliographic records.  This includes editing 
+existing records in the Sitka catalogue, importing and overlaying records via the MARC Batch 
+Import/Export and Z39.50, merging records, and creating new original records.
 
 Staff also have access to most circulation functions.
 
@@ -64,9 +65,9 @@ _Available to Government, K-12, Post-Secondary, Public, and Special libraries._
 Library staff can create and edit holding records.  This includes creating and editing call number
 and item records, replacing barcodes, updating item attributes, printing item labels, and deleting items.
 
-Library staff can create, import, and edit bibliographic records.  This includes editing existing records
-in the Sitka databases, importing and overlaying records via the MARC Batch Import/Export and Z39.50,
-merging records, and creating new original records.
+Library staff can create, import, and edit bibliographic records.  This includes editing 
+existing records in the Sitka catalologue, importing and overlaying records via the MARC 
+Batch Import/Export and Z39.50, merging records, and creating new original records.
 
 Staff also have access to all circulation functions, including deleting patrons.
 
@@ -76,5 +77,6 @@ This permission group is currently called GL Full Privileges for government libr
 School Library Admin for K-12.
 ======
 
-A general outline of staff account permission groups can be found in 
+A general outline of staff account permission groups can be found
+in Sitka's Evergreen Documentation in the section called
 http://docs.libraries.coop/sitka/_staff_account_permission_groups.html[Library Staff Accounts].

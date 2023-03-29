@@ -1,13 +1,16 @@
 Cataloguing Standards
 ~~~~~~~~~~~~~~~~~~~~~
 
+All staff performing cataloguing functions in Sitka's Evergreen are expected to follow 
+the same cataloguing standards when working with records. 
+
 Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^
 
-Libraries are expected to follow cataloguing standards when creating new bibliographic records 
+Cataloguers are expected to follow cataloguing standards when creating new bibliographic records 
 or editing existing bibliographic records in Sitka's Evergreen.
 
-Bibliographic records should follow both https://www.rdatoolkit.org/[RDA standards] and 
+New bibliographic records should follow current https://www.rdatoolkit.org/[RDA standards] and 
 https://www.loc.gov/marc/[MARC standards].
 
 [NOTE]
@@ -23,13 +26,16 @@ to it rather than importing a new RDA record.
 Non-Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Libraries may create records for non-bibliographic items, such as for a library of things.  It is recommended
-that libraries generally follow cataloguing standards when creating these records (i.e. enter a name for 
-the item in the 245 title field) but these records do not need to meet the same standards as bibliographic
-records.
+Cataloguers may create records for non-bibliographic items, such as for a library of things.  
+It is recommended that cataloguers generally follow cataloguing standards when creating these 
+records (i.e. enter a name for the item in the 245 title field) but these records do 
+not need to meet the same standards as bibliographic records.
 
 Libraries should create their own non-bibliographic records rather than attaching to existing ones from
 other libraries unless working with a shared collection.
+
+Instructions for creating non-bibliographic records can be found in Sitka's Evergreen 
+Documentation in the section called SECTION TO BE ADDED TO MANUAL STILL.
 
 Subject Headings
 ^^^^^^^^^^^^^^^^
@@ -67,7 +73,7 @@ first changes are made to the live database.
 Where subject headings have been replaced through the work of the Co-op and the 
 Cataloguing Working Group the MARC field will have a $2SITKALIST to indicate that the 
 subject heading is coming from the official Sitka list of subject headings.  These subject 
-headings are considered official heading, rather than local, and will be found in 
+headings are considered official headings, rather than local, and will be found in 
 the 6XX fields rather than the 69X fields.
 
 When working with records where the Sitka subject headings apply, cataloguers should:
@@ -83,6 +89,10 @@ While bibliographic records are shared within the Sitka database, call number an
 Libraries are free to use whatever classification system(s) meets their needs for their call numbers. 
 
 Libraries should enter local call numbers through the holdings editor, and not into the bibliographic record. 
+
+Instructions for using the holdings editor can be found in Sitka's Evergreen Documentation 
+in the section called 
+http://docs.libraries.coop/sitka/_maintaining_holdings.html#_holdings_editor[Holdings Editor].
 
 Cataloguing Training
 ^^^^^^^^^^^^^^^^^^^^
