@@ -1,36 +1,46 @@
 The Bibliographic Record
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+The MARC21 Format for Bibliographic Data is available in 
+https://www.loc.gov/marc/bibliographic/[English] and in 
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[French].  These websites contain the 
+authoritative information on all MARC fields and subfields.
 
-Minimum MARC Record
-^^^^^^^^^^^^^^^^^^^
 
-MARC records for bibliographic titles should always meet the minimum requirements and 
-ideally should exceed them.
+Sitka's Minimum MARC Record
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+MARC records for bibliographic titles in the Sitka database should always meet the minimum 
+requirements set in this policy and, ideally, should exceed them.
 
 The following table outlines the fields that must ALWAYS be present in the MARC record.
 
 |========
-|MARC Field | Required Subfields | Material Type | Description
-|Leader | N/A | ALL | Contains information required for Evergreen to process the record.
-|006 | N/A | Required for podcasts, e-books, e-audiobooks, e-videos, websites, streaming music, and 
+|MARC Field | Name | Required Subfields | Material Type | Description
+|https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] | Leader | N/A | ALL | Contains information required for Evergreen to process the record.
+|https://www.loc.gov/marc/bibliographic/bd006.html[006] | Fixed-Length Data Elements - Additional Material Characteristics | N/A | Required for podcasts, e-books, e-audiobooks, e-videos, websites, streaming music, and 
 streaming videos. | Contains coding used by Evergreen for search filters and format icons.  
-|007 | N/A | Required for soundrecordings (spoken and music), computer/video games, playaways, podcasts, 
+|https://www.loc.gov/marc/bibliographic/bd007.html[007] | Physical Description Fixed Field | N/A | Required for soundrecordings (spoken and music), computer/video games, playaways, podcasts, 
 e-books, e-audiobooks, e-videos, websites, streaming music, and streaming videos. | Contains coding 
 used by Evergreen for search filters and format icons. 
-|008 | N/A | ALL | Contains coding used by Evergreen for search filters and format icons. 
-|020/022/024 | $a | ALL | Contains the standard identifier used internationally. Every bibliographic records should
+|https://www.loc.gov/marc/bibliographic/bd008.html[008] | Fixed-Length Data Elements | N/A | ALL | Contains coding used by Evergreen for search filters and format icons. 
+|https://www.loc.gov/marc/bibliographic/bd020.html[020]/https://www.loc.gov/marc/bibliographic/bd022.html[022]/https://www.loc.gov/marc/bibliographic/bd024.html[024] | Standard Identifiers | $a | ALL | Contains the standard identifier used internationally. Every bibliographic records should
 have at least one 020, 022, or 024 field.
-|1XX | $a | ALL, with exceptions where the title is added entry. | Contains the entity responsible for the work (person, corporation, conference, etc.)
-|245 | $a, $c | ALL | Contains the title and author.
-|264 | $a, $b, $c | ALL |  Contains the place of publication, publisher, and date of publication or copyright.
-|300 | $a, $c ($c not required for e-records) | ALL | Contains the physical description of the item 
+|https://www.loc.gov/marc/bibliographic/bd1xx.html[1XX] | Main Entry Fields | $a | ALL, with exceptions where the title is added entry. | Contains the entity responsible for the work (person, corporation, conference, etc.)
+|https://www.loc.gov/marc/bibliographic/bd245.html[245] | Title Statement | $a, $c | ALL | Contains the title and author.
+|https://www.loc.gov/marc/bibliographic/bd264.html[264] | Production, Publication, Distribution, Manufacture, and Copyright Notice | $a, $b, $c | 
+ALL |  Contains the place of publication, publisher, and date of publication or copyright. This
+is used instead of the 260 field in new records.
+|https://www.loc.gov/marc/bibliographic/bd300.html[300] | Physical Description | $a, $c ($c not required for e-records) | ALL | Contains the physical description of the item 
 including number of pages and dimensions.
 |========
 
-On order records are an exception as some of the required information may not yet be available.  On order
-records should always be updated to at least meet the minumum requirement when the item is received and 
-added to the collection.
+[NOTE]
+======
+Brief on order records are an exception as some of the required information may not yet be 
+available. Brief on order records should always be updated to at least meet the minumum 
+requirement when the item is received and added to the collection.
+======
 
 A Good MARC Record
 ^^^^^^^^^^^^^^^^^^
@@ -43,114 +53,41 @@ own holdings.
 The fields included in a MARC record will vary depending on the type of material 
 being described.
 
-The MARC21 Format for Bibliographic Data is available in 
-https://www.loc.gov/marc/bibliographic/[English] and in 
-https://www.marc21.ca/M21/BIB/B001-Sommaire.html[French].  These websites contain 
-information on all MARC fields and subfields.
-
 In addition to the mimumum required fields a good MARC record should also contain, where 
 applicable, the following fields:
 
 |========
-|MARC Field | Name | Material Type | Description
-| 010  | Library of Congress Control Number
-| 250 | Edition Statement
-| 336 | Content Type
-| 337 | Media Type
-| 338 | Carrier Type 
-| 490 | Series Statement
-| 5XX | Note Fields
-| 6XX | Subject Access Fields
-| 7XX | Added Entry
-| 80X-83X | Series Added Entry
+|MARC Field | Name | Description
+|https://www.loc.gov/marc/bibliographic/bd010.html[010]  | Library of Congress Control Number | Contains the unique number assigned by 
+the Library of Congress.
+|https://www.loc.gov/marc/bibliographic/bd016.html[016] | National Bibliographic Agency Control Number | Contains the unique number assigned by 
+a national bibliographic agency, such as Library and Archives Canada.
+|https://www.loc.gov/marc/bibliographic/bd250.html[250] | Edition Statement | Contains information about the version of the material, when 
+multiple versions exist.
+|https://www.loc.gov/marc/bibliographic/bd336.html[336] | Content Type | Found only in RDA records. Contains the content type of the title.
+|https://www.loc.gov/marc/bibliographic/bd337.html[337] | Media Type | Found only in RDA records. Contains information on the type of device 
+needed to view, play, run, etc. the title.
+|https://www.loc.gov/marc/bibliographic/bd338.html[338] | Carrier Type | Found only in RDA records.  Contains information on the physical format
+the title is stored on/in.
+|https://www.loc.gov/marc/bibliographic/bd490.html[490] | Series Statement | Contains the series statement, including the series name. Older records
+use the 440 field which is now obsolete.
+|https://www.loc.gov/marc/bibliographic/bd5xx.html[5XX] | Note Fields | A variety of note fields are available which contain additional information
+on the title. See xref:_library_specific_local_information[] for information on using local 
+notes in Sitka's Evergreen.
+|https://www.loc.gov/marc/bibliographic/bd6xx.html[6XX] | Subject Access Fields | A variety of subject fields are available which contain subject
+terms to describe what the title is about. See xref:_local_subject_headings[] for information
+on using local subject headings in Sitka's Evergreen.
+|https://www.loc.gov/marc/bibliographic/bd70x75x.html[70X-75X] | Added Entry | Contains additional entities responsible for the work 
+(person, corporation, conference, etc.) 
+|https://www.loc.gov/marc/bibliographic/bd80x83x.html[80X-83X] | Series Added Entry | Contains additional information to aid in searching for series.
+|https://www.loc.gov/marc/bibliographic/bd856.html[856] | Electronic Location and Access | Contains information for accessing an e-resource or 
+resources related to a physical resource that are available electronically.  See 
+xref:_library_specific_local_information[] for information on how to code this field in
+Sitka's Evergreen.
 |========
 
-Library staff may notice older records using MARC fields that are now obsolete.  New 
-records should always use a 264 rather than a 260 and a 490 rather than a 440. Old records
-can be left as is.
-
-
-Control Fields
-++++++++++++++
-
-
-Standard Numbers
-++++++++++++++++
-
-* 010 Library of Congress Control Number (LCCN) is the control number for MARC records distributed by the Library of Congress. Can often be found in the Cataloging in Publication (CIP) information on verso page of a book. Can be useful searching number.
-
-* 020 International Standard Book Number (ISBN) is a unique number assigned to items by publisher. Can be 10 or 13 digit number. Sitka support and training team recommend searching Evergreen and Z39 targets, by both numbers, if present on item, before proceeding to original cataloguing. When cataloguing an item, if both numbers are present, enter both in separate 020 tags.
-
-* 022 International Standard Serial Number (ISSN) is a unique number assigned to a serial title.
-
-* 024 Universal Product Code (UPC) is a twelve digit number often assigned to sound recordings and videos.
-
-* 028 are Publisher Control Numbers, formatted numbers used for sound recordings, printed music, and videorecordings.
-
-Main Entry
-++++++++++
-
-Title
-+++++
-
-*Title*: 245 tag contains all the important title information and General Material Designations (GMD). 245 subfields a and b are title and sub-title respectively, 245c contains the statement of responsibility, and 245h is for approved GMDs. Note, for RDA records, the GMD is no longer used; instead the tags of 336, 337 and 338 are used (see below).
-
-Edition
-+++++++
-
-*Edition Statement*: 25X tags contain important descriptive information about the item being described. This information includes edition statement, imprint and other publication source information.
-
-Publication Information
-+++++++++++++++++++++++
-
-*Publication Information*: 264 tag and subfields a, place of publication, b, name of publisher, and c, year of publication, contain critical publication information and should be as complete as possible. When assessing record, matching the 264/260 tag should always be considered. Note, the second indicator of 264 should be filled: 1 for publication, 2 for distribution, etc.
-
-Physical Description
-++++++++++++++++++++
-
-*Physical Description of Item*: 300 tag is used to physically describe an item as completely as possible.
-
-*Content, Media and Carrier type*: 336, 337, 338 tags are used for RDA records only. The fields of content, media and carrier collectively replace the GMD (245$h). For 336, subfield $a is content term and $2 rda content. For subfield 337, $a is media term and $2 is rdamedia. For 338, $a is carrier term and $2 is rdacarrier. See here for appropriate RDA terms.
-
-Series Information
-++++++++++++++++++
-
-*Series Information*: 440 and 490 are used to describe relevant series.  440 was officially made obsolete in 2008, but you will still find it used in records that predate 2008, but for correct, current  series cataloguing use the 490 tag.
-
-Notes
-+++++
-
-*Notes*: 5xx tags are useful, keyword searchable notes tags, which assist in description and retrieval of items. Use the 500 tag for a note that cannot be placed in any other 5xx tag as per MARC standards.
-
-Subject Headings
-++++++++++++++++
-
-*Subjects*: 6xx contain subject headings that follow standards for personal, topical, geographical, and genre terms. Use 690 for local, non-standard subject headings.
-
-
-
-Call Numbers
-^^^^^^^^^^^^
-
-*Classification Numbers*: Evergreen does not display call numbers from the shared MARC record, but the data is useful for searching, matching, and assessing quality of a MARC record. Evergreen uses each library's volume record for local call number display, and will give you the option to auto-fill your number from the MARC record if you want to use that call number as yours.
-
-* 05X are standard classification (call) numbers that are, or can be, present in a MARC record. The most common are the 050, which is the Library of Congress Classification Number (LCC), assigned by the Library of Congress, and the 055, which is the Canadian LCC.
-
-* 082 is the Dewey Decimal Classification number (DDC).
-
-* 090 and 092 are tags reserved for a library's local call number. This data is not used by Evergreen for call number display, but you will often see data there from a different library whose system may use the MARC record for call number display.
-
-
-Series Cataloguing
-^^^^^^^^^^^^^^^^^^
-
-Sitka libraries use the 490 tag for a series title statement, which is the current Library of 
-Congress standard. The 490 should include subfield $a and subfield $v.  If an added entry 
-is required, you must use the 800 or 830 tag. 
-
-The 440 tag has been obsolete since 2008, 
-and while records containing 440 tags are still in the catalogue, new series statements 
-must follow the current standard.
+There are many more MARC fields that can be added to bibliographic records and cataloguers
+with sufficient knowledge should add them to records as applicable.
 
 Local Information in Cataloguing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -160,7 +97,12 @@ Library Specific Local Information
 [[_library_specific_local_information]]
 (((Local Information)))
 
-Applies to all items attached to the record belonging to the scoped library.
+Some information included in bibliographic records is specific to a particular library.  In
+the shared Sitka database libraries are required to identify this information using a 
+scoping subfield as outlined in the table below.
+
+The information will apply to all items attached to the record belonging to 
+the scoped library.
 
 .Library Specific Local Information
 [options="header"]
@@ -182,7 +124,11 @@ Item Specific Local Information
 +++++++++++++++++++++++++++++++
 [[_item_specific_local_information]]
 
-Applies to the specific item.
+Information that is specific to items should NEVER be included in the bibliographic record.
+Instead this information should be included in the relevant item attribute so that it is
+included in the item record.
+
+The information will apply to the specific item.
 
 .Item Specific Local Information
 [options="header"]

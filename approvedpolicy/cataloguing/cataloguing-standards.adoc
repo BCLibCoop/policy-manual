@@ -61,7 +61,8 @@ Sitka Subject Headings
 
 The Sitka team is working with member libraries to identify and remove harmful subject headings 
 from the Sitka catalogue.  Many of these subject headings are still in the official thesauri.
-A list of removed subject headings and their replacements is available here.
+A list of removed subject headings and their replacements will be available when the 
+first changes are made to the live database.
 
 Where subject headings have been replaced through the work of the Co-op and the 
 Cataloguing Working Group the MARC field will have a $2SITKALIST to indicate that the 
