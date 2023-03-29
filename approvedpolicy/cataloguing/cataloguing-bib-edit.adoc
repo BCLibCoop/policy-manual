@@ -1,17 +1,39 @@
 Editing Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-
+[CAUTION]
+=========
+Cataloguers should always be cautious when editing existing bibliographic records in the 
+Sitka database.  Changes to a bibliographic record affect ALL libraries with holdings attached.
+In our consortium with over 100 libraries a single change can have a significant effect.
+=========
 
 Existing Records
 ^^^^^^^^^^^^^^^^
 
-level of skill
+Cataloguers with sufficient cataloguing knowledge can edit existing bibliographic records
+to improve them.  Cataloguers must ensure that the changes they make do not change the 
+title being described.
 
-Cataloguers should always 
+DO:
 
-Cataloguers may wish to add additional information to the record to improve it.  Cataloguers
-must ensure that the information they add does not change the title being described.
+* correct obvious typos
+* enhance records by adding additional fields such as notes (5XX) and subjects (6XX)
+* add local subject headings as needed while following Sitka's xref:_subject_heading_policy[Subject
+Heading Policy]
+* add additional fields to brief on order records created by other libraries to improve them 
+as long as the original record contains enough information to be sure what title the purchasing
+library will be receiving
+
+
+DON'T:
+
+* remove fields/information
+* remove xref:_library_specific_local_information[local information] from other libraries 
+(fields will include a $5 or $9 with the library code)
+* change fundamental information such as title, author, publisher, publication date, and/or
+physical description
+
 
 Leader and Fixed Fields
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,24 +83,47 @@ Instructions on overlaying records via Z39.50 can be found in the section called
 http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlaying
 Records via Z39.50].
 
+////
 Working with On Order Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Working with On-order MARC Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Use of the Acquisitions Module resulted in an increase in the number of brief on-order records in the Sitka catalogue. The Acquisitions Ad Hoc Committee put forth recommendations on handling these brief on-order records. These recommendations were originally approved by the Business Function Group March 21, 2012, and have since been updated by Co-op Support in 2014 and 2018.
+Use of the Acquisitions Module resulted in an increase in the number of brief on-order 
+records in the Sitka catalogue. The Acquisitions Ad Hoc Committee put forth recommendations o
+n handling these brief on-order records. These recommendations were originally approved by 
+the Business Function Group March 21, 2012, and have since been updated by Co-op Support in 2014 and 2018.
 
-* Acquisitions Selectors to follow guidelines for minimum cataloguing requirements in creating brief on-order records.
+* Acquisitions Selectors to follow guidelines for minimum cataloguing requirements in 
+creating brief on-order records.
 
-* Cataloguers can only use brief on-order records to add holdings to if no other, better, record exists in the Sitka catalogue. An Acquisitions library , or another qualified cataloguer at a Sitka library, will change the on-order record to a full bibliographic record in the end, so cataloguers need to make sure they're attaching their holdings to the correct brief bibliographic record.
+* Cataloguers can only use brief on-order records to add holdings to if no other, better, 
+record exists in the Sitka catalogue. An Acquisitions library , or another qualified
+cataloguer at a Sitka library, will change the on-order record to a full bibliographic 
+record in the end, so cataloguers need to make sure they're attaching their holdings to 
+the correct brief bibliographic record.
 
-* If the only record for a title in the catalogue is an on-order record, cataloguers should use that record to add holdings to only if they are sure that it matches format and isbn or other identifier to the title-in-hand. In this situation, cataloguers can overlay or merge the on-order record with the complete record as long as the format and identifier are a definite match and the new record adheres to Sitka Cataloguing Policy. Cataloguers must also ensure that they carry over any 590 or 690 fields from the on-order record to the complete record. (updated Feb 2014)
+* If the only record for a title in the catalogue is an on-order record, cataloguers 
+should use that record to add holdings to only if they are sure that it matches format 
+and isbn or other identifier to the title-in-hand. In this situation, cataloguers can 
+overlay or merge the on-order record with the complete record as long as the format 
+and identifier are a definite match and the new record adheres to Sitka Cataloguing 
+Policy. Cataloguers must also ensure that they carry over any 590 or 690 fields from 
+he on-order record to the complete record. (updated Feb 2014)
 
-* If the only record for a title in the catalogue is an on-order record, and it is unclear which format or isbn or other identifier the on-order record describes, cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (updated Feb 2014)
+* If the only record for a title in the catalogue is an on-order record, and it is 
+unclear which format or isbn or other identifier the on-order record describes,
+ cataloguers should bring in a new record via Z39.50 and attach their holdings to it. (
+ updated Feb 2014)
 
-* Cataloguers can overlay brief on-order records when using the MARC Batch Import/Export function. When importing, cataloguers must always use the Sitka overlay profile to ensure data in the 590 and 690 fields of the original record is preserved. Cataloguers should ensure that the brief records is for the same format as the item they are cataloguing. By default, brief on-order records use the Book 008 field regardless of the true format of the item.
-
+* Cataloguers can overlay brief on-order records when using the 
+MARC Batch Import/Export function. When importing, cataloguers must 
+always use the Sitka overlay profile to ensure data in the 590 and 690 fields 
+of the original record is preserved. Cataloguers should ensure that the brief 
+records is for the same format as the item they are cataloguing. By default, 
+brief on-order records use the Book 008 field regardless of the true format of the item.
+////
 
 
 
