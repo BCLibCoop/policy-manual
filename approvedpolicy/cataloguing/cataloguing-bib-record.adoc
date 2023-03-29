@@ -4,15 +4,15 @@ The Bibliographic Record
 The MARC21 Format for Bibliographic Data is available in 
 https://www.loc.gov/marc/bibliographic/[English] and in 
 https://www.marc21.ca/M21/BIB/B001-Sommaire.html[French].  These websites contain the 
-authoritative information on all MARC fields and subfields.
+authoritative information on MARC fields and subfields.
 
 
 Sitka's Minimum MARC Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_sitka_minimum_marc_record]]
 
-MARC records for bibliographic titles in the Sitka database should always meet the minimum 
-requirements set in this policy and, ideally, should exceed them.
+MARC records for bibliographic titles in the Sitka catalogue should always meet the minimum 
+requirements set in this policy and ideally should exceed them.
 
 The following table outlines the fields that must ALWAYS be present in the MARC record.
 
@@ -27,7 +27,8 @@ used by Evergreen for search filters and format icons.
 |https://www.loc.gov/marc/bibliographic/bd008.html[008] | Fixed-Length Data Elements | N/A | ALL | Contains coding used by Evergreen for search filters and format icons. 
 |https://www.loc.gov/marc/bibliographic/bd020.html[020]/https://www.loc.gov/marc/bibliographic/bd022.html[022]/https://www.loc.gov/marc/bibliographic/bd024.html[024] | Standard Identifiers | $a | ALL | Contains the standard identifier used internationally. Every bibliographic records should
 have at least one 020, 022, or 024 field.
-|https://www.loc.gov/marc/bibliographic/bd1xx.html[1XX] | Main Entry Fields | $a | ALL, with exceptions where the title is added entry. | Contains the entity responsible for the work (person, corporation, conference, etc.)
+|https://www.loc.gov/marc/bibliographic/bd1xx.html[1XX] | Main Entry Fields | $a | ALL, 
+with exceptions where the title is main entry. | Contains the entity responsible for the work (person, corporation, conference, etc.)
 |https://www.loc.gov/marc/bibliographic/bd245.html[245] | Title Statement | $a, $c | ALL | Contains the title and author.
 |https://www.loc.gov/marc/bibliographic/bd264.html[264] | Production, Publication, Distribution, Manufacture, and Copyright Notice | $a, $b, $c | 
 ALL |  Contains the place of publication, publisher, and date of publication or copyright. This
@@ -40,7 +41,8 @@ including number of pages and dimensions.
 ======
 Brief on order records are an exception as some of the required information may not yet be 
 available. Brief on order records should always be updated to at least meet the minumum 
-requirement when the item is received and added to the collection.
+requirement when the item is received and added to the collection. For many records this 
+is taken care of through routine xref:[batch loading] of full records.
 ======
 
 A Good MARC Record
@@ -88,7 +90,7 @@ Sitka's Evergreen.
 |========
 
 There are many more MARC fields that can be added to bibliographic records and cataloguers
-with sufficient knowledge should add them to records as applicable.
+with sufficient cataloguing knowledge should add them to records as applicable.
 
 Local Information in Cataloguing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -99,7 +101,7 @@ Library Specific Local Information
 (((Local Information)))
 
 Some information included in bibliographic records is specific to a particular library.  In
-the shared Sitka database libraries are required to identify this information using a 
+the shared Sitka catalogue libraries are required to identify this information using a 
 scoping subfield as outlined in the table below.
 
 The information will apply to all items attached to the record belonging to 
@@ -109,17 +111,15 @@ the scoped library.
 [options="header"]
 |=============
 |MARC Field|Field Name|Scoping Subfield|OPAC Visible?|Use
-|506|Restrictions on Access Note|5|Yes|Used to note who is allowed to access the resource.
-|521|Target Audience Note|5|Yes|Used to indicate the audience the resource is intended for (ie. reading level or video rating).
-|540|Terms Governing Use and Reproduction Note|5|Yes|Used to note how the resource can be used (ie. Public Performance Rights).
-|59X|Local Notes|5|No|Used for any local notes that do not fit into another field.
-|595|Local Notes (Indexed)|5|No|Used for any local notes that need to be searchable in the OPAC.
-|69X|Local Subject Access Fields|5|Yes|Used for local subject headings (ie. not Library of Congress or Canadian Subject Headings).
-|856|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
+|https://www.loc.gov/marc/bibliographic/bd506.html[506]|Restrictions on Access Note|5|Yes|Used to note who is allowed to access the resource.
+|https://www.loc.gov/marc/bibliographic/bd521.html[521]|Target Audience Note|5|Yes|Used to indicate the audience the resource is intended for (ie. reading level or video rating).
+|https://www.loc.gov/marc/bibliographic/bd540.html[540]|Terms Governing Use and Reproduction Note|5|Yes|Used to note how the resource can be used (ie. Public Performance Rights).
+|https://www.loc.gov/marc/bibliographic/bd59x.html[59X]|Local Notes|5|No|Used for any local notes that do not fit into another field.
+|https://www.loc.gov/marc/bibliographic/bd59x.html[595]|Local Notes (Indexed)|5|No|Used for any local notes that need to be searchable in the OPAC.
+|https://www.loc.gov/marc/bibliographic/bd69x.html[69X]|Local Subject Access Fields|5|Yes|Used for local subject headings (ie. not Library of Congress or Canadian Subject Headings).
+|https://www.loc.gov/marc/bibliographic/bd856.html[856]|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
 |=============
 
-Please refer to the Library of Congress' https://www.loc.gov/marc/[MARC Standards] for further
-information regarding these fields.
 
 Item Specific Local Information
 +++++++++++++++++++++++++++++++
@@ -135,8 +135,9 @@ The information will apply to the specific item.
 [options="header"]
 |=============
 |Name|Patron Visible|Use
-|Item Statistical Category|No|Used for commonly repeated information about a specific item (ie. vendor).
-|Item Note|No|Used for information specific to the item (ie. Adopt a Book sponsor).
-|Item Note (Public)|Yes|Used for information specific to the item that may be of interest to a patron (ie. autographed copy).
-|Item Alert|Yes|Used for information that should been seen when an item is checked in or out (ie. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display item alerts.
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_statistical_category_values[Item
+ Statistical Category]|No|Used for commonly repeated information about a specific item (ie. vendor).
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_notes[Item Note]|No|Used for information specific to the item (ie. Adopt a Book sponsor).
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_notes[Item Note] (Public)|Yes|Used for information specific to the item that may be of interest to a patron (ie. autographed copy).
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_alerts_2[Item Alert]|Yes|Used for information that should been seen when an item is checked in or out (ie. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display item alerts.
 |=============
