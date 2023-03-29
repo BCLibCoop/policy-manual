@@ -19,6 +19,8 @@ DO:
 
 * correct obvious typos
 * enhance records by adding additional fields such as notes (5XX) and subjects (6XX)
+* add xref:_library_specific_local_information[library specific local information information]
+ into approved fields with a scoping subfield
 * add local subject headings as needed while following Sitka's xref:_subject_heading_policy[Subject
 Heading Policy]
 * add additional fields to brief on order records created by other libraries to improve them 
@@ -33,12 +35,14 @@ DON'T:
 (fields will include a $5 or $9 with the library code)
 * change fundamental information such as title, author, publisher, publication date, and/or
 physical description
+* add library specific local information without including a scoping subfield
+* add item specific information - this goes in your item record
 
 
 Leader and Fixed Fields
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The fixed fields, also called control fields, in the MARC record contain coded information
+The fixed fields in the MARC record, also called control fields, contain coded information
 that is used by Evergreen's 
 http://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[search filters and 
 format icons]. It is important that these fields are coded correctly or your patrons 
@@ -59,7 +63,7 @@ required will depend on the type of material the record is for.
 ======
 
 Incorrect or missing values in these fields are an ongoing issue as older records
-and some vendor records are not coded correctly.  Co-op Support encourages libraries
+and some vendor records are not coded correctly.  Co-op Support encourages cataloguers to
 correct the coding in these fields.
 
 Instructions on editing the leader and 008 field can be found in the section called
