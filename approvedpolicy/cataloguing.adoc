@@ -18,8 +18,6 @@ include::cataloguing/cataloguing-standards.adoc[]
 
 include::cataloguing/cataloguing-permissions.adoc[]
 
-include::cataloguing/cataloguing-bib-record.adoc[]
-
 include::cataloguing/cataloguing-workflow.adoc[]
 
 include::cataloguing/cataloguing-bib-edit.adoc[]
@@ -27,6 +25,8 @@ include::cataloguing/cataloguing-bib-edit.adoc[]
 include::cataloguing/cataloguing-bib-add.adoc[]
 
 include::cataloguing/cataloguing-batch-loading.adoc[]
+
+include::cataloguing/cataloguing-bib-record.adoc[]
 
 
 
