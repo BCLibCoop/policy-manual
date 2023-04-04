@@ -1,7 +1,7 @@
 Batch Loading Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Bibliographic records for physical and e-resources can be batch loaded using 
+Bibliographic records for physical and electronic resources can be batch loaded using 
 files of MARC records from vendors.  Batch loading is done by Co-op Support 
 and library cataloguing staff.
 

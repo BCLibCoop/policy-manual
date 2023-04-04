@@ -3,7 +3,7 @@ Editing Bibliographic Records
 
 [CAUTION]
 =========
-Cataloguers should always be cautious when editing existing bibliographic records in the 
+Cataloguers should be cautious when editing existing bibliographic records in the 
 Sitka catalogue.  Changes to a bibliographic record affect ALL libraries with holdings attached.
 In our consortium, with over 100 libraries, a single change can have a significant effect.
 =========
@@ -11,8 +11,8 @@ In our consortium, with over 100 libraries, a single change can have a significa
 Existing Records
 ^^^^^^^^^^^^^^^^
 
-Cataloguers with sufficient cataloguing knowledge can edit existing bibliographic records
-to improve them.  Cataloguers must ensure that the changes they make do not change the 
+Cataloguers with sufficient cataloguing knowledge can make edits which add to or improve
+ existing bibliographic records.  Cataloguers must ensure that the changes they make do not change the 
 title being described.  Information on what is considered a good MARC record in Sitka's
 Evergreen can be found in xref:_a_good_marc_record[].
 

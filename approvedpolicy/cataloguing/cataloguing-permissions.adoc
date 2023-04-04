@@ -1,11 +1,11 @@
 Cataloguing Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Changes to bibliographic records in the Sitka catalogue have the potential to affect 
+Changing bibliographic records in the Sitka catalogue has the potential to affect 
 all Sitka libraries.
 
 To ensure cataloguing follows both cataloguing standards and Sitka cataloguing policy library directors
-and administrators should ensure that only approriate library staff have access to
+and administrators should ensure that only approriately trained library staff have access to
 cataloguing functions and that their level of access matches their cataloguing comfort level.
 Any library staff member with access to cataloguing functions MUST review and be
 familiar with Sitka's Cataloguing Policy.
@@ -14,8 +14,9 @@ familiar with Sitka's Cataloguing Policy.
 Library Staff Cataloguing Permission Groups
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Local System Administrators can assign cataloguing staff one of three permission groups which give
-access to cataloguing functions.  Local system administrator accounts also have cataloguing access.
+There are four permission groups which give access to cataloguing functions.  Local system 
+administrator accounts can assign cataloguing permissions and they also have full 
+cataloguing access.
 
 
 Circ + Copy Edit 
@@ -66,7 +67,7 @@ Library staff can create and edit holding records.  This includes creating and e
 and item records, replacing barcodes, updating item attributes, printing item labels, and deleting items.
 
 Library staff can create, import, and edit bibliographic records.  This includes editing 
-existing records in the Sitka catalologue, importing and overlaying records via the MARC 
+existing records in the Sitka catalogue, importing and overlaying records via the MARC 
 Batch Import/Export and Z39.50, merging records, and creating new original records.
 
 Staff also have access to all circulation functions, including deleting patrons.

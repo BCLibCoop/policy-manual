@@ -29,13 +29,13 @@ are found xref:_the_bibliographic_record[].
 Non-Bibliographic Records
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Cataloguers may create records for non-bibliographic items, such as for a library of things.  
+Cataloguers may create records for non-bibliographic items.  
 It is recommended that cataloguers generally follow cataloguing standards when creating these 
 records (i.e. enter a name for the item in the 245 title field) but these records do 
 not need to meet the same standards as bibliographic records.
 
 Libraries should create their own non-bibliographic records rather than attaching to existing ones from
-other libraries unless working with a shared collection.
+other libraries unless they are working with a shared collection.
 
 Instructions for creating non-bibliographic records can be found in Sitka's Evergreen 
 Documentation in the section called SECTION TO BE ADDED TO MANUAL STILL.
@@ -43,8 +43,8 @@ Documentation in the section called SECTION TO BE ADDED TO MANUAL STILL.
 Subject Headings
 ^^^^^^^^^^^^^^^^
 
-When assigning subject headings libraries should use terms from an official thesaurus.  Commonly used 
-official thesauri include Library of Congress Subject Headings, LC Subject headings for children's literature, 
+When assigning subject headings libraries should use terms from an official thesaurus such as 
+Library of Congress Subject Headings, LC Subject headings for children's literature, 
 Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes-matière.
 
 Subject headings not included in official thesauri are considered local subject headings and must be entered 
@@ -88,7 +88,7 @@ When working with records where the Sitka subject headings apply, cataloguers sh
 Classification Systems
 ^^^^^^^^^^^^^^^^^^^^^^
 
-While bibliographic records are shared within the Sitka database, call number and item records are not.  
+While bibliographic records are shared within Sitka's Evergreen, call number and item records are not.  
 Libraries are free to use whatever classification system(s) meets their needs for their call numbers. 
 
 Libraries should enter local call numbers through the holdings editor, and not into the bibliographic record. 
@@ -101,7 +101,7 @@ Cataloguing Training
 ^^^^^^^^^^^^^^^^^^^^
 
 The BC Libraries Cooperative provides resources and continuing training on how to catalogue in relation 
-to Sitka's Evergreen.  We do not provide training on cataloguing standards.
+to Sitka's Evergreen.  We do not provide training in cataloguing standards.
 
 If library staff need basic or advanced cataloguing training on RDA, MARC coding, 
 subject analysis, and/or classification we encourage you to look at the programs offered 

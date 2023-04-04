@@ -1,7 +1,7 @@
 The Cataloguing Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cataloguers should ensure that the Sitka catalogue is always searched as part of their cataloguing process so that
+Cataloguers should always search the Sitka catalogue as part of their cataloguing process so that
 new holdings can be added to existing matching records whenever possible.
 
 This can be done in three way:

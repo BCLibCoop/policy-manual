@@ -1,17 +1,17 @@
 Purpose
 ~~~~~~~
 
-The purpose of Sitka's Cataloguing Policy is to clearly lay out the standards for cataloguing within
+Sitka's Cataloguing Policy defines the standards and best practices for cataloguing within
 the shared Sitka catalogue to ensure that all libraries are treating bibliographic records in the 
 same manner when they are editing, creating, or adding records.
 
 All staff that perform cataloguing tasks at Sitka libraries are expected to familiarize themselves 
-with this policy and endeavour to uphold it as they work with records in the Sitka database.
+with this policy and commit to uphold it as they work with records in the Sitka catalogue.
 
-The goal is to have a database of high quality bibliographic records that are used by all libraries.  Ideally
+The goal is to have a database of high quality bibliographic records that are shared by all libraries.  Ideally
 there is one MARC record in the database for each discrete bibliographic title which all libraries add their
-holdings to.  It is key that all Sitka libraries follow the same policies when editing MARC records to 
-ensure that records accurately reflect the items that are attached to them.
+holdings to.  All Sitka libraries must follow the same policies when editing MARC records to 
+ensure that records accurately describe the items that are attached to them.
 
 The bibliographic records in the Sitka database are the shared property of the BC Libraries 
 Cooperative, regardless of the holdings attached. It does not matter which library created the record, 
@@ -21,7 +21,7 @@ Maintaining the quality and integrity of each bibliographic record is an interes
 we all share.
 
 Sitka's cataloguing policy was originally developed by the BC Libraries Cooperative in 2009 with 
-recommendations from the then Sitka Cataloguing Working Group.  The policies are updated by Co-op
+recommendations from the Sitka Cataloguing Working Group.  The policies are updated by Co-op
 Support as needed to reflect changes in cataloguing standards and changes to Sitka recommendations.
 
 ////
