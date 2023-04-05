@@ -114,12 +114,19 @@ the scoped library.
 |https://www.loc.gov/marc/bibliographic/bd506.html[506]|Restrictions on Access Note|5|Yes|Used to note who is allowed to access the resource.
 |https://www.loc.gov/marc/bibliographic/bd521.html[521]|Target Audience Note|5|Yes|Used to indicate the audience the resource is intended for (ie. reading level or video rating).
 |https://www.loc.gov/marc/bibliographic/bd540.html[540]|Terms Governing Use and Reproduction Note|5|Yes|Used to note how the resource can be used (ie. Public Performance Rights).
-|https://www.loc.gov/marc/bibliographic/bd59x.html[59X]|Local Notes|5|No|Used for any local notes that do not fit into another field.
+|https://www.loc.gov/marc/bibliographic/bd59x.html[590]|Local Notes|5|No|Used for any local notes that do not fit into another field.
 |https://www.loc.gov/marc/bibliographic/bd59x.html[595]|Local Notes (Indexed)|5|No|Used for any local notes that need to be searchable in the OPAC.
-|https://www.loc.gov/marc/bibliographic/bd69x.html[69X]|Local Subject Access Fields|5|Yes|Used for local subject headings (ie. not Library of Congress or Canadian Subject Headings).
+|https://www.loc.gov/marc/bibliographic/bd69x.html[690]|Local Subject Access Fields|5|Yes|Used for local subject headings (ie. not Library of Congress or Canadian Subject Headings).
 |https://www.loc.gov/marc/bibliographic/bd856.html[856]|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
 |=============
 
+
+[NOTE]
+======
+Libraries should only use the specified fields when entering local notes (590, 595) 
+and local subject headings (690). These three fields are preserved when records are merged 
+together.
+======
 
 Item Specific Local Information
 +++++++++++++++++++++++++++++++

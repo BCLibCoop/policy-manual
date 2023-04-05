@@ -83,7 +83,6 @@ The following parameters should be used for the different types of records loade
 * Record Match Set = SitkaMatch
 * Merge Profile = Merge Using INCOMING Record
 * Import Non-Matching Records = TRUE
-* Merge On Best Match/Exact Match/Single = ???????
 
 *Full Records for e-resources*
 
