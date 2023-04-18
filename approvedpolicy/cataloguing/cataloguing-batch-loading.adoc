@@ -59,7 +59,7 @@ libraries subscribe to individually.
 Acquisitions staff may batch load on order vendor records via the 
 http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC Order Records]
 interface.  Cataloguing staff may batch load vendor records via 
-http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[MARC Batch Export/Import].
+https://docs.libraries.coop/sitka/_batch_loading_bibliographic_records.html[MARC Batch Export/Import].
 
 The following parameters should be used for the different types of records loaded in batch.
 
