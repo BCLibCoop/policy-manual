@@ -9,9 +9,9 @@ This can be done in three way:
 * http://docs.libraries.coop/sitka/_searching_the_database_for_cataloguing_purposes.html[search the Sitka catalogue]
  directly
 * include _Local Catalog_ as a source when 
-http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_searching_via_z39_50[searching via Z39.50]
+https://docs.libraries.coop/sitka/_adding_individual_records.html#_importing_bibliographic_records_via_z39_50_interface[searching via Z39.50]
 * select _SitkaMatch_ as your Record Match Set when importing a file of records through the 
-http://docs.libraries.coop/sitka/_batch_importing_bibliographic_records.html[MARC Batch Import/Export] or
+https://docs.libraries.coop/sitka/_batch_loading_bibliographic_records.html[MARC Batch Import/Export] or
 the http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[acquisitions module]
 
 The below diagram shows the basic workflow when cataloguing items for which you do not have 
