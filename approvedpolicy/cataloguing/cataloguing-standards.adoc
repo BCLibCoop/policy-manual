@@ -10,8 +10,9 @@ Bibliographic Records
 Cataloguers are expected to follow cataloguing standards when creating new bibliographic records 
 or editing existing bibliographic records in Sitka's Evergreen.
 
-New bibliographic records should follow current https://www.rdatoolkit.org/[RDA standards] and 
-https://www.loc.gov/marc/[MARC standards].
+New bibliographic records should follow current https://www.rdatoolkit.org/[RDA] and 
+https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21] standards.
 
 [NOTE]
 ======
@@ -38,7 +39,9 @@ Libraries should create their own non-bibliographic records rather than attachin
 other libraries unless they are working with a shared collection.
 
 Instructions for creating non-bibliographic records can be found in Sitka's Evergreen 
-Documentation in the section called SECTION TO BE ADDED TO MANUAL STILL.
+Documentation in the section called 
+https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[Creating
+New Records for Non-Bibliographic Resources].
 
 Subject Headings
 ^^^^^^^^^^^^^^^^
