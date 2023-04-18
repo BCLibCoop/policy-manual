@@ -24,7 +24,7 @@ It is essential to make sure you edit the new record and not the existing record
 
 Instructions on importing bibliographic records via Z39.50 can be found in Sitka's Evergreen Documentation 
 in the section called
-http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#import_from_z3950[Importing
+https://docs.libraries.coop/sitka/_adding_individual_records.html#_importing_bibliographic_records_via_z39_50_interface[Importing
 Bibliographic Records via Z39.50].
 
 Original Cataloguing
@@ -43,7 +43,7 @@ MARC templates for different formats are provided in Sitka's Evergreen to assist
 
 Instructions for creating new bibliographic records can be found in Sitka's Evergreen Documentation in 
 the section called
- http://docs.libraries.coop/sitka/_creating_new_bibliographic_records.html[Creating 
+ https://docs.libraries.coop/sitka/_creating_new_records_for_bibliographic_resources.html[Creating 
  New Bibliographic Records].
 
 For non-bibliographic records please refer to the  
