@@ -1,7 +1,7 @@
 The Bibliographic Record
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-The MARC21 Format for Bibliographic Data is available in 
+The MARC 21 Format for Bibliographic Data is available in 
 https://www.loc.gov/marc/bibliographic/[English] and in 
 https://www.marc21.ca/M21/BIB/B001-Sommaire.html[French].  These websites contain the 
 authoritative information on MARC fields and subfields.
@@ -42,7 +42,7 @@ including number of pages and dimensions.
 Brief on order records are an exception as some of the required information may not yet be 
 available. Brief on order records should always be updated to at least meet the minumum 
 requirement when the item is received and added to the collection. For many records this 
-is taken care of through routine xref:[batch loading] of full records.
+is taken care of through routine xref:_consortial_batch_loading[batch loading] of full records.
 ======
 
 A Good MARC Record
@@ -111,13 +111,20 @@ the scoped library.
 [options="header"]
 |=============
 |MARC Field|Field Name|Scoping Subfield|OPAC Visible?|Use
-|https://www.loc.gov/marc/bibliographic/bd506.html[506]|Restrictions on Access Note|5|Yes|Used to note who is allowed to access the resource.
-|https://www.loc.gov/marc/bibliographic/bd521.html[521]|Target Audience Note|5|Yes|Used to indicate the audience the resource is intended for (ie. reading level or video rating).
-|https://www.loc.gov/marc/bibliographic/bd540.html[540]|Terms Governing Use and Reproduction Note|5|Yes|Used to note how the resource can be used (ie. Public Performance Rights).
-|https://www.loc.gov/marc/bibliographic/bd59x.html[590]|Local Notes|5|No|Used for any local notes that do not fit into another field.
-|https://www.loc.gov/marc/bibliographic/bd59x.html[595]|Local Notes (Indexed)|5|No|Used for any local notes that need to be searchable in the OPAC.
-|https://www.loc.gov/marc/bibliographic/bd69x.html[690]|Local Subject Access Fields|5|Yes|Used for local subject headings (ie. not Library of Congress or Canadian Subject Headings).
-|https://www.loc.gov/marc/bibliographic/bd856.html[856]|Electronic Location and Access|9|Yes|Used to provide the URL for access to electronic resources.
+|https://www.loc.gov/marc/bibliographic/bd506.html[506]|Restrictions on Access Note|5|Yes|Used to note who is allowed
+ to access the resource.
+|https://www.loc.gov/marc/bibliographic/bd521.html[521]|Target Audience Note|5|Yes|Used to indicate the 
+audience the resource is intended for (e.g. reading level or video rating).
+|https://www.loc.gov/marc/bibliographic/bd540.html[540]|Terms Governing Use and Reproduction Note|5|Yes|Used to note 
+how the resource can be used (e.g. Public Performance Rights).
+|https://www.loc.gov/marc/bibliographic/bd59x.html[590]|Local Notes|5|No|Used for any local notes that do not fit
+ into another field.
+|https://www.loc.gov/marc/bibliographic/bd59x.html[595]|Local Notes (Indexed)|5|No|Used for any local notes
+ that need to be searchable in the public catalogue.
+|https://www.loc.gov/marc/bibliographic/bd69x.html[690]|Local Subject Access Fields|5|Yes|Used for local subject
+ headings (e.g. not Library of Congress or Canadian Subject Headings).
+|https://www.loc.gov/marc/bibliographic/bd856.html[856]|Electronic Location and Access|9|Yes|Used 
+to provide the URL for access to electronic resources.
 |=============
 
 
@@ -143,8 +150,11 @@ The information will apply to the specific item.
 |=============
 |Name|Patron Visible|Use
 |http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_statistical_category_values[Item
- Statistical Category]|No|Used for commonly repeated information about a specific item (ie. vendor).
-|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_notes[Item Note]|No|Used for information specific to the item (ie. Adopt a Book sponsor).
-|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_notes[Item Note] (Public)|Yes|Used for information specific to the item that may be of interest to a patron (ie. autographed copy).
-|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_alerts_2[Item Alert]|Yes|Used for information that should been seen when an item is checked in or out (ie. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display item alerts.
+ Statistical Category]|No|Used for commonly repeated information about a specific item (e.g. vendor).
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_notes[Item Note]|No|Used 
+for information specific to the item (e.g. Adopt a Book sponsor).
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_notes[Item Note] (Public)
+|Yes|Used for information specific to the item that may be of interest to a patron (e.g. autographed copy).
+|http://docs.libraries.coop/sitka/_item_alerts_notes_tags_and_statistical_categories.html#_item_alerts_2[Item Alert]|Yes|
+Used for information that should been seen when an item is checked in or out (e.g. Damage or number of pieces to check for). CAUTION: some 3rd party self check machines cannot display item alerts.
 |=============
