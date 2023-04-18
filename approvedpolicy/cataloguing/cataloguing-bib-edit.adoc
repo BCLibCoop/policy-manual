@@ -60,7 +60,8 @@ format icons]. It is important that these fields are coded correctly or your pat
 will not be able to find the titles they are looking for when using search filters.
 
 The values for the characters in these fields are found in 
-https://www.loc.gov/marc/bibliographic/[MARC21 Format for Bibliographic Data]:
+https://www.loc.gov/marc/[MARC 21 Format for Bibliographic Data]/
+https://www.marc21.ca/M21/BIB/B001-Sommaire.html[Normes MARC 21]:
 
 * https://www.loc.gov/marc/bibliographic/bdleader.html[Leader]
 * https://www.loc.gov/marc/bibliographic/bd006.html[006]
@@ -79,13 +80,13 @@ correct the coding in these fields.
 
 Instructions for editing the leader and 008 field can be found in Sitka's Evergreen 
 Documentation in the section called
-http://docs.libraries.coop/sitka/_editing_marc_record_leader_and_fixed_field_008.html[Editing
-MARC Record Leader and Fixed Field 008].
+https://docs.libraries.coop/sitka/_enhanced_marc_editor.html#_leader_and_008_field_grid[Leader
+and 008 Field Grid].
 
 Instructions for editing the 007 field can be found in Sitka's Evergreen 
 Documentation in the section called
-http://docs.libraries.coop/sitka/_fixed_field_007_physical_characteristics_wizard.html[Fixed
-Field 007 Physical Characteristics Wizard].
+https://docs.libraries.coop/sitka/_enhanced_marc_editor.html#_physical_characteristics_wizard[Physical 
+Characteristics Wizard].
 
 
 Overlaying Bibliographic Records
@@ -99,7 +100,7 @@ xref:_is_it_a_match[records are a match].
 
 Instructions for overlaying records via Z39.50 can be found in Sitka's Evergreen Documentation 
 in the section called
-http://docs.libraries.coop/sitka/_adding_bibliographic_records.html#_overlaying_records_via_z39_50_interface[Overlaying
+https://docs.libraries.coop/sitka/_adding_individual_records.html#_overlaying_records_via_z39_50_interface[Overlaying
 Records via Z39.50].
 
 Merging Bibliographic Records
