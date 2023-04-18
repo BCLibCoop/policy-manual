@@ -21,7 +21,8 @@ The following table outlines the fields that must ALWAYS be present in the MARC 
 |https://www.loc.gov/marc/bibliographic/bdleader.html[Leader] | Leader | N/A | ALL | Contains information required for Evergreen to process the record.
 |https://www.loc.gov/marc/bibliographic/bd006.html[006] | Fixed-Length Data Elements - Additional Material Characteristics | N/A | Required for podcasts, e-books, e-audiobooks, e-videos, websites, streaming music, and 
 streaming videos. | Contains coding used by Evergreen for search filters and format icons.  
-|https://www.loc.gov/marc/bibliographic/bd007.html[007] | Physical Description Fixed Field | N/A | Required for soundrecordings (spoken and music), computer/video games, playaways, podcasts, 
+|https://www.loc.gov/marc/bibliographic/bd007.html[007] | Physical Description Fixed Field | N/A | Required for 
+soundrecordings (spoken and music), videorecordings, computer/video games, playaways, podcasts, 
 e-books, e-audiobooks, e-videos, websites, streaming music, and streaming videos. | Contains coding 
 used by Evergreen for search filters and format icons. 
 |https://www.loc.gov/marc/bibliographic/bd008.html[008] | Fixed-Length Data Elements | N/A | ALL | Contains coding used by Evergreen for search filters and format icons. 
