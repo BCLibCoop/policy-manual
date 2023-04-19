@@ -56,12 +56,18 @@ Library Specific Batch Loading
 Co-op Support and library cataloguing staff batch load vendor files for products that
 libraries subscribe to individually.
 
+If your library is subscribing to a new product that includes MARC records please confirm with the vendor how their records are updated.  Some vendors supply update and deletion files while
+other vendors will send a full collection replacement file.  If you will require assistance from Co-op Support for loading, updating, or deleting please 
+ https://bc.libraries.coop/support/[submit a ticket] and include who the vendor is and all information they have provided you with about the MARC files they supply.
+
 Acquisitions staff may batch load on order vendor records via the 
 http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC Order Records]
 interface.  Cataloguing staff may batch load vendor records via 
 https://docs.libraries.coop/sitka/_batch_loading_bibliographic_records.html[MARC Batch Export/Import].
 
-The following parameters should be used for the different types of records loaded in batch.
+
+
+The following parameters should be used for the different types of records loaded in batch:
 
 
 *On Order Records for Acquisitions*
@@ -91,17 +97,6 @@ The following parameters should be used for the different types of records loade
 matches will be found)
 * Import Non-Matching Records = TRUE
 
-Co-op Support batch loads records for some libraries for the following products:
-
-* AudioCine
-* CBC Curio
-* Criterion on Demand
-* EBSCO
-* Film on Demand
-* Hoopla
-* O'reilly
-* ProQuest
-
 Please contact https://bc.libraries.coop/support/[Co-op Support] if you have questions
 about batch loading.
 
@@ -111,7 +106,9 @@ E-resource Record Batch Deletion
 Co-op Support can batch delete e-resource records when the vendor supplies a deletion file.
 If deletion files are not available from the vendor, records for e-resources the vendor 
 no longer offers will remain in the Sitka catalogue unless individually removed by 
-library staff.
+library staff.  Instructions for removing e-resources individually can be 
+found in Sitka’s Evergreen Documentation in the section called 
+https://docs.libraries.coop/sitka/_deleting_holdings_for_electronic_resources.html[Deleting Holdings for Electronic Resources].
 
 When investigating a new product please ask the vendor if they supply deletion files and 
 if so ensure that they are included in your subscription.
