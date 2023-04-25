@@ -3,7 +3,8 @@ Access to Sitka's Evergreen
 
 Libraries are responsible for ensuring the accounts used to access Sitka's Evergreen are secure.
 
-As per the Data Sharing Agreement in https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J of the Service Management Agreement])
+As per the Data Sharing Agreement in 
+https://librariescoop.sharepoint.com/:b:/s/Board/EbkI4ll_0ydEifawYC3l9ScBVAh3SqcfkrMUbBHWzzm-Bg[Appendix J of the Service Management Agreement])
 libraries MUST:
 
 * develop and maintain processes that ensure systems and data are adequately safeguarded from unauthorized access
@@ -19,7 +20,7 @@ times, and reuse.
 and encryption on local area networks are in place and being used.
 
 Please see the Data Sharing Agreement in 
-https://ln.sync.com/dl/ca731e4e0/view/doc/7839812630003#bw5v92du-w6q5j6uj-szy6shez-smwueqdv[Appendix J of the Service Management Agreement])
+https://librariescoop.sharepoint.com/:b:/s/Board/EbkI4ll_0ydEifawYC3l9ScBVAh3SqcfkrMUbBHWzzm-Bg[Appendix J of the Service Management Agreement])
 for the complete list.
 
 Libraries should also ensure that staff access is disabled in a timely manner when a staff member leaves the library.  See 
