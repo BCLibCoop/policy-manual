@@ -42,7 +42,7 @@ On Order Records and Shelf Ready Items].
 
 *Records for e-resources*
 
-* BC Open Textbook for opted in Sitka libraries
+* BC Open Textbook for opted in Sitka libraries (free resource)
 * Cantook Station for BC public libraries
 * Overdrive for BC and Manitoba public libraries
 
@@ -55,10 +55,6 @@ Library Specific Batch Loading
 
 Co-op Support and library cataloguing staff batch load vendor files for products that
 libraries subscribe to individually.
-
-If your library is subscribing to a new product that includes MARC records please confirm with the vendor how their records are updated.  Some vendors supply update and deletion files while
-other vendors will send a full collection replacement file.  If you will require assistance from Co-op Support for loading, updating, or deleting please 
- https://bc.libraries.coop/support/[submit a ticket] and include who the vendor is and all information they have provided you with about the MARC files they supply.
 
 Acquisitions staff may batch load on order vendor records via the 
 http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC Order Records]
@@ -92,10 +88,23 @@ The following parameters should be used for the different types of records loade
 
 *Full Records for e-resources*
 
+_For new records only. Please contact  https://bc.libraries.coop/support/Co-op Support 
+if you will be loading update files._ 
+
 * Record Match Set = NoMatch
 * Merge Profile = Merge Using EXISTING Record (records are not actually merged as no 
 matches will be found)
 * Import Non-Matching Records = TRUE
+
+
+
+If your library is subscribing to a new product that includes MARC records for e-resources 
+please confirm with the vendor how their records are updated.  Some vendors supply update 
+and deletion files while other vendors will send a full collection replacement file.  If 
+you will require assistance from Co-op Support for loading, updating, or deleting please 
+ https://bc.libraries.coop/support/[submit a ticket] and include who the vendor is and 
+ all information they have provided you with about the MARC files they supply.
+
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] if you have questions
 about batch loading.
