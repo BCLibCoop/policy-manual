@@ -1,5 +1,6 @@
 Purpose
 ~~~~~~~
+(((Cataloguing Policy)))
 
 Sitka's Cataloguing Policy defines the standards and best practices for cataloguing within
 the shared Sitka catalogue to ensure that all libraries are treating bibliographic records in the 

@@ -1,5 +1,15 @@
 Cataloguing Standards
 ~~~~~~~~~~~~~~~~~~~~~
+(((Cataloguing Policy)))
+(((MARC 21 Format for Bibliographic Data)))
+(((Normes MARC 21)))
+(((RDA)))
+(((Subject Headings)))
+(((Classification)))
+(((Training)))
+
+
+
 
 All staff performing cataloguing functions in Sitka's Evergreen are expected to follow 
 the same cataloguing standards when working with records. 

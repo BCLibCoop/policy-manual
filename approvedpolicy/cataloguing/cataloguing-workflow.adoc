@@ -1,5 +1,9 @@
 The Cataloguing Workflow
 ~~~~~~~~~~~~~~~~~~~~~~~~
+(((Cataloguing Policy)))
+(((Bibliographic Record Matches)))
+
+
 
 Cataloguers should always search the Sitka catalogue as part of their cataloguing process so that
 new holdings can be added to existing matching records whenever possible.
@@ -31,6 +35,8 @@ image:images/policy-2.png[scaledwidth="75%"]
 
 Is it a Match?
 ^^^^^^^^^^^^^^
+(((On Order Records)))
+(((Brief Records)))
 
 When adding holdings to an existing bibliographic record in the Sitka catalogue
  it is very important to ensure the physical or electronic item matches what is 

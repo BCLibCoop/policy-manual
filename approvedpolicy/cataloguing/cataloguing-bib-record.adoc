@@ -1,5 +1,8 @@
 The Bibliographic Record
 ~~~~~~~~~~~~~~~~~~~~~~~~
+(((Cataloguing Policy)))
+(((MARC 21 Format for Bibliographic Data)))
+(((Normes MARC 21)))
 
 The MARC 21 Format for Bibliographic Data is available in 
 https://www.loc.gov/marc/bibliographic/[English] and in 
@@ -10,6 +13,16 @@ authoritative information on MARC fields and subfields.
 Sitka's Minimum MARC Record
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [[_sitka_minimum_marc_record]]
+(((MARC Record)))
+(((Leader)))
+(((Control Fields)))
+(((Fixed-Length Fields)))
+(((Main Entry)))
+(((Title Statement)))
+(((Publication Information)))
+(((Physical Description)))
+(((On Order Records)))
+(((Brief Records)))
 
 MARC records for bibliographic titles in the Sitka catalogue should always meet the minimum 
 requirements set in this policy and ideally should exceed them.
@@ -48,6 +61,8 @@ is taken care of through routine xref:_consortial_batch_loading[batch loading] o
 
 A Good MARC Record
 ^^^^^^^^^^^^^^^^^^
+(((MARC Record)))
+(((Subject Headings)))
 
 A good MARC record will contain more than just the bare minumum.  This makes it easier for patrons 
 to locate the titles they're looking for in your public catalogue as well making it more evident 
@@ -95,11 +110,12 @@ with sufficient cataloguing knowledge should add them to records as applicable.
 
 Local Information in Cataloguing
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((Local Information)))
 
 Library Specific Local Information
 ++++++++++++++++++++++++++++++++++
 [[_library_specific_local_information]]
-(((Local Information)))
+
 
 Some information included in bibliographic records is specific to a particular library.  In
 the shared Sitka catalogue libraries are required to identify this information using a 

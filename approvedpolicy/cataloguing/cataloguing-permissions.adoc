@@ -1,5 +1,6 @@
 Cataloguing Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~
+(((Permissions)))
 
 Changing bibliographic records in the Sitka catalogue has the potential to affect 
 all Sitka libraries.
