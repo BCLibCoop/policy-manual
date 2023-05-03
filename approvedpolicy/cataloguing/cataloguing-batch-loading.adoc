@@ -88,22 +88,15 @@ The following parameters should be used for the different types of records loade
 
 *Full Records for e-resources*
 
-_For new records only. Please contact  https://bc.libraries.coop/support/[Co-op Support] 
-if you will be loading update files._ 
-
-* Record Match Set = NoMatch
-* Merge Profile = Merge Using EXISTING Record (records are not actually merged as no 
-matches will be found)
-* Import Non-Matching Records = TRUE
-
-
+Please contact https://bc.libraries.coop/support/[Co-op Support] 
+if you have e-resource records to load into Evergreen. 
 
 If your library is subscribing to a new product that includes MARC records for e-resources 
 please confirm with the vendor how their records are updated.  Some vendors supply update 
-and deletion files while other vendors will send a full collection replacement file.  If 
-you will require assistance from Co-op Support for loading, updating, or deleting please 
- https://bc.libraries.coop/support/[submit a ticket] and include who the vendor is and 
- all information they have provided you with about the MARC files they supply.
+and deletion files while other vendors will send a full collection replacement file.  Please 
+https://bc.libraries.coop/support/[submit a ticket] to Co-op Support for loading, updating, or deleting.
+In your ticket please include who the vendor is and all information they have provided you with about the MARC 
+files they supply.
 
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] if you have questions
