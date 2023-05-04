@@ -7,6 +7,8 @@ follow the xref:_bibliographic_records[cataloguing standards].
 Importing via Z39.50
 ^^^^^^^^^^^^^^^^^^^^
 
+(((Bibliographic Records, Z39.50)))
+
 When importing new records via Z39.50 cataloguers should edit the record as needed to ensure 
 it accurately describes the title being catalogued.  
 
@@ -30,6 +32,8 @@ Bibliographic Records via Z39.50].
 Original Cataloguing
 ^^^^^^^^^^^^^^^^^^^^
 
+(((Original Cataloguing)))
+
 Original cataloguing will generally constitute a very small percentage of bibliographic records 
 added to the Sitka database by a library.  Original cataloguing of bibliographic records 
 should be done in Sitka's Evergreen only if there is no record available in the Sitka 
@@ -51,6 +55,7 @@ xref:_non_bibliographic_records[policy on non-bibliographic records].
 
 Using Placeholder Holdings
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+(((On Order Records)))
 
 Some libraries may add bibliographic records for titles before they have physically arrived
 at the library so that patrons can place holds. Generally vendor record files will

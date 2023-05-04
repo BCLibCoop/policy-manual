@@ -1,6 +1,8 @@
 Batch Loading Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+(((Bibliographic Records, Batch Load)))
+
 Bibliographic records for physical and electronic resources can be batch loaded using 
 files of MARC records from vendors.  Batch loading is done by Co-op Support 
 and library cataloguing staff.
@@ -53,6 +55,8 @@ https://bc.libraries.coop/support/[Co-op Support].
 Library Specific Batch Loading
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+(((E-resources, Load)))
+
 Co-op Support and library cataloguing staff batch load vendor files for products that
 libraries subscribe to individually.
 
@@ -104,6 +108,8 @@ about batch loading.
 
 E-resource Record Batch Deletion
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+(((E-resources, Delete)))
 
 Co-op Support can batch delete e-resource records when the vendor supplies a deletion file.
 If deletion files are not available from the vendor, records for e-resources the vendor 

@@ -7,7 +7,8 @@ Cataloguing Standards
 (((Subject Headings)))
 (((Classification)))
 (((Training)))
-
+(((Subject Headings, Local)))
+(((Local Subject Headings)))
 
 
 

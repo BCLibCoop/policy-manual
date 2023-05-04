@@ -18,11 +18,15 @@ Sitka's Minimum MARC Record
 (((Control Fields)))
 (((Fixed-Length Fields)))
 (((Main Entry)))
-(((Title Statement)))
+(((Title)))
 (((Publication Information)))
 (((Physical Description)))
 (((On Order Records)))
 (((Brief Records)))
+(((Standard Identifiers)))
+(((ISBN)))
+(((ISSN)))
+(((UPC)))
 
 MARC records for bibliographic titles in the Sitka catalogue should always meet the minimum 
 requirements set in this policy and ideally should exceed them.
@@ -63,6 +67,17 @@ A Good MARC Record
 ^^^^^^^^^^^^^^^^^^
 (((MARC Record)))
 (((Subject Headings)))
+(((Edition)))
+(((Content Type)))
+(((Carrier Type)))
+(((Media Type)))
+(((Series)))
+(((Note Fields)))
+(((Added Entry)))
+(((Electronic Location)))
+(((856 Field)))
+
+
 
 A good MARC record will contain more than just the bare minumum.  This makes it easier for patrons 
 to locate the titles they're looking for in your public catalogue as well making it more evident 
@@ -116,6 +131,10 @@ Library Specific Local Information
 ++++++++++++++++++++++++++++++++++
 [[_library_specific_local_information]]
 
+(((Note Fields)))
+(((Subject Headings, Local)))
+(((Local Subject Headings)))
+(((856 Field)))
 
 Some information included in bibliographic records is specific to a particular library.  In
 the shared Sitka catalogue libraries are required to identify this information using a 
@@ -155,6 +174,11 @@ together.
 Item Specific Local Information
 +++++++++++++++++++++++++++++++
 [[_item_specific_local_information]]
+
+(((Statistical Category)))
+(((Item Statistical Category)))
+(((Item Note)))
+(((Item Alert)))
 
 Information that is specific to items should NEVER be included in the bibliographic record.
 Instead this information should be included in the relevant item attribute so that it is

@@ -1,5 +1,6 @@
 Editing Bibliographic Records
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(((Bibliographic Records, Edit)))
 
 [CAUTION]
 =========
@@ -53,6 +54,10 @@ Leader and Fixed Fields
 +++++++++++++++++++++++
 [[_leader_and_fixed_fields]]
 
+(((Leader)))
+(((Fixed-Length Fields)))
+(((Control Fields)))
+
 The fixed fields in the MARC record, also called control fields, contain coded information
 that is used by Evergreen's 
 http://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[search filters and 
@@ -93,6 +98,8 @@ Overlaying Bibliographic Records
 ++++++++++++++++++++++++++++++++
 [[_overlaying_bibliographic_records]]
 
+(((Bibliographic Records, Overlay)))
+
 Cataloguers with sufficient cataloguing knowledge can overlay brief and on order records
 with full records via Z39.50 or by batch loading full records.  Before
 overlaying records cataloguers must ensure the 
@@ -106,6 +113,8 @@ Records via Z39.50].
 Merging Bibliographic Records
 +++++++++++++++++++++++++++++
 [[_merging_bibliographic_records]]
+
+(((Bibliographic Records, Merge)))
 
 Cataloguers with sufficient cataloguing knowledge can merge duplicate bibliographic records 
 together.  Before merging records cataloguers must ensure the 
