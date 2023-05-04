@@ -35,6 +35,7 @@ image:images/policy-2.png[scaledwidth="75%"]
 
 Is it a Match?
 ^^^^^^^^^^^^^^
+(((Bibliographic Record Matches)))
 (((On Order Records)))
 (((Brief Records)))
 
