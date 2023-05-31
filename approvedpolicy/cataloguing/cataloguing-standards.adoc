@@ -59,7 +59,16 @@ Subject Headings
 
 When assigning subject headings libraries should use terms from an official thesaurus such as 
 Library of Congress Subject Headings, LC Subject headings for children's literature, 
-Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes-matière.
+Medical Subject Headings, Canadian Subject Headings, and Répertoire de vedettes-matière.  
+
+[TIP]
+=====
+The thesaurus used for a subject heading is specified by the value entered for the 
+https://www.loc.gov/marc/bibliographic/bd650.html[second indicator in the 6XX
+field] of the MARC record. When the value of the second indicator is 7 the thesaurus used
+is specified by a https://www.loc.gov/standards/sourcelist/subject.html[subject source code]
+in the $2 of the 6XX field. 
+=====
 
 Subject headings not included in official thesauri are considered local subject headings and must be entered 
 as such in Sitka's Evergreen.
