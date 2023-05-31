@@ -12,21 +12,6 @@ needed, advocate for records that follow cataloguing standards and include the
 xref:_sitka_minimum_marc_record[minimum
 required information] for Sitka's Evergreen.
 
-[NOTE]
-======
-The BC Libraries Cooperative reserves the right to limit the number of bibliographic
-e-resource records to be loaded in batch into Sitka's Evergreen.  
-
-Libraries should ensure the records that are being loaded are for resources relevant to their 
-patrons and not simply because the record and resource is available.  Bibliographic records
-take up space in the database and adding hundreds of thousands of records affects 
-the services that can be offered and our hardware needs, which in turn affects the cost to 
-use Sitka's Evergreen. 
-
-If the total number of records for a new product will exceeed 50 000 records you MUST contact
-https://bc.libraries.coop/support/[Co-op Support].
-======
-
 Consortial Batch Loading
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -94,6 +79,21 @@ The following parameters should be used for the different types of records loade
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] 
 if you have e-resource records to load into Evergreen. 
+
+[NOTE]
+======
+The BC Libraries Cooperative reserves the right to limit the number of bibliographic
+e-resource records to be loaded in batch into Sitka's Evergreen.  
+
+Libraries should ensure the records that are being loaded are for resources relevant to their 
+patrons and not simply because the record and resource is available.  Bibliographic records
+take up space in the database and adding hundreds of thousands of records affects 
+the services that can be offered and our hardware needs, which in turn affects the cost to 
+use Sitka's Evergreen. 
+
+If the total number of records for a new product will exceeed 50 000 records you MUST contact
+https://bc.libraries.coop/support/[Co-op Support].
+======
 
 If your library is subscribing to a new product that includes MARC records for e-resources 
 please confirm with the vendor how their records are updated.  Some vendors supply update 
