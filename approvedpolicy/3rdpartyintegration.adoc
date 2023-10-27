@@ -13,8 +13,6 @@ our https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration W
 A https://bc.libraries.coop/wp-content/uploads/2023/02/3rd-party-integration-survey.pdf[PDF version of the 
 survey] is available for reference.
 
-Test
-
 [CAUTION]
 =========
 It takes significant Co-op staff time to perform the required work and due diligence to ensure these 
