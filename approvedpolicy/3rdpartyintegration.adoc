@@ -6,7 +6,7 @@
 (((Authentication)))
 
 **Please contact Co-op Support before you purchase a license for 3rd party content or any other hardware or software
- (e.g. self-check machine, book locker) that requires integration with Sitka or authentication against 
+ (e.g. self-check machine, book locker) that requires integration with Sitka's Evergreen or authentication against 
  patron accounts.**
 
 To request a 3rd party service be considered for integration with Sitka's Evergreen please complete
