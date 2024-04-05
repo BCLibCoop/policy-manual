@@ -5,8 +5,9 @@
 (((Patron API)))
 (((Authentication)))
 
-**Please contact Co-op Support before you purchase a resource that relies on integration 
-with Sitka’s Evergreen.**
+**Please contact Co-op Support before you purchase a license for 3rd party content or any other hardware or software
+ (e.g. self-check machine, book locker) that requires integration with Sitka or authentication against 
+ patron accounts.**
 
 To request a 3rd party service be considered for integration with Sitka's Evergreen please complete
 our https://survey.libraries.coop/917743?lang=en[3rd Party Service Integration With Sitka's Evergreen survey].
@@ -47,7 +48,7 @@ We’ve provided more background below about why 3rd party integration often req
 and why in some cases, it may not be possible or feasible.
 
 .Here’s why:
-* The SIP2 protocol, is old and insecure. Patron details and borrowing information is sent in plain text between Evergreen
+* The https://en.wikipedia.org/wiki/Standard_Interchange_Protocol[SIP2 protocol], is old and insecure. Patron details and borrowing information is sent in plain text between Evergreen
 and the vendor.  Sitka staff have done significant work recently with some existing 
 services to mitigate the limitations of SIP2 and better protect user privacy.
 * We are phasing out the use of SIP2 for authentication, and are working to secure SIP2 where it is truly 
