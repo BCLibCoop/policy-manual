@@ -56,6 +56,17 @@ If applicable to your situation, libraries participating in ILC or BC One Card s
 provincial body for assitance in getting the word out to other libraries to please not send 
 items to the library until further notice.
 
+Expiring Patrons
+~~~~~~~~~~~~~~~~
+
+Depending on the length of your closure you may want to ensure patron accounts won't expire
+so that patrons are still able to access your digital resources.
+
+If staff are unable to easily access Evergreen to run reports on expirying patrons and manually update
+those affected, Co-op Support can batch update the expiry for patrons falling within a specified period.
+For example, all patrons expiring within the next 3 months can have their expiration date
+updated by a year.  So instead of expiring on 2024-07-22, the account would expire on 2025-07-22. 
+
 
 Messaging to Patrons
 ~~~~~~~~~~~~~~~~~~~~
