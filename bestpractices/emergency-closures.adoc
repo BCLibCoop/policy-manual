@@ -56,8 +56,8 @@ If applicable to your situation, libraries participating in ILC or BC One Card s
 provincial body for assitance in getting the word out to other libraries to please not send 
 items to the library until further notice.
 
-Expiring Patrons
-~~~~~~~~~~~~~~~~
+Updating Expiring Patrons
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Depending on the length of your closure you may want to ensure patron accounts won't expire
 so that patrons are still able to access your digital resources.
