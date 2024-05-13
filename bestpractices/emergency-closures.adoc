@@ -10,7 +10,15 @@ to Evergreen.
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] by phone, email, or through the contact form for assistance with anything
 outlined here or if you have any other questions.
- 
+
+.Library Closure Quick Checklist
+* Add Emergency Closure in Evergreen
+* Add notice to your website
+* Add a banner to your public catalogue
+* Turn off Interlibrary Connect
+* Turn off local holds
+* Update patrons about to expire
+
 
 Closed Dates Editor - Emergency Closing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
