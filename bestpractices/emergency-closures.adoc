@@ -114,5 +114,22 @@ to go out 7 days ahead of the due date with information that the library will be
 X date for these hours and that patrons can start returning items to the drop box or in the library
 on or after that date.
 
+Re-Opening Your Library
+~~~~~~~~~~~~~~~~~~~~~~~
+
+The steps to re-open your library will depend on which features/functions you turned off.
+
+. Ensure the _End Date_ for your final Emergency Closure is the day before you re-open.
+. Ask Co-op Support to update your public catalogue banner with information on your re-opening or
+remove the banner altogether.
+. Update your website with information on your re-opening.
+. Ask Co-op Support to turn local holds and ILC holds back on.  These can be turned on separately if
+you wish to delay restarting ILC.
+. If applicable, let other libraries know to start sending your items home.
+. Ask Co-op Support to turn email notifications back on.
+. Ask Co-op Support to add a temporary additional courtesy notice which includes re-opening details.
+
+Please contact https://bc.libraries.coop/support/[Co-op Support] if you have any questions 
+about re-opening your library.
 
 
