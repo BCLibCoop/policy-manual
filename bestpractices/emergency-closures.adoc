@@ -76,13 +76,12 @@ Co-op Support recommends posting a message on your website to alert patrons to t
 If you use LibPress for your website Co-op Support can update it for you if you don't have 
 easy access to do so yourself.
 
-. Sample text for your website that you can modify to suit your emergency situation.
+.Sample text for your website that you can modify to suit your emergency situation.
 ----
 The YOUR LIBRARY is temporarily closed due to X.  Holds and interlibrary loan requests cannot be 
 placed at this time.  Due dates for your items have been extended and fines will not be charged.
 Please do not return items to the library.  While we're closed our digital library remains available
- LINKS TO APPLICABLE RESOURCES.  Thank you for keeping the library items at home until 
- further notice.
+LINK TO APPLICABLE RESOURCES.  Thank you for keeping the library items at home until further notice.
 ----
 
 Co-op Support also recommends a banner on your public catalogue.  For libraries using Evergreen's
@@ -91,11 +90,11 @@ to contact their vendor for assistance.
 
 
 .Sample text for your banner that you can modify to suit your emergency situation. 
-****
+----
 The YOUR LIBRARY is temporarily closed.  For more information see our website (this is a link 
 to your website). While we're closed our digital library remains available
- LINKS TO APPLICABLE RESOURCES.  Please keep the library items at home until further notice.
-****
+LINK TO APPLICABLE RESOURCES.  Please keep the library items at home until further notice.
+----
 
 If the closure is going to be a long closure Co-op Support can also turn off email notifications 
 for courtesy and overdue notices to ensure your patrons don't receive them while the library is closed.
