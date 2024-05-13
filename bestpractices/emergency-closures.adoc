@@ -1,0 +1,96 @@
+Emergency Closures
+------------------
+(((Emergency Closures)))
+
+There are a number of circumstances which may cause a library to need to close unexpectedly.  If your
+library has to close without warning there are a number of things you and Co-op Support can do after
+the fact to alert patrons and reduce workload on staff.  While some of these steps can be done by 
+library staff Co-op Support can also take care of them for you if you don't have access
+to Evergreen.
+
+Please contact Co-op Support by phone, email, or through the contact form for assistance with anything
+outlined here or if you have any other questions.
+ 
+
+Closed Dates Editor - Emergency Closing
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The first thing libraries should do is add an xref:http://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing[Emergency
+Closure] in Evergreen.  This is important because it will stop your patrons from getting notifications
+about items coming due or overdue.
+
+The emergency closing feature will move the due dates for anything due in the period you specify.
+
+If you expect to be closed for several days or longer use the closing type _Multiple Days_ and
+pick an end date that falls after you expect to re-open.  Evergreen will move all due dates that fall
+in-between the chosen dates to be due back the day after the end date.  You can add additional emergency closures as needed
+ to continue to extend your due dates.
+ 
+When you have a re-opening date we recommend ensuring your final closure end date is at least a 
+few days ahead of your actual re-opening so that all of your items aren't due on the day of your
+re-opening.  Once you've used the emergency closing to move the due dates you need to manual edit 
+the end date to be the day on which your closure actually ends so that Evergreen will know your
+library is actually open.
+ 
+While this can be done by any local system administrator for your library, Co-op Support can also 
+take care of this for you if you don't have easy access to Evergreen. Please contact Co-op Support
+and include the start and end dates you would like used.
+
+
+Interlibrary Connect and Local Holds
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If libraries are not able to access their collections to fill ILC or local holds we recommend
+asking Co-op Support to turn both off.  This reduces the backlog for filling ILC and local 
+holds that your library will have when you re-open.
+
+An emergency sitution overrides the regular policy of only closing Interlibrary Connect if the closure
+is known to be at least 2 weeks in length.
+
+Depending on the situation you may decide to turn off ILC but leave local holds turned on.  For
+example, if your library is able to do curbside pick-up you may want patrons to be able to place holds
+on items in your collection but due to staff limitations not want to be shipping/receiving items
+for ILC. 
+
+If applicable to your situation, libraries participating in ILC or BC One Card should also contact their
+provincial body for assitance in getting the word out to other libraries to please not send 
+items to the library until further notice.
+
+
+Messaging to Patrons
+~~~~~~~~~~~~~~~~~~~~
+
+Co-op Support recommends posting a message on your website to alert patrons to the current situation.
+If you use LibPress for your website Co-op Support can update it for you if you don't have 
+easy access to do so yourself.
+
+Here is sample text for your website that you can modify to suit your emergency situation.
+
+The YOUR LIBRARY is temporarily closed due to X.  Holds and interlibrary loan requests cannot be 
+placed at this time.  Due dates for your items have been extended and fines will not be charged.
+Please do not return items to the library.  While we're closed our digital library remains available
+ LINKS TO APPLICABLE RESOURCES.  Thank you for keeping the library items at home until 
+ further notice.
+
+Co-op Support also recommends a banner on your public catalogue.  For libraries using Evergreen's
+public catalogue Co-op Support can add the banner for you.  Libraries using a discovery layer may need
+to contact their vendor for assistance.
+
+Here is sample text for your banner that you can modify to suit your emergency situation.
+
+The YOUR LIBRARY is temporarily closed.  For more information see our website (this is a link 
+to your website). While we're closed our digital library remains available
+ LINKS TO APPLICABLE RESOURCES.  Please keep the library items at home until further notice.
+
+If the closure is going to be a long closure Co-op Support can also turn off email notifications 
+for courtesy and overdue notices to ensure your patrons don't receive them while the library is closed.
+
+When you have a re-opening date for your library Co-op Support can set up a temporary additional 
+courtesy notice to go out more than 3 days before the item is due and include information about when the library
+is re-opening and how patrons should handle returns. For example, we can set up a courtesy notice
+to go out 7 days ahead of the due date with information that the library will be re-opening on
+X date for these hours and that patrons can start returning items to the drop box or in the library
+on or after that date.
+
+
+
