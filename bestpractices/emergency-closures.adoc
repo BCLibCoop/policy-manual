@@ -15,7 +15,7 @@ outlined here or if you have any other questions.
 Closed Dates Editor - Emergency Closing
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The first thing libraries should do is add an xref:http://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing[Emergency
+The first thing libraries should do is add an http://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing[Emergency
 Closure] in Evergreen.  This is important because it will stop your patrons from getting notifications
 about items coming due or overdue.
 
@@ -28,12 +28,13 @@ in-between the chosen dates to be due back the day after the end date.  You can 
  
 When you have a re-opening date we recommend ensuring your final closure end date is at least a 
 few days ahead of your actual re-opening so that all of your items aren't due on the day of your
-re-opening.  Once you've used the emergency closing to move the due dates you need to manual edit 
+re-opening.  Once you've used the emergency closing to move the due dates you need to manually edit 
 the end date to be the day on which your closure actually ends so that Evergreen will know your
-library is actually open.
+library is open.
  
 While this can be done by any local system administrator for your library, Co-op Support can also 
-take care of this for you if you don't have easy access to Evergreen. Please contact Co-op Support
+take care of this for you if you don't have easy access to Evergreen. Please contact 
+https://bc.libraries.coop/support/[Co-op Support]
 and include the start and end dates you would like used.
 
 
@@ -44,7 +45,7 @@ If libraries are not able to access their collections to fill ILC or local holds
 asking Co-op Support to turn both off.  This reduces the backlog for filling ILC and local 
 holds that your library will have when you re-open.
 
-An emergency sitution overrides the regular policy of only closing Interlibrary Connect if the closure
+An emergency situation overrides the regular policy of only closing Interlibrary Connect if the closure
 is known to be at least 2 weeks in length.
 
 Depending on the situation you may decide to turn off ILC but leave local holds turned on.  For
@@ -53,7 +54,7 @@ on items in your collection but due to staff limitations not want to be shipping
 for ILC. 
 
 If applicable to your situation, libraries participating in ILC or BC One Card should also contact their
-provincial body for assitance in getting the word out to other libraries to please not send 
+provincial body for assistance in getting the word out to other libraries to please not send 
 items to the library until further notice.
 
 Updating Expiring Patrons
