@@ -44,7 +44,7 @@ include::bestpractices/annualreports.adoc[]
 
 include::bestpractices/annualreportsmb.adoc[]
 
-include::bestpractices/emergency-closures.adoc[]
+include::bestpractices/temporary-library-closures.adoc[]
 
 [appendix]
 Licensing
