@@ -2,17 +2,16 @@ Temporary Library Closures
 --------------------------
 (((Emergency Closures)))
 
-There are a number of circumstances which may cause a library to need to close unexpectedly.  If your
-library has to close without warning there are a number of things you and Co-op Support can do after
-the fact to alert patrons and reduce workload on staff.  While some of these steps can be done by 
-library staff Co-op Support can also take care of them for you if you don't have access
-to Evergreen.
+If your library is closed temporarily there are a number of things you and Co-op Support can do 
+to alert patrons and reduce staff workload.  While some of these steps can be complete by 
+library staff, Co-op Support will handle it if your closure is due to an emergency and you
+have limited or no access to Evergreen.
 
-Please contact https://bc.libraries.coop/support/[Co-op Support] by phone, email, or through the contact form for assistance with anything
-outlined here or if you have any other questions.
+Please contact https://bc.libraries.coop/support/[Co-op Support] by phone, email, or 
+through the contact form for assistance or if you have any other questions.
 
 .Library Closure Quick Checklist
-* Add Emergency Closure in Evergreen
+* Add Closure in Evergreen
 * Add notice to your website
 * Add a banner to your public catalogue
 * Turn off Interlibrary Connect
@@ -20,12 +19,19 @@ outlined here or if you have any other questions.
 * Update patrons about to expire
 
 
-Closed Dates Editor - Emergency Closing
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Add a Closing In Evergreen
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The first thing libraries should do is add an http://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing[Emergency
-Closure] in Evergreen.  This is important because it will stop your patrons from getting notifications
-about items coming due or overdue.
+The first thing libraries should do is add a closing in Evergreen using the 
+http://docs.libraries.coop/sitka/_closed_dates_editor.html[Closed Dates Editor]. 
+
+For planned closures this should be done well in advance to ensure that due dates won't 
+fall within your closure.
+
+For unplanned closures libraries need to use the 
+http://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing[Emergency
+Closing] functionality in Evergreen.  This is important because it will notify your patrons that 
+the library is closed and due dates have been changed.
 
 The emergency closing feature will move the due dates for anything due in the period you specify.
 
@@ -36,12 +42,10 @@ in-between the chosen dates to be due back the day after the end date.  You can 
  
 When you have a re-opening date we recommend ensuring your final closure end date is at least a 
 few days ahead of your actual re-opening so that all of your items aren't due on the day of your
-re-opening.  Once you've used the emergency closing to move the due dates you need to manually edit 
-the end date to be the day on which your closure actually ends so that Evergreen will know your
-library is open.
+re-opening.  
  
-While this can be done by any local system administrator for your library, Co-op Support can also 
-take care of this for you if you don't have easy access to Evergreen. Please contact 
+While this can be done by any local system administrator for your library, Co-op Support will add
+the closure if you have limited or no access to Evergreen. Please contact 
 https://bc.libraries.coop/support/[Co-op Support]
 and include the start and end dates you would like used.
 
@@ -49,12 +53,10 @@ and include the start and end dates you would like used.
 Interlibrary Connect and Local Holds
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If libraries are not able to access their collections to fill ILC or local holds we recommend
+If libraries are not able to access their collections during a closure to fill ILC or 
+local holds we recommend
 asking Co-op Support to turn both off.  This reduces the backlog for filling ILC and local 
 holds that your library will have when you re-open.
-
-An emergency situation overrides the regular policy of only closing Interlibrary Connect if the closure
-is known to be at least 2 weeks in length.
 
 Depending on the situation you may decide to turn off ILC but leave local holds turned on.  For
 example, if your library is able to do curbside pick-up you may want patrons to be able to place holds
@@ -71,10 +73,9 @@ Updating Expiring Patrons
 Depending on the length of your closure you may want to ensure patron accounts won't expire
 so that patrons are still able to access your digital resources.
 
-If staff are unable to easily access Evergreen to run reports on expirying patrons and manually update
-those affected, Co-op Support can batch update the expiry for patrons falling within a specified period.
+Co-op Support can batch update the expiry for patrons falling within a specified period.
 For example, all patrons expiring within the next 3 months can have their expiration date
-updated by a year.  So instead of expiring on 2024-07-22, the account would expire on 2025-07-22. 
+updated. 
 
 
 Messaging to Patrons
