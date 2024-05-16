@@ -30,10 +30,9 @@ fall within your closure.
 
 For unplanned closures libraries need to use the 
 http://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing[Emergency
-Closing] functionality in Evergreen.  This is important because it will notify your patrons that 
+Closing] functionality in Evergreen.  This is important because it will will move the due dates 
+for anything due in the period you specify as well as notify your patrons that 
 the library is closed and due dates have been changed.
-
-The emergency closing feature will move the due dates for anything due in the period you specify.
 
 If you expect to be closed for several days or longer use the closing type _Multiple Days_ and
 pick an end date that falls after you expect to re-open.  Evergreen will move all due dates that fall
