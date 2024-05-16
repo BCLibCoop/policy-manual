@@ -1,5 +1,5 @@
-Emergency Closures
-------------------
+Temporary Library Closures
+--------------------------
 (((Emergency Closures)))
 
 There are a number of circumstances which may cause a library to need to close unexpectedly.  If your
