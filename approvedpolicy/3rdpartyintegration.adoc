@@ -11,7 +11,7 @@ As of August 15th 2024 we will implement a freeze on new 3rd party service integ
 we work to move our servers. See the announcement here - https://bc.libraries.coop/news/moving-servers/
  
 If your library is planning to implement a new 3rd party service in 2024 you **must** submit 
-a 3rd party service integration survey for it **before August 15th 2024**.  
+a 3rd party service integration survey **before August 15th 2024**.  
 ======
 
 
