@@ -85,8 +85,8 @@ Library Staff Accounts
 * who has additional access - reports, acq, carousels
 * check staff still work at the library
 
-[[NOTE]]
-========
+[NOTE]
+======
 If you see staff accounts with the Sitka please leave them be.  These are troubleshooting 
 accounts used by Co-op Support.
 ========
