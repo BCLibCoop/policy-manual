@@ -119,20 +119,14 @@ federation borrowing limits, fines, and loan policy.
 
 https://youtu.be/6EFXrwKvDA0[*Sitka Snippet Video - Opting Patrons Into Your Library (1:10)*]
 
-* Patron presents a BC public library card.
-
-* Scan into F1 (Circulation>Check Out)
-
-* Patron record is found, Sitka opt in screen presented.
-
-* Opt in? Yes or no.
-
-* If yes, patron can now use your library and your rules according to patron home library 
+. Patron presents a BC public library card.
+. Scan into F1 (Circulation>Check Out)
+. Patron record is found, Sitka opt in screen presented.
+. Opt in? Yes or no.
+. If yes, patron can now use your library and your rules according to patron home library 
 and existing patron profile are automatically applied.
-
-* Affix BC OneCard sticker to existing card if that is local policy
-
-* If patron does not agree to opt in, local decision and policy applies to how you will 
+. Affix BC OneCard sticker to existing card if that is local policy
+. If patron does not agree to opt in, local decision and policy applies to how you will 
 treat this patron
 
 *Procedure scenarios - Patron does not exist in Sitka and is registered as a BC One card patron*
@@ -140,24 +134,17 @@ treat this patron
 https://youtu.be/qT_mjayYzmY[Sitka Training Video - Registering a Patron for Libraries Participating 
 in BC OneCard (5:12)*]
 
-* Patron presents a BC public library card.
-
-* Scan into F1 (Circulation>Check Out)
-
-* Patron is not found.
-
-* Use existing library card barcode to register patron in Sitka and apply patron’s 
+. Patron presents a BC public library card.
+. Scan into F1 (Circulation>Check Out)
+. Patron is not found.
+. Use existing library card barcode to register patron in Sitka and apply patron’s 
 actual home library to Sitka record, and make this patron a BC OneCard patron profile. Save new 
 patron record.
-
-* Apply a BC OneCard sticker to existing BC public library card.
-
-* Scan barcode into F1 (Circulation>Check Out) and opt patron in.
-
-* Patron now has a record in Sitka, has BC OneCard profile at your library, and any 
+. Apply a BC OneCard sticker to existing BC public library card.
+. Scan barcode into F1 (Circulation>Check Out) and opt patron in.
+. Patron now has a record in Sitka, has BC OneCard profile at your library, and any 
 other Sitka BC public library that opts them in in future, and record accurately reflects 
 their home library.
-
-* At checkout, Evergreen will automatically apply locally configured BC One Card circulation rules.
+. At checkout, Evergreen will automatically apply locally configured BC One Card circulation rules.
 
 *Non Sitka library codes* See list of BC library codes at https://ill.bceln.ca/illparticipants
