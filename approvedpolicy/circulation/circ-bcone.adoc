@@ -42,10 +42,10 @@ BC OneCard Policy/Procedure
 Definitions
 +++++++++++
 
-*Sitka library* See list of Sitka member libraries at
-https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Current Sitka Libraries]
+*Sitka BC public library* See list of Sitka member BC public libraries at
+https://help.libraries.coop/catalogue/find-your-library/public-libraries/[Sitka Public Libraries]
 
-*Non-Sitka library* All other BC public libraries
+*Non-Sitka BC public library* All other BC public libraries
 
 *Home library* Library from which the patron is entitled to a card by virtue of:
 
@@ -55,9 +55,9 @@ https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Current Sitka 
 
 *Lending library* Library from which BC OneCard member obtains service. Can be:
 
-* a Sitka library
+* a Sitka BC public library
 
-* a non-Sitka library
+* a non-Sitka BC public library
 
 
 Policy
