@@ -41,6 +41,8 @@ Annual
 * group penalty thresholds
 * library settings
 * templates - holdings, MARC, etc.
+* review any discontinued 3rd party services
+* public catalogue
 
 
 Quarterly
@@ -71,28 +73,14 @@ Ongoing
 * Fixed fields
 * pull list
 
+Your Library
+~~~~~~~~~~~~
 
+Library information
 
+Collection
+~~~~~~~~~~
 
-Administration
-~~~~~~~~~~~~~~
-
-Library Staff Accounts
-^^^^^^^^^^^^^^^^^^^^^^
-
-* encourage staff to update passwords on a regular basis - link to policy
-* check permission levels
-* who has additional access - reports, acq, carousels
-* check staff still work at the library
-
-[NOTE]
-======
-If you see staff accounts with the Sitka please leave them be.  These are troubleshooting 
-accounts used by Co-op Support.
-========
-
-Cataloguing
-~~~~~~~~~~~
 
 
 * use templates - holdings, MARC, MARC batch import/export for both cat and acq
@@ -121,14 +109,55 @@ Inventory
 Pre-catalogued items
 ^^^^^^^^^^^^^^^^^^^^
 
+Shelving Locations
+^^^^^^^^^^^^^^^^^^
+
+
 Circulation
 ~~~~~~~~~~~
 
+* circ and hold policies
+* closed dates
+* group penalty thresholds
+* patron notifications
 * hopeless holds
 * pull list for hold requests
 * holds shelf
 * transit list
 * patron accounts - have Co-op Support customize what shows
 
+Reporting
+~~~~~~~~~
 
+Library Staff Accounts
+~~~~~~~~~~~~~~~~~~~~~~
+
+* encourage staff to update passwords on a regular basis - link to policy
+* check permission levels
+* who has additional access - reports, acq, carousels
+* check staff still work at the library
+
+[NOTE]
+======
+If you see staff accounts with the Sitka please leave them be.  These are troubleshooting 
+accounts used by Co-op Support.
+========
+
+Public Catalogue
+~~~~~~~~~~~~~~~~
+
+At least once a year library staff should check the logo and colours used on their public catalogue
+to make sure they are current and match what is used on your website. If your library has additional
+links beside your logo they should be checked as well to ensure they are still current. 
+
+Please contact 
+Co-op Support your public catalogue needs to be updated.
+
+Integrated 3rd Party Services
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you cancel a subscription or retire a piece of hardware, like a self check, that authenticates
+through Evergreen please let Co-op Support know as soon as possible.  This enables us to remove 
+accounts associated with the service so that your patrons' information is no longer available 
+to the vendor.
 
