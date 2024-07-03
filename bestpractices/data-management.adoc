@@ -1,0 +1,117 @@
+Data Management
+---------------
+(((Data Management)))
+
+Introduction
+
+Checklist
+~~~~~~~~~
+
+The intervals given here are general recommendations.  Libraries may find that certain tasks should be run
+more or less frequently at their library.
+
+Annual
+^^^^^^
+
+* Closed dates
+* library information
+** in Evergreen
+** with the Co-op
+* circulation policies
+* hold policies
+* patron notifications
+* shelving locations
+* report templates
+* group penalty thresholds
+* library settings
+* templates - holdings, MARC, etc.
+
+
+Quarterly
+^^^^^^^^^
+
+* items without circulation modifiers
+* run and review current collection report
+* patron stat cats
+* run and review patron group report
+* library staff accounts
+* delete pre-cats
+
+
+
+Monthly
+^^^^^^^
+
+* Hopeless Holds
+* Transit List
+* holds shelf
+* patrons with negative balances
+
+
+Ongoing
+^^^^^^^
+
+* Fixed fields
+* pull list
+
+
+
+
+Administration
+~~~~~~~~~~~~~~
+
+Library Staff Accounts
+^^^^^^^^^^^^^^^^^^^^^^
+
+* encourage staff to update passwords on a regular basis - link to policy
+* check permission levels
+* who has additional access - reports, acq, carousels
+* check staff still work at the library
+
+[[NOTE]]
+========
+If you see staff accounts with the Sitka please leave them be.  These are troubleshooting 
+accounts used by Co-op Support.
+========
+
+Cataloguing
+~~~~~~~~~~~
+
+
+* use templates - holdings, MARC, MARC batch import/export for both cat and acq
+
+Circulation Modifiers
+^^^^^^^^^^^^^^^^^^^^^
+* maintain a list of the circulation modifiers your library uses
+
+
+Circulation Modifier Name - type of items the modifier are used for
+
+Fixed Fields
+^^^^^^^^^^^^
+
+Item Statuses
+^^^^^^^^^^^^^
+
+* run reports on lost, missing, mending, cleaning, etc.
+
+Weeding
+^^^^^^^
+
+Inventory
+^^^^^^^^^
+
+Pre-catalogued items
+^^^^^^^^^^^^^^^^^^^^
+
+Circulation
+~~~~~~~~~~~
+
+* hopeless holds
+* pull list for hold requests
+* holds shelf
+* transit list
+* patron accounts - have Co-op Support customize what shows
+
+
+

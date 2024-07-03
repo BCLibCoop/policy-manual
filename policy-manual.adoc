@@ -46,6 +46,8 @@ include::bestpractices/annualreportsmb.adoc[]
 
 include::bestpractices/temporary-library-closures.adoc[]
 
+include::bestpractices/data-management.adoc[]
+
 Best Practices for Data Management
 ==================================
 
