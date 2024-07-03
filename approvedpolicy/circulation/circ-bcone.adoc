@@ -20,7 +20,8 @@ The past Sitka Circulation Working Group (2007 - 2011), with additional input fr
 BC OneCard Policy/Procedure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-*Definitions*
+Definitions
++++++++++++
 
 *Sitka library* See list of Sitka member libraries at
 https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Current Sitka Libraries]
@@ -39,25 +40,32 @@ https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Current Sitka 
 
 * a non-Sitka library
 
-*Policy*
+
+Policy
+++++++
 
 Sitka’s public libraries support the BC OneCard program. To be eligible to register for borrowing privileges at Sitka libraries other than their home library, a borrower must present a valid library card issued by their home library.
 
 The integrity of Sitka’s shared patron database is crucial to service delivery; Sitka libraries will in all cases endeavour to maintain a single patron record for each Sitka library member. Only one card per patron will be issued.
 
-*Loan Limits*
+
+Loan Limits
++++++++++++
 
 At a minimum, Sitka libraries will allow BC OneCard customers to borrow five books. (‘Books’ also refers to special format audiobooks normally loaned to registered print-disabled customers).
 
 Other limits – Determined by lending library or appropriate library federation policy (Many libraries/federations treat BC OneCard patrons as regular patrons, with full borrower privileges).
 
-*Fines & Overdues*
+
+Fines & Overdues
+++++++++++++++++
 
 Fine rates are determined by lending library or appropriate library federation policy.
 
 The BC OneCard borrower is responsible for any charges owing to the lending library.
 
-*Procedure*
+Procedure
++++++++++
 
 * Patron presents home library card for scanning.
 
@@ -69,6 +77,8 @@ The BC OneCard borrower is responsible for any charges owing to the lending libr
 
 
 *Procedure scenarios - Patron exists in Sitka's Evergreen already*
+
+https://youtu.be/6EFXrwKvDA0[*Sitka Snippet Video - Opting Patrons Into Your Library (1:10)*]
 
 * Patron presents a BC library card.
 
@@ -84,7 +94,10 @@ The BC OneCard borrower is responsible for any charges owing to the lending libr
 
 * If patron does not agree to opt in, local decision and policy applies to how you will treat this patron
 
-*Procedure scenarios -Patron does not exist in Sitka and is registered as a BC One card patron*
+*Procedure scenarios - Patron does not exist in Sitka and is registered as a BC One card patron*
+
+https://youtu.be/qT_mjayYzmY[Sitka Training Video - Registering a Patron for Libraries Participating 
+in BC OneCard (5:12)*]
 
 * Patron presents a BC library card.
 
