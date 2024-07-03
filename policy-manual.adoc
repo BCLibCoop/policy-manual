@@ -51,15 +51,15 @@ include::bestpractices/data-management.adoc[]
 Best Practices for Data Management
 ==================================
 
-include::best-practices-data-management/data-introduction.adoc[]
+include::best-practice-data-management/data-introduction.adoc[]
 
-include::best-practices-data-management/data-checklist.adoc[]
+include::best-practice-data-management/data-checklist.adoc[]
 
-include::best-practices-data-management/data-administration.adoc[]
+include::best-practice-data-management/data-administration.adoc[]
 
-include::best-practices-data-management/data-circulation.adoc[]
+include::best-practice-data-management/data-circulation.adoc[]
 
-include::best-practices-data-management/data-cataloguing.adoc[]
+include::best-practice-data-management/data-cataloguing.adoc[]
 
 
 
