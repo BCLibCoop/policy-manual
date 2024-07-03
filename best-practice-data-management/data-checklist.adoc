@@ -9,11 +9,16 @@ Annual
 
 * Closed dates
 * library information
+** in Evergreen
+** with the Co-op
 * circulation policies
 * hold policies
 * patron notifications
 * shelving locations
 * report templates
+* group penalty thresholds
+* library settings
+* templates - holdings, MARC, etc.
 
 
 Quarterly
@@ -24,6 +29,8 @@ Quarterly
 * patron stat cats
 * run and review patron group report
 * library staff accounts
+* delete pre-cats
+
 
 
 Monthly
@@ -32,6 +39,7 @@ Monthly
 * Hopeless Holds
 * Transit List
 * holds shelf
+* patrons with negative balances
 
 
 Ongoing

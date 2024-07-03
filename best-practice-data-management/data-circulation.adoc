@@ -1,4 +1,10 @@
 Related to Circulation
 ----------------------
 
+* hopeless holds
+* pull list for hold requests
+* holds shelf
+* transit list
+* patron accounts - have Co-op Support customize what shows
+
 
