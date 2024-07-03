@@ -7,14 +7,33 @@ September 16, 2009*
 
 Since this policy was developed in 2009,  Sitka staff and patrons in BC public libraries have enjoyed an increasingly seamless integration of service and access to shared resources. This has been achieved primarily through BC InterLibrary Connect, and more enhanced circulation policies that consider home library, not patron profile, in Evergreen to determine a patron's BC OneCard status. Use of the BC OneCard patron profile in Evergreen to manage non resident patrons is now technically optional; libraries can also use any appropriate patron profile, and record the patron's actual home library, to ensure that pre-configured local rules for non residents are applied at checkout. Either method also satisfies statistical requirements for BC Libraries Branch annual reports.
 
-As of August 2018 the BC OneCard program still exists in BC, and the original policy is still applicable for participating libraries, with some technical updates included in 2018.
+As of August 2018 the 
+https://www2.gov.bc.ca/gov/content/sports-culture/arts-culture/public-libraries/bc-onecard[BC OneCard
+ program] still exists in BC, and the original policy is still applicable for participating 
+ libraries, with some technical updates included in 2018.
 
 
-Sitka's Evergreen instance is intended to feature a shared patron database. From both a database integrity and a service perspective, it is important that each Sitka patron be represented in the shared database by only 1 patron record. As the number of Sitka sites grew, the occurrences of cross-Sitka  traffic went up; these occurrences drove the need for consortial policy and workflow to enable high levels of customer service while simultaneously ensuring database integrity.
+Sitka's Evergreen instance is intended to feature a shared patron database. From both a database 
+integrity and a service perspective, it is important that each Sitka patron be represented 
+in the shared database by only 1 patron record. As the number of Sitka sites grew, 
+the occurrences of cross-Sitka  traffic went up; these occurrences drove the need for consortial 
+policy and workflow to enable high levels of customer service while simultaneously ensuring 
+database integrity.
 
-Consortial policy and procedures for the handling of non-resident patrons complement the existing "opt-in" functionality in Sitka's Evergreen. Since the very first Sitka sites went live in late 2007, custom patron "opt-in" programming has been in place on Sitka's Evergreen to satisfy the requirements of BC's FIPPA legislation as it relates to a shared patron database. The opt-in code is activated the first time a Sitka patron card is scanned at any Sitka library other than their home library. In doing so, it solicits informed patron consent for staff at the library to retrieve the patron's information. Library staff should understand that they must not retrieve the patron record without patron consent.
+Consortial policy and procedures for the handling of non-resident patrons complement the 
+existing "opt-in" functionality in Sitka's Evergreen. Since the very first Sitka sites 
+went live in late 2007, custom patron "opt-in" programming has been in place on Sitka's 
+Evergreen to satisfy the requirements of BC's FIPPA legislation as it relates to a shared 
+patron database. The opt-in code is activated the first time a Sitka patron card is scanned 
+at any Sitka library other than their home library. In doing so, it solicits informed patron 
+consent for staff at the library to retrieve the patron's information. Library staff should 
+understand that they must not retrieve the patron record without patron consent.
 
-The past Sitka Circulation Working Group (2007 - 2011), with additional input from the then North Coast Library Federation, and Co-op Support, developed the original Sitka BC OneCard policy. Along with this policy came the following operational approach: all Sitka-site library staff with appropriate permissions are able to edit patron records as necessary, assuming that a patron has "opted in" for service at their library.
+The past Sitka Circulation Working Group (2007 - 2011), with additional input from the then 
+North Coast Library Federation, and Co-op Support, developed the original Sitka BC OneCard 
+policy. Along with this policy came the following operational approach: all Sitka-site library 
+staff with appropriate permissions are able to edit patron records as necessary, assuming that 
+a patron has "opted in" for service at their library.
 
 
 BC OneCard Policy/Procedure
@@ -44,17 +63,27 @@ https://bc.libraries.coop/services/sitka/current-sitka-libraries/[Current Sitka 
 Policy
 ++++++
 
-Sitka’s public libraries support the BC OneCard program. To be eligible to register for borrowing privileges at Sitka libraries other than their home library, a borrower must present a valid library card issued by their home library.
+Sitka’s BC public libraries support the 
+https://www2.gov.bc.ca/gov/content/sports-culture/arts-culture/public-libraries/bc-onecard[BC OneCard 
+program]. To be eligible to register for 
+borrowing privileges at BC public libraries other than their home library, a borrower must present 
+a valid library card issued by their home library.
 
-The integrity of Sitka’s shared patron database is crucial to service delivery; Sitka libraries will in all cases endeavour to maintain a single patron record for each Sitka library member. Only one card per patron will be issued.
+The integrity of Sitka’s shared patron database is crucial to service delivery; Sitka libraries 
+will in all cases endeavour to maintain a single patron record for each Sitka library member. Only 
+one card per patron will be issued.
 
 
 Loan Limits
 +++++++++++
 
-At a minimum, Sitka libraries will allow BC OneCard customers to borrow five books. (‘Books’ also refers to special format audiobooks normally loaned to registered print-disabled customers).
+At a minimum, Sitka BC public libraries will allow BC OneCard customers to borrow five books. 
+(‘Books’ also refers to special format audiobooks normally loaned to registered print-disabled 
+customers).
 
-Other limits – Determined by lending library or appropriate library federation policy (Many libraries/federations treat BC OneCard patrons as regular patrons, with full borrower privileges).
+Other limits – Determined by lending library or appropriate library federation policy 
+(Many libraries/federations treat BC OneCard patrons as regular patrons, with full 
+borrower privileges).
 
 
 Fines & Overdues
@@ -69,18 +98,28 @@ Procedure
 
 * Patron presents home library card for scanning.
 
-* If the patron is in the Evergreen database, and if the patron agrees to “opt in” at the privacy prompt, their account can be accessed by their home library card. Place a BC OneCard sticker on their home library card.
+* If the patron is in the Evergreen database, and if the patron agrees to “opt in” at the privacy 
+prompt, their account can be accessed by their home library card. Place a BC OneCard sticker on 
+their home library card.
 
-* If the patron is in the Evergreen database, and if the patron does not agree to “opt in” at the privacy prompt, lending library policy will determine service options while endeavouring to maintain a single patron record for each Sitka library member. Library staff must not access the patron record without consent.
+* If the patron is in the Evergreen database, and if the patron does not agree to “opt in” at the 
+privacy prompt, lending library policy will determine service options while endeavouring to 
+maintain a single patron record for each Sitka library member. Library staff must not access 
+the patron record without consent.
 
-* If the patron is not in the Evergreen database, use the patron’s home library card as the barcode and complete the patron registration form as per your local policy. Ensure the Home Library selected in Evergreen is the patron’s actual non-Sitka home library, and add a BC OneCard sticker to the patron’s library card. From the Check Out screen, scan the patron’s card and opt patron in. Inform the patron of applicable BC OneCArd lending library or library federation borrowing limits, fines, and loan policy.
+* If the patron is not in the Evergreen database, use the patron’s home library card as the 
+barcode and complete the patron registration form as per your local policy. Ensure the Home 
+Library selected in Evergreen is the patron’s actual non-Sitka home library, and add a 
+BC OneCard sticker to the patron’s library card. From the Check Out screen, scan the patron’s 
+card and opt patron in. Inform the patron of applicable BC OneCard lending library or library 
+federation borrowing limits, fines, and loan policy.
 
 
 *Procedure scenarios - Patron exists in Sitka's Evergreen already*
 
 https://youtu.be/6EFXrwKvDA0[*Sitka Snippet Video - Opting Patrons Into Your Library (1:10)*]
 
-* Patron presents a BC library card.
+* Patron presents a BC public library card.
 
 * Scan into F1 (Circulation>Check Out)
 
@@ -88,30 +127,36 @@ https://youtu.be/6EFXrwKvDA0[*Sitka Snippet Video - Opting Patrons Into Your Lib
 
 * Opt in? Yes or no.
 
-* If yes, patron can now use your library and your rules according to patron home library and existing patron profile are automatically applied.
+* If yes, patron can now use your library and your rules according to patron home library 
+and existing patron profile are automatically applied.
 
 * Affix BC OneCard sticker to existing card if that is local policy
 
-* If patron does not agree to opt in, local decision and policy applies to how you will treat this patron
+* If patron does not agree to opt in, local decision and policy applies to how you will 
+treat this patron
 
 *Procedure scenarios - Patron does not exist in Sitka and is registered as a BC One card patron*
 
 https://youtu.be/qT_mjayYzmY[Sitka Training Video - Registering a Patron for Libraries Participating 
 in BC OneCard (5:12)*]
 
-* Patron presents a BC library card.
+* Patron presents a BC public library card.
 
 * Scan into F1 (Circulation>Check Out)
 
 * Patron is not found.
 
-* Use existing library card barcode to register patron in Sitka and apply patron’s actual home library to Sitka record, and make this patron a BC OneCard patron profile. Save new patron record.
+* Use existing library card barcode to register patron in Sitka and apply patron’s 
+actual home library to Sitka record, and make this patron a BC OneCard patron profile. Save new 
+patron record.
 
-* Apply a BC OneCard sticker to existing BC library card.
+* Apply a BC OneCard sticker to existing BC public library card.
 
 * Scan barcode into F1 (Circulation>Check Out) and opt patron in.
 
-* Patron now has a record in Sitka, has BC OneCard profile at your library, and any other Sitka library that opts him in in future, and record accurately reflects his home library.
+* Patron now has a record in Sitka, has BC OneCard profile at your library, and any 
+other Sitka BC public library that opts them in in future, and record accurately reflects 
+their home library.
 
 * At checkout, Evergreen will automatically apply locally configured BC One Card circulation rules.
 
