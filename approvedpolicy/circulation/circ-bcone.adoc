@@ -131,7 +131,7 @@ treat this patron
 
 *Procedure scenarios - Patron does not exist in Sitka and is registered as a BC One card patron*
 
-https://youtu.be/qT_mjayYzmY[Sitka Training Video - Registering a Patron for Libraries Participating 
+https://youtu.be/qT_mjayYzmY[*Sitka Training Video - Registering a Patron for Libraries Participating 
 in BC OneCard (5:12)*]
 
 . Patron presents a BC public library card.
