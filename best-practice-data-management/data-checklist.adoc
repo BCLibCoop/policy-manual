@@ -1,4 +1,47 @@
 Checklist
 ---------
 
+The intervals given here are general recommendations.  Libraries may find that certain tasks should be run
+more or less frequently at their library.
+
+Annual
+~~~~~~
+
+* Closed dates
+* library information
+* circulation policies
+* hold policies
+* patron notifications
+* shelving locations
+* report templates
+
+
+Quarterly
+~~~~~~~~~
+
+* items without circulation modifiers
+* run and review current collection report
+* patron stat cats
+* run and review patron group report
+* library staff accounts
+
+
+Monthly
+~~~~~~~
+
+* Hopeless Holds
+* Transit List
+* holds shelf
+
+
+Ongoing
+~~~~~~~
+
+* Fixed fields
+* pull list
+
+
+
+
+
 
