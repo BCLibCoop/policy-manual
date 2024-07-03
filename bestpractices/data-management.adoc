@@ -5,6 +5,21 @@ Data Management
 Introduction
 ~~~~~~~~~~~~
 
+Libraries generate a lot of data.
+
+Co-op Support recommends reviewing what data your library currently collects and considering whether 
+you're collecting unnessary data or not collecting needed data; both can be true.
+
+Evergreen can only report on data that is being collected and stored in the database.  It's important
+to ensure that data you need is being entered consistently and that your staff know
+what data to collect and where in Evergreen to enter it.  For example, if your library provides 
+services to multiple constituencies you may need to report on how many patrons are in each.
+
+To protect your patrons you should only be collecting the information necessary to provide your
+services to them.   
+
+
+
 Checklist
 ~~~~~~~~~
 
@@ -47,6 +62,7 @@ Monthly
 * Transit List
 * holds shelf
 * patrons with negative balances
+* run and review reports on Unavailable Item Statuses
 
 
 Ongoing
