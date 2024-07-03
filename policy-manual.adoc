@@ -46,6 +46,21 @@ include::bestpractices/annualreportsmb.adoc[]
 
 include::bestpractices/temporary-library-closures.adoc[]
 
+Best Practices for Data Management
+==================================
+
+include::best-practices-data-management/data-introduction.adoc[]
+
+include::best-practices-data-management/data-checklist.adoc[]
+
+include::best-practices-data-management/data-administration.adoc[]
+
+include::best-practices-data-management/data-circulation.adoc[]
+
+include::best-practices-data-management/data-cataloguing.adoc[]
+
+
+
 [appendix]
 Licensing
 =========
