@@ -7,6 +7,15 @@
 
 [NOTE]
 ======
+As of August 15th 2024 we have implemented a freeze on new 3rd party service integrations while 
+we work to move our servers. See the announcement here - https://bc.libraries.coop/news/moving-servers/
+
+Work on new 3rd party service integrations is expected to resume in November 2024. 
+======
+
+
+[NOTE]
+======
 As of August 15th 2024 we will implement a freeze on new 3rd party service integrations while 
 we work to move our servers. See the announcement here - https://bc.libraries.coop/news/moving-servers/
  
