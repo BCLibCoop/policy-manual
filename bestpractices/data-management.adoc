@@ -132,6 +132,12 @@ Circulation
 Reporting
 ~~~~~~~~~
 
+* Report on reports
+* don't run from Sitka templates
+* check to see if there are newer templates
+
+
+
 Library Staff Accounts
 ~~~~~~~~~~~~~~~~~~~~~~
 
