@@ -29,49 +29,52 @@ more or less frequently at their library.
 Annual
 ^^^^^^
 
-* Closed dates
-* library information
-** in Evergreen
-** with the Co-op
-* circulation policies
-* hold policies
-* patron notifications
-* shelving locations
-* report templates
-* group penalty thresholds
-* library settings
-* templates - holdings, MARC, etc.
-* review any discontinued 3rd party services
-* public catalogue
-
+* Enter known https://docs.libraries.coop/sitka/_closed_dates_editor.html[Closed dates] for the year
+* Review your library https://docs.libraries.coop/sitka/_organizational_units.html#_library_main_settings[contact details],
+ https://docs.libraries.coop/sitka/_organizational_units.html#_library_addresses[addresses], and 
+ https://docs.libraries.coop/sitka/_organizational_units.html#operation-hour[hours of operation] 
+* Review your https://docs.libraries.coop/sitka/_library_settings_editor.html[library settings]
+* Review your https://docs.libraries.coop/sitka/_circulation_policies.html[circulation policies]
+* Review https://docs.libraries.coop/sitka/_hold_policies.html[hold policies]
+* Review your https://docs.libraries.coop/sitka/_group_penalty_thresholds.html[group penalty thresholds]
+* Review your https://docs.libraries.coop/sitka/_shelving_location_editor.html[shelving locations]
+* Review cataloguing templates (https://docs.libraries.coop/sitka/_holdings_templates.html[holdings],
+ https://docs.libraries.coop/sitka/_using_library_specific_marc_templates.html[MARC]) to ensure they are up to date and 
+ staff are using the same templates
+* Review your https://docs.libraries.coop/sitka/_notifications_action_triggers.html[patron notifications]
+* Review https://docs.libraries.coop/sitka/_print_templates.html[receipt templates] on relevant workstations
+* Review the logo and colours used for your https://docs.libraries.coop/sitka/_public_catalogue_customizations.html[public catalogue]
+* Review the reports run by your library and the templates used
+* Review any discontinued 3rd party services
 
 Quarterly
 ^^^^^^^^^
 
+* Run and review 
+https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection report]
 * items without circulation modifiers
-* run and review current collection report
 * patron stat cats
-* run and review patron group report
-* library staff accounts
+* Run and review https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[patron group report]
+* https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
+are up to date and are only for current staff
 * delete pre-cats
-
-
 
 Monthly
 ^^^^^^^
 
-* Hopeless Holds
-* Transit List
-* holds shelf
-* patrons with negative balances
+* Resolve any https://docs.libraries.coop/sitka/_hopeless_holds.html[Hopeless Holds]
+* Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
+* Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
 * run and review reports on Unavailable Item Statuses
 
 
 Ongoing
 ^^^^^^^
-
-* Fixed fields
-* pull list
+* Clear the https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
+* Correct incorrect fixed fields to ensure items have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
+icons and appear as expected in search results]
+* Check the https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
+* https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Close staff accounts] when staff leave the library
 
 Your Library
 ~~~~~~~~~~~~
