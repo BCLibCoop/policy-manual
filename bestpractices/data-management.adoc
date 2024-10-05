@@ -18,6 +18,15 @@ services to multiple constituencies you may need to report on how many patrons a
 To protect your patrons you should only be collecting the information necessary to provide your
 services to them.   
 
+. Determine what data should be collected.  
+.. This is includes data that must be collected, that could be collected, and data that shouldn't be collected.
+. Document what data should be collected and values should be used for things like patron profiles, circulation modifiers, etc.
+. Where possible in Evergreen, set up templates and customizations to show what values should be used and data collected.
+. Set up recurring reports in Evergreen to report out on things that should be checked on a regular basis 
+. Ensure applicable staff know how to use the interfaces in Evergreen designed to track potential issues such as Hopeless Holds and 
+the Transit List.
+. Ensure your staff know your policies and procedures for handling your data
+
 
 
 Checklist
@@ -53,7 +62,7 @@ Quarterly
 * Run and review 
 https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection report]
 * items without circulation modifiers
-* patron stat cats
+* Review your patron statistical categories and patron stat cats
 * Run and review https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[patron group report]
 * https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
 are up to date and are only for current staff
@@ -71,7 +80,7 @@ Monthly
 Ongoing
 ^^^^^^^
 * Clear the https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
-* Correct incorrect fixed fields to ensure items have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
+* Correct incorrect fixed fields as you come across them to ensure bibliographic records have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
 icons and appear as expected in search results]
 * Check the https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
 * https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Close staff accounts] when staff leave the library
