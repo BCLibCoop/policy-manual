@@ -45,8 +45,8 @@ Checklist
 The intervals given here are general recommendations.  Libraries may find that certain tasks should be run
 more or less frequently at their library.
 
-Annual
-^^^^^^
+Annual Tasks
+^^^^^^^^^^^^
 
 * Enter known https://docs.libraries.coop/sitka/_closed_dates_editor.html[Closed dates] for the year
 * Review your library https://docs.libraries.coop/sitka/_organizational_units.html#_library_main_settings[contact details],
@@ -70,8 +70,8 @@ and associated values
 * Review the reports run by your library and the templates used
 * Review any discontinued 3rd party services
 
-Quarterly
-^^^^^^^^^
+Quarterly Tasks
+^^^^^^^^^^^^^^^
 
 * https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
 are up to date and are only for current staff
@@ -80,8 +80,8 @@ are up to date and are only for current staff
 * Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
 * Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
 
-Monthly
-^^^^^^^
+Monthly Tasks
+^^^^^^^^^^^^^
 
 * Run and review reports for the following and resolve issues revealed: 
 ** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[Current
@@ -101,8 +101,8 @@ If you want to set up recurring reports but monthly is too frequent for your lib
 ======
 
 
-Ongoing
-^^^^^^^
+Ongoing Tasks
+^^^^^^^^^^^^^
 * Clear your https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
 * Correct incorrect fixed fields as you come across them to ensure bibliographic records have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
 icons and appear as expected in search results]
@@ -116,87 +116,52 @@ As you work through this checklist you may find a significant amount of data cle
 a daunting task and Co-op Support recommends working through it as staff have capacity and not feeling that it all needs to be 
 resolved right away.  
 
-Your Library
-~~~~~~~~~~~~
+Recommendations
+~~~~~~~~~~~~~~~
 
-Library information
+Local Library Policies and Procedures
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Collection
-~~~~~~~~~~
+Libraries should maintain local lists of:
 
-* current collection report
+* https://docs.libraries.coop/sitka/_circulation_modifiers.html[circulation modifiers] used by the library and what type of item specific modifiers should be used for.
+* information to be collected in the patron account
+* information that specifically should not be collected in the patron account
+* patron main (profile) permissions groups used by the library and which how to decide which one to use for a patron
+* any other information where library staff need to know what values to select or what information is important to collecr
 
-* use templates - holdings, MARC, MARC batch import/export for both cat and acq
-
-Circulation Modifiers
-^^^^^^^^^^^^^^^^^^^^^
-* maintain a list of the circulation modifiers your library uses
-
-
-Circulation Modifier Name - type of items the modifier are used for
-
-Fixed Fields
-^^^^^^^^^^^^
-
-Item Statuses
-^^^^^^^^^^^^^
-
-* run reports on lost, missing, mending, cleaning, etc.
-
-Weeding
-^^^^^^^
-
-Inventory
+Templates
 ^^^^^^^^^
 
-Pre-catalogued items
-^^^^^^^^^^^^^^^^^^^^
+Evergreen has a number of templates that can be set up to save staff time and help keep data consistent:
 
-Shelving Locations
-^^^^^^^^^^^^^^^^^^
+* https://docs.libraries.coop/sitka/_holdings_templates.html[Holdings Templates]
+* https://docs.libraries.coop/sitka/_using_library_specific_marc_templates.html[Library Specific MARC Templates]
+* https://docs.libraries.coop/sitka/_import_templates.html[MARC Batch Import Templates]
+* https://docs.libraries.coop/acquisitions/_setting_up_load_marc_order_records.html[Load MARC Order Records Templates - Acquisitions Module]
+* https://docs.libraries.coop/sitka/_serials_administration.html#serial-item-template[Serial Item Templates]
+* https://docs.libraries.coop/sitka/_prediction_pattern_templates.html[Prediction Pattern Templates]
+* https://docs.libraries.coop/sitka/_print_templates.html[Receipt Templates]
 
+Working with Your Collection
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Circulation
-~~~~~~~~~~~
-
-* circ and hold policies
-* closed dates
-* group penalty thresholds
-* patron notifications
-* hopeless holds
-* pull list for hold requests
-* holds shelf
-* transit list
-* patron permission groups - have Co-op Support customize what shows
-* remove identification (if applicable)
-* patrons with negative balances
-* patron stat cats
-
-Reporting
-~~~~~~~~~
-
-* Report on reports
-* don't run from Sitka templates
-* check to see if there are newer templates
+Regularily running a report on your current collection enables you to see at a glance where data issues may lie.
 
 
 
-Library Staff Accounts
-~~~~~~~~~~~~~~~~~~~~~~
 
-* encourage staff to update passwords on a regular basis - link to policy
-* check permission levels
-* who has additional access - reports, acq, carousels
-* check staff still work at the library
+Other considerations include weeding and inventory.
 
-[NOTE]
-======
-If you see staff accounts with the Sitka please leave them be.  These are troubleshooting 
-accounts used by Co-op Support.
-========
+
+Working with Your Patrons
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+You can customize the patron fields
+You can customize the patron profile list
 
 Public Catalogue
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 
 At least once a year library staff should check the logo and colours used on their public catalogue
 to make sure they are current and match what is used on your website. If your library has additional
@@ -204,11 +169,40 @@ links beside your logo they should be checked as well to ensure they are still c
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] if your public catalogue needs to be updated.
 
+Reporting
+^^^^^^^^^
+
+* Report on reports
+* don't run from Sitka templates
+* check to see if there are newer templates
+
+Safeguarding Your Data
+~~~~~~~~~~~~~~~~~~~~~~
+
+Library staff accounts and authentication accounts for 3rd party services permit access to Evergreen and all the 
+data for your library contained within
+
+Library Staff Accounts
+^^^^^^^^^^^^^^^^^^^^^^
+
+Co-op Support strongly recommends: 
+
+* encouraging all staff to update their passwords on a regular basis and ensure passwords are kept private.
+* checking that staff have the appropriate level of permissions for the tasks they need to perform and updating their 
+main (profile) permission group if they have a higher level of access than needed.
+* tracking who has additional access to reports and the acquisitions module.
+* reviewing your staff accounts to ensure only staff currently working at the library have access to the library system.
+
+[NOTE]
+======
+If you see staff accounts with the name Sitka please leave them be.  These are troubleshooting 
+accounts used by Co-op Support.
+========
+
 Integrated 3rd Party Services
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If you cancel a subscription or retire a piece of hardware, like a self check, that authenticates
 through Evergreen please let Co-op Support know as soon as possible.  This enables us to remove 
 accounts associated with the service so that your patrons' information is no longer available 
 to the vendor.
-
