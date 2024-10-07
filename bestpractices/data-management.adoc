@@ -175,7 +175,7 @@ loan duration, and statistical categories.
 Co-op Support also recommends library staff set their https://docs.libraries.coop/sitka/_holdings_editor_preferences.html[Holdings 
 Editor Preferences]. This allows staff to hide item attributes not used by their library.  Staff are less likely to enter values
 in a field not used if it's not visible in the Holdings Editor.
-
+////
 
 Working with Your Patrons
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -217,7 +217,7 @@ to see what reports are being run at their library.
 * ensure reports aren't being run from accounts for former staff members.
 * check to see if there are newer templates avaiable after every Evergreen upgrade.
 
-////
+
 
 Safeguarding Your Data
 ~~~~~~~~~~~~~~~~~~~~~~
