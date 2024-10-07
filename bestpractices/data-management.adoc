@@ -5,18 +5,21 @@ Data Management
 Introduction
 ~~~~~~~~~~~~
 
-Libraries generate a lot of data.
+Libraries generate a lot of data.  Evergreen can only report on data that is being collected and stored in the database.  It's important
+to ensure that data you need is being entered consistently and that your staff know
+what data to collect and where in Evergreen to enter it.  If data is missing or incorrect it can cause problems for your patrons
+using the library, your staff helping your patrons, and any statistics your library collects and may need to report on.
 
 Co-op Support recommends reviewing what data your library currently collects and considering whether 
-you're collecting unnessary data or not collecting needed data; both can be true.
+you're collecting unnessary data or not collecting needed data; both can be true.  To protect your patrons you should only be 
+collecting the information necessary to provide your services to them.
 
-Evergreen can only report on data that is being collected and stored in the database.  It's important
-to ensure that data you need is being entered consistently and that your staff know
-what data to collect and where in Evergreen to enter it.  For example, if your library provides 
-services to multiple constituencies you may need to report on how many patrons are in each.
+The best practices outlined in this chapter are intended to assist libraries in collecting and managing their library's data in 
+Sitka's Evergreen in a consistent manner.  This includes recommendations on local policies to create, features and functions in
+Evergreen that can be used, and report templates that can be run to catch incorrect or missing data.
 
-To protect your patrons you should only be collecting the information necessary to provide your
-services to them.   
+Getting Started
+~~~~~~~~~~~~~~~
 
 . Determine what data should be collected.  
 .. This is includes data that must be collected, that could be collected, and data that shouldn't be collected.
