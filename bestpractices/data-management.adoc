@@ -147,7 +147,6 @@ Evergreen has a number of templates that can be set up to save staff time and he
 * https://docs.libraries.coop/sitka/_prediction_pattern_templates.html[Prediction Pattern Templates]
 * https://docs.libraries.coop/sitka/_print_templates.html[Receipt Templates]
 
-////
 Working with Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -176,7 +175,6 @@ loan duration, and statistical categories.
 Co-op Support also recommends library staff set their https://docs.libraries.coop/sitka/_holdings_editor_preferences.html[Holdings 
 Editor Preferences]. This allows staff to hide item attributes not used by their library.  Staff are less likely to enter values
 in a field not used if it's not visible in the Holdings Editor.
-////
 
 Working with Your Patrons
 ^^^^^^^^^^^^^^^^^^^^^^^^^
