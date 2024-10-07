@@ -217,6 +217,8 @@ to see what reports are being run at their library.
 * ensure reports aren't being run from accounts for former staff members.
 * check to see if there are newer templates avaiable after every Evergreen upgrade.
 
+////
+
 Safeguarding Your Data
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -248,3 +250,4 @@ If you cancel a subscription or retire a piece of hardware, like a self check, t
 through Evergreen please let Co-op Support know as soon as possible.  This enables us to remove 
 accounts associated with the service so that your patrons' information is no longer available 
 to the vendor.
+////
