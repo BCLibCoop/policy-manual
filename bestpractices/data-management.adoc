@@ -38,6 +38,7 @@ It's very easy to pick the wrong circulation modifier or patron profile or stati
 procedures, templates, and recurring reports in place with staff aware of them should help significantly to cut down on future 
 incorrect or missing data.  
 
+
 Checklist
 ~~~~~~~~~
 
@@ -56,6 +57,10 @@ Annual
 * Review https://docs.libraries.coop/sitka/_hold_policies.html[hold policies]
 * Review your https://docs.libraries.coop/sitka/_group_penalty_thresholds.html[group penalty thresholds]
 * Review your https://docs.libraries.coop/sitka/_shelving_location_editor.html[shelving locations]
+* Review your https://docs.libraries.coop/sitka/_statistical_categories_patron_editor.html[patron statistical categories] 
+and associated values
+* Review your https://docs.libraries.coop/sitka/_statistical_categories_item_editor.html[item statistical categories] 
+and associated values
 * Review cataloguing templates (https://docs.libraries.coop/sitka/_holdings_templates.html[holdings],
  https://docs.libraries.coop/sitka/_using_library_specific_marc_templates.html[MARC]) to ensure they are up to date and 
  staff are using the same templates
@@ -68,22 +73,19 @@ Annual
 Quarterly
 ^^^^^^^^^
 
-
-* Review your patron statistical categories and patron stat cats
-
 * https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
 are up to date and are only for current staff
-* delete pre-cats
+* Delete pre-catalogued items that have a status of Cataloguing
 * Resolve any https://docs.libraries.coop/sitka/_hopeless_holds.html[Hopeless Holds]
 * Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
 * Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
-
 
 Monthly
 ^^^^^^^
 
 * Run and review reports for the following and resolve issues revealed: 
-** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection report]
+** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[Current
+Collection]
 ** https://docs.libraries.coop/sitka/items_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
  Without Circulation Modifiers]
 **  https://docs.libraries.coop/sitka/_collection_management.html#_status_all_items_with_selected_item_status[Items in an Unavailable
@@ -101,22 +103,18 @@ If you want to set up recurring reports but monthly is too frequent for your lib
 
 Ongoing
 ^^^^^^^
-* Clear the https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
+* Clear your https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
 * Correct incorrect fixed fields as you come across them to ensure bibliographic records have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
 icons and appear as expected in search results]
-* Check the https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
+* Check your https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
 * https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Close staff accounts] when staff leave the library
 
-Backlog
-^^^^^^^
+Cleaning Up Your Existing Data
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-As you work through the 
-
-Once you have policies, procedures, templates, and recurring reports in place you may find a significant amount of data clean up
-is needed.  
-
-Cleaning up existing data can be a daunting task.  
-
+As you work through this checklist you may find a significant amount of data clean up is needed for your existing data. This can be 
+a daunting task and Co-op Support recommends working through it as staff have capacity and not feeling that it all needs to be 
+resolved right away.  
 
 Your Library
 ~~~~~~~~~~~~
