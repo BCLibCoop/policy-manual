@@ -69,7 +69,7 @@ and associated values
 * Review the logo and colours used for your https://docs.libraries.coop/sitka/_public_catalogue_customizations.html[public catalogue]
 * Review the https://docs.libraries.coop/sitka/_local_administration_3.html#_reports_run_in_specified_time_period_by_specified_library[reports run by your library] and the templates used
 * Review any xref:_integrated_3rd_party_services[3rd party services] and ensure discontinued services are reported to Co-op Support if they
-authenticate against Evergreen.
+authenticated against Evergreen.
 
 Quarterly Tasks
 ^^^^^^^^^^^^^^^
