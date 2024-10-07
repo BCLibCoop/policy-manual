@@ -150,30 +150,28 @@ Evergreen has a number of templates that can be set up to save staff time and he
 Working with Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Regularily running a report on your https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current
-collection] enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
+Regularly running a report on your current collection ADD LINK enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
 modifier/shelving location combinations that don't make sense for your library. You can then run additional reports to discover
 what items need to be reviewed and possibly updated. Report templates found in the _Item List by Item Attributes_ folder are especially
 helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templates -> Collection_.
 
-* https://docs.libraries.coop/sitka/_collection_management.html#_circ_modifier_copies_with_selected_circ_modifiers[Circ Modifier: 
-Copies with Selected Circ Modifiers]
-* https://docs.libraries.coop/sitka/items_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
-Without Circulation Modifiers]
-* Shelving Location: Items with Selected Shelving Location
-* Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier
+* Circ Modifier: Copies with Selected Circ Modifiers ADD LINK
+* Items Without Circulation Modifiers ADD LINK
+* Shelving Location: Items with Selected Shelving Location ADD LINK
+* Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier ADD LINK
 
 You can use the output from these reports to easily batch edit items through Item Status.  Instructions on loading report files 
 through Item Status can be found in the section called Upload from File ADD LINK in Sitka's Evergreen Documentation.
 
-Co-op Support strongly recommends setting up and using https://docs.libraries.coop/sitka/_holdings_templates.html[holdings 
-templates] when cataloguing items. If you have multiple cataloguers we recommend setting up templates on one cataloguers account
-and then https://docs.libraries.coop/sitka/_holdings_templates.html#_sharing_holdings_template[sharing them] with any other cataloguers.
+Co-op Support strongly recommends setting up and using ADD LINK holdings templates when cataloguing items. If you have multiple 
+cataloguers we recommend setting up templates on one cataloguers account
+and then sharing them ADD LINK with any other cataloguers.
+
 Holdings templates are commonly used to automatically apply values for shelving locations, circulation modifier, age hold protection, 
 loan duration, and statistical categories. 
 
-Co-op Support also recommends library staff set their https://docs.libraries.coop/sitka/_holdings_editor_preferences.html[Holdings 
-Editor Preferences]. This allows staff to hide item attributes not used by their library.  Staff are less likely to enter values
+Co-op Support also recommends library staff set their ADD LINK Holdings Editor Preferences. This allows staff to hide item attributes 
+not used by their library.  Staff are less likely to enter values
 in a field not used if it's not visible in the Holdings Editor.
 
 Working with Your Patrons
