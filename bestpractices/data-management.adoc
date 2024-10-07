@@ -21,16 +21,22 @@ Evergreen that can be used, and report templates that can be run to catch incorr
 Getting Started
 ~~~~~~~~~~~~~~~
 
+When embarking on a data management project there is some set up and potential staff training involved.
+
+Co-op Support recommends starting with the following:
+
 . Determine what data should be collected.  
 .. This is includes data that must be collected, that could be collected, and data that shouldn't be collected.
 . Document what data should be collected and values should be used for things like patron profiles, circulation modifiers, etc.
 . Where possible in Evergreen, set up templates and customizations to show what values should be used and data collected.
-. Set up recurring reports in Evergreen to report out on things that should be checked on a regular basis 
+. Set up recurring reports in Evergreen to report out on things that should be checked on a regular basis. 
 . Ensure applicable staff know how to use the interfaces in Evergreen designed to track potential issues such as Hopeless Holds and 
 the Transit List.
-. Ensure your staff know your policies and procedures for handling your data
+. Ensure your staff know your policies and procedures for handling your data.
 
-
+It's very easy to pick the wrong circulation modifier or patron profile or statistical category value by accident; having policies, 
+procedures, templates, and recurring reports in place with staff aware of them should help significantly to cut down on future 
+incorrect or missing data.  
 
 Checklist
 ~~~~~~~~~
@@ -62,22 +68,35 @@ Annual
 Quarterly
 ^^^^^^^^^
 
-* Run and review 
-https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection report]
-* items without circulation modifiers
+
 * Review your patron statistical categories and patron stat cats
-* Run and review https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[patron group report]
+
 * https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
 are up to date and are only for current staff
 * delete pre-cats
+* Resolve any https://docs.libraries.coop/sitka/_hopeless_holds.html[Hopeless Holds]
+* Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
+* Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
+
 
 Monthly
 ^^^^^^^
 
-* Resolve any https://docs.libraries.coop/sitka/_hopeless_holds.html[Hopeless Holds]
-* Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
-* Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
-* run and review reports on Unavailable Item Statuses
+* Run and review reports for the following and resolve issues revealed: 
+** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection report]
+** https://docs.libraries.coop/sitka/items_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
+ Without Circulation Modifiers]
+**  https://docs.libraries.coop/sitka/_collection_management.html#_status_all_items_with_selected_item_status[Items in an Unavailable
+Item Status - damaged, lost, missing, etc.]
+** https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[Patron Profiles]
+
+[NOTE]
+======
+Reports can be set up as recurring reports or run as needed.
+
+If you want to set up recurring reports but monthly is too frequent for your library, consider setting the recurrence interval to
+*4 Month(s)* (quarterly) or *6 Month(s)* (biannually).
+======
 
 
 Ongoing
@@ -87,6 +106,17 @@ Ongoing
 icons and appear as expected in search results]
 * Check the https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
 * https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Close staff accounts] when staff leave the library
+
+Backlog
+^^^^^^^
+
+As you work through the 
+
+Once you have policies, procedures, templates, and recurring reports in place you may find a significant amount of data clean up
+is needed.  
+
+Cleaning up existing data can be a daunting task.  
+
 
 Your Library
 ~~~~~~~~~~~~
@@ -174,8 +204,7 @@ At least once a year library staff should check the logo and colours used on the
 to make sure they are current and match what is used on your website. If your library has additional
 links beside your logo they should be checked as well to ensure they are still current. 
 
-Please contact 
-Co-op Support your public catalogue needs to be updated.
+Please contact https://bc.libraries.coop/support/[Co-op Support] if your public catalogue needs to be updated.
 
 Integrated 3rd Party Services
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
