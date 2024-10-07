@@ -122,7 +122,7 @@ holds that are never going to come.
 
 Recommendations
 ~~~~~~~~~~~~~~~
-
+////
 Local Library Policies and Procedures
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -250,4 +250,3 @@ If you cancel a subscription or retire a piece of hardware, like a self check, t
 through Evergreen please let Co-op Support know as soon as possible.  This enables us to remove 
 accounts associated with the service so that your patrons' information is no longer available 
 to the vendor.
-////
