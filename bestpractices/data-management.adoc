@@ -128,7 +128,7 @@ Libraries should maintain local lists of:
 * information to be collected in the patron account
 * information that specifically should not be collected in the patron account
 * patron main (profile) permissions groups used by the library and which how to decide which one to use for a patron
-* any other information where library staff need to know what values to select or what information is important to collecr
+* any other information where library staff need to know what specific values to select or what information is important to collect
 
 Templates
 ^^^^^^^^^
@@ -146,6 +146,10 @@ Evergreen has a number of templates that can be set up to save staff time and he
 Working with Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The following best practices will help with consistent data collection for your collection:
+
+* 
+
 Regularily running a report on your current collection enables you to see at a glance where data issues may lie.
 
 
@@ -157,8 +161,16 @@ Other considerations include weeding and inventory.
 Working with Your Patrons
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can customize the patron fields
-You can customize the patron profile list
+The following best practices will help with consistent data collection for patron accounts:
+
+* Customize the drop down for the https://docs.libraries.coop/sitka/_permission_tree_display_entries.html[Main (Profile) Permission 
+Group] field in the patron account.
+* https://docs.libraries.coop/sitka/_patron_account_fields.html#_customizing_the_display_fields[Customize the display fields] 
+for the patron account.
+* Set applicable https://docs.libraries.coop/sitka/_statistical_categories_patron_editor.html[patron statistical categories]
+ as required to ensure values are filled in.
+* Ensure _Free Text_ is set to false for https://docs.libraries.coop/sitka/_statistical_categories_patron_editor.html[patron statistical 
+categories] where consistent values are needed. 
 
 Public Catalogue
 ^^^^^^^^^^^^^^^^
@@ -172,15 +184,22 @@ Please contact https://bc.libraries.coop/support/[Co-op Support] if your public 
 Reporting
 ^^^^^^^^^
 
-* Report on reports
-* don't run from Sitka templates
-* check to see if there are newer templates
+In Sitka's Evergreen Documentation, the https://docs.libraries.coop/sitka/_maintaining_reporter_data.html[section called Maintaining 
+Reporter Data] outlines best practices for handling reporter data.
+
+Local system administrators should:
+
+* periodically run a report using the template https://docs.libraries.coop/sitka/_local_administration_3.html#_reports_run_in_specified_time_period_by_specified_library[Reports Run In Specified Time Period By Specified Library] 
+to see what reports are being run at their library. 
+* ensure reports aren't being run directly off of Sitka templates.
+* ensure reports aren't being run from accounts for former staff members.
+* check to see if there are newer templates avaiable after every Evergreen upgrade.
 
 Safeguarding Your Data
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Library staff accounts and authentication accounts for 3rd party services permit access to Evergreen and all the 
-data for your library contained within
+data for your library contained within.
 
 Library Staff Accounts
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -190,8 +209,9 @@ Co-op Support strongly recommends:
 * encouraging all staff to update their passwords on a regular basis and ensure passwords are kept private.
 * checking that staff have the appropriate level of permissions for the tasks they need to perform and updating their 
 main (profile) permission group if they have a higher level of access than needed.
-* tracking who has additional access to reports and the acquisitions module.
-* reviewing your staff accounts to ensure only staff currently working at the library have access to the library system.
+* tracking who has https://docs.libraries.coop/sitka/_local_administration_3.html#_staff_assigned_to_supplementary_permission_group_s[additional access] to reports and the acquisitions module.
+* https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[reviewing your staff accounts]
+ to ensure only staff currently working at the library have access to the library system.
 
 [NOTE]
 ======
