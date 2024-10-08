@@ -107,7 +107,7 @@ and associated values
 * Review your https://docs.libraries.coop/sitka/_notifications_action_triggers.html[patron notifications]
 * Review https://docs.libraries.coop/sitka/_print_templates.html[receipt templates] on relevant workstations
 * Review the logo and colours used for your https://docs.libraries.coop/sitka/_public_catalogue_customizations.html[public catalogue]
-* Review the reports run by your library and the templates used ADD LINK
+* Review the reports run by your library and the templates used
 * Review any xref:_integrated_3rd_party_services[3rd party services] and ensure discontinued services are reported to Co-op Support if they
 authenticated against Evergreen.
 
@@ -163,16 +163,16 @@ helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templ
  and Circ Modifier: Items with Selected Shelving Location and Circ Modifier]
 
 You can use the output from these reports to easily batch edit items through Item Status.  Instructions on loading report files 
-through Item Status can be found in the section called Upload from File ADD LINK in Sitka's Evergreen Documentation.
+through Item Status can be found in the section called Upload from File in Sitka's Evergreen Documentation.
 
-Co-op Support strongly recommends setting up and using ADD LINK holdings templates when cataloguing items. If you have multiple 
+Co-op Support strongly recommends setting up and using holdings templates when cataloguing items. If you have multiple 
 cataloguers we recommend setting up templates on one cataloguers account
-and then sharing them ADD LINK with any other cataloguers.
+and then sharing them with any other cataloguers.
 
 Holdings templates are commonly used to automatically apply values for shelving locations, circulation modifier, age hold protection, 
 loan duration, and statistical categories. 
 
-Co-op Support also recommends library staff set their ADD LINK Holdings Editor Preferences. This allows staff to hide item attributes 
+Co-op Support also recommends library staff set their Holdings Editor Preferences. This allows staff to hide item attributes 
 not used by their library.  Staff are less likely to enter values
 in a field not used if it's not visible in the Holdings Editor.
 
