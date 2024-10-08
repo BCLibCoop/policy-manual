@@ -158,7 +158,8 @@ helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templ
 * https://docs.libraries.coop/sitka/_collection_management.html#_circ_modifier_copies_with_selected_circ_modifiers[Circ Modifier: Copies with Selected Circ Modifiers]
 * https://docs.libraries.coop/sitka/_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items Without Circulation Modifiers]
 * https://docs.libraries.coop/sitka/_collection_management.html#_shelving_location_items_with_selected_shelving_location[Shelving Location: Items with Selected Shelving Location]
-* Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier
+* https://docs.libraries.coop/sitka/_collection_management.html#_shelving_location_and_circ_modifier_items_with_selected_shelving_location_and_circ_modifier[Shelving Location
+ and Circ Modifier: Items with Selected Shelving Location and Circ Modifier]
 
 You can use the output from these reports to easily batch edit items through Item Status.  Instructions on loading report files 
 through Item Status can be found in the section called Upload from File ADD LINK in Sitka's Evergreen Documentation.
