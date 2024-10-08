@@ -45,6 +45,46 @@ Checklist
 The intervals given here are general recommendations.  Libraries may find that certain tasks should be run
 more or less frequently at their library.
 
+Ongoing Tasks
+^^^^^^^^^^^^^
+
+* Clear your https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
+* Correct incorrect fixed fields as you come across them to ensure bibliographic records have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
+icons and appear as expected in search results]
+* Check your https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
+* https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Close staff accounts] when staff leave the library
+
+
+Monthly Tasks
+^^^^^^^^^^^^^
+
+* Run and review reports for the following and resolve issues revealed: 
+** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[Current
+Collection]
+** https://docs.libraries.coop/sitka/items_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
+ Without Circulation Modifiers]
+**  https://docs.libraries.coop/sitka/_collection_management.html#_status_all_items_with_selected_item_status[Items in an Unavailable
+Item Status - damaged, lost, missing, etc.]
+** https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[Patron Profiles]
+
+[NOTE]
+======
+Reports can be set up as recurring reports or run as needed.
+
+If you want to set up recurring reports but monthly is too frequent for your library, consider setting the recurrence interval to
+*4 Month(s)* (quarterly) or *6 Month(s)* (biannually).
+======
+
+Quarterly Tasks
+^^^^^^^^^^^^^^^
+
+* https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
+are up to date and are only for current staff
+* Delete pre-catalogued items that have a status of Cataloguing
+* Resolve any https://docs.libraries.coop/sitka/_hopeless_holds.html[Hopeless Holds]
+* Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
+* Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
+
 Annual Tasks
 ^^^^^^^^^^^^
 
@@ -70,45 +110,6 @@ and associated values
 * Review the reports run by your library and the templates used ADD LINK
 * Review any xref:_integrated_3rd_party_services[3rd party services] and ensure discontinued services are reported to Co-op Support if they
 authenticated against Evergreen.
-
-Quarterly Tasks
-^^^^^^^^^^^^^^^
-
-* https://docs.libraries.coop/sitka/_searching_for_library_staff_accounts.html[Search for library staff accounts] and confirm they 
-are up to date and are only for current staff
-* Delete pre-catalogued items that have a status of Cataloguing
-* Resolve any https://docs.libraries.coop/sitka/_hopeless_holds.html[Hopeless Holds]
-* Check the https://docs.libraries.coop/sitka/_transit_list.html[Transit List] for items that have been in transit longer than normal
-* Check for https://docs.libraries.coop/sitka/_patrons_with_negative_balances.html[patrons with negative balances] and resolve as appropriate
-
-Monthly Tasks
-^^^^^^^^^^^^^
-
-* Run and review reports for the following and resolve issues revealed: 
-** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[Current
-Collection]
-** https://docs.libraries.coop/sitka/items_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
- Without Circulation Modifiers]
-**  https://docs.libraries.coop/sitka/_collection_management.html#_status_all_items_with_selected_item_status[Items in an Unavailable
-Item Status - damaged, lost, missing, etc.]
-** https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[Patron Profiles]
-
-[NOTE]
-======
-Reports can be set up as recurring reports or run as needed.
-
-If you want to set up recurring reports but monthly is too frequent for your library, consider setting the recurrence interval to
-*4 Month(s)* (quarterly) or *6 Month(s)* (biannually).
-======
-
-
-Ongoing Tasks
-^^^^^^^^^^^^^
-* Clear your https://docs.libraries.coop/sitka/_holds_shelf.html#_clearing_holds[holds shelf]
-* Correct incorrect fixed fields as you come across them to ensure bibliographic records have https://docs.libraries.coop/sitka/_search_filters_and_format_icons.html[correct 
-icons and appear as expected in search results]
-* Check your https://docs.libraries.coop/sitka/_pull_list_for_hold_requests.html[holds pull list]
-* https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html[Close staff accounts] when staff leave the library
 
 Cleaning Up Your Existing Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
