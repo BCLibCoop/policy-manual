@@ -10,9 +10,9 @@ to ensure that data you need is being entered consistently and that your staff k
 what data to collect and where in Evergreen to enter it.  If data is missing or incorrect it can cause problems for your patrons
 using the library, your staff helping your patrons, and any statistics your library collects and may need to report on.
 
-Co-op Support recommends reviewing what data your library currently collects and considering whether 
-you're collecting unnessary data or not collecting needed data; both can be true.  To protect your patrons you should only be 
-collecting the information necessary to provide your services to them.
+To protect your patrons you should only be collecting the information necessary to provide your services to 
+them. Co-op Support recommends reviewing what data your library currently collects and considering whether 
+you’re collecting unnessary data or not collecting needed data; both can be true.
 
 The best practices outlined in this chapter are intended to assist libraries in collecting and managing their library's data in 
 Sitka's Evergreen in a consistent manner.  This includes recommendations on local policies to create, features and functions in
@@ -26,8 +26,8 @@ When embarking on a data management project there is some set up and potential s
 Co-op Support recommends starting with the following:
 
 . Determine what data should be collected.  
-.. This is includes data that must be collected, that could be collected, and data that shouldn't be collected.
-. Document what data should be collected and values should be used for things like patron profiles, circulation modifiers, etc.
+.. This includes data that must be collected, that could be collected, and data that shouldn't be collected.
+. Document what data should be collected and what values should be used for things like patron profiles, circulation modifiers, etc.
 . Where possible in Evergreen, set up templates and customizations to show what values should be used and data collected.
 . Set up recurring reports in Evergreen to report out on things that should be checked on a regular basis. 
 . Ensure applicable staff know how to use the interfaces in Evergreen designed to track potential issues such as Hopeless Holds and 
