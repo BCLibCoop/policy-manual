@@ -61,7 +61,7 @@ Monthly Tasks
 * Run and review reports for the following and resolve issues revealed: 
 ** https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[Current
 Collection]
-** https://docs.libraries.coop/sitka/items_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
+** https://docs.libraries.coop/sitka/_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items
  Without Circulation Modifiers]
 **  https://docs.libraries.coop/sitka/_collection_management.html#_status_all_items_with_selected_item_status[Items in an Unavailable
 Item Status - damaged, lost, missing, etc.]
