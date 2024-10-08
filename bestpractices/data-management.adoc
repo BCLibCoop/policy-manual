@@ -12,7 +12,7 @@ using the library, your staff helping your patrons, and any statistics your libr
 
 To protect your patrons you should only be collecting the information necessary to provide your services to 
 them. Co-op Support recommends reviewing what data your library currently collects and considering whether 
-you’re collecting unnessary data or not collecting needed data; both can be true.
+you’re collecting unnecessary data or not collecting needed data; both can be true.
 
 The best practices outlined in this chapter are intended to assist libraries in collecting and managing their library's data in 
 Sitka's Evergreen in a consistent manner.  This includes recommendations on local policies to create, features and functions in
