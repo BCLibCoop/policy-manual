@@ -152,7 +152,12 @@ Evergreen has a number of templates that can be set up to save staff time and he
 Working with Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Regularly running a report on your current collection enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
+Regularly running a report on your current collection enables you to see at a glance where data 
+issues may lie. You can use the report template https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[Title & Item 
+Count by Shelving Location and Circulation Modifier] to run a monthly report that shows a snapshot
+of your collection. 
+
+With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
 modifier/shelving location combinations that don't make sense for your library. You can then run additional reports to discover
 what items need to be reviewed and possibly updated. Report templates found in the _Item List by Item Attributes_ folder are especially
 helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templates -> Collection_.
@@ -163,17 +168,16 @@ helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templ
 * https://docs.libraries.coop/sitka/_collection_management.html#_shelving_location_and_circ_modifier_items_with_selected_shelving_location_and_circ_modifier[Shelving Location
  and Circ Modifier: Items with Selected Shelving Location and Circ Modifier]
 
-You can use the output from these reports to easily batch edit items through Item Status.  Instructions on loading report files 
-through Item Status can be found in the section called Upload from File in Sitka's Evergreen Documentation.
+You can use the output from these reports to easily batch edit items through Item Status.  Instructions 
+on loading report files through Item Status can be found in the section called 
+https://docs.libraries.coop/sitka/_item_status.html#_upload_from_file_choose_file[Upload from File (Choose file)] in Sitka's Evergreen Documentation.
 
-Co-op Support strongly recommends setting up and using holdings templates when cataloguing items. If you have multiple 
+Co-op Support strongly recommends setting up and using https://docs.libraries.coop/sitka/_holdings_templates.html[holdings templates] when cataloguing items. If you have multiple 
 cataloguers we recommend setting up templates on one cataloguers account
-and then sharing them with any other cataloguers.
-
-Holdings templates are commonly used to automatically apply values for shelving locations, circulation modifier, age hold protection, 
+and then sharing them with any other cataloguers.  Holdings templates are commonly used to automatically apply values for shelving locations, circulation modifier, age hold protection, 
 loan duration, and statistical categories. 
 
-Co-op Support also recommends library staff set their Holdings Editor Preferences. This allows staff to hide item attributes 
+Co-op Support also recommends library staff set their https://docs.libraries.coop/sitka/_holdings_editor_preferences.html[Holdings Editor Preferences]. This allows staff to hide item attributes 
 not used by their library.  Staff are less likely to enter values
 in a field not used if it's not visible in the Holdings Editor.
 
