@@ -150,7 +150,7 @@ Evergreen has a number of templates that can be set up to save staff time and he
 Working with Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Regularly running a report on your https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection] enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
+Regularly running a report on your current collection enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
 modifier/shelving location combinations that don't make sense for your library. You can then run additional reports to discover
 what items need to be reviewed and possibly updated. Report templates found in the _Item List by Item Attributes_ folder are especially
 helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templates -> Collection_.
