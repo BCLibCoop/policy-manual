@@ -28,7 +28,7 @@ Co-op Support recommends starting with the following:
 . Determine what data should be collected.  
 .. This includes data that must be collected, that could be collected, and data that shouldn't be collected.
 . Document what data should be collected and what values should be used for things like patron profiles, circulation modifiers, etc.
-. Where possible in Evergreen, set up templates and customizations to show what values should be used and data collected.
+. In Evergreen set up templates and customizations to aid in consistent data collection.
 . Set up recurring reports in Evergreen to report out on things that should be checked on a regular basis. 
 . Ensure applicable staff know how to use the interfaces in Evergreen designed to track potential issues such as Hopeless Holds and 
 the Transit List.
