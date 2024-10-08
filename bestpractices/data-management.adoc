@@ -150,15 +150,15 @@ Evergreen has a number of templates that can be set up to save staff time and he
 Working with Your Collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Regularly running a report on your current collection ADD LINK enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
+Regularly running a report on your https://docs.libraries.coop/sitka/_collection_management.html#_title_amp_item_count_by_shelving_location_and_circulation_modifier[current collection] enables you to see at a glance where data issues may lie. With this report you're able to see at a glance if you have items without circulation modifiers and if you have items with circulation
 modifier/shelving location combinations that don't make sense for your library. You can then run additional reports to discover
 what items need to be reviewed and possibly updated. Report templates found in the _Item List by Item Attributes_ folder are especially
 helpful.  This folder is found under _Shared Folders -> Templates -> Sitka_templates -> Collection_.
 
-* Circ Modifier: Copies with Selected Circ Modifiers ADD LINK
-* Items Without Circulation Modifiers ADD LINK
-* Shelving Location: Items with Selected Shelving Location ADD LINK
-* Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier ADD LINK
+* https://docs.libraries.coop/sitka/_collection_management.html#_circ_modifier_copies_with_selected_circ_modifiers[Circ Modifier: Copies with Selected Circ Modifiers]
+* https://docs.libraries.coop/sitka/_collection_management.html#_circ_modifier_copies_without_circ_modifier[Items Without Circulation Modifiers]
+* https://docs.libraries.coop/sitka/_collection_management.html#_shelving_location_items_with_selected_shelving_location[Shelving Location: Items with Selected Shelving Location]
+* https://docs.libraries.coop/sitka/_collection_management.html#_shelving_location_and_circ_modifier_items_with_selected_shelving_location_and_circ_modifier[Shelving Location and Circ Modifier: Items with Selected Shelving Location and Circ Modifier]
 
 You can use the output from these reports to easily batch edit items through Item Status.  Instructions on loading report files 
 through Item Status can be found in the section called Upload from File ADD LINK in Sitka's Evergreen Documentation.
