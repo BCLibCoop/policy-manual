@@ -107,7 +107,8 @@ and associated values
 * Review your https://docs.libraries.coop/sitka/_notifications_action_triggers.html[patron notifications]
 * Review https://docs.libraries.coop/sitka/_print_templates.html[receipt templates] on relevant workstations
 * Review the logo and colours used for your https://docs.libraries.coop/sitka/_public_catalogue_customizations.html[public catalogue]
-* Review the reports run by your library and the templates used
+* Review the https://docs.libraries.coop/sitka/_local_administration_3.html#_reports_run_in_specified_time_period_by_specified_library[reports 
+run by your library] and the templates used
 * Review any xref:_integrated_3rd_party_services[3rd party services] and ensure discontinued services are reported to Co-op Support if they
 authenticated against Evergreen.
 
@@ -132,7 +133,7 @@ Libraries should maintain local lists of:
 * https://docs.libraries.coop/sitka/_circulation_modifiers.html[circulation modifiers] used by the library and what type of item specific modifiers should be used for.
 * information to be collected in the patron account
 * information that specifically should not be collected in the patron account
-* patron main (profile) permissions groups used by the library and which how to decide which one to use for a patron
+* https://docs.libraries.coop/sitka/_permission_tree_display_entries.html[patron main (profile) permissions groups] used by the library and which how to decide which one to use for a patron
 * any other information where library staff need to know what specific values to select or what information is important to collect
 
 Templates
