@@ -193,7 +193,13 @@ for the patron account.
 * Set applicable https://docs.libraries.coop/sitka/_statistical_categories_patron_editor.html[patron statistical categories]
  as required to ensure values are filled in.
 * Ensure _Free Text_ is set to false for https://docs.libraries.coop/sitka/_statistical_categories_patron_editor.html[patron statistical 
-categories] where consistent values are needed. 
+categories] where consistent values are needed.
+
+You can use the report template https://docs.libraries.coop/sitka/_patron_management.html#_total_patron_count_by_patron_profiles[Total
+ Patron Count by Patron Profiles] to check which patron profiles are currently used for your patrons. You can then search by _Profile Group_ in the 
+https://docs.libraries.coop/sitka/_patron_accounts.html#_retrieving_an_account_via_search_term[Search for Patrons] interface to easily find
+and update patron accounts.
+
 
 Public Catalogue
 ^^^^^^^^^^^^^^^^
