@@ -5,25 +5,6 @@
 (((Patron API)))
 (((Authentication)))
 
-[NOTE]
-======
-As of August 15th 2024 we have implemented a freeze on new 3rd party service integrations while 
-we work to move our servers. See the announcement here - https://bc.libraries.coop/news/moving-servers/
-
-We expect to resume work on new 3rd party service integrations in November 2024. 
-======
-
-////
-[NOTE]
-======
-As of August 15th 2024 we will implement a freeze on new 3rd party service integrations while 
-we work to move our servers. See the announcement here - https://bc.libraries.coop/news/moving-servers/
- 
-If your library is planning to implement a new 3rd party service in 2024 you **must** submit 
-a 3rd party service integration survey **before August 15th 2024**.  
-======
-////
-
 **Please contact Co-op Support before you purchase a license for 3rd party content or any other hardware or software
  (e.g. self-check machine, book locker) that requires integration with Sitka's Evergreen or authentication against 
  patron accounts.**
