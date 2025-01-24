@@ -44,7 +44,7 @@ Access to the data and more detail about reporting requirements and methodology 
 
 https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Reports]
 
-
+////
 
 Service Area Statistics
 ^^^^^^^^^^^^^^^^^^^^^^^
