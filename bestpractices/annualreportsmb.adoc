@@ -43,7 +43,7 @@ here http://docs.libraries.coop/sitka/_using_the_reporter.html.
 Access to the data and more detail about reporting requirements and methodology is available here.
 
 https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Reports]
-////
+
 
 
 Service Area Statistics
@@ -86,6 +86,8 @@ is working with Manitoba PLSB to have this data collected consistently for futur
 =========
 
 If you do not currently collect this data in Evergreen you will leave it blank in the annual statistics.
+
+////
 
 Collections Statistics
 ^^^^^^^^^^^^^^^^^^^^^^
