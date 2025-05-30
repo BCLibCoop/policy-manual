@@ -7,6 +7,10 @@ to alert patrons and reduce staff workload.  While some of these steps can be co
 library staff, Co-op Support will handle it if your closure is due to an emergency and you
 have limited or no access to Evergreen.
 
+If your library uses LibPress for your website, please refer the 
+https://help.libraries.coop/libpress/10-temporary-closures/[Temporary Library Closures] section in
+the LibPress documentation for step by step instructions on updating your website for the closure.
+
 Please contact https://bc.libraries.coop/support/[Co-op Support] by phone, email, or 
 through the contact form for assistance or if you have any other questions.
 
