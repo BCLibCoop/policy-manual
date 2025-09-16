@@ -8,7 +8,7 @@ Annual Reports for Manitoba Public Library Services Branch (PLSB)
 MB Public Library Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Within the shared Sitka_templates Spruce libraries can find the _Spruce Annual Statistics - New_ folder which
+Within the shared Sitka_templates Spruce libraries can find the _SPRUCE_ folder which
 contains the templates needed to run your 
 https://mb.countingopinions.com[annual statistics for Manitoba PLSB].
 
