@@ -31,8 +31,7 @@ should run the reports separately for each branch.
 We have created a new shared report template folder with all the templates you need to run 
 the Membership, Collection & Circulation reports required to get your annual statistics for Manitoba PLSB.
 
-You can find the new templates by following this path in _Reports -> Shared Folders -> Sitka Templates 
--> SPRUCE_
+You can find the new templates by following this path in _Reports -> Shared Folders -> Sitka Templates -> SPRUCE_
 
 A tip sheet with instructions for running these reports can be found here 
 https://bc.libraries.coop/wp-content/uploads/2022/01/Spruce-Annual-Reports-Tip-Sheet-1.pdf
