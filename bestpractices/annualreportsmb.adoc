@@ -4,7 +4,6 @@ Annual Reports for Manitoba Public Library Services Branch (PLSB)
 (((Annual statistics)))
 
 
-
 MB Public Library Statistics
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -13,7 +12,7 @@ contains the templates needed to run your
 https://mb.countingopinions.com[annual statistics for Manitoba PLSB].
 
 This folder can be found in the Evergreen reporter under _Shared Folders -> Templates -> Sitka Templates 
--> Custom Templates -> Spruce -> Spruce Annual Statistics - New_.
+-> SPRUCE_.
 
 image:images/mb-public-lib-stats-1.png[scaledwidth="75%"]
 
@@ -27,23 +26,6 @@ http://docs.libraries.coop/sitka/_reports.html[Section V. Reports] in Sitka's Ev
 should run the reports separately for each branch.
 . As needed, total the data returned in the report output before entering it in the annual statistics portal.
 
-////
-We have created a new shared report template folder with all the templates you need to run 
-the Membership, Collection & Circulation reports required to get your annual statistics for Manitoba PLSB.
-
-You can find the new templates by following this path in _Reports -> Shared Folders -> Sitka Templates -> SPRUCE_
-
-A tip sheet with instructions for running these reports can be found here 
-https://bc.libraries.coop/wp-content/uploads/2022/01/Spruce-Annual-Reports-Tip-Sheet-1.pdf
-
-Information on using Evergreen's reporter can be found 
-here http://docs.libraries.coop/sitka/_using_the_reporter.html.
-
-Access to the data and more detail about reporting requirements and methodology is available here.
-
-https://mb.countingopinions.com[Manitoba Public Library Statistics : Ready Reports]
-
-////
 
 Service Area Statistics
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,46 +34,6 @@ Service Area statistics are now run for Spruce libraries by Co-op Support and ar
 https://bc.libraries.coop/spruce-reports/[Spruce Active Patron Statistics] page on
 our website.
 
-////
-An active patron is defined as a patron who has circulated within the last three years.
-
-Service Area - Active Patron Count for Specified Profile by Patron Home Library and Profile
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Use this template to get a count of your total active patrons.
-
-Report Filters:
-
-* Checkout Date/Time = 2020-01-01 - 2022-12-31 _(for 2022 annual statistics)_
-* Checkout/Renewal Library = your library/your library branch
-
-image:images/mb-public-lib-stats-2.png[scaledwidth="75%"]
-
-Service Area - Active Non Resident Patron Count by Patron Home Library, Profile and Stat Cat
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-Use this template to get a count of your active non resident patrons broken down by municipality.
-
-Report Filters:
-
-* Checkout Date/Time = 2020-01-01 - 2022-12-31 _(for 2022 annual statistics)_
-* Checkout/Renewal Library = your library/your library branch
-* Stat Cat ID = Municipality (or your library's equivalent)
-* Permission Group -> Group ID - this filter is hardcoded to include the patron profiles _PL Non Resident -
-Adult_ and _PL Non Resident - Juvenile_
-
-image:images/mb-public-lib-stats-3.png[scaledwidth="75%"]
-
-[CAUTION]
-=========
-This template will only work if you use the patron profiles _PL Non Resident -
-Adult_ and _PL Non Resident - Juvenile_ AND record municipality as a statistical category.  Co-op Support 
-is working with Manitoba PLSB to have this data collected consistently for future years.
-=========
-
-If you do not currently collect this data in Evergreen you will leave it blank in the annual statistics.
-
-////
 
 Collections Statistics
 ^^^^^^^^^^^^^^^^^^^^^^
