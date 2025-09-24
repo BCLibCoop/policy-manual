@@ -108,6 +108,10 @@ When working with records where the Sitka subject headings apply, cataloguers sh
 * NOT add the harmful subject heading
 * add the new subject headings to relevant bibliographic records
 
+The harmful subject headings may end up being reintroduced through the loading of vendor records or the 
+importing of records via Z39.50. Nightly maintenance scripts run on the Sitka database to update these
+subject headings to their replacements.
+
 Classification Systems
 ^^^^^^^^^^^^^^^^^^^^^^
 
