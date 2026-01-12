@@ -77,7 +77,7 @@ Languages based on circulation modifier.
 Report Filters:
 
 * Checkout/Renewal Library = your library/your library branch
-* Checkout Date/Time = 2024-01-01 - 2024-12-31 _(for 2024 annual statistics)_
+* Checkout Date/Time = 2025-01-01 - 2025-12-31 _(for 2025 annual statistics)_
 
 image:images/mb-public-lib-stats-5.png[scaledwidth="75%"]
 
@@ -91,7 +91,7 @@ Languages based on shelving location.
 Report Filters:
 
 * Checkout/Renewal Library = your library/your library branch
-* Checkout Date/Time = 2024-01-01 - 2024-12-31 _(for 2024 annual statistics)_
+* Checkout Date/Time = 2025-01-01 - 2025-12-31 _(for 2025 annual statistics)_
 
 image:images/mb-public-lib-stats-5.png[scaledwidth="75%"]
 
@@ -105,7 +105,7 @@ Both shelving location and circulation modifier are included in the output.
 Report Filters:
 
 * Checkout/Renewal Library = your library/your library branch
-* Checkout Date/Time = 2024-01-01 - 2024-12-31 _(for 2024 annual statistics)_
+* Checkout Date/Time = 2025-01-01 - 2025-12-31 _(for 2024 annual statistics)_
 * Permission Group -> Group ID - this filter is hardcoded to include the patron profiles _PL Non Resident -
 Adult_ and _PL Non Resident - Juvenile_
 
@@ -114,5 +114,5 @@ image:images/mb-public-lib-stats-6.png[scaledwidth="75%"]
 [CAUTION]
 =========
 This template will only work if you use the patron profiles _PL Non Resident -
-Adult_ and _PL Non Resident - Juvenile_.
+Adult_ and _PL Non Resident - Juvenile_ for your non-resident patrons.
 =========
