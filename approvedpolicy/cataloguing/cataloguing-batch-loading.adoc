@@ -45,6 +45,10 @@ Library Specific Batch Loading
 Co-op Support and library cataloguing staff batch load vendor files for products that
 libraries subscribe to individually.
 
+Co-op Support currently loads records from the following vednors for individual libraries:
+
+* ComicsPlus
+
 Acquisitions staff may batch load on order vendor records via the 
 http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC Order Records]
 interface.  Cataloguing staff may batch load vendor records via 
