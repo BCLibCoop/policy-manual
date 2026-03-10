@@ -153,20 +153,20 @@ staff should NOT cancel the transit. Instead, they should check in the item, if 
 BC ILC Reports Templates
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-There are a few templates in Sitka_templates > Intra-federation ILL stats.
+There are a few templates in Sitka_templates > Intra-federation ILL.
 
 The following two templates are designed for libraries to generate monthly ILC hold statistics:
 
-* LIBRARY: Inbound ILC holds count for selected month
+* https://docs.libraries.coop/sitka/_report_definition_examples.html#_library_inbound_ilc_holds_count_for_selected_month[LIBRARY: Inbound ILC holds count for selected month]
 
-* LIBRARY: Outbound ILC holds count for selected month
+* https://docs.libraries.coop/sitka/_report_definition_examples.html#_library_outbound_ilc_holds_count_for_selected_month[LIBRARY: Outbound ILC holds count for selected month]
 
 The four templates with names starting with “FEDERATION” are designed for federation coordinators
 to generate BC ILC hold statistics for all libraries in the federation. Multi-branch libraries may use them
 to generate statistics of holds among branches and other libraries.
 
-In Sitka_templates > Circulation > Overdue and others folder, there are templates for libraries
-to track their items lent to other libraries, for example the template called Overdue Items Checked out at Other Libraries.
+In Sitka_templates > Circulation > Overdue folder, there are templates for libraries
+to track their items lent to other libraries, for example the template called _Overdue Items Checked out at Other Libraries_.
 
 These templates are good for monthly recurring reports.
 
