@@ -50,6 +50,11 @@ http://docs.libraries.coop/acquisitions/_load_marc_order_records.html[Load MARC 
 interface.  Cataloguing staff may batch load vendor records via 
 https://docs.libraries.coop/sitka/_batch_loading_bibliographic_records.html[MARC Batch Export/Import].
 
+Co-op Support currently loads records from the following vendors for individual libraries:
+
+* ComicsPlus
+* CVS Midwest Tape
+* Overdrive Advantage
 
 The following parameters should be used for the different types of records loaded in batch:
 
@@ -100,12 +105,6 @@ and deletion files while other vendors will send a full collection replacement f
 https://bc.libraries.coop/support/[submit a ticket] to Co-op Support for loading, updating, or deleting.
 In your ticket please include who the vendor is and all information they have provided you with about the MARC 
 files they supply.
-
-Co-op Support currently loads records from the following vendors for individual libraries:
-
-* ComicsPlus
-* CVS Midwest Tape
-* Overdrive Advantage
 
 Please contact https://bc.libraries.coop/support/[Co-op Support] if you have questions
 about batch loading.
