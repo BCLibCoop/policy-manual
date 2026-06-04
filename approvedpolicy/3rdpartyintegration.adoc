@@ -20,7 +20,7 @@ survey] is available for reference.
 It takes significant Co-op staff time to perform the required work and due diligence to ensure these 
 services meet privacy and security legislation requirements for our members and their users.  Please 
 anticipate a **3 to 6 month** turnaround for Co-op staff to complete the assessment of the service.  
-Implementation times for services that meet the requirements will depend on Co-op staff availaibilty,
+Implementation times for services that meet the requirements will depend on Co-op staff availability,
 support from the vendor, and the library's IT support expertise and availability.
 =========
 
