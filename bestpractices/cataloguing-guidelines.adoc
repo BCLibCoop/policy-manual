@@ -1,10 +1,10 @@
 Material Specific Cataloguing Guidelines
 ----------------------------------------
 
-include::cat/cat-audio-enabled-books[]
+include::cat/cat-audio-enabled-books.adoc[]
 
-include::cat/cat-audio-devices[]
+include::cat/cat-audio-devices.adoc[]
 
-include::cat/cat-series[]
+include::cat/cat-series.adoc[]
 
-include::cat/cat-accessibility[]
+include::cat/cat-accessibility.adoc[]
