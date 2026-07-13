@@ -48,6 +48,8 @@ include::bestpractices/temporary-library-closures.adoc[]
 
 include::bestpractices/data-management.adoc[]
 
+include::bestpractices/cataloguing-guidelines.adoc[]
+
 
 
 [appendix]
