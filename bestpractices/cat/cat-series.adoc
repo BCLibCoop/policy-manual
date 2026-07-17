@@ -6,9 +6,8 @@ Cataloguing Series
 If cataloguing graphic novels or comics please see xref:_cataloguing_graphic_novels_and_comics[].
 
 Before proceeding with this section, please ensure that you are familiar with 
-xref:_editing_bibliographic_records[editing MARC records, as well as using the 
+xref:_editing_bibliographic_records[editing MARC records], as well as using the 
 xref:_enhanced_marc_editor[Enhanced MARC Editor] and the xref:_flat_text_editor[Flat Text Editor].
-
 
 For more detailed instructions related to the MARC codes listed below, visit the MARC 21 website: https://www.loc.gov/marc/bibliographic/  
 ======
