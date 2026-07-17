@@ -7,4 +7,6 @@ include::cat/cat-audio-devices.adoc[]
 
 include::cat/cat-series.adoc[]
 
+include::cat/cat-graphic-novel-comic.adoc[]
+
 include::cat/cat-accessibility.adoc[]
