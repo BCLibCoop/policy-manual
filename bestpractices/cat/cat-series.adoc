@@ -1,9 +1,97 @@
 Cataloguing Series
 ~~~~~~~~~~~~~~~~~~
 
-Fiction Series
-^^^^^^^^^^^^^^
+[NOTE]
+======
+If cataloguing graphic novels or comics please see xref:_cataloguing_graphic_novels_and_comics[].
 
-Graphic Novels
-^^^^^^^^^^^^^^
+Before proceeding with this section, please ensure that you are familiar with 
+xref:_editing_bibliographic_records[editing MARC records, as well as using the 
+xref:_enhanced_marc_editor[Enhanced MARC Editor] and the xref:_flat_text_editor[Flat Text Editor].
+
+
+For more detailed instructions related to the MARC codes listed below, visit the MARC 21 website: https://www.loc.gov/marc/bibliographic/  
+======
+
+What is a series statement 
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* The RDA glossary defines a series statement as: “A statement identifying a series to which a resource belongs 
+and the numbering of the resource within the series.”
+* Series statements are indexed and searchable in Sitka’s Evergreen. 
+* Series statements appear in the 490 and 800/830 fields in a MARC record.
+
+Where do I find series information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* The series statement should preferably be sourced from the item that is being catalogued. 
+* Any series information that is obtained elsewhere (e.g. from the publisher’s website) should be enclosed in square 
+brackets in the 490 field. If the series information is derived from an external resource, add a 500 note identifying 
+the source.
+
+How do I record series information
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+[NOTE]
+======
+It is possible that the series statement as it appears on the item might be different 
+than the authorized or uniform series statement that appears in the 8xx fields. It is ok if 
+the 490 and 800/830 series statements do not match.
+======
+
+490 Field
++++++++++
+
+* Transcribe the series statement exactly as it appears on the item. Use sentence-case capitalization. Do not end field with a period unless the last word is abbreviated.
+* The first indicator defines series tracing. 
+** 0  - if the statement is not traced/indexed and does not have an 8xx field for a series access point. 
+** 1 - if the series is traced/ indexed and will need an 8xx field, even if it duplicates the 490.
+* The second indicator is undefined
+* The most common subfields used are:
+** $a uniform title
+** $v volume/ number in series
+* This field is repeatable. If a title belongs to multiple series, enter these statements into two separate 490 fields.
+
+8xx Fields
+++++++++++
+
+* 800/ 830 fields must be accompanied by a 490 field in the bib record
+* Both fields are repeatable and it is possible to have a record with both 830 and 800 fields, especially 
+if there are multiple 490s in the record
+* The 800/ 830 fields represent the uniform or authorized form of the series statement and serve as linked access 
+points within the catalogue.
+* To find the authorized version of a series title, try searching the Library of Congress Authorities:
+* If the authorized series statement begins with the author’s name, it is entered into the 800 field. If the authorized 
+statement is title only, it is entered into an 830 field.
+
+800 Field
++++++++++
+
+* Records the authorized version of the author’s name before the title of the series, including any identifying dates or titles. 
+* Non-filing characters are not included in the $t title of the series.
+* This field ends in a period, unless there is a different mark of punctuation at the end of the field.
+* First indicator:
+** 0 - if forename/ first name is entered first 
+** 1 - if surname/ last name is entered first
+* Second indicator is undefined
+* Although there are many possible subfields for this field, the most commonly used are 
+** $a personal name
+** $d dates associated with name
+** $t title of the work (series title)
+** $v volume/ number in series
+* If the series is translated from a different language, the $t series title may appear in the original language. 
+In this case you would also add a $l with the language of the item that you are cataloguing
+
+830 Field
++++++++++
+
+* The authorized form of the series title.
+* This field ends in a period, unless there is a different mark of punctuation at the end of the field.
+* First indicator: undefined
+* Second indicator: number of non-filing characters (0-9)
+* The most common subfields used:
+** $a uniform title
+** $v volume/ number in series
+
+
 
