@@ -8,10 +8,14 @@ these paramenters to ensure your items display as expected.
  
 * Leader position 06 (Type) = a OR t
 * Leader position 07 (Bib Level) = a, c, d, or m
-* 008 position 23 (Form) = blank
+* 006 position 06 (Form) = \
+* 008 position 23 (Form) = \ (or blank in 
+https://docs.libraries.coop/sitka/_enhanced_marc_editor.html#_leader_and_008_field_grid[_Enhanced MARC Editor's Leader and 008 Field Grid_])
 * 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
 * 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
-* There is no 006 (Fixed-Length Data Elements - Additional Material Characteristics) in the MARC record.
+* e is no 006 (Fixed-Length Data Elements - Additional Material Characteristics) in the MARC record.
 
-When these parameters are met a record will display with both the _Book_ and _Preloaded Audio_ icons.
+When these parameters are met a record will display in the staff and public catalogues with both the _Book_ and 
+_Preloaded Audio_ icons.
 
+image:images/guidelines-audio-enabled-books-1.png[scaledwidth="75%"]
