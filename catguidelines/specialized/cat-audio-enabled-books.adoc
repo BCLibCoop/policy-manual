@@ -1,3 +1,17 @@
 Audio-Enabled Books
 ~~~~~~~~~~~~~~~~~~~
 
+Audio-enabled books include such things as Wonderbook and Vox.
+
+When cataloguing audio-enabled books, such as Wonderbooks and Vox, follow
+these paramenters to ensure your items display as expected.
+ 
+* Leader position 06 (Type) = a OR t
+* Leader position 07 (Bib Level) = a, c, d, or m
+* 008 position 23 (Form) = blank
+* 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
+* 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
+* There is no 006 (Fixed-Length Data Elements - Additional Material Characteristics) in the MARC record.
+
+When these parameters are met a record will display with both the _Book_ and _Preloaded Audio_ icons.
+

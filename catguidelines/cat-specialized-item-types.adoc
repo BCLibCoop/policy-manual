@@ -1,6 +1,14 @@
 Cataloguing Specialized Item Types
 ----------------------------------
 
+Certain specialized types of items need to be catalogued in particular
+ways to be consistent across the Sitka consoritum and display in the staff and public
+catalogues as expected. How these items are catalogued also affect their 
+discoverability through search filters.
+
+These guidelines detail specific field values and conventions that
+all Sitka libraries should follow when cataloguing the described type of item.
+
 include::specialized/cat-audio-enabled-books.adoc[]
 
 include::specialized/cat-audio-devices.adoc[]
