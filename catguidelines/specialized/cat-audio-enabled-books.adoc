@@ -3,9 +3,11 @@ Audio-Enabled Books
 
 Audio-enabled books include such things as Wonderbook and Vox.
 
+
 When cataloguing audio-enabled books, such as Wonderbooks and Vox, follow
 these paramenters to ensure your items display as expected.
- 
+
+////
 * Leader position 06 (Type) = a OR t
 * Leader position 07 (Bib Level) = a, c, d, or m
 * 006 position 06 (Form) = \
@@ -18,4 +20,4 @@ When these parameters are met a record will display in the staff and public cata
 _Preloaded Audio_ icons.
 
 image:images/guidelines-audio-enabled-books-1.png[scaledwidth="75%"]
-
+////
