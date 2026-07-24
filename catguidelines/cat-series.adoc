@@ -1,5 +1,5 @@
 Cataloguing Series
-~~~~~~~~~~~~~~~~~~
+------------------
 
 [NOTE]
 ======
@@ -13,7 +13,7 @@ For more detailed instructions related to the MARC codes listed below, visit the
 ======
 
 What is a series statement 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * The RDA glossary defines a series statement as: “A statement identifying a series to which a resource belongs 
 and the numbering of the resource within the series.”
@@ -21,7 +21,7 @@ and the numbering of the resource within the series.”
 * Series statements appear in the 490 and 800/830 fields in a MARC record.
 
 Where do I find series information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * The series statement should preferably be sourced from the item that is being catalogued. 
 * Any series information that is obtained elsewhere (e.g. from the publisher’s website) should be enclosed in square 
@@ -29,7 +29,7 @@ brackets in the 490 field. If the series information is derived from an external
 the source.
 
 How do I record series information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 [NOTE]
 ======
@@ -39,7 +39,7 @@ the 490 and 800/830 series statements do not match.
 ======
 
 490 Field
-+++++++++
+^^^^^^^^^
 
 * Transcribe the series statement exactly as it appears on the item. Use sentence-case capitalization. Do not end field with a period unless the last word is abbreviated.
 * The first indicator defines series tracing. 
@@ -52,7 +52,10 @@ the 490 and 800/830 series statements do not match.
 * This field is repeatable. If a title belongs to multiple series, enter these statements into two separate 490 fields.
 
 8xx Fields
-++++++++++
+^^^^^^^^^^
+
+* xref:_800_field[800 Field]
+* xref:_830_field[830 Field]
 
 * 800/ 830 fields must be accompanied by a 490 field in the bib record
 * Both fields are repeatable and it is possible to have a record with both 830 and 800 fields, especially 
@@ -63,6 +66,7 @@ points within the catalogue.
 * If the authorized series statement begins with the author’s name, it is entered into the 800 field. If the authorized 
 statement is title only, it is entered into an 830 field.
 
+[[_800_field]]
 800 Field
 +++++++++
 
@@ -81,6 +85,7 @@ statement is title only, it is entered into an 830 field.
 * If the series is translated from a different language, the $t series title may appear in the original language. 
 In this case you would also add a $l with the language of the item that you are cataloguing
 
+[[_830_field]]
 830 Field
 +++++++++
 
