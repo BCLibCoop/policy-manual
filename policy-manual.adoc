@@ -51,13 +51,9 @@ include::bestpractices/data-management.adoc[]
 Material Specific Cataloguing Guidelines
 ========================================
 
-include::catguidelines/cat-audio-enabled-books.adoc[]
-
-include::catguidelines/cat-audio-devices.adoc[]
+include::catguidelines/cat-specialized-item-types.adoc[]
 
 include::catguidelines/cat-series.adoc[]
-
-include::catguidelines/cat-graphic-novel-comic.adoc[]
 
 include::catguidelines/cat-accessibility.adoc[]
 

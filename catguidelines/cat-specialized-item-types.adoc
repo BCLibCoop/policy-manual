@@ -1,0 +1,8 @@
+Cataloguing Specialized Item Types
+----------------------------------
+
+include::specialized/cat-audio-enabled-books.adoc[]
+
+include::specialized/cat-audio-devices.adoc[]
+
+include::specialized/cat-graphic-novel-comic.adoc[]
