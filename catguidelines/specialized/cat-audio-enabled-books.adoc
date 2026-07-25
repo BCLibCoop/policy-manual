@@ -7,7 +7,7 @@ these paramenters to ensure your items display as expected.
 * Leader position 06 (Type) = a OR t
 * Leader position 07 (Bib Level) = a, c, d, or m
 * 006 position 06 (Form) = no value
-* 008 position 23 (Form) = no value (or blank in _Enhanced MARC Editor's Leader and 008 Field Grid_)
+* 008 position 23 (Form) = no value
 * 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
 * 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
 
