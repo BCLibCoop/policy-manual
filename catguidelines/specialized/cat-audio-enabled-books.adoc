@@ -20,8 +20,8 @@ the exceptions of the following specified paramenters:
 
 [CAUTION]
 =========
-Incorrectly coded 020 fields may cause audio-enabled book records to appear as matches for standard books or audiobooks when 
-records are loaded into Sitka’s Evergreen which may lead to records being incorrectly merged together.
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to audio-enabled book records being incorrectly merged with records for standard books and audiobooks.
 =========
 
 When these parameters are met a record will display in the staff and public catalogues with both the _Book_ and 

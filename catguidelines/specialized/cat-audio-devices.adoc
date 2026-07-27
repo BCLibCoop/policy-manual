@@ -2,24 +2,29 @@ Audio-Enabled Devices
 ~~~~~~~~~~~~~~~~~~~~~
 
 Audio-enabled devices are audiobooks that are either preloaded on a proprietary 
-audio device or preloaded onto a a card or figurine that is inserted into 
+audio device or preloaded onto a card or figurine that is inserted into 
 a proprietary audio device. Examples of audio-enabled devices are Playaways, Yoto cards 
 and players, and Tonies and Tonieboxes.
 
 Cataloguers should follow standard practices for cataloguing these items, with the exception of the 
 specified parameters included in these guidelines.
 
-When the specified parameters are met records for this type of item will display in the staff and public 
+When the specified parameters are met records for Playaways, Yoto cards, and Tonies will display in the staff and public 
 catalogues with both the _Audio Device_ and _Preloaded Audio_ icons.
 
 image:images/guidelines-audio-devices-1.png[scaledwidth="75%"]
 
+Yoto players and Tonieboxes should be 
+https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
+per your library's policy on cataloguing equipment. They will display in the staff and public 
+catalogues with the _Toy, puzzle, or equipment_ icon.
+
+image:images/guidelines-audio-devices-2.png[scaledwidth="75%"]
+
 Playaways
 ^^^^^^^^^
 
-When cataloguing playaways follow these paramenters to ensure your playaways display as 
-expected and do not appears as matches for standard books or audiobooks when records are 
-loaded into Sitka's Evergreen.
+When cataloguing playaways include the following specified parameters:
 
 * Leader position 06 (Type) = i
 * 008 position 23 (Form) = q
@@ -27,12 +32,14 @@ loaded into Sitka's Evergreen.
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
 * 250 (Edition) = $aPlayaway
 
-Yoto Cards and Player
-^^^^^^^^^^^^^^^^^^^^^
+[CAUTION]
+=========
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to playaway records being incorrectly merged with records for standard books and audiobooks.
+=========
 
-Yoto players should be 
-https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
-per your library's policy on cataloguing equipment.
+Yoto Cards
+^^^^^^^^^^
 
 When catalogued separately from the player, Yoto cards should include the following specified 
 parameters:
@@ -44,12 +51,14 @@ parameters:
 * 250 (Edition) = $aYoto
 * 538 (System Requirements) = $aFor use in Yoto Player
 
-Tonies and Tonieboxes
-^^^^^^^^^^^^^^^^^^^^^
+[CAUTION]
+=========
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to Yoto card records being incorrectly merged with records for standard books and audiobooks.
+=========
 
-Tonieboxes should be 
-https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
-per your library's policy on cataloguing equipment.
+Tonies
+^^^^^^
 
 When catalogued separately from the Toniebox, Tonies should include the following specified 
 parameters:
@@ -60,3 +69,9 @@ parameters:
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
 * 250 (Edition) = $aTonie
 * 538 (System Requirements) = $aFor use in Toniebox
+
+[CAUTION]
+=========
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to Tonie records being incorrectly merged with records for standard books and audiobooks.
+=========
