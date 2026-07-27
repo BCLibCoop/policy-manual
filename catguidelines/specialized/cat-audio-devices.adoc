@@ -3,17 +3,56 @@ Books On Audio Devices
 
 Books on audio devices are audiobooks that are either preloaded on a proprietary 
 audio device or preloaded onto a a card or figurine that is inserted into 
-a proprietary audio device. Examples of books on audio devices are Playaways, Yotos, 
-and Tonieboxes.
+a proprietary audio device. Examples of books on audio devices are Playaways, Yoto cards 
+and players, and Tonies and Tonieboxes.
 
-When cataloguing books on audio devices follow
-these paramenters to ensure your items display as expected.
-
-* Leader position 06 (Type) = i
-* 008 position 23 (Form) = q
-
-When these parameters are met a record will display in the staff and public 
+When the specified parameters are met records for this type of item will display in the staff and public 
 catalogues with both the _Audio Device_ and 
 _Preloaded Audio_ icons.
 
 image:images/guidelines-audio-devices-1.png[scaledwidth="75%"]
+
+Playaways
+^^^^^^^^^
+
+When cataloguing playaways follow these paramenters to ensure your playaways display as 
+expected and do not appears as matches for standard books or audiobooks when records are 
+loaded into Sitka's Evergreen.
+
+* Leader position 06 (Type) = i
+* 008 position 23 (Form) = q
+* 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
+* 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
+* 250 (Edition) = $aPlayaway
+
+Yoto Cards and Player
+^^^^^^^^^^^^^^^^^^^^^
+
+Yoto players should be 
+https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
+per your library's policy on cataloguing equipment.
+
+When catalogued separately from the player, Yoto cards should be catalogued as follows:
+
+* Leader position 06 (Type) = i
+* 008 position 23 (Form) = q
+* 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
+* 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
+* 250 (Edition) = $aYoto
+* 538 (System Requirements) = $aFor use in Yoto Player
+
+Tonies and Tonieboxes
+^^^^^^^^^^^^^^^^^^^^^
+
+Tonieboxes should be 
+https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
+per your library's policy on cataloguing equipment.
+
+When catalogued separately from the Toniebox, Tonies should be catalogued as follows:
+
+* Leader position 06 (Type) = i
+* 008 position 23 (Form) = q
+* 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
+* 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
+* 250 (Edition) = $aTonie
+* 538 (System Requirements) = $aFor use in Toniebox
