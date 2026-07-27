@@ -1,7 +1,11 @@
 Audio-Enabled Books
 ~~~~~~~~~~~~~~~~~~~
 
-When cataloguing audio-enabled books, such as Wonderbooks and Vox, follow
+Audio-enabled books are physical books that include an audio player permanently 
+attached to the book. Examples of audio-enabled books are Wonderbooks and 
+VOX Books.
+
+When cataloguing audio-enabled books follow
 these paramenters to ensure your items display as expected.
 
 * Leader position 06 (Type) = a OR t

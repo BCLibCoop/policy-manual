@@ -1,7 +1,10 @@
-Audio Devices
-~~~~~~~~~~~~~
+Books On Audio Devices
+~~~~~~~~~~~~~~~~~~~~~~
 
-When cataloguing books on audio devices, such as Playaways, Yotos, and Tonites, follow
+Books on audio devices 
+Examples of books on audio devices are Playaways, Yotos, and Tonieboxes.
+
+When cataloguing books on audio devices follow
 these paramenters to ensure your items display as expected.
 
 * Leader position 06 (Type) = i
