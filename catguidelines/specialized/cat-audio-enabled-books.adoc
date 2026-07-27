@@ -5,13 +5,16 @@ Audio-enabled books are physical books that include an audio player permanently
 attached to the book. Examples of audio-enabled books are Wonderbooks and 
 VOX Books.
 
-When cataloguing audio-enabled books follow
-these paramenters to ensure your items display as expected.
+When cataloguing audio-enabled books cataloguers should follow standard practices for cataloguing books, with
+the exceptions of the following specified paramenters:
 
 * Leader position 06 (Type) = a OR t
 * Leader position 07 (Bib Level) = a, c, d, or m
 * 006 position 06 (Form) = no value
 * 008 position 23 (Form) = no value
+* 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
+* 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
+* 250 (Edition) = $aWonderbook OR $aVOX audio-enabled book
 * 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
 * 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
 

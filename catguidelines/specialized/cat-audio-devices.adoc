@@ -6,6 +6,9 @@ audio device or preloaded onto a a card or figurine that is inserted into
 a proprietary audio device. Examples of books on audio devices are Playaways, Yoto cards 
 and players, and Tonies and Tonieboxes.
 
+Cataloguers should follow standard practices for cataloguing these items, with the exception of the 
+specified parameters included in these guidelines.
+
 When the specified parameters are met records for this type of item will display in the staff and public 
 catalogues with both the _Audio Device_ and 
 _Preloaded Audio_ icons.
@@ -32,7 +35,8 @@ Yoto players should be
 https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
 per your library's policy on cataloguing equipment.
 
-When catalogued separately from the player, Yoto cards should be catalogued as follows:
+When catalogued separately from the player, Yoto cards should include the following specified 
+parameters:
 
 * Leader position 06 (Type) = i
 * 008 position 23 (Form) = q
@@ -48,7 +52,8 @@ Tonieboxes should be
 https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
 per your library's policy on cataloguing equipment.
 
-When catalogued separately from the Toniebox, Tonies should be catalogued as follows:
+When catalogued separately from the Toniebox, Tonies should include the following specified 
+parameters:
 
 * Leader position 06 (Type) = i
 * 008 position 23 (Form) = q
