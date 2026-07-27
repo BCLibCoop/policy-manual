@@ -1,3 +1,14 @@
 Audio Devices
 ~~~~~~~~~~~~~
 
+When cataloguing books on audio devices, such as Playaways, Yotos, and Tonites, follow
+these paramenters to ensure your items display as expected.
+
+* Leader position 06 (Type) = i
+* 008 position 23 (Form) = q
+
+When these parameters are met a record will display in the staff and public 
+catalogues with both the _Audio Device_ and 
+_Preloaded Audio_ icons.
+
+image:images/guidelines-audio-devices-1.png[scaledwidth="75%"]
