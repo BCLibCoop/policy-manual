@@ -1,17 +1,16 @@
-Books On Audio Devices
-~~~~~~~~~~~~~~~~~~~~~~
+Audio-Enabled Devices
+~~~~~~~~~~~~~~~~~~~~~
 
-Books on audio devices are audiobooks that are either preloaded on a proprietary 
+Audio-enabled devices are audiobooks that are either preloaded on a proprietary 
 audio device or preloaded onto a a card or figurine that is inserted into 
-a proprietary audio device. Examples of books on audio devices are Playaways, Yoto cards 
+a proprietary audio device. Examples of audio-enabled devices are Playaways, Yoto cards 
 and players, and Tonies and Tonieboxes.
 
 Cataloguers should follow standard practices for cataloguing these items, with the exception of the 
 specified parameters included in these guidelines.
 
 When the specified parameters are met records for this type of item will display in the staff and public 
-catalogues with both the _Audio Device_ and 
-_Preloaded Audio_ icons.
+catalogues with both the _Audio Device_ and _Preloaded Audio_ icons.
 
 image:images/guidelines-audio-devices-1.png[scaledwidth="75%"]
 
