@@ -17,7 +17,7 @@ the exceptions of the following specified paramenters:
 * 250 (Edition) = $aWonderbook OR $aVOX audio-enabled book
 * 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
 * 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
-
++
 [CAUTION]
 =========
 It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
