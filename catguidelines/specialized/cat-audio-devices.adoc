@@ -22,7 +22,7 @@ catalogues with the _Toy, puzzle, or equipment_ icon.
 
 image:images/guidelines-audio-devices-2.png[scaledwidth="75%"]
 
-
+////
 Playaways
 ^^^^^^^^^
 
@@ -60,6 +60,6 @@ parameters:
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
 * 250 (Edition) = $aTonie
 * 538 (System Requirements) = $aFor use in Toniebox
-
+////
 
 
