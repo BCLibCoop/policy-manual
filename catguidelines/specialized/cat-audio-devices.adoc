@@ -33,6 +33,12 @@ When cataloguing playaways include the following specified parameters:
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
 * 250 (Edition) = $aPlayaway
 
+[CAUTION]
+=========
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to playaway records being incorrectly merged with records for standard books and audiobooks.
+=========
+
 Yoto Cards
 ^^^^^^^^^^
 
@@ -46,6 +52,11 @@ parameters:
 * 250 (Edition) = $aYoto
 * 538 (System Requirements) = $aFor use in Yoto Player
 
+[CAUTION]
+=========
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to Yoto card records being incorrectly merged with records for standard books and audiobooks.
+=========
 
 Tonies
 ^^^^^^
@@ -60,5 +71,9 @@ parameters:
 * 250 (Edition) = $aTonie
 * 538 (System Requirements) = $aFor use in Toniebox
 
-
+[CAUTION]
+=========
+It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
+to Tonie records being incorrectly merged with records for standard books and audiobooks.
+=========
 
