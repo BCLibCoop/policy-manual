@@ -1,7 +1,6 @@
 Audio-Enabled Devices
 ~~~~~~~~~~~~~~~~~~~~~
 
-
 Audio-enabled devices are audiobooks that are either preloaded on a proprietary 
 audio device or preloaded onto a card or figurine that is inserted into 
 a proprietary audio device. Examples of audio-enabled devices are Playaways, Yoto cards 
@@ -15,6 +14,8 @@ catalogues with both the _Audio Device_ and _Preloaded Audio_ icons.
 
 image:images/guidelines-audio-devices-1.png[scaledwidth="75%"]
 
+////
+
 Yoto players and Tonieboxes should be 
 link:https://docs.libraries.coop/sitka/_creating_new_records_for_non_bibliographic_resources.html[catalogued as non-bibliographic resources] 
 per your library's policy on cataloguing equipment. They will display in the staff and public 
@@ -22,7 +23,7 @@ catalogues with the _Toy, puzzle, or equipment_ icon.
 
 image:images/guidelines-audio-devices-2.png[scaledwidth="75%"]
 
-////
+
 Playaways
 ^^^^^^^^^
 
