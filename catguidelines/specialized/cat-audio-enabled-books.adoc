@@ -1,6 +1,7 @@
 Audio-Enabled Books
 ~~~~~~~~~~~~~~~~~~~
 
+////
 Audio-enabled books are physical books that include an audio player permanently 
 attached to the book. Examples of audio-enabled books are Wonderbooks and 
 VOX Books.
@@ -28,4 +29,4 @@ When these parameters are met a record will display in the staff and public cata
 _Preloaded Audio_ icons.
 
 image:images/guidelines-audio-enabled-books-1.png[scaledwidth="75%"]
-
+////
