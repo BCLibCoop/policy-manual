@@ -8,7 +8,7 @@ VOX Books.
 
 When cataloguing audio-enabled books cataloguers should follow standard practices for cataloguing books, with
 the exceptions of the following specified paramenters:
-////
+
 * Leader position 06 (Type) = a OR t
 * Leader position 07 (Bib Level) = a, c, d, or m
 * 006 position 06 (Form) = no value
@@ -18,7 +18,8 @@ the exceptions of the following specified paramenters:
 * 250 (Edition) = $aWonderbook OR $aVOX audio-enabled book
 * 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
 * 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
-+
+
+////
 [CAUTION]
 =========
 It is very important that all 020 fields in the record are coded correctly. Incorrectly coded 020 fields may lead 
