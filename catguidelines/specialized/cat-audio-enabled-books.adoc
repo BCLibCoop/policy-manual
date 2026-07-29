@@ -16,8 +16,9 @@ the exceptions of the following specified paramenters:
 * 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
 * 250 (Edition) = $aWonderbook OR $aVOX audio-enabled book
-* 336 (Content Type) = $aspoken word$bspw$2rdacontent. OR 337 (Media Type) = $aaudio$bs$2rdamedia.
-* 336 (Content Type) is NOT $astill image$bsti$2rdacontent. 
+* 336 (Content Type) = $aspoken word$bspw$2rdacontent.
+* 336 (Content Type) is NOT $astill image$bsti$2rdacontent.
+* 337 (Media Type) = $aaudio$bs$2rdamedia.
 
 
 [CAUTION]

@@ -28,6 +28,7 @@ Playaways
 When cataloguing playaways include the following specified parameters:
 
 * Leader position 06 (Type) = i
+* 007 position 00 (Category of material) = s
 * 008 position 23 (Form) = q
 * 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
@@ -46,6 +47,7 @@ When catalogued separately from the player, Yoto cards should include the follow
 parameters:
 
 * Leader position 06 (Type) = i
+* 007 position 00 (Category of material) = s
 * 008 position 23 (Form) = q
 * 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
@@ -65,6 +67,7 @@ When catalogued separately from the Toniebox, Tonies should include the followin
 parameters:
 
 * Leader position 06 (Type) = i
+* 007 position 00 (Category of material) = s
 * 008 position 23 (Form) = q
 * 020 (ISBN) $a = Used for the ISBN only if the ISBN is unique to the item
 * 020 (ISBN) $z = Used for the ISBN if it the same ISBN belonging to the standard book
