@@ -9,7 +9,7 @@ VOX Books.
 When cataloguing audio-enabled books cataloguers should follow standard practices for cataloguing books, with
 the exceptions of the following specified paramenters:
 
-* Leader position 06 (Type) = a OR t
+* Leader position 06 (Type) = a
 * Leader position 07 (Bib Level) = a, c, d, or m
 * 006 position 06 (Form) = no value
 * 008 position 23 (Form) = no value
