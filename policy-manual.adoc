@@ -53,11 +53,10 @@ Material Specific Cataloguing Guidelines
 
 include::catguidelines/cat-specialized-item-types.adoc[]
 
-////
 include::catguidelines/cat-series.adoc[]
 
 include::catguidelines/cat-accessibility.adoc[]
-////
+
 
 [appendix]
 Licensing
