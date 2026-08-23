@@ -1,3 +1,48 @@
 Adding Accessibility Metadata
 -----------------------------
 
+|========
+|Type of Accessibility Content | Subfield | Value 
+|Content Access Mode | a |
+|Content Access Mode | a |
+|Content Access Mode | a |
+|Content Access Mode | a |
+|Textual Assistive Features | b| 
+|Textual Assistive Features | b| 
+|Textual Assistive Features | b| 
+|Textual Assistive Features | b| 
+|Textual Assistive Features | b| 
+|Textual Assistive Features | b| 
+|Textual Assistive Features | b| 
+|Visual Assistive Features | c |
+|Visual Assistive Features | c |
+|Auditory Assistive Features | d |
+|Auditory Assistive Features | d |
+|Auditory Assistive Features | d |
+|Auditory Assistive Features | d |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|Tactile Assistive Features | e |
+|========
