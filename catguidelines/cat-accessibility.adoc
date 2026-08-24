@@ -3,46 +3,37 @@ Adding Accessibility Metadata
 
 |========
 |Type of Accessibility Content | Subfield | Value 
-|Content Access Mode | a |
-|Content Access Mode | a |
-|Content Access Mode | a |
-|Content Access Mode | a |
-|Textual Assistive Features | b| 
-|Textual Assistive Features | b| 
-|Textual Assistive Features | b| 
-|Textual Assistive Features | b| 
-|Textual Assistive Features | b| 
-|Textual Assistive Features | b| 
-|Textual Assistive Features | b| 
-|Visual Assistive Features | c |
-|Visual Assistive Features | c |
-|Auditory Assistive Features | d |
-|Auditory Assistive Features | d |
-|Auditory Assistive Features | d |
-|Auditory Assistive Features | d |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
-|Tactile Assistive Features | e |
+|Content Access Mode | a | auditory
+|Content Access Mode | a | textual
+|Content Access Mode | a | visual
+|Content Access Mode | a | tactile
+|Textual Assistive Features | b| alternativetext
+|Textual Assistive Features | b| annotations
+|Textual Assistive Features | b| aria
+|Textual Assistive Features | b| bookmarks
+|Textual Assistive Features | b| captions
+|Textual Assistive Features | b| chemml
+|Textual Assistive Features | b| closedcaptions
+|Textual Assistive Features | b| describedmath
+|Textual Assistive Features | b| displaytransformability
+|Textual Assistive Features | b| index
+|Textual Assistive Features | b| largeprint
+|Textual Assistive Features | b| latex
+|Textual Assistive Features | b| longdescription
+|Textual Assistive Features | b| mathml
+|Textual Assistive Features | b| opencaptions
+|Textual Assistive Features | b| pagebreakmarkers
+|Textual Assistive Features | b| readingorder
+|Textual Assistive Features | b| structuralnavigation
+|Textual Assistive Features | b| tableofcontents
+|Textual Assistive Features | b| taggedpdf
+|Textual Assistive Features | b| transcript
+|Textual Assistive Features | b| ttsmarkup
+|Visual Assistive Features | c | highcontrastdisplay
+|Visual Assistive Features | c | signlanguage
+|Auditory Assistive Features | d | audiodescription 
+|Auditory Assistive Features | d | highcontrastaudio
+|Auditory Assistive Features | d | synchronizedaudiotext
+|Auditory Assistive Features | d | timingcontrol
+|Tactile Assistive Features | e | braille
 |========
