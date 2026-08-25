@@ -53,13 +53,53 @@ Accessibility Features
 The Accessibility Features search filter shown here is not available until October 5 2026. 
 ======
 
-This is the new accessibility features search filter.
+The Accessibility Features search filter will enable patrons to search for items with desired accessibility features.
 
 image:images/guidelines-accessibility-metadata-2.png[scaledwidth="75%"]
 
-This is the 341 field where it check data.
+When a search filter option is chosen, records applicable to the search term used will be returned the 341 field in
+the MARC record contains the corresponding value. A record with the 341 fields pictured here would be returned as a result
+if the Visual, Auditory, Closed captions, and/or Audio description filter options were chosen.
 
 image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
+
+This table shows the filter options and their corresponding
+values in the 341 field.
+
+|========
+|Type of Accessibility Content | Filter Option | Subfield | Value 
+|Content Access Mode | Auditory | a | auditory
+|Content Access Mode | Textual | a | textual
+|Content Access Mode | Visual | a | visual
+|Content Access Mode | Tactile | a | tactile
+|Textual Assistive Features | Alternative text | b | alternativetext
+|Textual Assistive Features | Annotations | b | annotations
+|Textual Assistive Features | ARIA | b | aria
+|Textual Assistive Features | ChemML | b | chemml
+|Textual Assistive Features | Closed cations | b | closedcaptions
+|Textual Assistive Features | Described math | b | describedmath
+|Textual Assistive Features | Display transformability | b | displaytransformability
+|Textual Assistive Features | Index | b | index
+|Textual Assistive Features | Large print | b | largeprint
+|Textual Assistive Features | LaTeX | b | latex
+|Textual Assistive Features | Long description | b | longdescription
+|Textual Assistive Features | mathml | b | mathml
+|Textual Assistive Features | opencaptions | b | opencaptions
+|Textual Assistive Features | pagebreakmarkers | b | pagebreakmarkers
+|Textual Assistive Features | readingorder | b | readingorder
+|Textual Assistive Features | structuralnavigation | b | structuralnavigation
+|Textual Assistive Features | tableofcontents | b | tableofcontents
+|Textual Assistive Features | taggedpdf | b | taggedpdf
+|Textual Assistive Features | transcript | b | transcript
+|Textual Assistive Features | ttsmarkup | b | ttsmarkup
+|Visual Assistive Features | highcontrastdisplay | c | highcontrastdisplay
+|Visual Assistive Features | signlanguage | c | signlanguage
+|Auditory Assistive Features | audiodescription | d | audiodescription 
+|Auditory Assistive Features | highcontrastaudio | d | highcontrastaudio
+|Auditory Assistive Features | synchronizedaudiotext | d | synchronizedaudiotext
+|Auditory Assistive Features | timingcontrol | d | timingcontrol
+|Tactile Assistive Features | Braille | e | braille
+|========
 
 Accessibility Features Tab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -69,57 +109,16 @@ Accessibility Features Tab
 The Accessibility Features tab shown here is not available until October 5 2026. 
 ======
 
-This is the new accessibility features tab.
+When viewing a record in the public catalogue patrons will now see an Accessibility Features tab. 
+
+The text hightlighted in gray comes from the 341 field. The rest of the text comes from the 532 field.
 
 image:images/guidelines-accessibility-metadata-4.png[scaledwidth="75%"]
 
-This is the 341 field.
+The 341 fields pictured here result in the text highlighted in grey displaying in the above Accessibility Features tab example.
 
 image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
 
-This is the 532 field
+The 532 fields pictured here result in the text with no highlighting displaying in the above Accessibility Features tab example.
 
 image:images/guidelines-accessibility-metadata-5.png[scaledwidth="75%"]
-
-
-As of October 5th 2026 in the public catalogue Sitka's Evergreen will have an accessibility features search filter 
-and an accessibility features tab in the record view.
-
-
-
-|========
-|Type of Accessibility Content | Subfield | Value 
-|Content Access Mode | a | auditory
-|Content Access Mode | a | textual
-|Content Access Mode | a | visual
-|Content Access Mode | a | tactile
-|Textual Assistive Features | b | alternativetext
-|Textual Assistive Features | b | annotations
-|Textual Assistive Features | b | aria
-|Textual Assistive Features | b | bookmarks
-|Textual Assistive Features | b | captions
-|Textual Assistive Features | b | chemml
-|Textual Assistive Features | b | closedcaptions
-|Textual Assistive Features | b | describedmath
-|Textual Assistive Features | b | displaytransformability
-|Textual Assistive Features | b | index
-|Textual Assistive Features | b | largeprint
-|Textual Assistive Features | b | latex
-|Textual Assistive Features | b | longdescription
-|Textual Assistive Features | b | mathml
-|Textual Assistive Features | b | opencaptions
-|Textual Assistive Features | b | pagebreakmarkers
-|Textual Assistive Features | b | readingorder
-|Textual Assistive Features | b | structuralnavigation
-|Textual Assistive Features | b | tableofcontents
-|Textual Assistive Features | b | taggedpdf
-|Textual Assistive Features | b | transcript
-|Textual Assistive Features | b | ttsmarkup
-|Visual Assistive Features | c | highcontrastdisplay
-|Visual Assistive Features | c | signlanguage
-|Auditory Assistive Features | d | audiodescription 
-|Auditory Assistive Features | d | highcontrastaudio
-|Auditory Assistive Features | d | synchronizedaudiotext
-|Auditory Assistive Features | d | timingcontrol
-|Tactile Assistive Features | e | braille
-|========
