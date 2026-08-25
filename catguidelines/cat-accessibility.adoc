@@ -14,13 +14,34 @@ metadata MARC tags for library staff].
 Format Icons
 ~~~~~~~~~~~~
 
-image:images/guidelines-accessibility-metadata-1.png[scaledwidth="75%"]
-
-Currently Sitka's Evergreen uses information entered into the form of the item position in the 008 field to 
+Sitka's Evergreen uses information entered into the form of the item position in the 008 field to 
 determine if icons for braille or large print should be displayed for a record.
+
+image:images/guidelines-accessibility-metadata-1a.png[scaledwidth="75%"]
+
+image:images/guidelines-accessibility-metadata-1b.png[scaledwidth="75%"]
+
+
 
 Search Filters
 ~~~~~~~~~~~~~~
+
+Formats
+^^^^^^^
+
+The Formats search filter includes Braille and Books (large print) as options. 
+
+image:images/guidelines-accessibility-metadata-2a.png[scaledwidth="75%"]
+
+When Braille is selected as a filter, records applicable to the search term used will be returned if the Leader
+position 06 = a and the 008 position 23 = f.
+
+When Books (large print) is selected as a filter, records applicable to the search term used will be returned if the Leader
+position 06 = a, Leader position 07 = a, c, d, or m and the 008 position 23 = d.
+
+
+Accessibility Features
+^^^^^^^^^^^^^^^^^^^^^^
 
 [NOTE]
 ======
