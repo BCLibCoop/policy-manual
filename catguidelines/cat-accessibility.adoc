@@ -111,7 +111,7 @@ The Accessibility Features tab shown here is not available until October 5 2026.
 
 When viewing a record in the public catalogue patrons will now see an Accessibility Features tab. 
 
-The text hightlighted in gray comes from the 341 field. The rest of the text comes from the 532 field.
+The text highlighted in gray comes from the 341 field. The rest of the text comes from the 532 field.
 
 image:images/guidelines-accessibility-metadata-4.png[scaledwidth="75%"]
 
