@@ -7,15 +7,14 @@ Accessibility metadata can be included in MARC records in the 008, 341, and 532 
 * search filters
 * accessibility features tab (coming October 2026)
 
+
 Format Icons
 ~~~~~~~~~~~~
 
 image:images/guidelines-accessibility-metadata-1.png[scaledwidth="75%"]
 
-Ever
-Currently Sitka's Evergreen 
-uses information entered into the form of the item position in the 008 field to determine if icons for braille or
-large print should be displayed for a record
+Currently Sitka's Evergreen uses information entered into the form of the item position in the 008 field to 
+determine if icons for braille or large print should be displayed for a record.
 
 Search Filters
 ~~~~~~~~~~~~~~
@@ -25,7 +24,11 @@ Search Filters
 The Accessibility Features search filter shown here is not available until October 5 2026. 
 ======
 
+This is the new accessibility features search filter.
+
 image:images/guidelines-accessibility-metadata-2.png[scaledwidth="75%"]
+
+This is the 341 field where it check data.
 
 image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
 
@@ -37,9 +40,15 @@ Accessibility Features Tab
 The Accessibility Features tab shown here is not available until October 5 2026. 
 ======
 
+This is the new accessibility features tab.
+
 image:images/guidelines-accessibility-metadata-4.png[scaledwidth="75%"]
 
+This is the 341 field.
+
 image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
+
+This is the 532 field
 
 image:images/guidelines-accessibility-metadata-5.png[scaledwidth="75%"]
 
