@@ -17,7 +17,12 @@ Format Icons
 Sitka's Evergreen uses information entered into the form of the item position in the 008 field to 
 determine if icons for braille or large print should be displayed for a record.
 
+The Braille format icon will display when the Leader position 06 = a and the 008 position 23 = f.
+
 image:images/guidelines-accessibility-metadata-1a.png[scaledwidth="75%"]
+
+The Large Print format icon will display when the Leader
+position 06 = a, Leader position 07 = a, c, d, or m and the 008 position 23 = d.
 
 image:images/guidelines-accessibility-metadata-1b.png[scaledwidth="75%"]
 
