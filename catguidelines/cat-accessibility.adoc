@@ -83,21 +83,21 @@ values in the 341 field.
 |Textual Assistive Features | Large print | b | largeprint
 |Textual Assistive Features | LaTeX | b | latex
 |Textual Assistive Features | Long description | b | longdescription
-|Textual Assistive Features | mathml | b | mathml
-|Textual Assistive Features | opencaptions | b | opencaptions
-|Textual Assistive Features | pagebreakmarkers | b | pagebreakmarkers
-|Textual Assistive Features | readingorder | b | readingorder
-|Textual Assistive Features | structuralnavigation | b | structuralnavigation
-|Textual Assistive Features | tableofcontents | b | tableofcontents
-|Textual Assistive Features | taggedpdf | b | taggedpdf
+|Textual Assistive Features | MathML | b | mathml
+|Textual Assistive Features | Open captions | b | opencaptions
+|Textual Assistive Features | Page break markers | b | pagebreakmarkers
+|Textual Assistive Features | Reading order | b | readingorder
+|Textual Assistive Features | Structural navigation | b | structuralnavigation
+|Textual Assistive Features | Table of contents | b | tableofcontents
+|Textual Assistive Features | Tagged PDF | b | taggedpdf
 |Textual Assistive Features | transcript | b | transcript
-|Textual Assistive Features | ttsmarkup | b | ttsmarkup
-|Visual Assistive Features | highcontrastdisplay | c | highcontrastdisplay
-|Visual Assistive Features | signlanguage | c | signlanguage
-|Auditory Assistive Features | audiodescription | d | audiodescription 
-|Auditory Assistive Features | highcontrastaudio | d | highcontrastaudio
-|Auditory Assistive Features | synchronizedaudiotext | d | synchronizedaudiotext
-|Auditory Assistive Features | timingcontrol | d | timingcontrol
+|Textual Assistive Features | TTS markup | b | ttsmarkup
+|Visual Assistive Features | High contrast display | c | highcontrastdisplay
+|Visual Assistive Features | Sign language | c | signlanguage
+|Auditory Assistive Features | Audio description | d | audiodescription 
+|Auditory Assistive Features | High contrast audio | d | highcontrastaudio
+|Auditory Assistive Features | Synchronized audio text | d | synchronizedaudiotext
+|Auditory Assistive Features | Timing control | d | timingcontrol
 |Tactile Assistive Features | Braille | e | braille
 |========
 
