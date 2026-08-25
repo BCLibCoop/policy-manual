@@ -42,7 +42,7 @@ When Braille is selected as a filter, records applicable to the search term used
 position 06 = a and the 008 position 23 = f.
 
 When Books (large print) is selected as a filter, records applicable to the search term used will be returned if the Leader
-position 06 = a, Leader position 07 = a, c, d, or m and the 008 position 23 = d.
+position 06 = a, Leader position 07 = a, c, d, or m, and the 008 position 23 = d.
 
 
 Accessibility Features
@@ -57,7 +57,7 @@ The Accessibility Features search filter will enable patrons to search for items
 
 image:images/guidelines-accessibility-metadata-2.png[scaledwidth="75%"]
 
-When a search filter option is chosen, records applicable to the search term used will be returned the 341 field in
+When a search filter option is chosen, records applicable to the search term used will be returned if a 341 field in
 the MARC record contains the corresponding value. A record with the 341 fields pictured here would be returned as a result
 if the Visual, Auditory, Closed captions, and/or Audio description filter options were chosen.
 
