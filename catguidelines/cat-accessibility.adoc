@@ -7,7 +7,7 @@ Accessibility metadata can be included in MARC records in the 008, 341, and 532 
 * search filters (coming October 2026)
 * accessibility features tab (coming October 2026)
 
-Accessible Libraries has a resource that libaries may find useful when working with the 341 and 532 fields. See
+Accessible Libraries has a resource that libraries may find useful when working with the 341 and 532 fields. See
 https://accessiblelibraries.ca/resources/accessibility-metadata-for-library-staff/[Creating and editing accessibility 
 metadata MARC tags for library staff].
 
