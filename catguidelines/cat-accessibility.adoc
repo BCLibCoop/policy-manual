@@ -1,5 +1,53 @@
-Adding Accessibility Metadata
------------------------------
+Accessibility Metadata
+----------------------
+
+Accessibility metadata can be included in MARC records in the 008, 341, and 532 fields. This metadata is used by Evergreen for:
+
+* format icons
+* search filters
+* accessibility features tab (coming October 2026)
+
+Format Icons
+~~~~~~~~~~~~
+
+image:images/guidelines-accessibility-metadata-1.png[scaledwidth="75%"]
+
+Ever
+Currently Sitka's Evergreen 
+uses information entered into the form of the item position in the 008 field to determine if icons for braille or
+large print should be displayed for a record
+
+Search Filters
+~~~~~~~~~~~~~~
+
+[NOTE]
+======
+The Accessibility Features search filter shown here is not available until October 5 2026. 
+======
+
+image:images/guidelines-accessibility-metadata-2.png[scaledwidth="75%"]
+
+image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
+
+Accessibility Features Tab
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[NOTE]
+======
+The Accessibility Features tab shown here is not available until October 5 2026. 
+======
+
+image:images/guidelines-accessibility-metadata-4.png[scaledwidth="75%"]
+
+image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
+
+image:images/guidelines-accessibility-metadata-5.png[scaledwidth="75%"]
+
+
+As of October 5th 2026 in the public catalogue Sitka's Evergreen will have an accessibility features search filter 
+and an accessibility features tab in the record view.
+
+
 
 |========
 |Type of Accessibility Content | Subfield | Value 
@@ -7,28 +55,28 @@ Adding Accessibility Metadata
 |Content Access Mode | a | textual
 |Content Access Mode | a | visual
 |Content Access Mode | a | tactile
-|Textual Assistive Features | b| alternativetext
-|Textual Assistive Features | b| annotations
-|Textual Assistive Features | b| aria
-|Textual Assistive Features | b| bookmarks
-|Textual Assistive Features | b| captions
-|Textual Assistive Features | b| chemml
-|Textual Assistive Features | b| closedcaptions
-|Textual Assistive Features | b| describedmath
-|Textual Assistive Features | b| displaytransformability
-|Textual Assistive Features | b| index
-|Textual Assistive Features | b| largeprint
-|Textual Assistive Features | b| latex
-|Textual Assistive Features | b| longdescription
-|Textual Assistive Features | b| mathml
-|Textual Assistive Features | b| opencaptions
-|Textual Assistive Features | b| pagebreakmarkers
-|Textual Assistive Features | b| readingorder
-|Textual Assistive Features | b| structuralnavigation
-|Textual Assistive Features | b| tableofcontents
-|Textual Assistive Features | b| taggedpdf
-|Textual Assistive Features | b| transcript
-|Textual Assistive Features | b| ttsmarkup
+|Textual Assistive Features | b | alternativetext
+|Textual Assistive Features | b | annotations
+|Textual Assistive Features | b | aria
+|Textual Assistive Features | b | bookmarks
+|Textual Assistive Features | b | captions
+|Textual Assistive Features | b | chemml
+|Textual Assistive Features | b | closedcaptions
+|Textual Assistive Features | b | describedmath
+|Textual Assistive Features | b | displaytransformability
+|Textual Assistive Features | b | index
+|Textual Assistive Features | b | largeprint
+|Textual Assistive Features | b | latex
+|Textual Assistive Features | b | longdescription
+|Textual Assistive Features | b | mathml
+|Textual Assistive Features | b | opencaptions
+|Textual Assistive Features | b | pagebreakmarkers
+|Textual Assistive Features | b | readingorder
+|Textual Assistive Features | b | structuralnavigation
+|Textual Assistive Features | b | tableofcontents
+|Textual Assistive Features | b | taggedpdf
+|Textual Assistive Features | b | transcript
+|Textual Assistive Features | b | ttsmarkup
 |Visual Assistive Features | c | highcontrastdisplay
 |Visual Assistive Features | c | signlanguage
 |Auditory Assistive Features | d | audiodescription 
