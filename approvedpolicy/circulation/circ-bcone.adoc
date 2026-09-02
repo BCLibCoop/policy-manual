@@ -35,12 +35,14 @@ policy. Along with this policy came the following operational approach: all Sitk
 staff with appropriate permissions are able to edit patron records as necessary, assuming that 
 a patron has "opted in" for service at their library.
 
-
+////
 BC OneCard Policy/Procedure
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+////
 
+[[_bc_one_card_definitions]]
 Definitions
-+++++++++++
+^^^^^^^^^^^
 
 *Sitka BC public library* See list of Sitka member BC public libraries at
 https://help.libraries.coop/catalogue/find-your-library/public-libraries/[Sitka Public Libraries]
@@ -60,8 +62,9 @@ https://help.libraries.coop/catalogue/find-your-library/public-libraries/[Sitka 
 * a non-Sitka BC public library
 
 
+[[_bc_one_card_policy]]
 Policy
-++++++
+^^^^^^
 
 Sitka’s BC public libraries support the 
 https://www2.gov.bc.ca/gov/content/sports-culture/arts-culture/public-libraries/bc-onecard[BC OneCard 
@@ -93,8 +96,9 @@ Fine rates are determined by lending library or appropriate library federation p
 
 The BC OneCard borrower is responsible for any charges owing to the lending library.
 
+[[_bc_one_card_procedure]]
 Procedure
-+++++++++
+^^^^^^^^^
 
 * Patron presents home library card for scanning.
 
