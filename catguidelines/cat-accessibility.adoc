@@ -64,7 +64,9 @@ if the Visual, Auditory, Closed captions, and/or Audio description filter option
 image:images/guidelines-accessibility-metadata-3.png[scaledwidth="75%"]
 
 This table shows the filter options and their corresponding
-values in the 341 field.
+values in the 341 field. These values are from the controlled vocabulary 
+https://www.w3.org/community/reports/a11y-discov-vocab/CG-FINAL-vocabulary-20260326/[Schema.org Accessibility Properties
+for Discoverability Vocabulary] and so the 341 field must include a $2sapdv to indicate this vocabulary is being used.
 
 |========
 |Type of Accessibility Content | Filter Option | Subfield | Value 
