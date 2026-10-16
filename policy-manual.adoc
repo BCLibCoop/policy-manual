@@ -55,6 +55,8 @@ include::catguidelines/cat-specialized-item-types.adoc[]
 
 include::catguidelines/cat-series.adoc[]
 
+include::specialized/cat-graphic-novel-comic.adoc[]
+
 include::catguidelines/cat-accessibility.adoc[]
 
 

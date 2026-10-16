@@ -1,5 +1,76 @@
-Graphic Novels and Comics
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Cataloguing Graphic Novels and Comics
+-------------------------------------
+
+Before proceeding with this section, please ensure that you are familiar with Editing MARC Records, 
+as well as using the Enhanced MARC Editor and the Flat Text Editor. If you are looking 
+for general information about cataloguing series, see Cataloguing Series in Sitka's Evergreen. 
+
+For more detailed instructions related to the MARC codes listed below, visit the MARC 21 
+website: https://www.loc.gov/marc/bibliographic/  
+
+Cataloguing Graphic Novels and Comics
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Although the title page of a graphic novel might appear very similar to that of a regular book, it is 
+important to be aware of the differences in how the MARC record should be formulated in order 
+to maintain consistency and improve catalogue search results. 
+
+[NOTE]
+======
+These guidelines are intended to direct cataloguers to the best strategy for cataloguing within Sitka's 
+Evergreen. Some of the instructions might deviate from other cataloguing guides.  
+
+The following guidelines should be used for comics, graphic novels, and manga, in physical 
+and digital formats. In these guidelines, we use the term "comics" as a blanket term for all of these formats.
+====== 
+
+* Comics often have more contributors than other types of materials. 
+* Comics that are part of series can have more complex titles that incorporate collective title, volume title, 
+and series numbering  
+* Comics might be standalone or continuing titles (including manga and serialized comics) 
+* Comics readers might be looking for the works of specific artists, or titles about certain characters, 
+or the next volume in a continuing storyline 
+* Graphic novels can be adaptations of other works, which in turn informs the way that information 
+is recorded in the MARC record. 
+
+General Rules to Follow
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* It is good practice to catalogue each issue in a comics series on separate bibliographic records.  
+* Although series title and series numbering are recorded in the MARC 245 field of a comic, the cataloguer 
+should also include series statements in the 490/8xx fields so that the series is linked and browsable. 
+* It is recommended that the cataloguer use $e relator terms to record the role of the creators listed 
+for all 1xx and 7xx fields. 
+* On resources that do not have a traditional title page or verso, look for the indicia: a short paragraph 
+of text usually found at the bottom of one of the first pages that will usually include title and publication 
+information. Outside resources, including websites, can also be consulted. 
+
+Recording Information in MARC Records
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+[NOTE]
+======
+Although other MARC fields are necessary for the formulation of a full bibliographic record, the 
+below section describes fields that are useful to the description of comics. Please consult 
+The Bibliographic Record for information about other required MARC fields.
+======
 
 
+Comics Series
+^^^^^^^^^^^^^
 
+Other Considerations
+++++++++++++++++++++
+
+* In some situations, it might be appropriate to catalogue a continuing comics series as a serial rather 
+than as a monograph. This might already be an established practice at your library.  
+** Consider: is the title issued on a regular (daily or monthly) basis, with no clearly defined end? 
+** Does the item have an ISSN? 
+** Are the creators, characters, and general storyline the same from volume to volume? 
+** In this situation, you may choose to add newly received volumes to one bib record, rather than 
+creating a new record for each volume.  
+** Keep in mind that this practice will limit the discoverability of each item, as there is no way 
+to differentiate each volume in the catalogue beyond the volume number. 
+
+Further Reading 
+^^^^^^^^^^^^^^^
