@@ -1,28 +1,25 @@
 Cataloguing Graphic Novels and Comics
 -------------------------------------
 
+[NOTE]
+======
 Before proceeding with this section, please ensure that you are familiar with Editing MARC Records, 
 as well as using the Enhanced MARC Editor and the Flat Text Editor. If you are looking 
 for general information about cataloguing series, see Cataloguing Series in Sitka's Evergreen. 
 
 For more detailed instructions related to the MARC codes listed below, visit the MARC 21 
 website: https://www.loc.gov/marc/bibliographic/  
-
-Cataloguing Graphic Novels and Comics
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+======
 
 Although the title page of a graphic novel might appear very similar to that of a regular book, it is 
 important to be aware of the differences in how the MARC record should be formulated in order 
 to maintain consistency and improve catalogue search results. 
 
-[NOTE]
-======
 These guidelines are intended to direct cataloguers to the best strategy for cataloguing within Sitka's 
 Evergreen. Some of the instructions might deviate from other cataloguing guides.  
 
 The following guidelines should be used for comics, graphic novels, and manga, in physical 
 and digital formats. In these guidelines, we use the term "comics" as a blanket term for all of these formats.
-====== 
 
 * Comics often have more contributors than other types of materials. 
 * Comics that are part of series can have more complex titles that incorporate collective title, volume title, 
@@ -51,7 +48,7 @@ Recording Information in MARC Records
 [NOTE]
 ======
 Although other MARC fields are necessary for the formulation of a full bibliographic record, the 
-below section describes fields that are useful to the description of comics. Please consult 
+below section describes fields that are useful to the description of graphic novels and comics. Please consult 
 The Bibliographic Record for information about other required MARC fields.
 ======
 
